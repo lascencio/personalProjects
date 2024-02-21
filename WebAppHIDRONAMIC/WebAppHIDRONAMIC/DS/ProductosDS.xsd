@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ProductosDS" targetNamespace="http://tempuri.org/ProductosDS.xsd" xmlns:mstns="http://tempuri.org/ProductosDS.xsd" xmlns="http://tempuri.org/ProductosDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="cnnSQLRepositoryD" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="cnnSQLRepositoryD (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WebAppHIDRONAMIC.Properties.Settings.GlobalReference.Default.cnnSQLRepositoryD" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ProductosDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ProductosDS" msprop:Generator_UserDSName="ProductosDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ProductosDT" msprop:Generator_TableClassName="ProductosDTDataTable" msprop:Generator_TableVarName="tableProductosDT" msprop:Generator_RowChangedName="ProductosDTRowChanged" msprop:Generator_TablePropName="ProductosDT" msprop:Generator_RowDeletingName="ProductosDTRowDeleting" msprop:Generator_RowChangingName="ProductosDTRowChanging" msprop:Generator_RowEvHandlerName="ProductosDTRowChangeEventHandler" msprop:Generator_RowDeletedName="ProductosDTRowDeleted" msprop:Generator_RowClassName="ProductosDTRow" msprop:Generator_UserTableName="ProductosDT" msprop:Generator_RowEvArgName="ProductosDTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MIXED_COLUMN" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMIXED_COLUMN" msprop:Generator_ColumnPropNameInRow="MIXED_COLUMN" msprop:Generator_ColumnPropNameInTable="MIXED_COLUMNColumn" msprop:Generator_UserColumnName="MIXED_COLUMN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="204" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPCION" msprop:Generator_ColumnPropNameInRow="DESCRIPCION" msprop:Generator_ColumnPropNameInTable="DESCRIPCIONColumn" msprop:Generator_UserColumnName="DESCRIPCION">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PRECIO" msprop:Generator_ColumnVarNameInTable="columnPRECIO" msprop:Generator_ColumnPropNameInRow="PRECIO" msprop:Generator_ColumnPropNameInTable="PRECIOColumn" msprop:Generator_UserColumnName="PRECIO" type="xs:decimal" />
+              <xs:element name="SERVICIO" msprop:Generator_ColumnVarNameInTable="columnSERVICIO" msprop:Generator_ColumnPropNameInRow="SERVICIO" msprop:Generator_ColumnPropNameInTable="SERVICIOColumn" msprop:Generator_UserColumnName="SERVICIO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TIPO" msprop:Generator_ColumnVarNameInTable="columnTIPO" msprop:Generator_ColumnPropNameInRow="TIPO" msprop:Generator_ColumnPropNameInTable="TIPOColumn" msprop:Generator_UserColumnName="TIPO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ServiciosDT" msprop:Generator_TableClassName="ServiciosDTDataTable" msprop:Generator_TableVarName="tableServiciosDT" msprop:Generator_RowChangedName="ServiciosDTRowChanged" msprop:Generator_TablePropName="ServiciosDT" msprop:Generator_RowDeletingName="ServiciosDTRowDeleting" msprop:Generator_RowChangingName="ServiciosDTRowChanging" msprop:Generator_RowEvHandlerName="ServiciosDTRowChangeEventHandler" msprop:Generator_RowDeletedName="ServiciosDTRowDeleted" msprop:Generator_RowClassName="ServiciosDTRow" msprop:Generator_UserTableName="ServiciosDT" msprop:Generator_RowEvArgName="ServiciosDTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MIXED_COLUMN" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMIXED_COLUMN" msprop:Generator_ColumnPropNameInRow="MIXED_COLUMN" msprop:Generator_ColumnPropNameInTable="MIXED_COLUMNColumn" msprop:Generator_UserColumnName="MIXED_COLUMN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="204" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPCION" msprop:Generator_ColumnPropNameInRow="DESCRIPCION" msprop:Generator_ColumnPropNameInTable="DESCRIPCIONColumn" msprop:Generator_UserColumnName="DESCRIPCION">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PRECIO" msprop:Generator_ColumnVarNameInTable="columnPRECIO" msprop:Generator_ColumnPropNameInRow="PRECIO" msprop:Generator_ColumnPropNameInTable="PRECIOColumn" msprop:Generator_UserColumnName="PRECIO" type="xs:decimal" />
+              <xs:element name="SERVICIO" msprop:Generator_ColumnVarNameInTable="columnSERVICIO" msprop:Generator_ColumnPropNameInRow="SERVICIO" msprop:Generator_ColumnPropNameInTable="SERVICIOColumn" msprop:Generator_UserColumnName="SERVICIO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TIPO" msprop:Generator_ColumnVarNameInTable="columnTIPO" msprop:Generator_ColumnPropNameInRow="TIPO" msprop:Generator_ColumnPropNameInTable="TIPOColumn" msprop:Generator_UserColumnName="TIPO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Productos_ServiciosDT" msprop:Generator_TableClassName="Productos_ServiciosDTDataTable" msprop:Generator_TableVarName="tableProductos_ServiciosDT" msprop:Generator_RowChangedName="Productos_ServiciosDTRowChanged" msprop:Generator_TablePropName="Productos_ServiciosDT" msprop:Generator_RowDeletingName="Productos_ServiciosDTRowDeleting" msprop:Generator_RowChangingName="Productos_ServiciosDTRowChanging" msprop:Generator_RowEvHandlerName="Productos_ServiciosDTRowChangeEventHandler" msprop:Generator_RowDeletedName="Productos_ServiciosDTRowDeleted" msprop:Generator_RowClassName="Productos_ServiciosDTRow" msprop:Generator_UserTableName="Productos_ServiciosDT" msprop:Generator_RowEvArgName="Productos_ServiciosDTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MIXED_COLUMN" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMIXED_COLUMN" msprop:Generator_ColumnPropNameInRow="MIXED_COLUMN" msprop:Generator_ColumnPropNameInTable="MIXED_COLUMNColumn" msprop:Generator_UserColumnName="MIXED_COLUMN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="204" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPCION" msprop:Generator_ColumnPropNameInRow="DESCRIPCION" msprop:Generator_ColumnPropNameInTable="DESCRIPCIONColumn" msprop:Generator_UserColumnName="DESCRIPCION">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PRECIO" msprop:Generator_ColumnVarNameInTable="columnPRECIO" msprop:Generator_ColumnPropNameInRow="PRECIO" msprop:Generator_ColumnPropNameInTable="PRECIOColumn" msprop:Generator_UserColumnName="PRECIO" type="xs:decimal" />
+              <xs:element name="SERVICIO" msprop:Generator_ColumnVarNameInTable="columnSERVICIO" msprop:Generator_ColumnPropNameInRow="SERVICIO" msprop:Generator_ColumnPropNameInTable="SERVICIOColumn" msprop:Generator_UserColumnName="SERVICIO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

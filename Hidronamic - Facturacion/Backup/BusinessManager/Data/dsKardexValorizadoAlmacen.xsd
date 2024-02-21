@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsKardexValorizadoAlmacen" targetNamespace="http://tempuri.org/dsKardexValorizadoAlmacen.xsd" xmlns:mstns="http://tempuri.org/dsKardexValorizadoAlmacen.xsd" xmlns="http://tempuri.org/dsKardexValorizadoAlmacen.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="cnnMySQL_DES" IsAppSettingsProperty="true" Modifier="Assembly" Name="cnnMySQL_DES (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BusinessManager.My.MySettings.GlobalReference.Default.cnnMySQL_DES" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsKardexValorizadoAlmacen" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsKardexValorizadoAlmacen" msprop:Generator_DataSetName="dsKardexValorizadoAlmacen" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="KARDEX_VALORIZADO_ALMACEN" msprop:Generator_UserTableName="KARDEX_VALORIZADO_ALMACEN" msprop:Generator_RowDeletedName="KARDEX_VALORIZADO_ALMACENRowDeleted" msprop:Generator_RowChangedName="KARDEX_VALORIZADO_ALMACENRowChanged" msprop:Generator_RowClassName="KARDEX_VALORIZADO_ALMACENRow" msprop:Generator_RowChangingName="KARDEX_VALORIZADO_ALMACENRowChanging" msprop:Generator_RowEvArgName="KARDEX_VALORIZADO_ALMACENRowChangeEvent" msprop:Generator_RowEvHandlerName="KARDEX_VALORIZADO_ALMACENRowChangeEventHandler" msprop:Generator_TableClassName="KARDEX_VALORIZADO_ALMACENDataTable" msprop:Generator_TableVarName="tableKARDEX_VALORIZADO_ALMACEN" msprop:Generator_RowDeletingName="KARDEX_VALORIZADO_ALMACENRowDeleting" msprop:Generator_TablePropName="KARDEX_VALORIZADO_ALMACEN">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CUO" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CUO" msprop:Generator_ColumnPropNameInRow="CUO" msprop:Generator_ColumnVarNameInTable="columnCUO" msprop:Generator_ColumnPropNameInTable="CUOColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FECHA_MOVIMIENTO" msdata:ReadOnly="true" msprop:Generator_UserColumnName="FECHA_MOVIMIENTO" msprop:Generator_ColumnPropNameInRow="FECHA_MOVIMIENTO" msprop:Generator_ColumnVarNameInTable="columnFECHA_MOVIMIENTO" msprop:Generator_ColumnPropNameInTable="FECHA_MOVIMIENTOColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FECHA" msdata:ReadOnly="true" msprop:Generator_UserColumnName="FECHA" msprop:Generator_ColumnPropNameInRow="FECHA" msprop:Generator_ColumnVarNameInTable="columnFECHA" msprop:Generator_ColumnPropNameInTable="FECHAColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LINEA" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LINEA" msprop:Generator_ColumnPropNameInRow="LINEA" msprop:Generator_ColumnVarNameInTable="columnLINEA" msprop:Generator_ColumnPropNameInTable="LINEAColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PRODUCTO" msdata:ReadOnly="true" msprop:Generator_UserColumnName="PRODUCTO" msprop:Generator_ColumnPropNameInRow="PRODUCTO" msprop:Generator_ColumnVarNameInTable="columnPRODUCTO" msprop:Generator_ColumnPropNameInTable="PRODUCTOColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DESCRIPCION" msdata:ReadOnly="true" msprop:Generator_UserColumnName="DESCRIPCION" msprop:Generator_ColumnPropNameInRow="DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPCION" msprop:Generator_ColumnPropNameInTable="DESCRIPCIONColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="INGRESO" msdata:ReadOnly="true" msprop:Generator_UserColumnName="INGRESO" msprop:Generator_ColumnPropNameInRow="INGRESO" msprop:Generator_ColumnVarNameInTable="columnINGRESO" msprop:Generator_ColumnPropNameInTable="INGRESOColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SALIDA" msdata:ReadOnly="true" msprop:Generator_UserColumnName="SALIDA" msprop:Generator_ColumnPropNameInRow="SALIDA" msprop:Generator_ColumnVarNameInTable="columnSALIDA" msprop:Generator_ColumnPropNameInTable="SALIDAColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DESCRIPCION_OPERACION" msdata:ReadOnly="true" msprop:Generator_UserColumnName="DESCRIPCION_OPERACION" msprop:Generator_ColumnPropNameInRow="DESCRIPCION_OPERACION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPCION_OPERACION" msprop:Generator_ColumnPropNameInTable="DESCRIPCION_OPERACIONColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TIPO" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TIPO" msprop:Generator_ColumnPropNameInRow="TIPO" msprop:Generator_ColumnVarNameInTable="columnTIPO" msprop:Generator_ColumnPropNameInTable="TIPOColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TIPO_MONEDA" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TIPO_MONEDA" msprop:Generator_ColumnPropNameInRow="TIPO_MONEDA" msprop:Generator_ColumnVarNameInTable="columnTIPO_MONEDA" msprop:Generator_ColumnPropNameInTable="TIPO_MONEDAColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PRECIO_UNITARIO" msdata:ReadOnly="true" msprop:Generator_UserColumnName="PRECIO_UNITARIO" msprop:Generator_ColumnPropNameInRow="PRECIO_UNITARIO" msprop:Generator_ColumnVarNameInTable="columnPRECIO_UNITARIO" msprop:Generator_ColumnPropNameInTable="PRECIO_UNITARIOColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SALDO" msprop:Generator_UserColumnName="SALDO" msprop:Generator_ColumnPropNameInRow="SALDO" msprop:Generator_ColumnVarNameInTable="columnSALDO" msprop:Generator_ColumnPropNameInTable="SALDOColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PRECIO_PROMEDIO" msprop:Generator_UserColumnName="PRECIO_PROMEDIO" msprop:Generator_ColumnPropNameInRow="PRECIO_PROMEDIO" msprop:Generator_ColumnVarNameInTable="columnPRECIO_PROMEDIO" msprop:Generator_ColumnPropNameInTable="PRECIO_PROMEDIOColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SALDO_VALORIZADO" msprop:Generator_UserColumnName="SALDO_VALORIZADO" msprop:Generator_ColumnPropNameInRow="SALDO_VALORIZADO" msprop:Generator_ColumnVarNameInTable="columnSALDO_VALORIZADO" msprop:Generator_ColumnPropNameInTable="SALDO_VALORIZADOColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="KARDEX_VALORIZADO" msprop:Generator_UserTableName="KARDEX_VALORIZADO" msprop:Generator_RowDeletedName="KARDEX_VALORIZADORowDeleted" msprop:Generator_RowChangedName="KARDEX_VALORIZADORowChanged" msprop:Generator_RowClassName="KARDEX_VALORIZADORow" msprop:Generator_RowChangingName="KARDEX_VALORIZADORowChanging" msprop:Generator_RowEvArgName="KARDEX_VALORIZADORowChangeEvent" msprop:Generator_RowEvHandlerName="KARDEX_VALORIZADORowChangeEventHandler" msprop:Generator_TableClassName="KARDEX_VALORIZADODataTable" msprop:Generator_TableVarName="tableKARDEX_VALORIZADO" msprop:Generator_RowDeletingName="KARDEX_VALORIZADORowDeleting" msprop:Generator_TablePropName="KARDEX_VALORIZADO">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CUO" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CUO" msprop:Generator_ColumnVarNameInTable="columnCUO" msprop:Generator_ColumnPropNameInRow="CUO" msprop:Generator_ColumnPropNameInTable="CUOColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FECHA_MOVIMIENTO" msdata:ReadOnly="true" msprop:Generator_UserColumnName="FECHA_MOVIMIENTO" msprop:Generator_ColumnVarNameInTable="columnFECHA_MOVIMIENTO" msprop:Generator_ColumnPropNameInRow="FECHA_MOVIMIENTO" msprop:Generator_ColumnPropNameInTable="FECHA_MOVIMIENTOColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="LINEA" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LINEA" msprop:Generator_ColumnVarNameInTable="columnLINEA" msprop:Generator_ColumnPropNameInRow="LINEA" msprop:Generator_ColumnPropNameInTable="LINEAColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DESCRIPCION_OPERACION" msdata:ReadOnly="true" msprop:Generator_UserColumnName="DESCRIPCION_OPERACION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPCION_OPERACION" msprop:Generator_ColumnPropNameInRow="DESCRIPCION_OPERACION" msprop:Generator_ColumnPropNameInTable="DESCRIPCION_OPERACIONColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="INGRESO" msdata:ReadOnly="true" msprop:Generator_UserColumnName="INGRESO" msprop:Generator_ColumnVarNameInTable="columnINGRESO" msprop:Generator_ColumnPropNameInRow="INGRESO" msprop:Generator_ColumnPropNameInTable="INGRESOColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SALIDA" msdata:ReadOnly="true" msprop:Generator_UserColumnName="SALIDA" msprop:Generator_ColumnVarNameInTable="columnSALIDA" msprop:Generator_ColumnPropNameInRow="SALIDA" msprop:Generator_ColumnPropNameInTable="SALIDAColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SALDO" msprop:Generator_UserColumnName="SALDO" msprop:Generator_ColumnVarNameInTable="columnSALDO" msprop:Generator_ColumnPropNameInRow="SALDO" msprop:Generator_ColumnPropNameInTable="SALDOColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PRECIO_UNITARIO" msdata:ReadOnly="true" msprop:Generator_UserColumnName="PRECIO_UNITARIO" msprop:Generator_ColumnVarNameInTable="columnPRECIO_UNITARIO" msprop:Generator_ColumnPropNameInRow="PRECIO_UNITARIO" msprop:Generator_ColumnPropNameInTable="PRECIO_UNITARIOColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PRECIO_PROMEDIO" msprop:Generator_UserColumnName="PRECIO_PROMEDIO" msprop:Generator_ColumnVarNameInTable="columnPRECIO_PROMEDIO" msprop:Generator_ColumnPropNameInRow="PRECIO_PROMEDIO" msprop:Generator_ColumnPropNameInTable="PRECIO_PROMEDIOColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SALDO_VALORIZADO" msprop:Generator_UserColumnName="SALDO_VALORIZADO" msprop:Generator_ColumnVarNameInTable="columnSALDO_VALORIZADO" msprop:Generator_ColumnPropNameInRow="SALDO_VALORIZADO" msprop:Generator_ColumnPropNameInTable="SALDO_VALORIZADOColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TIPO" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TIPO" msprop:Generator_ColumnVarNameInTable="columnTIPO" msprop:Generator_ColumnPropNameInRow="TIPO" msprop:Generator_ColumnPropNameInTable="TIPOColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="STOCK_VALORIZADO" msprop:Generator_UserTableName="STOCK_VALORIZADO" msprop:Generator_RowDeletedName="STOCK_VALORIZADORowDeleted" msprop:Generator_RowChangedName="STOCK_VALORIZADORowChanged" msprop:Generator_RowClassName="STOCK_VALORIZADORow" msprop:Generator_RowChangingName="STOCK_VALORIZADORowChanging" msprop:Generator_RowEvArgName="STOCK_VALORIZADORowChangeEvent" msprop:Generator_RowEvHandlerName="STOCK_VALORIZADORowChangeEventHandler" msprop:Generator_TableClassName="STOCK_VALORIZADODataTable" msprop:Generator_TableVarName="tableSTOCK_VALORIZADO" msprop:Generator_RowDeletingName="STOCK_VALORIZADORowDeleting" msprop:Generator_TablePropName="STOCK_VALORIZADO">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PRODUCTO" msdata:ReadOnly="true" msprop:Generator_UserColumnName="PRODUCTO" msprop:Generator_ColumnVarNameInTable="columnPRODUCTO" msprop:Generator_ColumnPropNameInRow="PRODUCTO" msprop:Generator_ColumnPropNameInTable="PRODUCTOColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DESCRIPCION_AMPLIADA" msdata:ReadOnly="true" msprop:Generator_UserColumnName="DESCRIPCION_AMPLIADA" msprop:Generator_ColumnVarNameInTable="columnDESCRIPCION_AMPLIADA" msprop:Generator_ColumnPropNameInRow="DESCRIPCION_AMPLIADA" msprop:Generator_ColumnPropNameInTable="DESCRIPCION_AMPLIADAColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="INGRESO" msdata:ReadOnly="true" msprop:Generator_UserColumnName="INGRESO" msprop:Generator_ColumnVarNameInTable="columnINGRESO" msprop:Generator_ColumnPropNameInRow="INGRESO" msprop:Generator_ColumnPropNameInTable="INGRESOColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SALIDA" msdata:ReadOnly="true" msprop:Generator_UserColumnName="SALIDA" msprop:Generator_ColumnVarNameInTable="columnSALIDA" msprop:Generator_ColumnPropNameInRow="SALIDA" msprop:Generator_ColumnPropNameInTable="SALIDAColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SALDO" msprop:Generator_UserColumnName="SALDO" msprop:Generator_ColumnVarNameInTable="columnSALDO" msprop:Generator_ColumnPropNameInRow="SALDO" msprop:Generator_ColumnPropNameInTable="SALDOColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PRECIO_PROMEDIO" msprop:Generator_UserColumnName="PRECIO_PROMEDIO" msprop:Generator_ColumnVarNameInTable="columnPRECIO_PROMEDIO" msprop:Generator_ColumnPropNameInRow="PRECIO_PROMEDIO" msprop:Generator_ColumnPropNameInTable="PRECIO_PROMEDIOColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SALDO_VALORIZADO" msprop:Generator_UserColumnName="SALDO_VALORIZADO" msprop:Generator_ColumnVarNameInTable="columnSALDO_VALORIZADO" msprop:Generator_ColumnPropNameInRow="SALDO_VALORIZADO" msprop:Generator_ColumnPropNameInTable="SALDO_VALORIZADOColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

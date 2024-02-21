@@ -1,0 +1,169 @@
+D:\Local Win Applications\SoftBusiness\MyControlToolBar\bin\Debug\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness\MyControlToolBar\bin\Debug\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness\MyControlToolBar\bin\Debug\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness\MyControlToolBar\obj\Debug\ResolveAssemblyReference.cache
+D:\Local Win Applications\SoftBusiness\MyControlToolBar\obj\Debug\MyControlToolBar.Resources.resources
+D:\Local Win Applications\SoftBusiness\MyControlToolBar\obj\Debug\MyControlToolBar.UserControlToolBar.resources
+D:\Local Win Applications\SoftBusiness\MyControlToolBar\obj\Debug\MyControlToolBar.vbproj.GenerateResource.Cache
+D:\Local Win Applications\SoftBusiness\MyControlToolBar\obj\Debug\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness\MyControlToolBar\obj\Debug\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness\MyControlToolBar\obj\Debug\MyControlToolBar.pdb
+D:\Proyectos .NET\SoftBusiness\MyControlToolBar\obj\Debug\MyControlToolBar.exe
+D:\Proyectos .NET\SoftBusiness\MyControlToolBar\obj\Debug\MyControlToolBar.xml
+D:\Proyectos .NET\SoftBusiness\MyControlToolBar\obj\Debug\MyControlToolBar.pdb
+D:\Proyectos .NET\SoftBusiness\MyControlToolBar\bin\Debug\MyControlToolBar.exe
+D:\Proyectos .NET\SoftBusiness\MyControlToolBar\bin\Debug\MyControlToolBar.pdb
+D:\Proyectos .NET\SoftBusiness\MyControlToolBar\bin\Debug\MyControlToolBar.xml
+D:\Proyectos .NET\SoftBusiness\MyControlToolBar\obj\Debug\ResolveAssemblyReference.cache
+D:\Proyectos .NET\SoftBusiness\MyControlToolBar\obj\Debug\MyControlToolBar.Resources.resources
+D:\Proyectos .NET\SoftBusiness\MyControlToolBar\obj\Debug\MyControlToolBar.UserControlToolBar.resources
+D:\Proyectos .NET\SoftBusiness\MyControlToolBar\obj\Debug\MyControlToolBar.vbproj.GenerateResource.Cache
+D:\Local Win Applications\SoftBusiness - New\MyControlToolBar\bin\Debug\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness - New\MyControlToolBar\bin\Debug\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness - New\MyControlToolBar\bin\Debug\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness - New\MyControlToolBar\obj\Debug\ResolveAssemblyReference.cache
+D:\Local Win Applications\SoftBusiness - New\MyControlToolBar\obj\Debug\MyControlToolBar.Resources.resources
+D:\Local Win Applications\SoftBusiness - New\MyControlToolBar\obj\Debug\MyControlToolBar.UserControlToolBar.resources
+D:\Local Win Applications\SoftBusiness - New\MyControlToolBar\obj\Debug\MyControlToolBar.vbproj.GenerateResource.Cache
+D:\Local Win Applications\SoftBusiness - New\MyControlToolBar\obj\Debug\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness - New\MyControlToolBar\obj\Debug\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness - New\MyControlToolBar\obj\Debug\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness - New\MyControlToolBar\bin\Debug\MyControlToolBar.exe.manifest
+D:\Local Win Applications\SoftBusiness - New\MyControlToolBar\bin\Debug\MyControlToolBar.application
+D:\Local Win Applications\SoftBusiness - New\MyControlToolBar\obj\Debug\MyControlToolBar.exe.manifest
+D:\Local Win Applications\SoftBusiness - New\MyControlToolBar\obj\Debug\MyControlToolBar.application
+D:\Remote Win Applications\SoftBusiness - New\MyControlToolBar\bin\Debug\MyControlToolBar.exe.manifest
+D:\Remote Win Applications\SoftBusiness - New\MyControlToolBar\bin\Debug\MyControlToolBar.application
+D:\Remote Win Applications\SoftBusiness - New\MyControlToolBar\bin\Debug\MyControlToolBar.exe
+D:\Remote Win Applications\SoftBusiness - New\MyControlToolBar\bin\Debug\MyControlToolBar.pdb
+D:\Remote Win Applications\SoftBusiness - New\MyControlToolBar\bin\Debug\MyControlToolBar.xml
+D:\Remote Win Applications\SoftBusiness - New\MyControlToolBar\obj\Debug\ResolveAssemblyReference.cache
+D:\Remote Win Applications\SoftBusiness - New\MyControlToolBar\obj\Debug\MyControlToolBar.Resources.resources
+D:\Remote Win Applications\SoftBusiness - New\MyControlToolBar\obj\Debug\MyControlToolBar.UserControlToolBar.resources
+D:\Remote Win Applications\SoftBusiness - New\MyControlToolBar\obj\Debug\MyControlToolBar.vbproj.GenerateResource.Cache
+D:\Remote Win Applications\SoftBusiness - New\MyControlToolBar\obj\Debug\MyControlToolBar.exe.manifest
+D:\Remote Win Applications\SoftBusiness - New\MyControlToolBar\obj\Debug\MyControlToolBar.application
+D:\Remote Win Applications\SoftBusiness - New\MyControlToolBar\obj\Debug\MyControlToolBar.exe
+D:\Remote Win Applications\SoftBusiness - New\MyControlToolBar\obj\Debug\MyControlToolBar.xml
+D:\Remote Win Applications\SoftBusiness - New\MyControlToolBar\obj\Debug\MyControlToolBar.pdb
+D:\Remote Win Applications\SoftBusiness - GFK\MyControlToolBar\bin\Debug\MyControlToolBar.exe.manifest
+D:\Remote Win Applications\SoftBusiness - GFK\MyControlToolBar\bin\Debug\MyControlToolBar.application
+D:\Remote Win Applications\SoftBusiness - GFK\MyControlToolBar\bin\Debug\MyControlToolBar.exe
+D:\Remote Win Applications\SoftBusiness - GFK\MyControlToolBar\bin\Debug\MyControlToolBar.pdb
+D:\Remote Win Applications\SoftBusiness - GFK\MyControlToolBar\bin\Debug\MyControlToolBar.xml
+D:\Remote Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Debug\ResolveAssemblyReference.cache
+D:\Remote Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Debug\MyControlToolBar.Resources.resources
+D:\Remote Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Debug\MyControlToolBar.UserControlToolBar.resources
+D:\Remote Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Debug\MyControlToolBar.vbproj.GenerateResource.Cache
+D:\Remote Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Debug\MyControlToolBar.exe.manifest
+D:\Remote Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Debug\MyControlToolBar.application
+D:\Remote Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Debug\MyControlToolBar.exe
+D:\Remote Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Debug\MyControlToolBar.xml
+D:\Remote Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Debug\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness - GFK\MyControlToolBar\bin\Debug\MyControlToolBar.exe.manifest
+D:\Local Win Applications\SoftBusiness - GFK\MyControlToolBar\bin\Debug\MyControlToolBar.application
+D:\Local Win Applications\SoftBusiness - GFK\MyControlToolBar\bin\Debug\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness - GFK\MyControlToolBar\bin\Debug\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness - GFK\MyControlToolBar\bin\Debug\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Debug\ResolveAssemblyReference.cache
+D:\Local Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Debug\MyControlToolBar.Resources.resources
+D:\Local Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Debug\MyControlToolBar.UserControlToolBar.resources
+D:\Local Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Debug\MyControlToolBar.vbproj.GenerateResource.Cache
+D:\Local Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Debug\MyControlToolBar.exe.manifest
+D:\Local Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Debug\MyControlToolBar.application
+D:\Local Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Debug\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Debug\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Debug\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness - SOIENSA\MyControlToolBar\obj\Debug\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness - SOIENSA\MyControlToolBar\obj\Debug\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness - SOIENSA\MyControlToolBar\obj\Debug\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness_BINARIX\MyControlToolBar\bin\Debug\MyControlToolBar.exe.manifest
+D:\Local Win Applications\SoftBusiness_BINARIX\MyControlToolBar\bin\Debug\MyControlToolBar.application
+D:\Local Win Applications\SoftBusiness_BINARIX\MyControlToolBar\bin\Debug\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness_BINARIX\MyControlToolBar\bin\Debug\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness_BINARIX\MyControlToolBar\bin\Debug\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness_BINARIX\MyControlToolBar\obj\Debug\ResolveAssemblyReference.cache
+D:\Local Win Applications\SoftBusiness_BINARIX\MyControlToolBar\obj\Debug\MyControlToolBar.Resources.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\MyControlToolBar\obj\Debug\MyControlToolBar.UserControlToolBar.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\MyControlToolBar\obj\Debug\MyControlToolBar.vbproj.GenerateResource.Cache
+D:\Local Win Applications\SoftBusiness_BINARIX\MyControlToolBar\obj\Debug\MyControlToolBar.exe.manifest
+D:\Local Win Applications\SoftBusiness_BINARIX\MyControlToolBar\obj\Debug\MyControlToolBar.application
+D:\Local Win Applications\SoftBusiness_BINARIX\MyControlToolBar\obj\Debug\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness_BINARIX\MyControlToolBar\obj\Debug\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness_BINARIX\MyControlToolBar\obj\Debug\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness_MediaLab\MyControlToolBar\obj\Debug\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness_MediaLab\MyControlToolBar\obj\Debug\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness_MediaLab\MyControlToolBar\obj\Debug\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness_MediaLab\MyControlToolBar\bin\Debug\MyControlToolBar.exe.manifest
+D:\Local Win Applications\SoftBusiness_MediaLab\MyControlToolBar\bin\Debug\MyControlToolBar.application
+D:\Local Win Applications\SoftBusiness_MediaLab\MyControlToolBar\bin\Debug\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness_MediaLab\MyControlToolBar\bin\Debug\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness_MediaLab\MyControlToolBar\bin\Debug\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness_MediaLab\MyControlToolBar\obj\Debug\ResolveAssemblyReference.cache
+D:\Local Win Applications\SoftBusiness_MediaLab\MyControlToolBar\obj\Debug\MyControlToolBar.Resources.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\MyControlToolBar\obj\Debug\MyControlToolBar.UserControlToolBar.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\MyControlToolBar\obj\Debug\MyControlToolBar.vbproj.GenerateResource.Cache
+D:\Local Win Applications\SoftBusiness_MediaLab\MyControlToolBar\obj\Debug\MyControlToolBar.exe.manifest
+D:\Local Win Applications\SoftBusiness_MediaLab\MyControlToolBar\obj\Debug\MyControlToolBar.application
+D:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\bin\Debug\MyControlToolBar.exe.manifest
+D:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\bin\Debug\MyControlToolBar.application
+D:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\bin\Debug\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\bin\Debug\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\bin\Debug\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\obj\Debug\ResolveAssemblyReference.cache
+D:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\obj\Debug\MyControlToolBar.Resources.resources
+D:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\obj\Debug\MyControlToolBar.UserControlToolBar.resources
+D:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\obj\Debug\MyControlToolBar.vbproj.GenerateResource.Cache
+D:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\obj\Debug\MyControlToolBar.exe.manifest
+D:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\obj\Debug\MyControlToolBar.application
+D:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\obj\Debug\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\obj\Debug\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\obj\Debug\MyControlToolBar.pdb
+G:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\obj\Debug\MyControlToolBar.Resources.resources
+G:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\obj\Debug\MyControlToolBar.UserControlToolBar.resources
+G:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\obj\Debug\MyControlToolBar.vbproj.GenerateResource.Cache
+G:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\obj\Debug\MyControlToolBar.exe
+G:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\obj\Debug\MyControlToolBar.xml
+G:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\obj\Debug\MyControlToolBar.pdb
+G:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\bin\Debug\MyControlToolBar.exe.manifest
+G:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\bin\Debug\MyControlToolBar.application
+G:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\bin\Debug\MyControlToolBar.exe
+G:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\bin\Debug\MyControlToolBar.pdb
+G:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\bin\Debug\MyControlToolBar.xml
+G:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\obj\Debug\MyControlToolBar.exe.manifest
+G:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\obj\Debug\MyControlToolBar.application
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\bin\Debug\MyControlToolBar.exe.manifest
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\bin\Debug\MyControlToolBar.application
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\bin\Debug\MyControlToolBar.exe
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\bin\Debug\MyControlToolBar.pdb
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\bin\Debug\MyControlToolBar.xml
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\obj\Debug\MyControlToolBar.Resources.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\obj\Debug\MyControlToolBar.UserControlToolBar.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\obj\Debug\MyControlToolBar.vbproj.GenerateResource.Cache
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\obj\Debug\MyControlToolBar.exe.manifest
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\obj\Debug\MyControlToolBar.application
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\obj\Debug\MyControlToolBar.exe
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\obj\Debug\MyControlToolBar.xml
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\obj\Debug\MyControlToolBar.pdb
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Debug\MyControlToolBar.exe.manifest
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Debug\MyControlToolBar.application
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Debug\MyControlToolBar.exe
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Debug\MyControlToolBar.pdb
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Debug\MyControlToolBar.xml
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Debug\Microsoft.ReportViewer.DataVisualization.DLL
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Debug\zxing.dll
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Debug\zxing.pdb
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Debug\zxing.xml
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Debug\MyControlToolBar.vbprojResolveAssemblyReference.cache
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Debug\MyControlToolBar.Resources.resources
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Debug\MyControlToolBar.UserControlToolBar.resources
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Debug\MyControlToolBar.vbproj.GenerateResource.Cache
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Debug\MyControlToolBar.exe.manifest
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Debug\MyControlToolBar.application
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Debug\MyControlToolBar.exe
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Debug\MyControlToolBar.xml
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Debug\MyControlToolBar.pdb

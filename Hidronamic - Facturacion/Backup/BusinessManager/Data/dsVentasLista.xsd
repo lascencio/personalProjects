@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsVentasLista" targetNamespace="http://tempuri.org/dsVentasLista.xsd" xmlns:mstns="http://tempuri.org/dsVentasLista.xsd" xmlns="http://tempuri.org/dsVentasLista.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="cnnSQLRepository" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="cnnSQLRepository (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BusinessManager.My.MySettings.GlobalReference.Default.cnnSQLRepository" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsVentasLista" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsVentasLista" msprop:Generator_DataSetName="dsVentasLista" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="VENTAS_LISTA" msprop:Generator_UserTableName="VENTAS_LISTA" msprop:Generator_RowDeletedName="VENTAS_LISTARowDeleted" msprop:Generator_TableClassName="VENTAS_LISTADataTable" msprop:Generator_RowChangedName="VENTAS_LISTARowChanged" msprop:Generator_RowClassName="VENTAS_LISTARow" msprop:Generator_RowChangingName="VENTAS_LISTARowChanging" msprop:Generator_RowEvArgName="VENTAS_LISTARowChangeEvent" msprop:Generator_RowEvHandlerName="VENTAS_LISTARowChangeEventHandler" msprop:Generator_TablePropName="VENTAS_LISTA" msprop:Generator_TableVarName="tableVENTAS_LISTA" msprop:Generator_RowDeletingName="VENTAS_LISTARowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VENTA" msprop:Generator_UserColumnName="VENTA" msprop:Generator_ColumnPropNameInRow="VENTA" msprop:Generator_ColumnVarNameInTable="columnVENTA" msprop:Generator_ColumnPropNameInTable="VENTAColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NRO_DOCUMENTO" msdata:ReadOnly="true" msprop:Generator_UserColumnName="NRO_DOCUMENTO" msprop:Generator_ColumnPropNameInRow="NRO_DOCUMENTO" msprop:Generator_ColumnVarNameInTable="columnNRO_DOCUMENTO" msprop:Generator_ColumnPropNameInTable="NRO_DOCUMENTOColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="18" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RAZON_SOCIAL" msdata:ReadOnly="true" msprop:Generator_UserColumnName="RAZON_SOCIAL" msprop:Generator_ColumnPropNameInRow="RAZON_SOCIAL" msprop:Generator_ColumnVarNameInTable="columnRAZON_SOCIAL" msprop:Generator_ColumnPropNameInTable="RAZON_SOCIALColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="120" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ASIENTO_NUMERO" msprop:Generator_UserColumnName="ASIENTO_NUMERO" msprop:Generator_ColumnPropNameInRow="ASIENTO_NUMERO" msprop:Generator_ColumnVarNameInTable="columnASIENTO_NUMERO" msprop:Generator_ColumnPropNameInTable="ASIENTO_NUMEROColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ASIENTO_FECHA" msprop:Generator_UserColumnName="ASIENTO_FECHA" msprop:Generator_ColumnPropNameInRow="ASIENTO_FECHA" msprop:Generator_ColumnVarNameInTable="columnASIENTO_FECHA" msprop:Generator_ColumnPropNameInTable="ASIENTO_FECHAColumn" type="xs:dateTime" />
+              <xs:element name="MONEDA" msprop:Generator_UserColumnName="MONEDA" msprop:Generator_ColumnPropNameInRow="MONEDA" msprop:Generator_ColumnVarNameInTable="columnMONEDA" msprop:Generator_ColumnPropNameInTable="MONEDAColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TIPO_CAMBIO" msprop:Generator_UserColumnName="TIPO_CAMBIO" msprop:Generator_ColumnPropNameInRow="TIPO_CAMBIO" msprop:Generator_ColumnVarNameInTable="columnTIPO_CAMBIO" msprop:Generator_ColumnPropNameInTable="TIPO_CAMBIOColumn" type="xs:decimal" />
+              <xs:element name="COMPROBANTE_SERIE" msprop:Generator_UserColumnName="COMPROBANTE_SERIE" msprop:Generator_ColumnPropNameInRow="COMPROBANTE_SERIE" msprop:Generator_ColumnVarNameInTable="columnCOMPROBANTE_SERIE" msprop:Generator_ColumnPropNameInTable="COMPROBANTE_SERIEColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="COMPROBANTE_NUMERO" msprop:Generator_UserColumnName="COMPROBANTE_NUMERO" msprop:Generator_ColumnPropNameInRow="COMPROBANTE_NUMERO" msprop:Generator_ColumnVarNameInTable="columnCOMPROBANTE_NUMERO" msprop:Generator_ColumnPropNameInTable="COMPROBANTE_NUMEROColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="COMPROBANTE_FECHA" msprop:Generator_UserColumnName="COMPROBANTE_FECHA" msprop:Generator_ColumnPropNameInRow="COMPROBANTE_FECHA" msprop:Generator_ColumnVarNameInTable="columnCOMPROBANTE_FECHA" msprop:Generator_ColumnPropNameInTable="COMPROBANTE_FECHAColumn" type="xs:dateTime" />
+              <xs:element name="GLOSA" msdata:ReadOnly="true" msprop:Generator_UserColumnName="GLOSA" msprop:Generator_ColumnPropNameInRow="GLOSA" msprop:Generator_ColumnVarNameInTable="columnGLOSA" msprop:Generator_ColumnPropNameInTable="GLOSAColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VALOR_AFECTO" msprop:Generator_UserColumnName="VALOR_AFECTO" msprop:Generator_ColumnPropNameInRow="VALOR_AFECTO" msprop:Generator_ColumnVarNameInTable="columnVALOR_AFECTO" msprop:Generator_ColumnPropNameInTable="VALOR_AFECTOColumn" type="xs:decimal" />
+              <xs:element name="IMPUESTO" msprop:Generator_UserColumnName="IMPUESTO" msprop:Generator_ColumnPropNameInRow="IMPUESTO" msprop:Generator_ColumnVarNameInTable="columnIMPUESTO" msprop:Generator_ColumnPropNameInTable="IMPUESTOColumn" type="xs:decimal" />
+              <xs:element name="VALOR_EXENTO" msdata:ReadOnly="true" msprop:Generator_UserColumnName="VALOR_EXENTO" msprop:Generator_ColumnPropNameInRow="VALOR_EXENTO" msprop:Generator_ColumnVarNameInTable="columnVALOR_EXENTO" msprop:Generator_ColumnPropNameInTable="VALOR_EXENTOColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MONTO_TOTAL" msprop:Generator_UserColumnName="MONTO_TOTAL" msprop:Generator_ColumnPropNameInRow="MONTO_TOTAL" msprop:Generator_ColumnVarNameInTable="columnMONTO_TOTAL" msprop:Generator_ColumnPropNameInTable="MONTO_TOTALColumn" type="xs:decimal" />
+              <xs:element name="ESTADO" msprop:Generator_UserColumnName="ESTADO" msprop:Generator_ColumnPropNameInRow="ESTADO" msprop:Generator_ColumnVarNameInTable="columnESTADO" msprop:Generator_ColumnPropNameInTable="ESTADOColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

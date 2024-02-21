@@ -1,0 +1,174 @@
+G:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+G:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+G:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+G:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+G:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\MyControlToolBar.exe
+G:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\MyControlToolBar.pdb
+G:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\MyControlToolBar.xml
+G:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.Core.dll
+G:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.ECR.dll
+G:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.Elasticsearch.dll
+G:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.S3.dll
+G:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.SimpleSystemsManagement.dll
+G:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.Core.pdb
+G:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.Core.xml
+G:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.ECR.pdb
+G:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.ECR.xml
+G:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.Elasticsearch.pdb
+G:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.Elasticsearch.xml
+G:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.S3.pdb
+G:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.S3.xml
+G:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.SimpleSystemsManagement.pdb
+G:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.SimpleSystemsManagement.xml
+G:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\obj\Debug\MyControlToolBar.vbprojResolveAssemblyReference.cache
+G:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\obj\Debug\MyControlToolBar.Resources.resources
+G:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\obj\Debug\MyControlToolBar.UserControlToolBar.resources
+G:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\obj\Debug\MyControlToolBar.vbproj.GenerateResource.Cache
+G:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\obj\Debug\MyControlToolBar.exe
+G:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\obj\Debug\MyControlToolBar.xml
+G:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\obj\Debug\MyControlToolBar.pdb
+E:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+E:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+E:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+E:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\MyControlToolBar.exe
+E:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\MyControlToolBar.pdb
+E:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\MyControlToolBar.xml
+E:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.Core.dll
+E:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.ECR.dll
+E:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.Elasticsearch.dll
+E:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.S3.dll
+E:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.SimpleSystemsManagement.dll
+E:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.Core.pdb
+E:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.Core.xml
+E:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.ECR.pdb
+E:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.ECR.xml
+E:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.Elasticsearch.pdb
+E:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.Elasticsearch.xml
+E:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.S3.pdb
+E:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.S3.xml
+E:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.SimpleSystemsManagement.pdb
+E:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\bin\Debug\AWSSDK.SimpleSystemsManagement.xml
+E:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\obj\Debug\MyControlToolBar.vbprojResolveAssemblyReference.cache
+E:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\obj\Debug\MyControlToolBar.Resources.resources
+E:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\obj\Debug\MyControlToolBar.UserControlToolBar.resources
+E:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\obj\Debug\MyControlToolBar.vbproj.GenerateResource.Cache
+E:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\obj\Debug\MyControlToolBar.exe
+E:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\obj\Debug\MyControlToolBar.xml
+E:\Local Win Applications\SoftBusiness_PrimeMusic\MyControlToolBar\obj\Debug\MyControlToolBar.pdb
+E:\Local Win Applications\Local Rent - Gestion\MyControlToolBar\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+E:\Local Win Applications\Local Rent - Gestion\MyControlToolBar\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\Local Win Applications\Local Rent - Gestion\MyControlToolBar\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+E:\Local Win Applications\Local Rent - Gestion\MyControlToolBar\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+E:\Local Win Applications\Local Rent - Gestion\MyControlToolBar\bin\Debug\MyControlToolBar.exe
+E:\Local Win Applications\Local Rent - Gestion\MyControlToolBar\bin\Debug\MyControlToolBar.pdb
+E:\Local Win Applications\Local Rent - Gestion\MyControlToolBar\bin\Debug\MyControlToolBar.xml
+E:\Local Win Applications\Local Rent - Gestion\MyControlToolBar\bin\Debug\AWSSDK.Core.dll
+E:\Local Win Applications\Local Rent - Gestion\MyControlToolBar\bin\Debug\AWSSDK.ECR.dll
+E:\Local Win Applications\Local Rent - Gestion\MyControlToolBar\bin\Debug\AWSSDK.Elasticsearch.dll
+E:\Local Win Applications\Local Rent - Gestion\MyControlToolBar\bin\Debug\AWSSDK.S3.dll
+E:\Local Win Applications\Local Rent - Gestion\MyControlToolBar\bin\Debug\AWSSDK.SimpleSystemsManagement.dll
+E:\Local Win Applications\Local Rent - Gestion\MyControlToolBar\bin\Debug\AWSSDK.Core.pdb
+E:\Local Win Applications\Local Rent - Gestion\MyControlToolBar\bin\Debug\AWSSDK.Core.xml
+E:\Local Win Applications\Local Rent - Gestion\MyControlToolBar\bin\Debug\AWSSDK.ECR.pdb
+E:\Local Win Applications\Local Rent - Gestion\MyControlToolBar\bin\Debug\AWSSDK.ECR.xml
+E:\Local Win Applications\Local Rent - Gestion\MyControlToolBar\bin\Debug\AWSSDK.Elasticsearch.pdb
+E:\Local Win Applications\Local Rent - Gestion\MyControlToolBar\bin\Debug\AWSSDK.Elasticsearch.xml
+E:\Local Win Applications\Local Rent - Gestion\MyControlToolBar\bin\Debug\AWSSDK.S3.pdb
+E:\Local Win Applications\Local Rent - Gestion\MyControlToolBar\bin\Debug\AWSSDK.S3.xml
+E:\Local Win Applications\Local Rent - Gestion\MyControlToolBar\bin\Debug\AWSSDK.SimpleSystemsManagement.pdb
+E:\Local Win Applications\Local Rent - Gestion\MyControlToolBar\bin\Debug\AWSSDK.SimpleSystemsManagement.xml
+E:\Local Win Applications\Local Rent - Gestion\MyControlToolBar\obj\Debug\MyControlToolBar.vbprojResolveAssemblyReference.cache
+E:\Local Win Applications\Local Rent - Gestion\MyControlToolBar\obj\Debug\MyControlToolBar.Resources.resources
+E:\Local Win Applications\Local Rent - Gestion\MyControlToolBar\obj\Debug\MyControlToolBar.UserControlToolBar.resources
+E:\Local Win Applications\Local Rent - Gestion\MyControlToolBar\obj\Debug\MyControlToolBar.vbproj.GenerateResource.Cache
+E:\Local Win Applications\Local Rent - Gestion\MyControlToolBar\obj\Debug\MyControlToolBar.exe
+E:\Local Win Applications\Local Rent - Gestion\MyControlToolBar\obj\Debug\MyControlToolBar.xml
+E:\Local Win Applications\Local Rent - Gestion\MyControlToolBar\obj\Debug\MyControlToolBar.pdb
+E:\Local Win Applications\Sosac - Gestion\MyControlToolBar\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+E:\Local Win Applications\Sosac - Gestion\MyControlToolBar\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\Local Win Applications\Sosac - Gestion\MyControlToolBar\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+E:\Local Win Applications\Sosac - Gestion\MyControlToolBar\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+E:\Local Win Applications\Sosac - Gestion\MyControlToolBar\bin\Debug\MyControlToolBar.exe
+E:\Local Win Applications\Sosac - Gestion\MyControlToolBar\bin\Debug\MyControlToolBar.pdb
+E:\Local Win Applications\Sosac - Gestion\MyControlToolBar\bin\Debug\MyControlToolBar.xml
+E:\Local Win Applications\Sosac - Gestion\MyControlToolBar\bin\Debug\AWSSDK.Core.dll
+E:\Local Win Applications\Sosac - Gestion\MyControlToolBar\bin\Debug\AWSSDK.ECR.dll
+E:\Local Win Applications\Sosac - Gestion\MyControlToolBar\bin\Debug\AWSSDK.Elasticsearch.dll
+E:\Local Win Applications\Sosac - Gestion\MyControlToolBar\bin\Debug\AWSSDK.S3.dll
+E:\Local Win Applications\Sosac - Gestion\MyControlToolBar\bin\Debug\AWSSDK.SimpleSystemsManagement.dll
+E:\Local Win Applications\Sosac - Gestion\MyControlToolBar\bin\Debug\AWSSDK.Core.pdb
+E:\Local Win Applications\Sosac - Gestion\MyControlToolBar\bin\Debug\AWSSDK.Core.xml
+E:\Local Win Applications\Sosac - Gestion\MyControlToolBar\bin\Debug\AWSSDK.ECR.pdb
+E:\Local Win Applications\Sosac - Gestion\MyControlToolBar\bin\Debug\AWSSDK.ECR.xml
+E:\Local Win Applications\Sosac - Gestion\MyControlToolBar\bin\Debug\AWSSDK.Elasticsearch.pdb
+E:\Local Win Applications\Sosac - Gestion\MyControlToolBar\bin\Debug\AWSSDK.Elasticsearch.xml
+E:\Local Win Applications\Sosac - Gestion\MyControlToolBar\bin\Debug\AWSSDK.S3.pdb
+E:\Local Win Applications\Sosac - Gestion\MyControlToolBar\bin\Debug\AWSSDK.S3.xml
+E:\Local Win Applications\Sosac - Gestion\MyControlToolBar\bin\Debug\AWSSDK.SimpleSystemsManagement.pdb
+E:\Local Win Applications\Sosac - Gestion\MyControlToolBar\bin\Debug\AWSSDK.SimpleSystemsManagement.xml
+E:\Local Win Applications\Sosac - Gestion\MyControlToolBar\obj\Debug\MyControlToolBar.vbprojResolveAssemblyReference.cache
+E:\Local Win Applications\Sosac - Gestion\MyControlToolBar\obj\Debug\MyControlToolBar.Resources.resources
+E:\Local Win Applications\Sosac - Gestion\MyControlToolBar\obj\Debug\MyControlToolBar.UserControlToolBar.resources
+E:\Local Win Applications\Sosac - Gestion\MyControlToolBar\obj\Debug\MyControlToolBar.vbproj.GenerateResource.Cache
+E:\Local Win Applications\Sosac - Gestion\MyControlToolBar\obj\Debug\MyControlToolBar.exe
+E:\Local Win Applications\Sosac - Gestion\MyControlToolBar\obj\Debug\MyControlToolBar.xml
+E:\Local Win Applications\Sosac - Gestion\MyControlToolBar\obj\Debug\MyControlToolBar.pdb
+E:\Local Win Applications\ASoKart - Gestion\MyControlToolBar\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+E:\Local Win Applications\ASoKart - Gestion\MyControlToolBar\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\Local Win Applications\ASoKart - Gestion\MyControlToolBar\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+E:\Local Win Applications\ASoKart - Gestion\MyControlToolBar\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+E:\Local Win Applications\ASoKart - Gestion\MyControlToolBar\bin\Debug\MyControlToolBar.exe
+E:\Local Win Applications\ASoKart - Gestion\MyControlToolBar\bin\Debug\MyControlToolBar.pdb
+E:\Local Win Applications\ASoKart - Gestion\MyControlToolBar\bin\Debug\MyControlToolBar.xml
+E:\Local Win Applications\ASoKart - Gestion\MyControlToolBar\bin\Debug\AWSSDK.Core.dll
+E:\Local Win Applications\ASoKart - Gestion\MyControlToolBar\bin\Debug\AWSSDK.ECR.dll
+E:\Local Win Applications\ASoKart - Gestion\MyControlToolBar\bin\Debug\AWSSDK.Elasticsearch.dll
+E:\Local Win Applications\ASoKart - Gestion\MyControlToolBar\bin\Debug\AWSSDK.S3.dll
+E:\Local Win Applications\ASoKart - Gestion\MyControlToolBar\bin\Debug\AWSSDK.SimpleSystemsManagement.dll
+E:\Local Win Applications\ASoKart - Gestion\MyControlToolBar\bin\Debug\AWSSDK.Core.pdb
+E:\Local Win Applications\ASoKart - Gestion\MyControlToolBar\bin\Debug\AWSSDK.Core.xml
+E:\Local Win Applications\ASoKart - Gestion\MyControlToolBar\bin\Debug\AWSSDK.ECR.pdb
+E:\Local Win Applications\ASoKart - Gestion\MyControlToolBar\bin\Debug\AWSSDK.ECR.xml
+E:\Local Win Applications\ASoKart - Gestion\MyControlToolBar\bin\Debug\AWSSDK.Elasticsearch.pdb
+E:\Local Win Applications\ASoKart - Gestion\MyControlToolBar\bin\Debug\AWSSDK.Elasticsearch.xml
+E:\Local Win Applications\ASoKart - Gestion\MyControlToolBar\bin\Debug\AWSSDK.S3.pdb
+E:\Local Win Applications\ASoKart - Gestion\MyControlToolBar\bin\Debug\AWSSDK.S3.xml
+E:\Local Win Applications\ASoKart - Gestion\MyControlToolBar\bin\Debug\AWSSDK.SimpleSystemsManagement.pdb
+E:\Local Win Applications\ASoKart - Gestion\MyControlToolBar\bin\Debug\AWSSDK.SimpleSystemsManagement.xml
+E:\Local Win Applications\ASoKart - Gestion\MyControlToolBar\obj\Debug\MyControlToolBar.Resources.resources
+E:\Local Win Applications\ASoKart - Gestion\MyControlToolBar\obj\Debug\MyControlToolBar.UserControlToolBar.resources
+E:\Local Win Applications\ASoKart - Gestion\MyControlToolBar\obj\Debug\MyControlToolBar.vbproj.GenerateResource.Cache
+E:\Local Win Applications\ASoKart - Gestion\MyControlToolBar\obj\Debug\MyControlToolBar.exe
+E:\Local Win Applications\ASoKart - Gestion\MyControlToolBar\obj\Debug\MyControlToolBar.xml
+E:\Local Win Applications\ASoKart - Gestion\MyControlToolBar\obj\Debug\MyControlToolBar.pdb
+F:\Local Win Applications\UltimateERP\MyControlToolBar\bin\Debug\MyControlToolBar.exe.config
+F:\Local Win Applications\UltimateERP\MyControlToolBar\bin\Debug\MyControlToolBar.exe
+F:\Local Win Applications\UltimateERP\MyControlToolBar\bin\Debug\MyControlToolBar.pdb
+F:\Local Win Applications\UltimateERP\MyControlToolBar\bin\Debug\MyControlToolBar.xml
+F:\Local Win Applications\UltimateERP\MyControlToolBar\obj\Debug\MyControlToolBar.Resources.resources
+F:\Local Win Applications\UltimateERP\MyControlToolBar\obj\Debug\MyControlToolBar.UserControlToolBar.resources
+F:\Local Win Applications\UltimateERP\MyControlToolBar\obj\Debug\MyControlToolBar.vbproj.GenerateResource.Cache
+F:\Local Win Applications\UltimateERP\MyControlToolBar\obj\Debug\MyControlToolBar.exe
+F:\Local Win Applications\UltimateERP\MyControlToolBar\obj\Debug\MyControlToolBar.xml
+F:\Local Win Applications\UltimateERP\MyControlToolBar\obj\Debug\MyControlToolBar.pdb
+E:\Local Win Applications\UltimateERP\MyControlToolBar\bin\Debug\MyControlToolBar.exe.config
+E:\Local Win Applications\UltimateERP\MyControlToolBar\bin\Debug\MyControlToolBar.exe
+E:\Local Win Applications\UltimateERP\MyControlToolBar\bin\Debug\MyControlToolBar.pdb
+E:\Local Win Applications\UltimateERP\MyControlToolBar\bin\Debug\MyControlToolBar.xml
+E:\Local Win Applications\UltimateERP\MyControlToolBar\obj\Debug\MyControlToolBar.Resources.resources
+E:\Local Win Applications\UltimateERP\MyControlToolBar\obj\Debug\MyControlToolBar.UserControlToolBar.resources
+E:\Local Win Applications\UltimateERP\MyControlToolBar\obj\Debug\MyControlToolBar.vbproj.GenerateResource.Cache
+E:\Local Win Applications\UltimateERP\MyControlToolBar\obj\Debug\MyControlToolBar.exe
+E:\Local Win Applications\UltimateERP\MyControlToolBar\obj\Debug\MyControlToolBar.xml
+E:\Local Win Applications\UltimateERP\MyControlToolBar\obj\Debug\MyControlToolBar.pdb
+E:\Win Applications\UltimateERP\MyControlToolBar\bin\Debug\MyControlToolBar.exe.config
+E:\Win Applications\UltimateERP\MyControlToolBar\bin\Debug\MyControlToolBar.exe
+E:\Win Applications\UltimateERP\MyControlToolBar\bin\Debug\MyControlToolBar.pdb
+E:\Win Applications\UltimateERP\MyControlToolBar\bin\Debug\MyControlToolBar.xml
+E:\Win Applications\UltimateERP\MyControlToolBar\obj\Debug\MyControlToolBar.Resources.resources
+E:\Win Applications\UltimateERP\MyControlToolBar\obj\Debug\MyControlToolBar.UserControlToolBar.resources
+E:\Win Applications\UltimateERP\MyControlToolBar\obj\Debug\MyControlToolBar.vbproj.GenerateResource.Cache
+E:\Win Applications\UltimateERP\MyControlToolBar\obj\Debug\MyControlToolBar.exe
+E:\Win Applications\UltimateERP\MyControlToolBar\obj\Debug\MyControlToolBar.xml
+E:\Win Applications\UltimateERP\MyControlToolBar\obj\Debug\MyControlToolBar.pdb

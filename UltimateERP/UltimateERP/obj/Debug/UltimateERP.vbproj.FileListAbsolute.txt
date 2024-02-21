@@ -1,0 +1,19 @@
+C:\Users\Cesar\AppData\Local\Temporary Projects\UltimateERP\bin\Debug\UltimateERP.exe.config
+F:\Local Win Applications\UltimateERP\UltimateERP\bin\Debug\UltimateERP.exe.config
+F:\Local Win Applications\UltimateERP\UltimateERP\bin\Debug\UltimateERP.exe
+F:\Local Win Applications\UltimateERP\UltimateERP\bin\Debug\UltimateERP.pdb
+F:\Local Win Applications\UltimateERP\UltimateERP\bin\Debug\UltimateERP.xml
+F:\Local Win Applications\UltimateERP\UltimateERP\obj\Debug\UltimateERP.Resources.resources
+F:\Local Win Applications\UltimateERP\UltimateERP\obj\Debug\UltimateERP.vbproj.GenerateResource.Cache
+F:\Local Win Applications\UltimateERP\UltimateERP\obj\Debug\UltimateERP.exe
+F:\Local Win Applications\UltimateERP\UltimateERP\obj\Debug\UltimateERP.xml
+F:\Local Win Applications\UltimateERP\UltimateERP\obj\Debug\UltimateERP.pdb
+E:\Local Win Applications\UltimateERP\UltimateERP\bin\Debug\UltimateERP.exe.config
+E:\Local Win Applications\UltimateERP\UltimateERP\bin\Debug\UltimateERP.exe
+E:\Local Win Applications\UltimateERP\UltimateERP\bin\Debug\UltimateERP.pdb
+E:\Local Win Applications\UltimateERP\UltimateERP\bin\Debug\UltimateERP.xml
+E:\Local Win Applications\UltimateERP\UltimateERP\obj\Debug\UltimateERP.Resources.resources
+E:\Local Win Applications\UltimateERP\UltimateERP\obj\Debug\UltimateERP.vbproj.GenerateResource.Cache
+E:\Local Win Applications\UltimateERP\UltimateERP\obj\Debug\UltimateERP.exe
+E:\Local Win Applications\UltimateERP\UltimateERP\obj\Debug\UltimateERP.xml
+E:\Local Win Applications\UltimateERP\UltimateERP\obj\Debug\UltimateERP.pdb

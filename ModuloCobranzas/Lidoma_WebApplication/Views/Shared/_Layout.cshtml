@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+
+<html lang="es-pe">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Aplicación web para registro de cobranzas">
+    <meta name="author" content="Luis David Ascencio">
+    <!-- Title-->
+    <title>Lidoma</title>
+    <link rel="shortcut icon" href="~/Content/images/ICO.ico" type="image/x-icon" />
+    
+    <!-- Colocar  íconos para dispositivos Apple -->
+    @*<link rel="apple-touch-icon" sizes="76x76" href="~/Imagenes/logo-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="~/Imagenes/logo-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="~/Imagenes/logo-icon-152x152.png" />*@
+
+
+    <link href="~/Content/fonts/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script>
+       @* $(document).ready(function () {
+            var perfil = @Session["PERFIL"].ToString();
+            if(perfil == 1){
+                $('.ventas').css('display', 'none');
+                $('.admin').css('display', 'none');
+            }
+
+            if(perfil == 2){
+                $('.admin').css('display', 'none');
+            }
+
+            $("#btnCambio").click(function (ev) {
+                $("#modal-cambio").load("/Proformas/TiposDeCambio");
+            });
+
+        });*@
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <div aria-label="Left Align">
+                        <img src="~/Content/images/Logo-20.png" /> Lidoma
+                    </div>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-file-text" style="padding-right:5px;"></i> Cobranzas <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="@Url.Action("RegistroCobranzaPrestamo","Cobranzas")"> Registrar Cobranza Préstamo</a>
+                            </li>
+                            <li class="admin">
+                                <a href="#ventanaCambios" id="btnCambio" data-toggle="modal"> Tipo de Cambio</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-gear" style="padding-right:5px;"></i> Aplicación <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="@Url.Action("Login","Usuarios")"> Salir</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="page-wrapper" class="container">
+        <br>
+        <!--VENTANA MODAL PARA EL TIPO DE CAMBIO-->
+        <div id="ventanaCambios" class="modal fade" role="dialog" style="display:none" tabindex="-1" data-backdrop="static">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header" style="text-align:center;">
+                        <a class="close" data-dismiss="modal">&times;</a>
+                        <h3>Tipo de Cambio</h3>
+                    </div>
+                    <div class="modal-body">
+                        <div id="modal-cambio">
+                            Espere porfavor...
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            @RenderBody()
+        </div>
+    </div>
+
+    <!-- /#wrapper -->
+    <!-- Bootsrap jQuery -->
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>

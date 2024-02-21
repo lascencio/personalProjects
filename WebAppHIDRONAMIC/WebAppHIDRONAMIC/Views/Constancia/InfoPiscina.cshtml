@@ -1,0 +1,156 @@
+﻿@model IEnumerable<WebAppHIDRONAMIC.Entities.PiscinaDTO>
+
+@{
+    Layout = null;
+}
+
+<style type="text/css">
+    .tdHeader {
+        width: 70%;
+    }
+
+    .tdContent {
+        width: 30%;
+    }
+</style>
+
+@foreach (var item in Model)
+{
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <caption>
+                <strong>Tipo Piscina: @Html.DisplayFor(modelItem => item.TIPO_PISCINA) Volúmen:@Html.DisplayFor(modelItem => item.VOLUMEN) m3 </strong>
+            </caption>
+            <thead>
+                <tr>
+                    <th style="text-align:center;background-color:#db88ef;" colspan="2">
+                        Ácido PH.
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="tdHeader">1L x 10m3 8 A 7 (10)</td>
+                    <td class="tdContent">@Html.DisplayFor(modelItem => item.acido10)</td>
+                </tr>
+                <tr>
+                    <td class="tdHeader">1/2L x 10m3 7.8 A 7.3 (20)</td>
+                    <td class="tdContent">@Html.DisplayFor(modelItem => item.acido20)</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th colspan="2" style="text-align:center;background-color:#db88ef;">
+                        Soda Caústica
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="tdHeader">gr/10m3 p aumentar 0.1ph (100)</td>
+                    <td class="tdContent">@Html.DisplayFor(modelItem => item.soda)</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th colspan="2" style="text-align:center;background-color:#8c5d41;">
+                        Cloro Granulado
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="tdHeader">Tratamiento Prevencion gr/m3 (5)</td>
+                    <td class="tdContent">@Html.DisplayFor(modelItem => item.cloGra5)</td>
+                </tr>
+                <tr>
+                    <td class="tdHeader">Tratamiento Prevencion gr/m3 (7)</td>
+                    <td class="tdContent">@Html.DisplayFor(modelItem => item.cloGra7)</td>
+                </tr>
+                <tr>
+                    <td class="tdHeader">Tratamiento shock gr/m3 (15)</td>
+                    <td class="tdContent">@Html.DisplayFor(modelItem => item.cloGra15)</td>
+                </tr>
+                <tr>
+                    <td class="tdHeader">Tratamiento shock gr/m3 (21)</td>
+                    <td class="tdContent">@Html.DisplayFor(modelItem => item.cloGra21)</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th colspan="2" style="text-align:center;background-color:#8c8581;">
+                        Cloro Pastillas
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="tdHeader">1 pastilla / m3 (20)</td>
+                    <td class="tdContent">@Html.DisplayFor(modelItem => item.cloPas20)</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th colspan="2" style="text-align:center;background-color:cornflowerblue;">
+                        Sulfato de Aluminio
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="tdHeader">gr/m3 (10)</td>
+                    <td class="tdContent">@Html.DisplayFor(modelItem => item.sulfAl10)</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th colspan="2" style="text-align:center;background-color:#7cb782;">
+                        Sulfato de Cobre
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="tdHeader">Prevencion gr/m3 (3)</td>
+                    <td class="tdContent">@Html.DisplayFor(modelItem => item.sulfCo3)</td>
+                </tr>
+                <tr>
+                    <td class="tdHeader">Verde gr/m3 (10)</td>
+                    <td class="tdContent">@Html.DisplayFor(modelItem => item.sulfCo10)</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th colspan="2" style="text-align:center;background-color:#d87e2f;">
+                        Piscina Salada
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="tdHeader">Hayward 3200ppm (3000)</td>
+                    <td class="tdContent">@Html.DisplayFor(modelItem => item.piscSal3000)</td>
+                </tr>
+                <tr>
+                    <td class="tdHeader">Pentair 3400ppm (2800)</td>
+                    <td class="tdContent">@Html.DisplayFor(modelItem => item.piscSal4000)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+}
+
+

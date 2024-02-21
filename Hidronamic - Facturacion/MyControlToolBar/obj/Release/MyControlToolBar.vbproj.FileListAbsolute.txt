@@ -1,0 +1,349 @@
+D:\Local Win Applications\SoftBusiness\MyControlToolBar\bin\Release\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness\MyControlToolBar\bin\Release\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness\MyControlToolBar\bin\Release\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness\MyControlToolBar\obj\Release\ResolveAssemblyReference.cache
+D:\Local Win Applications\SoftBusiness\MyControlToolBar\obj\Release\MyControlToolBar.Resources.resources
+D:\Local Win Applications\SoftBusiness\MyControlToolBar\obj\Release\MyControlToolBar.UserControlToolBar.resources
+D:\Local Win Applications\SoftBusiness\MyControlToolBar\obj\Release\MyControlToolBar.vbproj.GenerateResource.Cache
+D:\Local Win Applications\SoftBusiness\MyControlToolBar\obj\Release\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness\MyControlToolBar\obj\Release\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness\MyControlToolBar\obj\Release\MyControlToolBar.pdb
+D:\Proyectos .NET\SoftBusiness\MyControlToolBar\bin\Release\MyControlToolBar.exe
+D:\Proyectos .NET\SoftBusiness\MyControlToolBar\bin\Release\MyControlToolBar.pdb
+D:\Proyectos .NET\SoftBusiness\MyControlToolBar\bin\Release\MyControlToolBar.xml
+D:\Proyectos .NET\SoftBusiness\MyControlToolBar\obj\Release\ResolveAssemblyReference.cache
+D:\Proyectos .NET\SoftBusiness\MyControlToolBar\obj\Release\MyControlToolBar.Resources.resources
+D:\Proyectos .NET\SoftBusiness\MyControlToolBar\obj\Release\MyControlToolBar.UserControlToolBar.resources
+D:\Proyectos .NET\SoftBusiness\MyControlToolBar\obj\Release\MyControlToolBar.vbproj.GenerateResource.Cache
+D:\Proyectos .NET\SoftBusiness\MyControlToolBar\obj\Release\MyControlToolBar.exe
+D:\Proyectos .NET\SoftBusiness\MyControlToolBar\obj\Release\MyControlToolBar.xml
+D:\Proyectos .NET\SoftBusiness\MyControlToolBar\obj\Release\MyControlToolBar.pdb
+D:\Remote Win Applications\SoftBusiness - New\MyControlToolBar\bin\Release\MyControlToolBar.exe.manifest
+D:\Remote Win Applications\SoftBusiness - New\MyControlToolBar\bin\Release\MyControlToolBar.application
+D:\Remote Win Applications\SoftBusiness - New\MyControlToolBar\bin\Release\MyControlToolBar.exe
+D:\Remote Win Applications\SoftBusiness - New\MyControlToolBar\bin\Release\MyControlToolBar.pdb
+D:\Remote Win Applications\SoftBusiness - New\MyControlToolBar\bin\Release\MyControlToolBar.xml
+D:\Remote Win Applications\SoftBusiness - New\MyControlToolBar\obj\Release\ResolveAssemblyReference.cache
+D:\Remote Win Applications\SoftBusiness - New\MyControlToolBar\obj\Release\MyControlToolBar.Resources.resources
+D:\Remote Win Applications\SoftBusiness - New\MyControlToolBar\obj\Release\MyControlToolBar.UserControlToolBar.resources
+D:\Remote Win Applications\SoftBusiness - New\MyControlToolBar\obj\Release\MyControlToolBar.vbproj.GenerateResource.Cache
+D:\Remote Win Applications\SoftBusiness - New\MyControlToolBar\obj\Release\MyControlToolBar.exe.manifest
+D:\Remote Win Applications\SoftBusiness - New\MyControlToolBar\obj\Release\MyControlToolBar.application
+D:\Remote Win Applications\SoftBusiness - New\MyControlToolBar\obj\Release\MyControlToolBar.exe
+D:\Remote Win Applications\SoftBusiness - New\MyControlToolBar\obj\Release\MyControlToolBar.xml
+D:\Remote Win Applications\SoftBusiness - New\MyControlToolBar\obj\Release\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness - New\MyControlToolBar\bin\Release\MyControlToolBar.exe.manifest
+D:\Local Win Applications\SoftBusiness - New\MyControlToolBar\bin\Release\MyControlToolBar.application
+D:\Local Win Applications\SoftBusiness - New\MyControlToolBar\bin\Release\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness - New\MyControlToolBar\bin\Release\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness - New\MyControlToolBar\bin\Release\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness - New\MyControlToolBar\obj\Release\ResolveAssemblyReference.cache
+D:\Local Win Applications\SoftBusiness - New\MyControlToolBar\obj\Release\MyControlToolBar.Resources.resources
+D:\Local Win Applications\SoftBusiness - New\MyControlToolBar\obj\Release\MyControlToolBar.UserControlToolBar.resources
+D:\Local Win Applications\SoftBusiness - New\MyControlToolBar\obj\Release\MyControlToolBar.vbproj.GenerateResource.Cache
+D:\Local Win Applications\SoftBusiness - New\MyControlToolBar\obj\Release\MyControlToolBar.exe.manifest
+D:\Local Win Applications\SoftBusiness - New\MyControlToolBar\obj\Release\MyControlToolBar.application
+D:\Local Win Applications\SoftBusiness - New\MyControlToolBar\obj\Release\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness - New\MyControlToolBar\obj\Release\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness - New\MyControlToolBar\obj\Release\MyControlToolBar.pdb
+D:\Remote Win Applications\SoftBusiness - GFK\MyControlToolBar\bin\Release\MyControlToolBar.exe.manifest
+D:\Remote Win Applications\SoftBusiness - GFK\MyControlToolBar\bin\Release\MyControlToolBar.application
+D:\Remote Win Applications\SoftBusiness - GFK\MyControlToolBar\bin\Release\MyControlToolBar.exe
+D:\Remote Win Applications\SoftBusiness - GFK\MyControlToolBar\bin\Release\MyControlToolBar.pdb
+D:\Remote Win Applications\SoftBusiness - GFK\MyControlToolBar\bin\Release\MyControlToolBar.xml
+D:\Remote Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Release\ResolveAssemblyReference.cache
+D:\Remote Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Release\MyControlToolBar.Resources.resources
+D:\Remote Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Release\MyControlToolBar.UserControlToolBar.resources
+D:\Remote Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Release\MyControlToolBar.vbproj.GenerateResource.Cache
+D:\Remote Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Release\MyControlToolBar.exe.manifest
+D:\Remote Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Release\MyControlToolBar.application
+D:\Remote Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Release\MyControlToolBar.exe
+D:\Remote Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Release\MyControlToolBar.xml
+D:\Remote Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Release\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness - GFK\MyControlToolBar\bin\Release\MyControlToolBar.exe.manifest
+D:\Local Win Applications\SoftBusiness - GFK\MyControlToolBar\bin\Release\MyControlToolBar.application
+D:\Local Win Applications\SoftBusiness - GFK\MyControlToolBar\bin\Release\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness - GFK\MyControlToolBar\bin\Release\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness - GFK\MyControlToolBar\bin\Release\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Release\ResolveAssemblyReference.cache
+D:\Local Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Release\MyControlToolBar.Resources.resources
+D:\Local Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Release\MyControlToolBar.UserControlToolBar.resources
+D:\Local Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Release\MyControlToolBar.vbproj.GenerateResource.Cache
+D:\Local Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Release\MyControlToolBar.exe.manifest
+D:\Local Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Release\MyControlToolBar.application
+D:\Local Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Release\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Release\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness - GFK\MyControlToolBar\obj\Release\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness - SOIENSA\MyControlToolBar\bin\Release\MyControlToolBar.exe.manifest
+D:\Local Win Applications\SoftBusiness - SOIENSA\MyControlToolBar\bin\Release\MyControlToolBar.application
+D:\Local Win Applications\SoftBusiness - SOIENSA\MyControlToolBar\bin\Release\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness - SOIENSA\MyControlToolBar\bin\Release\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness - SOIENSA\MyControlToolBar\bin\Release\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness - SOIENSA\MyControlToolBar\obj\Release\ResolveAssemblyReference.cache
+D:\Local Win Applications\SoftBusiness - SOIENSA\MyControlToolBar\obj\Release\MyControlToolBar.Resources.resources
+D:\Local Win Applications\SoftBusiness - SOIENSA\MyControlToolBar\obj\Release\MyControlToolBar.UserControlToolBar.resources
+D:\Local Win Applications\SoftBusiness - SOIENSA\MyControlToolBar\obj\Release\MyControlToolBar.vbproj.GenerateResource.Cache
+D:\Local Win Applications\SoftBusiness - SOIENSA\MyControlToolBar\obj\Release\MyControlToolBar.exe.manifest
+D:\Local Win Applications\SoftBusiness - SOIENSA\MyControlToolBar\obj\Release\MyControlToolBar.application
+D:\Local Win Applications\SoftBusiness - SOIENSA\MyControlToolBar\obj\Release\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness - SOIENSA\MyControlToolBar\obj\Release\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness - SOIENSA\MyControlToolBar\obj\Release\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness_BINARIX\MyControlToolBar\bin\Release\MyControlToolBar.exe.manifest
+D:\Local Win Applications\SoftBusiness_BINARIX\MyControlToolBar\bin\Release\MyControlToolBar.application
+D:\Local Win Applications\SoftBusiness_BINARIX\MyControlToolBar\bin\Release\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness_BINARIX\MyControlToolBar\bin\Release\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness_BINARIX\MyControlToolBar\bin\Release\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness_BINARIX\MyControlToolBar\obj\Release\ResolveAssemblyReference.cache
+D:\Local Win Applications\SoftBusiness_BINARIX\MyControlToolBar\obj\Release\MyControlToolBar.Resources.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\MyControlToolBar\obj\Release\MyControlToolBar.UserControlToolBar.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\MyControlToolBar\obj\Release\MyControlToolBar.vbproj.GenerateResource.Cache
+D:\Local Win Applications\SoftBusiness_BINARIX\MyControlToolBar\obj\Release\MyControlToolBar.exe.manifest
+D:\Local Win Applications\SoftBusiness_BINARIX\MyControlToolBar\obj\Release\MyControlToolBar.application
+D:\Local Win Applications\SoftBusiness_BINARIX\MyControlToolBar\obj\Release\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness_BINARIX\MyControlToolBar\obj\Release\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness_BINARIX\MyControlToolBar\obj\Release\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness_MediaLab\MyControlToolBar\bin\Release\MyControlToolBar.exe.manifest
+D:\Local Win Applications\SoftBusiness_MediaLab\MyControlToolBar\bin\Release\MyControlToolBar.application
+D:\Local Win Applications\SoftBusiness_MediaLab\MyControlToolBar\bin\Release\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness_MediaLab\MyControlToolBar\bin\Release\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness_MediaLab\MyControlToolBar\bin\Release\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness_MediaLab\MyControlToolBar\obj\Release\ResolveAssemblyReference.cache
+D:\Local Win Applications\SoftBusiness_MediaLab\MyControlToolBar\obj\Release\MyControlToolBar.Resources.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\MyControlToolBar\obj\Release\MyControlToolBar.UserControlToolBar.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\MyControlToolBar\obj\Release\MyControlToolBar.vbproj.GenerateResource.Cache
+D:\Local Win Applications\SoftBusiness_MediaLab\MyControlToolBar\obj\Release\MyControlToolBar.exe.manifest
+D:\Local Win Applications\SoftBusiness_MediaLab\MyControlToolBar\obj\Release\MyControlToolBar.application
+D:\Local Win Applications\SoftBusiness_MediaLab\MyControlToolBar\obj\Release\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness_MediaLab\MyControlToolBar\obj\Release\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness_MediaLab\MyControlToolBar\obj\Release\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\bin\Release\MyControlToolBar.exe.manifest
+D:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\bin\Release\MyControlToolBar.application
+D:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\bin\Release\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\bin\Release\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\bin\Release\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\obj\Release\ResolveAssemblyReference.cache
+D:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\obj\Release\MyControlToolBar.Resources.resources
+D:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\obj\Release\MyControlToolBar.UserControlToolBar.resources
+D:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\obj\Release\MyControlToolBar.vbproj.GenerateResource.Cache
+D:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\obj\Release\MyControlToolBar.exe.manifest
+D:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\obj\Release\MyControlToolBar.application
+D:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\obj\Release\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\obj\Release\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness_JMO\MyControlToolBar\obj\Release\MyControlToolBar.pdb
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\bin\Release\MyControlToolBar.exe.manifest
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\bin\Release\MyControlToolBar.application
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\bin\Release\MyControlToolBar.exe
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\bin\Release\MyControlToolBar.pdb
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\bin\Release\MyControlToolBar.xml
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\bin\Release\Microsoft.ReportViewer.Common.dll
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\bin\Release\Microsoft.ReportViewer.DataVisualization.DLL
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\bin\Release\Microsoft.ReportViewer.WebForms.DLL
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\bin\Release\Microsoft.ReportViewer.WinForms.DLL
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\bin\Release\zxing.dll
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\bin\Release\zxing.pdb
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\bin\Release\zxing.xml
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\obj\Release\MyControlToolBar.Resources.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\obj\Release\MyControlToolBar.UserControlToolBar.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\obj\Release\MyControlToolBar.vbproj.GenerateResource.Cache
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\obj\Release\MyControlToolBar.exe.manifest
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\obj\Release\MyControlToolBar.application
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\obj\Release\MyControlToolBar.exe
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\obj\Release\MyControlToolBar.xml
+G:\Local Win Applications\SoftBusiness_Wunderman\MyControlToolBar\obj\Release\MyControlToolBar.pdb
+G:\Local Win Applications\Facturacion_Faraona\MyControlToolBar\bin\Release\MyControlToolBar.exe.manifest
+G:\Local Win Applications\Facturacion_Faraona\MyControlToolBar\bin\Release\MyControlToolBar.application
+G:\Local Win Applications\Facturacion_Faraona\MyControlToolBar\bin\Release\MyControlToolBar.exe
+G:\Local Win Applications\Facturacion_Faraona\MyControlToolBar\bin\Release\MyControlToolBar.pdb
+G:\Local Win Applications\Facturacion_Faraona\MyControlToolBar\bin\Release\MyControlToolBar.xml
+G:\Local Win Applications\Facturacion_Faraona\MyControlToolBar\bin\Release\Microsoft.ReportViewer.Common.dll
+G:\Local Win Applications\Facturacion_Faraona\MyControlToolBar\bin\Release\Microsoft.ReportViewer.DataVisualization.DLL
+G:\Local Win Applications\Facturacion_Faraona\MyControlToolBar\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+G:\Local Win Applications\Facturacion_Faraona\MyControlToolBar\bin\Release\Microsoft.ReportViewer.WebForms.DLL
+G:\Local Win Applications\Facturacion_Faraona\MyControlToolBar\bin\Release\Microsoft.ReportViewer.WinForms.DLL
+G:\Local Win Applications\Facturacion_Faraona\MyControlToolBar\bin\Release\zxing.dll
+G:\Local Win Applications\Facturacion_Faraona\MyControlToolBar\bin\Release\zxing.pdb
+G:\Local Win Applications\Facturacion_Faraona\MyControlToolBar\bin\Release\zxing.xml
+G:\Local Win Applications\Facturacion_Faraona\MyControlToolBar\obj\Release\MyControlToolBar.Resources.resources
+G:\Local Win Applications\Facturacion_Faraona\MyControlToolBar\obj\Release\MyControlToolBar.UserControlToolBar.resources
+G:\Local Win Applications\Facturacion_Faraona\MyControlToolBar\obj\Release\MyControlToolBar.vbproj.GenerateResource.Cache
+G:\Local Win Applications\Facturacion_Faraona\MyControlToolBar\obj\Release\MyControlToolBar.exe.manifest
+G:\Local Win Applications\Facturacion_Faraona\MyControlToolBar\obj\Release\MyControlToolBar.application
+G:\Local Win Applications\Facturacion_Faraona\MyControlToolBar\obj\Release\MyControlToolBar.exe
+G:\Local Win Applications\Facturacion_Faraona\MyControlToolBar\obj\Release\MyControlToolBar.xml
+G:\Local Win Applications\Facturacion_Faraona\MyControlToolBar\obj\Release\MyControlToolBar.pdb
+G:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.exe.manifest
+G:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.application
+G:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.exe
+G:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.pdb
+G:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.xml
+G:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.Common.dll
+G:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.DataVisualization.DLL
+G:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+G:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.WebForms.DLL
+G:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.WinForms.DLL
+G:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\bin\Release\zxing.dll
+G:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\bin\Release\zxing.pdb
+G:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\bin\Release\zxing.xml
+G:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.vbprojResolveAssemblyReference.cache
+G:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.Resources.resources
+G:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.UserControlToolBar.resources
+G:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.vbproj.GenerateResource.Cache
+G:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.exe.manifest
+G:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.application
+G:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.exe
+G:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.xml
+G:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.pdb
+E:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.exe.manifest
+E:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.application
+E:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.exe
+E:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.pdb
+E:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.xml
+E:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.Common.dll
+E:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.DataVisualization.DLL
+E:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+E:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.WebForms.DLL
+E:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.WinForms.DLL
+E:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\bin\Release\zxing.dll
+E:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\bin\Release\zxing.pdb
+E:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\bin\Release\zxing.xml
+E:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.Resources.resources
+E:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.UserControlToolBar.resources
+E:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.vbproj.GenerateResource.Cache
+E:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.exe.manifest
+E:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.application
+E:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.exe
+E:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.xml
+E:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.pdb
+E:\Local Win Applications\Faraona - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.vbprojResolveAssemblyReference.cache
+E:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.exe.manifest
+E:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.application
+E:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.exe
+E:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.pdb
+E:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.xml
+E:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.Common.dll
+E:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.DataVisualization.DLL
+E:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+E:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.WebForms.DLL
+E:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.WinForms.DLL
+E:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\bin\Release\zxing.dll
+E:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\bin\Release\zxing.pdb
+E:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\bin\Release\zxing.xml
+E:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.vbprojResolveAssemblyReference.cache
+E:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.Resources.resources
+E:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.UserControlToolBar.resources
+E:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.vbproj.GenerateResource.Cache
+E:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.exe.manifest
+E:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.application
+E:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.exe
+E:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.xml
+E:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.pdb
+D:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.exe.manifest
+D:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.application
+D:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.exe
+D:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.pdb
+D:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.xml
+D:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.Common.dll
+D:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.DataVisualization.DLL
+D:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.WebForms.DLL
+D:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.WinForms.DLL
+D:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\bin\Release\zxing.dll
+D:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\bin\Release\zxing.pdb
+D:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\bin\Release\zxing.xml
+D:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.Resources.resources
+D:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.UserControlToolBar.resources
+D:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.vbproj.GenerateResource.Cache
+D:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.exe.manifest
+D:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.application
+D:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.exe
+D:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.xml
+D:\Local Win Applications\McLaren - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.pdb
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.exe.manifest
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.application
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.exe
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.pdb
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.xml
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.Common.dll
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.DataVisualization.DLL
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.WebForms.DLL
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.WinForms.DLL
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\zxing.dll
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\zxing.pdb
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\zxing.xml
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.vbprojResolveAssemblyReference.cache
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.Resources.resources
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.UserControlToolBar.resources
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.vbproj.GenerateResource.Cache
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.exe.manifest
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.application
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.exe
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.xml
+D:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.pdb
+F:\___David\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.exe.manifest
+F:\___David\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.application
+F:\___David\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.exe
+F:\___David\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.pdb
+F:\___David\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.xml
+F:\___David\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.Common.dll
+F:\___David\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.DataVisualization.DLL
+F:\___David\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+F:\___David\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.WebForms.DLL
+F:\___David\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.WinForms.DLL
+F:\___David\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\zxing.dll
+F:\___David\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\zxing.pdb
+F:\___David\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\zxing.xml
+F:\___David\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.vbprojResolveAssemblyReference.cache
+F:\___David\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.Resources.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.UserControlToolBar.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.vbproj.GenerateResource.Cache
+F:\___David\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.exe.manifest
+F:\___David\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.application
+F:\___David\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.exe
+F:\___David\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.xml
+F:\___David\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.pdb
+E:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.exe.manifest
+E:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.application
+E:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.exe
+E:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.pdb
+E:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.xml
+E:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.Common.dll
+E:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.DataVisualization.DLL
+E:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+E:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.WebForms.DLL
+E:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.WinForms.DLL
+E:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\zxing.dll
+E:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\zxing.pdb
+E:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\zxing.xml
+E:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.vbprojResolveAssemblyReference.cache
+E:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.Resources.resources
+E:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.UserControlToolBar.resources
+E:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.vbproj.GenerateResource.Cache
+E:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.exe.manifest
+E:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.application
+E:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.exe
+E:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.xml
+E:\Local Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.pdb
+E:\Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.exe.manifest
+E:\Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.application
+E:\Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.exe
+E:\Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.pdb
+E:\Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\MyControlToolBar.xml
+E:\Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.Common.dll
+E:\Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.DataVisualization.DLL
+E:\Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+E:\Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.WebForms.DLL
+E:\Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\Microsoft.ReportViewer.WinForms.DLL
+E:\Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\zxing.dll
+E:\Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\zxing.pdb
+E:\Win Applications\Hidronamic - Facturacion\MyControlToolBar\bin\Release\zxing.xml
+E:\Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.vbprojResolveAssemblyReference.cache
+E:\Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.Resources.resources
+E:\Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.UserControlToolBar.resources
+E:\Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.vbproj.GenerateResource.Cache
+E:\Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.exe.manifest
+E:\Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.application
+E:\Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.exe
+E:\Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.xml
+E:\Win Applications\Hidronamic - Facturacion\MyControlToolBar\obj\Release\MyControlToolBar.pdb

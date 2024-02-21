@@ -1,0 +1,405 @@
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\bin\Debug\BusinessManager.exe.config
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\ResolveAssemblyReference.cache
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmMenu.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmMigrar.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmLiquidarCajaChica.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.Resources.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.vbproj.GenerateResource.Cache
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\bin\Debug\BusinessManager.exe
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\bin\Debug\BusinessManager.pdb
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\bin\Debug\BusinessManager.xml
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.exe
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.xml
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.pdb
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmLogin.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\bin\Debug\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\bin\Debug\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\bin\Debug\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmBase.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmTablaCabecera.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmTablaCabeceras.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmTablaDetalle.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmTablaDetalleLista.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmTablaDetalles.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmControlPeriodos.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmPeriodoTrabajo.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmCuentaComercial.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmCuentaComercialLista.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmFacturacionServicios.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmTipoCambio.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmFacturacionServiciosLista.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmCuentaComercialNV.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmProspectos.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmEjecutarDTS.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmEntregaRendir.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmReembolsoCaja.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmRendicionCuenta.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmReembolsoGasto.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmReembolsoGastoLista.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmCajaChica.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmAnexoLista.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmCuentaContableLista.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmTablaLista.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmControlAccesos.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmExportarCajaChica.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\RdlCompile.cache
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\RdlCompile.compiled
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmImprimirCajaChica.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmCajaChicaDocumentosImprimir.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmCajaChicaMovimientosImprimir.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmEntregasRendirPendientes.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmSUNAT.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\bin\Debug\LibSunat.dll
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\bin\Debug\LibSunat.pdb
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\bin\Debug\LibSunat.xml
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\bin\Debug\office.dll
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Debug\BusinessManager.frmFacturaImprimir.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\bin\Debug\BusinessManager.exe.config
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.exe
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.xml
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.pdb
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\bin\Debug\BusinessManager.exe
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\bin\Debug\BusinessManager.pdb
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\bin\Debug\BusinessManager.xml
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\bin\Debug\LibSunat.dll
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\bin\Debug\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\bin\Debug\office.dll
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\bin\Debug\LibSunat.pdb
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\bin\Debug\LibSunat.xml
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\bin\Debug\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\bin\Debug\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\ResolveAssemblyReference.cache
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmCajaChica.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmEntregaRendir.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmEntregasRendirPendientes.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmExportarCajaChica.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmImprimirCajaChica.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmReembolsoCaja.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmReembolsoGastoLista.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmRendicionCuenta.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmReembolsoGasto.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmProspectos.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmBase.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmControlAccesos.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmControlPeriodos.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmEjecutarDTS.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmLogin.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmMenu.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmMigrar.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmPeriodoTrabajo.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmSUNAT.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmTablaCabecera.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmTablaCabeceras.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmTablaDetalle.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmTablaDetalleLista.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmTablaDetalles.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmTipoCambio.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmAnexoLista.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmCuentaContableLista.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmLiquidarCajaChica.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmTablaLista.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmFacturacionServicios.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmFacturacionServiciosLista.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmCuentaComercial.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmCuentaComercialLista.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmCuentaComercialNV.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.Resources.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmCajaChicaDocumentosImprimir.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmCajaChicaMovimientosImprimir.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmFacturaImprimir.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.vbproj.GenerateResource.Cache
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\RdlCompile.cache
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\RdlCompile.compiled
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmExportarFacturacion.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Debug\BusinessManager.frmDomicilio.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Debug\BusinessManager.exe.config
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.exe
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.xml
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.pdb
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Debug\BusinessManager.exe
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Debug\BusinessManager.pdb
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Debug\BusinessManager.xml
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Debug\LibSunat.dll
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Debug\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Debug\office.dll
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Debug\LibSunat.pdb
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Debug\LibSunat.xml
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Debug\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Debug\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\ResolveAssemblyReference.cache
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmCajaChica.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmReembolsoGastoLista.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmBase.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmControlAccesos.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmControlPeriodos.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmEjecutarDTS.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmLogin.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmMenu.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmMigrar.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmPeriodoTrabajo.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmSUNAT.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmTablaCabeceras.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmTablaDetalleLista.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmTipoCambio.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmAnexoLista.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmCuentaContableLista.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmLiquidarCajaChica.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmTablaLista.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmDomicilio.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmExportarFacturacion.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmFacturacionServiciosLista.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmCuentaComercial.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmCuentaComercialLista.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.Resources.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmCajaChicaDocumentosImprimir.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmCajaChicaMovimientosImprimir.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmFacturaImprimir.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.vbproj.GenerateResource.Cache
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\RdlCompile.cache
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\RdlCompile.compiled
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmProducto.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmProductoLista.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmProductoImprimir.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmCliente.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmProductoCompuesto.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmOrdenPedido.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmSubBase.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmTablaCabecera.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmTablaDetalle.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmTablaDetalles.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmLista.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmOrdenPedidoLista.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmClientes.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmProveedores.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmOperacionAlmacenLista.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmOperacionAlmacen.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmLotesStockLista.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmOperacionAlmacenImprimir.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmStockAlmacenImprimir.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmStockProductos.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmFacturacionPedido.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmBoletaVenta.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmFacturacionProductosLista.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmDomicilioNew.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmGuiaPorVenta.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Debug\BusinessManager.exe.config
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.exe
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.xml
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.pdb
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.vbprojResolveAssemblyReference.cache
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmCajaChica.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmReembolsoGastoLista.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmBase.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmControlAccesos.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmControlPeriodos.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmEjecutarDTS.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmLista.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmLogin.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmMenu.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmMigrar.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmPeriodoTrabajo.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmSubBase.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmSUNAT.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmTablaCabecera.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmTablaCabeceras.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmTablaDetalle.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmTablaDetalleLista.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmTablaDetalles.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmTipoCambio.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmAnexoLista.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmCuentaContableLista.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmLiquidarCajaChica.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmTablaLista.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmBoletaVenta.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmDomicilio.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmDomicilioNew.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmExportarFacturacion.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmFacturacionPedido.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmFacturacionProductosLista.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmFacturacionServiciosLista.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmOrdenPedido.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmOrdenPedidoLista.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmClientes.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmCuentaComercial.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmCuentaComercialLista.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmGuiaPorVenta.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmLotesStockLista.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmOperacionAlmacenLista.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmOperacionAlmacen.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmProducto.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmProductoCompuesto.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmProductoLista.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmCliente.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmProveedores.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmStockProductos.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.Resources.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmCajaChicaDocumentosImprimir.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmCajaChicaMovimientosImprimir.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmFacturaImprimir.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmOperacionAlmacenImprimir.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmProductoImprimir.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmStockAlmacenImprimir.resources
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.vbproj.GenerateResource.Cache
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\RdlCompile.cache
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\RdlCompile.compiled
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Debug\BusinessManager.exe
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Debug\BusinessManager.pdb
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Debug\BusinessManager.xml
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Debug\LibSunat.dll
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Debug\Microsoft.Office.Interop.Excel.dll
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Debug\MyControlToolBar.exe
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Debug\office.dll
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Debug\Microsoft.Vbe.Interop.dll
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Debug\LibSunat.pdb
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Debug\LibSunat.xml
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Debug\MyControlToolBar.pdb
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Debug\MyControlToolBar.xml
+G:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Debug\BusinessManager.frmGuiaLista.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Debug\BusinessManager.exe.config
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Debug\BusinessManager.exe
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Debug\BusinessManager.pdb
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Debug\BusinessManager.xml
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Debug\LibSunat.dll
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Debug\Microsoft.Office.Interop.Excel.dll
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Debug\MyControlToolBar.exe
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Debug\office.dll
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Debug\Microsoft.Vbe.Interop.dll
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Debug\LibSunat.pdb
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Debug\LibSunat.xml
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Debug\MyControlToolBar.pdb
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Debug\MyControlToolBar.xml
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.vbprojResolveAssemblyReference.cache
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmCajaChica.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmReembolsoGastoLista.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmBase.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmControlAccesos.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmControlPeriodos.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmEjecutarDTS.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmLista.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmLogin.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmMenu.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmMigrar.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmPeriodoTrabajo.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmSubBase.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmSUNAT.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmTablaCabecera.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmTablaCabeceras.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmTablaDetalle.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmTablaDetalleLista.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmTablaDetalles.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmTipoCambio.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmAnexoLista.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmCuentaContableLista.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmLiquidarCajaChica.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmTablaLista.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmCotizacionesPendientes.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmBoletaVenta.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmDomicilio.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmDomicilioNew.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmExportarFacturacion.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmFacturacionPedido.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmFacturacionProductosLista.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmFacturacionServiciosLista.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmFacturarProyecto.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmFacturarProyectoLista.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmOrdenPedido.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmOrdenPedidoLista.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmClientes.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmCuentaComercial.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmCuentaComercialLista.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmGuiaLista.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmGuiaPorVenta.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmLotesStockLista.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmOperacionAlmacenLista.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmOperacionAlmacen.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmProducto.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmProductoCompuesto.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmProductoLista.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmCliente.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmProveedores.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmStockProductos.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.Resources.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmCajaChicaDocumentosImprimir.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmCajaChicaMovimientosImprimir.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmFacturaImprimir.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmOperacionAlmacenImprimir.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmProductoImprimir.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.frmStockAlmacenImprimir.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.vbproj.GenerateResource.Cache
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\RdlCompile.cache
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\RdlCompile.compiled
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.exe
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.xml
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Debug\BusinessManager.pdb
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Debug\BusinessManager.exe.config
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.exe
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.xml
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.pdb
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Debug\BusinessManager.exe.manifest
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Debug\BusinessManager.application
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Debug\BusinessManager.exe
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Debug\BusinessManager.pdb
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Debug\BusinessManager.xml
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Debug\Microsoft.ReportViewer.DataVisualization.DLL
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Debug\Microsoft.Web.Services3.dll
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Debug\MyControlToolBar.exe
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Debug\zxing.dll
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Debug\office.dll
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Debug\MyControlToolBar.pdb
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Debug\MyControlToolBar.xml
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Debug\zxing.pdb
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Debug\zxing.xml
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.vbprojResolveAssemblyReference.cache
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmBase.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmControlAccesos.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmControlPeriodos.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmEjecutarDTS.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmLista.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmLogin.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmMenu.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmPeriodoTrabajo.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmSubBase.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmSUNAT.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmTablaCabecera.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmTablaCabeceras.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmTablaDetalle.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmTablaDetalleLista.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmTablaDetalles.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmTipoCambio.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmAnexoLista.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmCliente.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmClientesLista.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmEComprobantes.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmEComprobantesServiciosLista.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmENotaCreditoServicios.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmENotaDebitoServicios.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmGlosaAlterna.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmEnviarXML.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmFirmarXML.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmGenerarXML.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmLeerXML.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmProcesoXML.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmValidarXML.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.Resources.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmEBoletaVentaImprimir.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmEFacturaImprimir.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmENotaCreditoImprimir.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.frmENotaDebitoImprimir.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.vbproj.GenerateResource.Cache
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\RdlCompile.cache
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\RdlCompile.compiled
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.exe.manifest
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Debug\BusinessManager.application

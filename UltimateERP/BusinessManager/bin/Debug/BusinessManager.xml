@@ -1,0 +1,1900 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BusinessManager
+</name>
+</assembly>
+<members>
+<member name="T:BusinessManager.dsStockAlmacen.STOCK_ALMACENDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.STOCK_X_LOTEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.STOCK_X_PRODUCTODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.STOCK_X_COMPUESTODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.STOCK_ALMACEN_NVDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.STOCK_X_ALMACENDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.RESUMEN_X_ALMACENDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.EXISTE_STOCKDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.STOCK_PRODUCTO_ALMACENDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.STOCK_ALMACEN_EXCELDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.STOCK_VEHICULARDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.STOCK_ALMACENRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.STOCK_X_LOTERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.STOCK_X_PRODUCTORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.STOCK_X_COMPUESTORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.STOCK_ALMACEN_NVRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.STOCK_X_ALMACENRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.RESUMEN_X_ALMACENRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.EXISTE_STOCKRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.STOCK_PRODUCTO_ALMACENRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.STOCK_ALMACEN_EXCELRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.STOCK_VEHICULARRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.STOCK_ALMACENRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.STOCK_X_LOTERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.STOCK_X_PRODUCTORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.STOCK_X_COMPUESTORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.STOCK_ALMACEN_NVRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.STOCK_X_ALMACENRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.RESUMEN_X_ALMACENRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.EXISTE_STOCKRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.STOCK_PRODUCTO_ALMACENRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.STOCK_ALMACEN_EXCELRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen.STOCK_VEHICULARRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsStockAlmacen">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:BusinessManager.dsUsuarios.USUARIOSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsUsuarios.USERSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsUsuarios.USUARIOSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsUsuarios.USERSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsUsuarios.USUARIOSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsUsuarios.USERSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsUsuarios">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:BusinessManager.dsControlAcceso.CONTROL_ACCESODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsControlAcceso.CONTROL_ACCESO_LISTADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsControlAcceso.CONTROL_ACCESORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsControlAcceso.CONTROL_ACCESO_LISTARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsControlAcceso.CONTROL_ACCESORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsControlAcceso.CONTROL_ACCESO_LISTARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsControlAcceso">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:BusinessManager.dsCuentasComerciales.CUENTAS_COMERCIALES_LISTADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsCuentasComerciales.CUENTAS_COMERCIALES_DOMDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsCuentasComerciales.DIRECCION_ENVIODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsCuentasComerciales.MyDTCuentasComercialesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsCuentasComerciales.CLIENTESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsCuentasComerciales.CUENTAS_COMERCIALESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsCuentasComerciales.CUENTAS_COMERCIALES_LISTARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsCuentasComerciales.CUENTAS_COMERCIALES_DOMRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsCuentasComerciales.DIRECCION_ENVIORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsCuentasComerciales.MyDTCuentasComercialesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsCuentasComerciales.CLIENTESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsCuentasComerciales.CUENTAS_COMERCIALESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsCuentasComerciales.CUENTAS_COMERCIALES_LISTARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsCuentasComerciales.CUENTAS_COMERCIALES_DOMRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsCuentasComerciales.DIRECCION_ENVIORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsCuentasComerciales.MyDTCuentasComercialesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsCuentasComerciales.CLIENTESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsCuentasComerciales.CUENTAS_COMERCIALESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsCuentasComerciales">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:BusinessManager.dsPeriodos.PERIODOSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsPeriodos.PERIODOSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsPeriodos.PERIODOSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsPeriodos">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="P:BusinessManager.ServiceSUNAT_Comprobantes.statusResponse.content">
+	<comentarios/>
+</member><member name="P:BusinessManager.ServiceSUNAT_Comprobantes.statusResponse.statusCode">
+	<comentarios/>
+</member><member name="T:BusinessManager.ServiceSUNAT_Comprobantes.statusResponse">
+	<comentarios/>
+</member><member name="P:BusinessManager.ServiceSUNAT_Validez_Comprobantes.statusResponse.content">
+	<comentarios/>
+</member><member name="P:BusinessManager.ServiceSUNAT_Validez_Comprobantes.statusResponse.statusCode">
+	<comentarios/>
+</member><member name="P:BusinessManager.ServiceSUNAT_Validez_Comprobantes.statusResponse.statusMessage">
+	<comentarios/>
+</member><member name="T:BusinessManager.ServiceSUNAT_Validez_Comprobantes.statusResponse">
+	<comentarios/>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIAS_LISTADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIAS_DETDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIAS_DET_SERIESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.COMPROBANTEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.COMPROBANTE_SERIESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIA_DETALLADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIA_REMITENTE_LISTADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIASDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIAS_TRASLADODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIAS_TRASLADO_INTERNODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIAS_SUNATDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIAS_INFORMEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIAS_LISTARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIAS_DETRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIAS_DET_SERIESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.COMPROBANTERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.COMPROBANTE_SERIESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIA_DETALLARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIA_REMITENTE_LISTARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIASRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIAS_TRASLADORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIAS_TRASLADO_INTERNORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIAS_SUNATRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIAS_INFORMERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIAS_LISTARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIAS_DETRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIAS_DET_SERIESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.COMPROBANTERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.COMPROBANTE_SERIESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIA_DETALLARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIA_REMITENTE_LISTARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIASRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIAS_TRASLADORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIAS_TRASLADO_INTERNORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIAS_SUNATRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente.GUIAS_INFORMERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsGuiasRemitente">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.NOTA_ALMACEN_DETDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.OPERACIONES_ALMACEN_DETDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.OPERACIONES_ALMACEN_DET_SERIESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.OPERACIONES_ALMACENDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.OPERACIONES_ALMACENESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.DETALLES_IMPRIMIRDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.DETALLE_OPERACIONDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.COMPRAS_PROVEEDORDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.OPERACIONES_ALMACEN_TRADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.OPERACIONES_ALMACEN_SALDO_FINALDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.OPERACIONES_ALMACEN_SIDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.OPERACIONES_ALMACEN_COMDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.NOTA_ALMACEN_DETRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.OPERACIONES_ALMACEN_DETRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.OPERACIONES_ALMACEN_DET_SERIESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.OPERACIONES_ALMACENRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.OPERACIONES_ALMACENESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.DETALLES_IMPRIMIRRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.DETALLE_OPERACIONRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.COMPRAS_PROVEEDORRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.OPERACIONES_ALMACEN_TRARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.OPERACIONES_ALMACEN_SALDO_FINALRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.OPERACIONES_ALMACEN_SIRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.OPERACIONES_ALMACEN_COMRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.NOTA_ALMACEN_DETRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.OPERACIONES_ALMACEN_DETRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.OPERACIONES_ALMACEN_DET_SERIESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.OPERACIONES_ALMACENRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.OPERACIONES_ALMACENESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.DETALLES_IMPRIMIRRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.DETALLE_OPERACIONRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.COMPRAS_PROVEEDORRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.OPERACIONES_ALMACEN_TRARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.OPERACIONES_ALMACEN_SALDO_FINALRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.OPERACIONES_ALMACEN_SIRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen.OPERACIONES_ALMACEN_COMRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsOperacionesAlmacen">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:BusinessManager.dsTipoCambio.TIPO_CAMBIODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsTipoCambio.TIPO_CAMBIORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsTipoCambio.TIPO_CAMBIORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsTipoCambio">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:BusinessManager.dsControlSeries.CONTROL_SERIESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsControlSeries.PRODUCTOS_SERIEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsControlSeries.SERIES_HISTORICODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsControlSeries.CONTROL_SERIESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsControlSeries.PRODUCTOS_SERIERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsControlSeries.SERIES_HISTORICORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsControlSeries.CONTROL_SERIESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsControlSeries.PRODUCTOS_SERIERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsControlSeries.SERIES_HISTORICORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsControlSeries">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:BusinessManager.dsEmpresas.EMPRESASDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsEmpresas.EMPRESASRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsEmpresas.EMPRESASRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsEmpresas">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.TIPO_PRESTAMODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.PROFORMAS_LISTADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.PROFORMA_PROYECCIONDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.PRESTAMOS_LISTADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.PROFORMASDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.PRESTAMOS_CUOTASDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.PRESTAMOS_CUOTAS_LISTADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.COBRANZASDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.COBRANZAS_LISTADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.CLIENTESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.GARANTESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.PRESTAMOSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.COBRANZAS_DETALLESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.COBRANZAS_DIARIASDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.COBRANZAS_PAGODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.COBRANZAS_PRONTO_PAGODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.DEUDA_CLIENTEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.TIPO_PRESTAMORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.PROFORMAS_LISTARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.PROFORMA_PROYECCIONRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.PRESTAMOS_LISTARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.PROFORMASRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.PRESTAMOS_CUOTASRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.PRESTAMOS_CUOTAS_LISTARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.COBRANZASRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.COBRANZAS_LISTARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.CLIENTESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.GARANTESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.PRESTAMOSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.COBRANZAS_DETALLESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.COBRANZAS_DIARIASRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.COBRANZAS_PAGORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.COBRANZAS_PRONTO_PAGORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.DEUDA_CLIENTERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.TIPO_PRESTAMORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.PROFORMAS_LISTARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.PROFORMA_PROYECCIONRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.PRESTAMOS_LISTARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.PROFORMASRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.PRESTAMOS_CUOTASRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.PRESTAMOS_CUOTAS_LISTARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.COBRANZASRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.COBRANZAS_LISTARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.CLIENTESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.GARANTESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.PRESTAMOSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.COBRANZAS_DETALLESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.COBRANZAS_DIARIASRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.COBRANZAS_PAGORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.COBRANZAS_PRONTO_PAGORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero.DEUDA_CLIENTERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsFinanciero">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:BusinessManager.dsProductos.COMPUESTOSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsProductos.PRODUCTOS_LISTADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsProductos.CONTROL_SERIESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsProductos.SERIESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsProductos.MyDTProductosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsProductos.COMPONENTESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsProductos.PRODUCTO_COMPONENTESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsProductos.PRODUCTOS_IMPRIMIRDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsProductos.PRODUCTOS_BUSCARDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsProductos.PRODUCTOSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsProductos.SERIES_VEHICULARDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsProductos.CONTROL_VEHICULOSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsProductos.COMPUESTOSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsProductos.PRODUCTOS_LISTARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsProductos.CONTROL_SERIESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsProductos.SERIESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsProductos.MyDTProductosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsProductos.COMPONENTESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsProductos.PRODUCTO_COMPONENTESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsProductos.PRODUCTOS_IMPRIMIRRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsProductos.PRODUCTOS_BUSCARRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsProductos.PRODUCTOSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsProductos.SERIES_VEHICULARRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsProductos.CONTROL_VEHICULOSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsProductos.COMPUESTOSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsProductos.PRODUCTOS_LISTARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsProductos.CONTROL_SERIESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsProductos.SERIESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsProductos.MyDTProductosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsProductos.COMPONENTESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsProductos.PRODUCTO_COMPONENTESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsProductos.PRODUCTOS_IMPRIMIRRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsProductos.PRODUCTOS_BUSCARRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsProductos.PRODUCTOSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsProductos.SERIES_VEHICULARRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsProductos.CONTROL_VEHICULOSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsProductos">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.MOVIMIENTOS_TRANSFERENCIADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.MOVIMIENTOS_PRODUCTODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.SALDOS_VALORIZADOSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.TABLA_ALMACENESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.COSTO_IMPORTACIONDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.SALDO_VALORIZADODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.SALDO_VALORIZADO_DETALLESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.KARDEX_VALORIZADO_DETALLESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.UTILIDAD_PRODUCTODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.INVENTARIO_VALORIZADODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.COSTO_OPERACIONES_ANTERIORESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.UTILIDAD_CLIENTEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.UTILIDAD_VENDEDORDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.UTILIDAD_DOCUMENTODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.KARDEX_VENTASDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.TRANSFERENCIAS_DESTINODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.UTILIDAD_ESPECIFICADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.MOVIMIENTOS_TRANSFERENCIARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.MOVIMIENTOS_PRODUCTORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.SALDOS_VALORIZADOSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.TABLA_ALMACENESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.COSTO_IMPORTACIONRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.SALDO_VALORIZADORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.SALDO_VALORIZADO_DETALLESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.KARDEX_VALORIZADO_DETALLESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.UTILIDAD_PRODUCTORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.INVENTARIO_VALORIZADORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.COSTO_OPERACIONES_ANTERIORESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.UTILIDAD_CLIENTERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.UTILIDAD_VENDEDORRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.UTILIDAD_DOCUMENTORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.KARDEX_VENTASRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.TRANSFERENCIAS_DESTINORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.UTILIDAD_ESPECIFICARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsCostos.MOVIMIENTOS_TRANSFERENCIARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsCostos.MOVIMIENTOS_PRODUCTORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsCostos.SALDOS_VALORIZADOSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsCostos.TABLA_ALMACENESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsCostos.COSTO_IMPORTACIONRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsCostos.SALDO_VALORIZADORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsCostos.SALDO_VALORIZADO_DETALLESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsCostos.KARDEX_VALORIZADO_DETALLESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsCostos.UTILIDAD_PRODUCTORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsCostos.INVENTARIO_VALORIZADORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsCostos.COSTO_OPERACIONES_ANTERIORESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsCostos.UTILIDAD_CLIENTERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsCostos.UTILIDAD_VENDEDORRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsCostos.UTILIDAD_DOCUMENTORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsCostos.KARDEX_VENTASRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsCostos.TRANSFERENCIAS_DESTINORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsCostos.UTILIDAD_ESPECIFICARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsCostos">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:BusinessManager.dsEComprobantes.ECOMPROBANTESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsEComprobantes.ECOMPROBANTES_FIRMADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsEComprobantes.ECOMPROBANTES_LISTADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsEComprobantes.ECOMPROBANTESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsEComprobantes.ECOMPROBANTES_FIRMARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsEComprobantes.ECOMPROBANTES_LISTARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsEComprobantes.ECOMPROBANTESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsEComprobantes.ECOMPROBANTES_FIRMARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsEComprobantes.ECOMPROBANTES_LISTARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsEComprobantes">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:BusinessManager.dsTablasGenericas.LISTADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasGenericas.TABLA_ALMACENESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasGenericas.TABLA_TIPO_GUIADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasGenericas.TABLAS_DETALLE_LISTADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasGenericas.TABLAS_DETALLEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasGenericas.TABLAS_CABECERADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasGenericas.TABLAS_CABECERA_LISTADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasGenericas.DETALLESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasGenericas.LISTARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasGenericas.TABLA_ALMACENESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasGenericas.TABLA_TIPO_GUIARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasGenericas.TABLAS_DETALLE_LISTARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasGenericas.TABLAS_DETALLERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasGenericas.TABLAS_CABECERARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasGenericas.TABLAS_CABECERA_LISTARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasGenericas.DETALLESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasGenericas.LISTARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsTablasGenericas.TABLA_ALMACENESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsTablasGenericas.TABLA_TIPO_GUIARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsTablasGenericas.TABLAS_DETALLE_LISTARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsTablasGenericas.TABLAS_DETALLERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsTablasGenericas.TABLAS_CABECERARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsTablasGenericas.TABLAS_CABECERA_LISTARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsTablasGenericas.DETALLESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsTablasGenericas">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTA_DETDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTA_DET_SERIESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTASDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTAS_LISTADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.COMPROBANTEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTA_DETALLADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.COMPROBANTE_SERIESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTAS_GUIASDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTAS_VEHICULOSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTAS_DEVOLUCIONDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTAS_RESUMENDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTAS_INFORMEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.COMPROBANTE_DETALLESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.RELACION_SERIESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTAS_INIDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.SEPARACIONESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.ECOMPROBANTES_RESUMEN_DIARIODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTAS_PAGO_RESUMENDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTA_DETRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTA_DET_SERIESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTASRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTAS_LISTARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.COMPROBANTERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTA_DETALLARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.COMPROBANTE_SERIESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTAS_GUIASRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTAS_VEHICULOSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTAS_DEVOLUCIONRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTAS_RESUMENRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTAS_INFORMERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.COMPROBANTE_DETALLESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.RELACION_SERIESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTAS_INIRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.SEPARACIONESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.ECOMPROBANTES_RESUMEN_DIARIORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTAS_PAGO_RESUMENRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTA_DETRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTA_DET_SERIESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTASRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTAS_LISTARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsVentas.COMPROBANTERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTA_DETALLARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsVentas.COMPROBANTE_SERIESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTAS_GUIASRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTAS_VEHICULOSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTAS_DEVOLUCIONRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTAS_RESUMENRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTAS_INFORMERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsVentas.COMPROBANTE_DETALLESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsVentas.RELACION_SERIESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTAS_INIRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsVentas.SEPARACIONESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsVentas.ECOMPROBANTES_RESUMEN_DIARIORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsVentas.VENTAS_PAGO_RESUMENRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsVentas">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="P:BusinessManager.ServiceSUNAT_Guias.statusResponse.content">
+	<comentarios/>
+</member><member name="P:BusinessManager.ServiceSUNAT_Guias.statusResponse.statusCode">
+	<comentarios/>
+</member><member name="T:BusinessManager.ServiceSUNAT_Guias.statusResponse">
+	<comentarios/>
+</member><member name="T:BusinessManager.dsPadronReducidoRUC.PADRON_REDUCIDO_RUCDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsPadronReducidoRUC.CONSULTAR_DATOS_RUCDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsPadronReducidoRUC.PADRON_REDUCIDO_RUCRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsPadronReducidoRUC.CONSULTAR_DATOS_RUCRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsPadronReducidoRUC.PADRON_REDUCIDO_RUCRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsPadronReducidoRUC.CONSULTAR_DATOS_RUCRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsPadronReducidoRUC">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="P:BusinessManager.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:BusinessManager.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member><member name="P:BusinessManager.My.Resources.Resources.smallFail">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BusinessManager.My.Resources.Resources.tick">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="T:BusinessManager.My.Resources.Resources">
+	<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="P:BusinessManager.ServiceSUNAT_ConsultaCDR.statusResponse.content">
+	<comentarios/>
+</member><member name="P:BusinessManager.ServiceSUNAT_ConsultaCDR.statusResponse.statusCode">
+	<comentarios/>
+</member><member name="P:BusinessManager.ServiceSUNAT_ConsultaCDR.statusResponse.statusMessage">
+	<comentarios/>
+</member><member name="T:BusinessManager.ServiceSUNAT_ConsultaCDR.statusResponse">
+	<comentarios/>
+</member><member name="T:BusinessManager.dsAgencias.AGENCIASDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsAgencias.AGENCIASRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsAgencias.AGENCIASRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsAgencias">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:BusinessManager.dsCompras.COMPRAS_LOCALESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsCompras.COMPRAS_LOCALESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsCompras.COMPRAS_LOCALESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsCompras">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:BusinessManager.dsCorrelativo.CORRELATIVODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsCorrelativo.CORRELATIVO_CONCARDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsCorrelativo.CORRELATIVORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsCorrelativo.CORRELATIVO_CONCARRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsCorrelativo.CORRELATIVORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsCorrelativo.CORRELATIVO_CONCARRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsCorrelativo">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:BusinessManager.dsKardexProductoAlmacen.MOVIMIENTOS_PRODUCTODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsKardexProductoAlmacen.MOVIMIENTOS_PRODUCTOSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsKardexProductoAlmacen.MOVIMIENTOS_PRODUCTORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsKardexProductoAlmacen.MOVIMIENTOS_PRODUCTOSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsKardexProductoAlmacen.MOVIMIENTOS_PRODUCTORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsKardexProductoAlmacen.MOVIMIENTOS_PRODUCTOSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsKardexProductoAlmacen">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.trbdpreDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.maecliDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.maeconDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.maedisDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.trbdescDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.trbdopeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.trbopeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.trbopusrDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.maegarDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.maeperDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.trbcpreDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.trbcpre1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.trbdpreRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.maecliRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.maeconRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.maedisRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.trbdescRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.trbdopeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.trbopeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.trbopusrRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.maegarRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.maeperRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.trbcpreRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.trbcpre1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.trbdpreRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.maecliRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.maeconRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.maedisRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.trbdescRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.trbdopeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.trbopeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.trbopusrRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.maegarRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.maeperRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.trbcpreRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP.trbcpre1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BusinessManager.dsTablasVFP">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+</members>
+</doc>

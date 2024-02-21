@@ -1,0 +1,106 @@
+﻿<script>
+    $(document).ready(function () {
+        $('#content').height($(window).height());
+        $("#clie").html(correo);
+    });
+
+    var generado = '@ViewBag.generado';
+    var cliente = '@ViewBag.cliente';
+    var correo = '@ViewBag.correo';
+</script>
+
+<!--VENTANA MODAL PARA ADJUNTAR CORREOS-->
+<div id="adjuntarCorreo" class="modal fade" role="dialog" style="display:none" tabindex="-1" data-backdrop="static">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="text-align:center;">
+                <a class="close" data-dismiss="modal">&times;</a>
+                <h3>Enviar Proforma</h3>
+            </div>
+            <div class="modal-body">
+                <div id="modal-correo">
+                    <div class="row form-inline" style="padding-left:15px;padding-bottom:15px;">
+                        <div class="form-group">
+                            <label>Cc:</label>
+                            @Html.DropDownList("USUARIO", (SelectList)ViewBag.usuarios, new { @class = "form-control", @style = "width:150px;", @onchange = "Cambio();" })
+                            <input type="text" id="otros" class="form-control" style="width:270px;display:none;" placeholder="Ingresar correo">
+                            <a class="btn btn-default" onclick="AgregarCorreos();">
+                                <img src="~/Imagenes/add_icon.png" style="height:15px;width:15px;" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="table-responsive" style="padding-left:26px;">
+                        <table class="table table-bordered" id="tablaCorreo" style="width:270px;">
+                            <tr>
+                                <th style="width:215px;">l.lopez@hidronamic.com</th>
+                                <td style="width:30px;"><a href="#"><img src="~/Imagenes/delete-email.png" /></a></td>
+                            </tr>
+                            <tr>
+                                <th style="width:215px;" id="clie"></th>
+                                <td style="width:30px;"><a href="#"><img src="~/Imagenes/delete-email.png" /></a></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="form-group">
+                        <label>Asunto:</label>
+                        <input type="text" class="form-control" placeholder="Agregar asunto" id="asunto" />
+                    </div>
+                    <div class="form-group">
+                        <label>Mensaje:</label>
+                        <textarea class="form-control" cols="20" placeholder="Agregar mensaje" id="cuerpo" rows="7"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                @*<button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>*@
+                <button type="submit" class="btn btn-success" onclick="Enviar();">Enviar</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- VENTANA MODAL PARA MENSAJE DE CONFIRMACIÓN-->
+<div id="msgConfirm" class="modal fade" role="dialog" style="display:none" tabindex="-1" data-backdrop="static">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a class="close" data-dismiss="modal">&times;</a>
+                <h4>Mensaje...</h4>
+            </div>
+            <div class="modal-body">
+                <p>¿Desea enviar esta liquidación?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-success" data-dismiss="modal" onclick="Enviar();">Sí</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div align="center">
+    <a href="/EstadoCuenta/EstadosCuentas">
+        <button type="button" class="btn btn-default" aria-label="Left Align">
+            <img src="~/Imagenes/return_icon.png" /> <strong>REGRESAR</strong>
+        </button>
+    </a>
+    &nbsp;
+    <a data-toggle="modal" href="#adjuntarCorreo">
+        <button type="button" class="btn btn-default" aria-label="Left Align">
+            <img src="~/Imagenes/send_icon.png" /> <strong>ENVIAR EMAIL</strong>
+        </button>
+    </a>
+</div>
+<br />
+
+<div style="text-align:center;">
+    <a href="#" onclick="VerPDF();">
+        <button type="button" class="btn btn-default" aria-label="Left Align">
+            <img src="~/Imagenes/details.png" /> VER PDF
+        </button>
+    </a>
+</div>
+
+<script src="~/Scripts/SrcLiquidacionPDF.js"></script>
+

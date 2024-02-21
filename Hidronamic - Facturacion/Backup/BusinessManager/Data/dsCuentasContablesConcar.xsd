@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCuentasContablesConcar" targetNamespace="http://tempuri.org/dsCuentasContablesConcar.xsd" xmlns:mstns="http://tempuri.org/dsCuentasContablesConcar.xsd" xmlns="http://tempuri.org/dsCuentasContablesConcar.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCuentasContablesConcar" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsCuentasContablesConcar" msprop:Generator_UserDSName="dsCuentasContablesConcar" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CUENTAS_CONTABLES" msprop:Generator_UserTableName="CUENTAS_CONTABLES" msprop:Generator_RowDeletedName="CUENTAS_CONTABLESRowDeleted" msprop:Generator_TableClassName="CUENTAS_CONTABLESDataTable" msprop:Generator_RowChangedName="CUENTAS_CONTABLESRowChanged" msprop:Generator_RowClassName="CUENTAS_CONTABLESRow" msprop:Generator_RowChangingName="CUENTAS_CONTABLESRowChanging" msprop:Generator_RowEvArgName="CUENTAS_CONTABLESRowChangeEvent" msprop:Generator_RowEvHandlerName="CUENTAS_CONTABLESRowChangeEventHandler" msprop:Generator_TablePropName="CUENTAS_CONTABLES" msprop:Generator_TableVarName="tableCUENTAS_CONTABLES" msprop:Generator_RowDeletingName="CUENTAS_CONTABLESRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="pcuenta" msprop:Generator_UserColumnName="pcuenta" msprop:Generator_ColumnPropNameInRow="pcuenta" msprop:Generator_ColumnVarNameInTable="columnpcuenta" msprop:Generator_ColumnPropNameInTable="pcuentaColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pdescri" msprop:Generator_UserColumnName="pdescri" msprop:Generator_ColumnPropNameInRow="pdescri" msprop:Generator_ColumnVarNameInTable="columnpdescri" msprop:Generator_ColumnPropNameInTable="pdescriColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pvanexo" msprop:Generator_UserColumnName="pvanexo" msprop:Generator_ColumnPropNameInRow="pvanexo" msprop:Generator_ColumnVarNameInTable="columnpvanexo" msprop:Generator_ColumnPropNameInTable="pvanexoColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pvnivel" msprop:Generator_UserColumnName="pvnivel" msprop:Generator_ColumnPropNameInRow="pvnivel" msprop:Generator_ColumnVarNameInTable="columnpvnivel" msprop:Generator_ColumnPropNameInTable="pvnivelColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pvdocref" msprop:Generator_UserColumnName="pvdocref" msprop:Generator_ColumnPropNameInRow="pvdocref" msprop:Generator_ColumnVarNameInTable="columnpvdocref" msprop:Generator_ColumnPropNameInTable="pvdocrefColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pldoc" msprop:Generator_UserColumnName="pldoc" msprop:Generator_ColumnPropNameInRow="pldoc" msprop:Generator_ColumnVarNameInTable="columnpldoc" msprop:Generator_ColumnPropNameInTable="pldocColumn" type="xs:decimal" />
+              <xs:element name="pvfecven" msprop:Generator_UserColumnName="pvfecven" msprop:Generator_ColumnPropNameInRow="pvfecven" msprop:Generator_ColumnVarNameInTable="columnpvfecven" msprop:Generator_ColumnPropNameInTable="pvfecvenColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pmonref" msprop:Generator_UserColumnName="pmonref" msprop:Generator_ColumnPropNameInRow="pmonref" msprop:Generator_ColumnVarNameInTable="columnpmonref" msprop:Generator_ColumnPropNameInTable="pmonrefColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pctacar" msprop:Generator_UserColumnName="pctacar" msprop:Generator_ColumnPropNameInRow="pctacar" msprop:Generator_ColumnVarNameInTable="columnpctacar" msprop:Generator_ColumnPropNameInTable="pctacarColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pctaabo" msprop:Generator_UserColumnName="pctaabo" msprop:Generator_ColumnPropNameInRow="pctaabo" msprop:Generator_ColumnVarNameInTable="columnpctaabo" msprop:Generator_ColumnPropNameInTable="pctaaboColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pvcencos" msprop:Generator_UserColumnName="pvcencos" msprop:Generator_ColumnPropNameInRow="pvcencos" msprop:Generator_ColumnVarNameInTable="columnpvcencos" msprop:Generator_ColumnPropNameInTable="pvcencosColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pvregcta" msprop:Generator_UserColumnName="pvregcta" msprop:Generator_ColumnPropNameInRow="pvregcta" msprop:Generator_ColumnVarNameInTable="columnpvregcta" msprop:Generator_ColumnPropNameInTable="pvregctaColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pvtipcta" msprop:Generator_UserColumnName="pvtipcta" msprop:Generator_ColumnPropNameInRow="pvtipcta" msprop:Generator_ColumnVarNameInTable="columnpvtipcta" msprop:Generator_ColumnPropNameInTable="pvtipctaColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pvctaaju" msprop:Generator_UserColumnName="pvctaaju" msprop:Generator_ColumnPropNameInRow="pvctaaju" msprop:Generator_ColumnVarNameInTable="columnpvctaaju" msprop:Generator_ColumnPropNameInTable="pvctaajuColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pvarea" msprop:Generator_UserColumnName="pvarea" msprop:Generator_ColumnPropNameInRow="pvarea" msprop:Generator_ColumnVarNameInTable="columnpvarea" msprop:Generator_ColumnPropNameInTable="pvareaColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pvconban" msprop:Generator_UserColumnName="pvconban" msprop:Generator_ColumnPropNameInRow="pvconban" msprop:Generator_ColumnVarNameInTable="columnpvconban" msprop:Generator_ColumnPropNameInTable="pvconbanColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pestado" msprop:Generator_UserColumnName="pestado" msprop:Generator_ColumnPropNameInRow="pestado" msprop:Generator_ColumnVarNameInTable="columnpestado" msprop:Generator_ColumnPropNameInTable="pestadoColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:CUENTAS_CONTABLES" />
+      <xs:field xpath="mstns:pcuenta" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

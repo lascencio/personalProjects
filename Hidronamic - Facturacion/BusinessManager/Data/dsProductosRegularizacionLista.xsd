@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsProductosRegularizacionLista" targetNamespace="http://tempuri.org/dsProductosRegularizacionLista.xsd" xmlns:mstns="http://tempuri.org/dsProductosRegularizacionLista.xsd" xmlns="http://tempuri.org/dsProductosRegularizacionLista.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="cnnMySQL_DES" IsAppSettingsProperty="true" Modifier="Assembly" Name="cnnMySQL_DES (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BusinessManager.My.MySettings.GlobalReference.Default.cnnMySQL_DES" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsProductosRegularizacionLista" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsProductosRegularizacionLista" msprop:Generator_DataSetName="dsProductosRegularizacionLista" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PRODUCTOS_REGULARIZAR_LISTA" msprop:Generator_UserTableName="PRODUCTOS_REGULARIZAR_LISTA" msprop:Generator_RowDeletedName="PRODUCTOS_REGULARIZAR_LISTARowDeleted" msprop:Generator_RowChangedName="PRODUCTOS_REGULARIZAR_LISTARowChanged" msprop:Generator_RowClassName="PRODUCTOS_REGULARIZAR_LISTARow" msprop:Generator_RowChangingName="PRODUCTOS_REGULARIZAR_LISTARowChanging" msprop:Generator_RowEvArgName="PRODUCTOS_REGULARIZAR_LISTARowChangeEvent" msprop:Generator_RowEvHandlerName="PRODUCTOS_REGULARIZAR_LISTARowChangeEventHandler" msprop:Generator_TableClassName="PRODUCTOS_REGULARIZAR_LISTADataTable" msprop:Generator_TableVarName="tablePRODUCTOS_REGULARIZAR_LISTA" msprop:Generator_RowDeletingName="PRODUCTOS_REGULARIZAR_LISTARowDeleting" msprop:Generator_TablePropName="PRODUCTOS_REGULARIZAR_LISTA">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PRODUCTO" msprop:Generator_UserColumnName="PRODUCTO" msprop:Generator_ColumnVarNameInTable="columnPRODUCTO" msprop:Generator_ColumnPropNameInRow="PRODUCTO" msprop:Generator_ColumnPropNameInTable="PRODUCTOColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DESCRIPCION_AMPLIADA" msprop:Generator_UserColumnName="DESCRIPCION_AMPLIADA" msprop:Generator_ColumnVarNameInTable="columnDESCRIPCION_AMPLIADA" msprop:Generator_ColumnPropNameInRow="DESCRIPCION_AMPLIADA" msprop:Generator_ColumnPropNameInTable="DESCRIPCION_AMPLIADAColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CANTIDAD" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CANTIDAD" msprop:Generator_ColumnVarNameInTable="columnCANTIDAD" msprop:Generator_ColumnPropNameInRow="CANTIDAD" msprop:Generator_ColumnPropNameInTable="CANTIDADColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="UNIDAD_MEDIDA" msprop:Generator_UserColumnName="UNIDAD_MEDIDA" msprop:Generator_ColumnVarNameInTable="columnUNIDAD_MEDIDA" msprop:Generator_ColumnPropNameInRow="UNIDAD_MEDIDA" msprop:Generator_ColumnPropNameInTable="UNIDAD_MEDIDAColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UNIDAD_COMPRA" msprop:Generator_UserColumnName="UNIDAD_COMPRA" msprop:Generator_ColumnVarNameInTable="columnUNIDAD_COMPRA" msprop:Generator_ColumnPropNameInRow="UNIDAD_COMPRA" msprop:Generator_ColumnPropNameInTable="UNIDAD_COMPRAColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UNIDAD_VENTA" msprop:Generator_UserColumnName="UNIDAD_VENTA" msprop:Generator_ColumnVarNameInTable="columnUNIDAD_VENTA" msprop:Generator_ColumnPropNameInRow="UNIDAD_VENTA" msprop:Generator_ColumnPropNameInTable="UNIDAD_VENTAColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOCK_ACTUAL" msdata:ReadOnly="true" msprop:Generator_UserColumnName="STOCK_ACTUAL" msprop:Generator_ColumnVarNameInTable="columnSTOCK_ACTUAL" msprop:Generator_ColumnPropNameInRow="STOCK_ACTUAL" msprop:Generator_ColumnPropNameInTable="STOCK_ACTUALColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

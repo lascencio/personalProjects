@@ -1,0 +1,245 @@
+﻿@model WebAppHIDRONAMIC.Entities.ClienteDTO
+
+<link href="~/fonts/MyStyles.css?new" rel="stylesheet" />
+
+<script>
+    $(document).ready(function () {
+        var mensaje = '@ViewBag.mensaje';
+        if (mensaje != "") {
+            $("#MENSAJE_R").css("display", "block");
+            //$("#MENSAJE_R").fadeTo(2000, 500).slideUp(500, function () {
+            //    $("#MENSAJE_R").slideUp(500);
+            //});
+        }
+    });
+</script>
+
+<!-- VENTANA MODAL PARA MODIFICAR INFORMACIÓN DE CLIENTE-->
+<div id="ventanaCliente" class="modal fade" role="dialog" style="display:none" tabindex="-1" data-backdrop="static">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="text-align:center;">
+                <a class="close" data-dismiss="modal">&times;</a>
+                <h3>Modificar Datos</h3>
+            </div>
+            <div class="modal-body">
+                <div id="modal-cliente">
+                    Espere porfavor...
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- VENTANA MODAL PARA MODIFICAR PISCINA(S) DE UN CLIENTE-->
+<div id="ventanaPiscinasCliente" class="modal fade" role="dialog" style="display:none;" tabindex="-1" data-backdrop="static">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="text-align:center;">
+                <a class="close" data-dismiss="modal">&times;</a>
+                <h3>Información Piscina(s)</h3>
+            </div>
+            <div class="modal-body">
+                <div id="modal-piscinasCliente">
+                    Espere porfavor...
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- VENTANA MODAL PARA AUDITORÍA DEL CLIENTE-->
+<div id="ventanaAuditoria" class="modal fade" role="dialog" style="display:none" tabindex="-1" data-backdrop="static">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="text-align:center;">
+                <a class="close" data-dismiss="modal">&times;</a>
+                <h3>Última Modificación</h3>
+            </div>
+            <div class="modal-body">
+                <div id="modal-auditoria">
+                    <div class="table-responsive table-bordered">
+                        <table class="table" id="detallesTable">
+                            <thead>
+                                <tr>
+                                    <th>Fecha</th>
+                                    <th>Usuario</th>
+                                </tr>
+                            </thead>
+                            <tbody id="auditorias" class="content"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- FORMULARIO PRINCIPAL DE REGISTRO-->
+<div class="col-lg-12">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            CLIENTES
+        </div>
+        <div class="panel-body">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <ul class="nav nav-tabs">
+                <li class="active">
+                    <a href="#home" data-toggle="tab" aria-expanded="true">Registrar</a>
+                </li>
+                <li class="">
+                    <a href="#profile" data-toggle="tab" aria-expanded="false">Listado</a>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <!--TAB PANEL PARA REGISTRO-->
+                <div class="tab-pane fade active in" id="home">
+                    <br />
+                    <!--BLOQUE DE RESULTADOS-->
+                    <div class="alert alert-success alert-dismissible" style="display:none" id="MENSAJE_R">
+                        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                        <strong>Cliente registrado correctamente!</strong>
+                    </div>
+
+                    <!--FORMULARIO DE REGISTRO-->
+                    <form action="/Clientes/RegistrarCliente" method="post">
+
+                        <!-- VENTANA MODAL PARA MENSAJE DE CONFIRMACIÓN-->
+                        <div id="msgConfirm" class="modal fade" role="dialog" style="display:none" tabindex="-1" data-backdrop="static">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <a class="close" data-dismiss="modal">&times;</a>
+                                        <h4>Mensaje...</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>¿Desea registrar este cliente?</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="submit" class="btn btn-success">Sí</button>
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Tipo de Documento:</label>
+                            @Html.DropDownList("TIPO_DOCUMENTO", (SelectList)ViewBag.documentos, new { @class = "form-control" })
+                        </div>
+
+                        <div class="form-group">
+                            <label>Número de Documento:</label>
+                            <input class="form-control" type="number" id="NRO_DOCUMENTO" name="NRO_DOCUMENTO" placeholder="Número de documento" required>
+                            @Html.ValidationMessageFor(model => model.NRO_DOCUMENTO, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="form-group">
+                            <label>Nombre o Razón Social:</label>
+                            <input class="form-control" type="text" id="RAZON_SOCIAL" name="RAZON_SOCIAL" placeholder="Nombre o razón social" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Dirección Exacta:</label>
+                            <input class="form-control" type="text" id="DOMICILIO" name="DOMICILIO" placeholder="Dirección exacta" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Teléfono:</label>
+                            <input class="form-control" type="number" id="TELEFONO" name="TELEFONO" placeholder="Teléfono">
+                            @Html.ValidationMessageFor(model => model.TELEFONO, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="form-group">
+                            <label>Celular:</label>
+                            <input class="form-control" type="number" id="CELULAR" name="CELULAR" placeholder="Celular" >
+                            @Html.ValidationMessageFor(model => model.CELULAR, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="form-group">
+                            <label>Correo Electrónico:</label>
+                            <input class="form-control" type="text" id="EMAIL" name="EMAIL" placeholder="Correo electrónico" required>
+                            @Html.ValidationMessageFor(model => model.EMAIL, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="form-group">
+                            <label>Departamento:</label>
+                            @Html.DropDownList("DEPARTAMENTO", (SelectList)ViewBag.departamentos, new { @class = "form-control depa_r", @onchange = "Departamentos('R');" })
+                        </div>
+
+                        <div class="form-group">
+                            <label>Provincia:</label>
+                            @Html.DropDownList("PROVINCIA", (SelectList)ViewBag.provincias, new { @class = "form-control prov_r", @onchange = "Provincias('R');" })
+                        </div>
+
+                        <div class="form-group">
+                            <label>Distrito:</label>
+                            @Html.DropDownList("DISTRITO", (SelectList)ViewBag.distritos, new { @class = "form-control dist_r" })
+                        </div>
+
+                        @Html.EditorFor(model => model.INDICA_PISCINA, new { htmlAttributes = new { @type = "hidden" } })
+
+                        @*<a href="#ventanaPiscinas" id="btnPiscinas" data-toggle="modal">
+                            <button type="button" class="btn btn-default" aria-label="Left Align">
+                                <img src="~/Imagenes/add_icon.png" /> Piscina
+                            </button>
+                        </a>*@
+
+                        <br />
+                    </form>
+                    <div align="center">
+                        <a id="btnRegCliente" data-toggle="modal" href="#msgConfirm">
+                            <button type="button" class="btn btn-success btn-lg"><strong>REGISTRAR</strong></button>
+                        </a>
+                    </div>
+
+                </div>
+
+                <!--TAB PANEL PARA LISTADOS-->
+                <div class="tab-pane fade" id="profile">
+                    <br />
+                    <!--MENSAJE DE ESTADO DE OPERACION-->
+                    <div class="alert alert-success alert-dismissible" style="display:none;" id="MENSAJE_M">
+                        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                        <strong id="msg"></strong>
+                    </div>
+                    <div class="form-group">
+                        <label>Ingrese Cliente:</label>
+                        <input type="text" class="form-control" placeholder="Ingrese Carácter" id="razon_social" onkeyup='ClientesPorRazon();' />
+                    </div>
+
+                    <div class="table-responsive table-bordered">
+                        <table class="table" id="clientesTable">
+                            <thead>
+                                <tr>
+                                    <th style="width:60%;">
+                                        RAZON SOCIAL
+                                    </th>
+                                    @*<th>
+                                        RECHA REGISTRO
+                                    </th>*@
+                                    <th style="text-align:center;width:10%">
+                                        MODIFICAR
+                                    </th>
+                                    <th style="text-align:center;width:10%">
+                                        AUDITORÍA
+                                    </th>
+                                    <th style="text-align:center;width:10%">
+                                        PISCINA(S)
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody id="contenidoClientes" class="content"></tbody>
+                        </table>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+    
+@Scripts.Render("~/bundles/clientes")

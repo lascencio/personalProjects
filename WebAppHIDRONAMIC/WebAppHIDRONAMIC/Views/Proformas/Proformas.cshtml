@@ -1,0 +1,209 @@
+﻿@model IEnumerable<WebAppHIDRONAMIC.Entities.ProformaDTO>
+
+<style>
+    .superadmin {
+        display: none;
+    }
+</style>
+<script>
+    $(document).ready(function () {
+        //ALERT PARA VER RESULTADO DE LA OPERACIÓN
+        var mensaje = '@ViewBag.mensaje';
+        if (mensaje != "") {
+            //var array = new Array();
+            //array = mensaje.split(' ');
+            //$("#MENSAJE").css("display", "block");
+            $(".message").html(mensaje);
+            $("#MENSAJE").fadeTo(4500, 500).slideUp(500, function () {
+                $("#MENSAJE").slideUp(500);
+            });
+        }
+        if(perfil == 4){
+            $('.superadmin').css('display', 'block');
+            $('.superadmin').css('height', '57.78px');
+        }
+    });
+
+    var perfil = @Session["PERFIL"].ToString();
+</script>
+<style>
+    #proformasTable tr th {
+        color: white;
+        text-decoration: solid;
+        background-color: #3D689A;
+        text-align: left;
+        padding: 10px;
+    }
+</style>
+
+<div class="col-lg-12">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            PROFORMAS
+        </div>
+        <div class="panel-body">
+
+            <!-- VENTANA MODAL PARA MENSAJE DE CONFIRMACIÓN-->
+            <div id="msgConfirm" class="modal fade" role="dialog" style="display:none" tabindex="-1" data-backdrop="static">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <a class="close" data-dismiss="modal">&times;</a>
+                            <h4>Mensaje...</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p id="contenido"></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-info" onclick="Eliminar();">Eliminar</button>
+                            <button type="button" class="btn btn-info" onclick="EliminarUbi();">Eliminar PDF</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--BLOQUE DE MENSAJES DE RESULTADOS-->
+            <div class="alert alert-success alert-dismissible" style="display:none" id="MENSAJE">
+                <a href="#" class="close" data-dismiss="alert"></a>
+                <strong class="message"></strong>
+            </div>
+            <!--PARAMETROS DE CONSULTA-->
+            <div class="row form-inline" style="padding-left:15px;padding-bottom:15px;">
+                <div class="form-group" style="width:195px;">
+                    <label>Fecha de Emisión:</label>
+                    <select class="form-control" id="cboTiposConsulta" onchange="CambioTipoConsulta();">
+                        <option value="HO">HOY</option>
+                        <option value="ES">ESTA SEMANA</option>
+                        <option value="SA">SEMANA ANTERIOR</option>
+                        <option value="EM">ESTE MES</option>
+                        <option value="MA">MES ANTERIOR</option>
+                        <option value="EA">ESTE AÑO</option>
+                        <option value="UM">UN MES</option>
+                        <option value="UR">UN RANGO</option>
+                        <option value="TO" selected>TODOS</option>
+                    </select>
+                    <p class="help-block" style="color:white;">(DD/MM/AAAA)</p>
+                </div>
+                <div class="form-group" style="width:140px;padding-left:15px;display:none;" id="rango1">
+                    <label>Desde:</label>
+                    <input class="form-control" type="text" id="fecha1" style="width:130px;" placeholder="25/05/1995" />
+                    <input type="hidden" id="fechaActual1" />
+                    <p class="help-block" style="padding-left:9px;">DD/MM/AAAA</p>
+                </div>
+                <div class="form-group" style="width:140px;padding-left:15px;display:none;" id="rango2">
+                    <label>Hasta:</label>
+                    <input class="form-control" type="text" id="fecha2" style="width:130px;" placeholder="25/05/1995" />
+                    <input type="hidden" id="fechaActual2" />
+                    <p class="help-block" style="padding-left:9px;">DD/MM/AAAA</p>
+                </div>
+                <div class="form-group" style="width:140px;padding-left:15px;display:none;" id="meses">
+                    <label>Seleccione mes:</label>
+                    <select class="form-control ddlProductos" id="cboMes" name="ID" style="width:160px;">
+                        @*<option value="" selected>TODOS</option>*@
+                        <option value="01" selected>ENERO</option>
+                        <option value="02">FEBRERO</option>
+                        <option value="03">MARZO</option>
+                        <option value="04">ABRIL</option>
+                        <option value="05">MAYO</option>
+                        <option value="06">JUNIO</option>
+                        <option value="07">JULIO</option>
+                        <option value="08">AGOSTO</option>
+                        <option value="09">SEPTIEMBRE</option>
+                        <option value="10">OCTUBRE</option>
+                        <option value="11">NOVIEMBRE</option>
+                        <option value="12">DICIEMBRE</option>
+                    </select>
+                    <p class="help-block" style="color:white;">(DD/MM/AAAA)</p>
+                </div>
+            </div>
+
+            <input id="proforma" type="hidden" />
+
+            <hr>
+
+            <!--BOTONES DE CONSULTA-->
+            <div style="display:block;" align="center" id="dvConsultaMes">
+                <a href="#" id="btnConsulta" onclick="ConsultarProformas();">
+                    <input type="button" class="btn btn-primary" value="CONSULTAR">
+                </a>
+            </div>
+            <div class="form-group">
+                <label>Cliente:</label>
+                <input type="text" class="form-control" placeholder="Ingrese Cliente" id="nombre" onkeyup='ProformasPorCliente();' autocomplete="on" />
+            </div>
+
+            <div class="table-responsive table-bordered">
+                <table class="table" id="proformasTable">
+                    <thead>
+                        <tr>
+                            <th>
+                                FECHA R.
+                            </th>
+                            <th>
+                                CLIENTE
+                            </th>
+                            <th>
+                                N° DOC
+                            </th>
+                            <th>
+                                USUARIO REG.
+                            </th>
+                            <th style="width:120px;">
+                                TIPO
+                            </th>
+                            <th style="text-align:center;">
+                                MONEDA
+                            </th>
+                            <th style="text-align:right;">
+                                TOTAL
+                            </th>
+
+                            <th style="text-align:center;">
+                                DETALLES
+                            </th>
+                            <th style="text-align:center;" class="superadmin">
+                                ELIMINAR
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="contenidoProformas" class="content">
+                        @foreach (var item in Model)
+            {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.FECHA_REGISTRO)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.RAZON_SOCIAL)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.COTIZACION)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.USUARIO_REGISTRO)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.TIPO)
+                                </td>
+                                <td style="text-align:center;">
+                                    @Html.DisplayFor(modelItem => item.TIPO_MONEDA)
+                                </td>
+                                <td style="text-align:right;">
+                                    @Html.DisplayFor(modelItem => item.IMPORTE_TOTAL_MN)
+                                </td>
+                                <td style="text-align:center;">
+                                    <a href="@Url.Action("ProformaPDF", new { proforma = item.COTIZACION , cliente = "" })"><img src="~/Imagenes/details.png" /></a>
+                                </td>
+                                <td style="text-align:center;" class="superadmin">
+                                    <a href="#msgConfirm" data-toggle="modal" onclick="SelecProf('@item.COTIZACION')"><img src="~/Imagenes/delete_icon.png" /></a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/Scripts/ScrProformasCons.js"></script>

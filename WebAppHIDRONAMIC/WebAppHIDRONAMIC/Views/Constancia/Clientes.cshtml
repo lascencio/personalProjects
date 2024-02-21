@@ -1,0 +1,41 @@
+﻿@model IEnumerable<WebAppHIDRONAMIC.Entities.ClienteDTO>
+
+@{
+    Layout = null;
+}
+
+<link rel="stylesheet" type="text/css" href="~/fonts/MyStyles.css">
+
+<div class="form-group">
+    <label>Ingrese Cliente:</label>
+    <input type="text" class="form-control" placeholder="Ingrese Carácter" id="raz" onkeyup='ClientesPorRazon();' />
+</div>
+
+<br />
+<div class="table-responsive table-bordered">
+    <table class="table" id="clientesTable">
+        <thead>
+            <tr>
+                <th><h4>Selecciona</h4></th>
+                <th><h4>Cliente</h4></th>
+            </tr>
+        </thead>
+        <tbody id="contenido" class="content">
+            @foreach (var item in Model)
+            {
+                var id = " ";
+                id = item.CUENTA_COMERCIAL;
+                <tr>
+                    <td>
+                        <a href="#" id="cuen" onclick="ClientePorCuenta('@id')">Seleccionar</a>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RAZON_SOCIAL)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script src="~/Scripts/MyScript.js"></script>

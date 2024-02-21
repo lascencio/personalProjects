@@ -1,0 +1,693 @@
+﻿@model WebAppHIDRONAMIC.Entities.ProformaDTO
+
+<script>
+    $(document).ready(function () {
+        LimpiarDsDetalles();
+
+        $("#btnCambio").click(function (ev) {
+            $("#modal-cambio").load("/Proformas/TiposDeCambio");
+        });
+    });
+
+</script>
+
+<link href="~/fonts/ProformasStyle.css" rel="stylesheet" />
+
+<!--VENTANA MODAL PARA EL TIPO DE CAMBIO-->
+@*<div id="ventanaCambios" class="modal fade" role="dialog" style="display:none" tabindex="-1" data-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" style="text-align:center;">
+                    <a class="close" data-dismiss="modal">&times;</a>
+                    <h3>Tipo de Cambio</h3>
+                </div>
+                <div class="modal-body">
+                    <div id="modal-cambio">
+                        Espere porfavor...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>*@
+
+<!-- VENTANA MODAL PARA BUSCAR CLIENTES-->
+<div id="ventanaClientes" class="modal fade" role="dialog" style="display:none" tabindex="-1" data-backdrop="static">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="text-align:center;">
+                <a class="close" data-dismiss="modal">&times;</a>
+                <h3>Listado de Clientes</h3>
+            </div>
+            <div class="modal-body">
+                <div id="modal-clientes">
+                    <div class="form-group">
+                        <label>Ingrese Cliente:</label>
+                        <input type="text" class="form-control" placeholder="Ingrese Carácter" id="razon_social" onkeyup='ClientesPorRazon();' />
+                    </div>
+                    <br />
+                    <div class="table-responsive table-bordered">
+                        <table class="table" id="clientesTable">
+                            <thead>
+                                <tr>
+                                    <th style="text-align:center;width:30%;"><h4>Selecciona</h4></th>
+                                    <th style="width:70%;"><h4>Cliente</h4></th>
+                                </tr>
+                            </thead>
+                            <tbody id="contenidoClientes" class="content"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- VENTANA MODAL PARA SELECION DE PISCINAS-->
+<div id="ventanaPiscinas" class="modal fade" role="dialog" style="display:none" tabindex="-1" data-backdrop="static">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a class="close" data-dismiss="modal">&times;</a>
+                <h3>Seleccione Piscina</h3>
+            </div>
+            <div class="modal-body">
+                <div id="modal-piscinas">
+                    <div class="table-responsive table-bordered">
+                        <table class="table" id="piscinasTable">
+                            <thead>
+                                <tr>
+                                    <th><h4>Tipo Piscina</h4></th>
+                                    <th><h4>Dirección</h4></th>
+                                </tr>
+                            </thead>
+                            <tbody id="contenidoPiscina" class="content"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- FORMULARIO PARA GENERAR LIQUIDACIÓN-->
+<form action="/Proformas/GenerarProforma" method="post" id="form-proforma" onsubmit="return Validar();">
+
+    <!-- VENTANA MODAL PARA MENSAJE DE CONFIRMACIÓN-->
+    <div id="msgConfirm" class="modal fade" role="dialog" style="display:none" tabindex="-1" data-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a class="close" data-dismiss="modal">&times;</a>
+                    <h4>Mensaje...</h4>
+                </div>
+                <div class="modal-body">
+                    <p>¿Desea generar esta proforma?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-success" id="btnSi">Sí</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--INFORMACIÓN DE LA PISCINA-->
+    <div class="col-lg-12">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                Información de Proforma
+            </div>
+            <div class="panel-body">
+
+                <div class="row form-inline" style="padding-left:15px;padding-bottom:15px;">
+                    <div class="form-group" style="width:245px;">
+                        <label>Tipo de Proforma:</label>
+                        @Html.DropDownList("TIPO", (SelectList)ViewBag.tipProformas, new { @class = "form-control", @style = "width:235px;", @disabled= "disabled" })
+                    </div>
+                    <div class="form-group" style="width:140px;">
+                        <label>Moneda:</label>
+                        @Html.DropDownList("TIPO_MONEDA", (SelectList)ViewBag.tipMonedas, new { @class = "form-control", @style = "width:130px;", @onchange = "CambioMoneda();" })
+                    </div>
+                    <div class="form-group" style="width:120px;">
+                        <label>Fecha:</label>
+                        <input type="text" disabled="disabled" id="fecha" class="form-control" style="width:110px;">
+                    </div>
+                    <input type="hidden" id="cambio">
+                    @*   <div class="form-group" style="width:160px;">
+                            <label style="color:white;">hola</label>
+                            <a id="btnCambio" class="btn btn-default" data-toggle="modal" href="#ventanaCambios">
+                                <img src="~/Imagenes/cambio.png" /><strong>Tipo de Cambio</strong>
+                            </a>
+                        </div>*@
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--INFORMACIÓN DEL CLIENTE-->
+    <div class="col-lg-12">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                Información de Cliente
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label>Cliente:</label>
+                    <div class="input-group">
+                        <input type="hidden" id="INDICA_CLIENTE_NUEVO" name="INDICA_CLIENTE_NUEVO" />
+                        <input type="hidden" id="CUENTA_COMERCIAL" name="CUENTA_COMERCIAL" />
+                        <input type="text" class="form-control" placeholder="Seleccione o ingrese cliente" id="RAZON_SOCIAL" name="RAZON_SOCIAL" />
+                        <span class="input-group-btn">
+                            <a id="btnBuscarCliente" class="btn btn-default" data-toggle="modal" href="#ventanaClientes" onclick="Clientes();">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </span>
+                        <span class="input-group-btn">
+                            <a id="btnNuevoClie" class="btn btn-default" onclick="NuevoCliente();">
+                                <img src="~/Imagenes/add_icon.png" style="height:15px;width:15px;" />
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="row form-inline" style="padding-left:15px;padding-bottom:15px;">
+                    <div class="form-group" style="width:35%;padding-right:8px;">
+                        <label>Referencia:</label>
+                        <input type="text" class="form-control" placeholder="Ingrese referencia" id="REFERENCIA" name="REFERENCIA" style="width:100%;" />
+                    </div>
+                    <div class="form-group" style="width:62%;">
+                        <label>Dirección:</label>
+                        <input type="text" class="form-control" placeholder="Ingrese dirección" id="DOMICILIO" name="DOMICILIO" style="width:100%;" />
+                    </div>
+                </div>
+
+                <div class="row form-inline" style="padding-left:15px;padding-bottom:15px;">
+                    <div class="form-group" style="width:30%;padding-right:8px;">
+                        <label>Teléfono:</label>
+                        <input type="text" class="form-control" placeholder="Ingrese teléfono" id="TELEFONO" name="TELEFONO" style="width:100%;" />
+                    </div>
+                    <div class="form-group" style="width:30%;padding-right:8px;">
+                        <label>Celular:</label>
+                        <input type="text" class="form-control" placeholder="Ingrese celular" id="CELULAR" name="CELULAR" style="width:100%;" />
+                    </div>
+                    <div class="form-group" style="width:36.5%;">
+                        <label>Correo:</label>
+                        <input type="text" class="form-control" placeholder="Ingrese correo" id="EMAIL" name="EMAIL" style="width:100%;" />
+                    </div>
+                </div>
+
+                <div class="form-group" id="PISCINAS_INFO" style="display:none;">
+                    <a href="#ventanaPiscinas" id="btnPiscinas" data-toggle="modal" onclick="Piscinas();">
+                        <input type="button" class="btn btn-primary" value="ELEGIR PISCINA">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--INFORMACIÓN DE LA PISCINA-->
+    <div class="col-lg-12">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                Información de Piscina
+            </div>
+            <div class="panel-body">
+                <input type="hidden" id="PISCINA" name="PISCINA" />
+                <div class="row form-inline" style="padding-left:15px;padding-bottom:15px;">
+                    <div class="form-group" style="width:190px;">
+                        <label>Tipo de Piscina:</label>
+                        @*<input type="text" class="form-control" placeholder="Ingrese tipo" id="TIPO_PISCINA" name="TIPO_PISCINA" style="width:180px;" />*@
+                        @Html.DropDownList("TIPO_PISCINA", (SelectList)ViewBag.tipPiscinas, new { @class = "form-control", @style = "width:180px;" })
+                    </div>
+
+                    <div class="form-group" style="width:190px;">
+                        <label>Forma:</label>
+                       @* <input type="text" class="form-control" placeholder="Ingrese forma" id="FORMA_PISCINA" name="FORMA_PISCINA" style="width:185px;" />*@
+                        @Html.DropDownList("FORMA_PISCINA", (SelectList)ViewBag.formPiscinas, new { @class = "form-control", @style = "width:185px;" })
+                    </div>
+                    <div class="form-group" style="width:215px;">
+                        <label>Tiempo de Filtrado:</label>
+                        <div class="input-group">
+                            <input type="number" class="form-control" placeholder="Ingrese tiempo filtrado" id="TIEMPO_FILTRADO" name="TIEMPO_FILTRADO" style="width:190px;" step=".1" />
+                            <span class="input-group-btn" style="padding-left:10px;">
+                                <a id="btnNuevaPisc" class="btn btn-default" onclick="NuevaPiscina();">
+                                    <img src="~/Imagenes/add_icon.png" style="height:15px;width:15px;" />
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <label style="padding-bottom:7px;">Dimensiones:</label>
+                <div class="form-inline">
+                    <div class="form-group" style="padding-left:7px;">
+                        <label><font size="2">Largo:</font></label>
+                        <input type="number" class="form-control" placeholder="Largo" style="width:85px;" id="LARGO" name="LARGO" step=".01" />
+                    </div>
+
+                    <div class="form-group" style="padding-left:7px;">
+                        <label><font size="2">Ancho:</font></label>
+                        <input type="number" class="form-control" placeholder="Ancho" style="width:85px;" id="ANCHO" name="ANCHO" step=".01" />
+                    </div>
+
+                    <div class="form-group" style="padding-left:7px;">
+                        <label><font size="2">Altura:</font></label>
+                        <input type="number" class="form-control" placeholder="Altura" style="width:85px;" id="PROFUNDIDAD" name="PROFUNDIDAD" step=".01" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--INFORMACIÓN DE PRODUCTOS-->
+    <div class="col-lg-12">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                Información de Productos
+            </div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label>
+                            <input id="caseta" name="CHK" type="checkbox" value="11" class="chkCondicion"><b>Caseta de Maquina</b>
+                        </label>
+                    </div>
+
+                    <div class="form-group cbo" id="famCaseta">
+                        <label class="form-inline">Seleccione Familia:</label>
+                        @Html.DropDownList("CAS", (SelectList)ViewBag.famCaseta, new { @class = "form-control cboF", @onchange = "Productos('C');" })
+
+                        <label class="form-inline">Seleccione Producto:</label>
+                        @Html.DropDownList("prdCas", (SelectList)ViewBag.productoCas, new { @class = "form-control" })
+
+                        <label class="form-inline" style="width:70px;">
+                            <label style="width:70px;">Cantidad</label>
+                        </label>
+                        <label class="form-inline" style="width:70px;">
+                            <input type="number" class="form-control iptNumbers" style="width:70px;margin-top:5px;" id="cantC" value="1" />
+                        </label>
+                        &ensp;
+                        <label class="form-inline" style="width:90px;">
+                            <button type="button" class="btn btn-primary" style="margin-top:1px;" onclick="GabDetalles('C')">
+                                Agregar
+                            </button>
+                        </label>
+                        <label class="checkbox-inline">
+                            <input id="chkDescC" name="CHK" type="checkbox" value="11" class="chkDescuentos"><b>Descuento</b>
+                        </label>
+                        <label class="form-inline" style="width:70px;padding-left:5px;visibility:hidden;" id="lblDescC">
+                            <input type="number" class="form-control" style="width:70px;margin-top:5px;" id="descC" />
+                        </label>
+                    </div>
+
+                    <!--INFORMACIÓN PARA EMPOTRABLES-->
+                    <div class="checkbox">
+                        <label>
+                            <input id="empotrable" name="CHK" type="checkbox" value="12" class="chkCondicion"> <b>Empotrables</b>
+                        </label>
+                    </div>
+
+                    <div class="form-group cbo" id="famEmpotrable">
+                        <label class="form-inline">Seleccione Familia:</label>
+                        @Html.DropDownList("EMP", (SelectList)ViewBag.famEmpotrable, new { @class = "form-control cboF", @onchange = "Productos('E');" })
+
+                        <label class="form-inline">Seleccione Producto:</label>
+                        @Html.DropDownList("prdEmp", (SelectList)ViewBag.productoEmp, new { @class = "form-control" })
+
+                        <label class="form-inline" style="width:70px;">
+                            <label style="width:70px;">Cantidad</label>
+                        </label>
+                        <label class="form-inline" style="width:70px;">
+                            <input type="number" class="form-control iptNumbers" style="width:70px;margin-top:5px;" id="cantE" value="1" />
+                        </label>
+                        &ensp;
+                        <label class="form-inline" style="width:90px;">
+                            <button type="button" class="btn btn-primary" style="margin-top:1px;" onclick="GabDetalles('E')">
+                                Agregar
+                            </button>
+                        </label>
+                        <label class="checkbox-inline">
+                            <input id="chkDescE" name="CHK" type="checkbox" value="11" class="chkDescuentos"><b>Descuento</b>
+                        </label>
+                        <label class="form-inline" style="width:70px;padding-left:5px;visibility:hidden;" id="lblDescE">
+                            <input type="number" class="form-control" style="width:70px;margin-top:5px;" id="descE" />
+                        </label>
+                    </div>
+
+                    <!--INFORMACIÓN PARA SISTEMAS DE ILUMINACIÓN-->
+                    <div class="checkbox">
+                        <label>
+                            <input id="iluminacion" name="CHK" type="checkbox" value="13" class="chkCondicion"><b> Sistema de Iluminación</b>
+                        </label>
+                    </div>
+
+                    <div class="form-group cbo" id="famIluminacion">
+                        <label class="form-inline">Seleccione Familia:</label>
+                        @Html.DropDownList("ILUM", (SelectList)ViewBag.famIluminacion, new { @class = "form-control cboF", @onchange = "Productos('I');" })
+
+                        <label class="form-inline">Seleccione Producto:</label>
+                        @Html.DropDownList("prdIlum", (SelectList)ViewBag.productoIlu, new { @class = "form-control" })
+
+                        <label class="form-inline" style="width:70px;">
+                            <label style="width:70px;">Cantidad</label>
+                        </label>
+                        <label class="form-inline" style="width:70px;">
+                            <input type="number" class="form-control iptNumbers" style="width:70px;margin-top:5px;" id="cantI" value="1" />
+                        </label>
+                        &ensp;
+                        <label class="form-inline" style="width:90px;">
+                            <button type="button" class="btn btn-primary" style="margin-top:1px;" onclick="GabDetalles('I')">
+                                Agregar
+                            </button>
+                        </label>
+                        <label class="checkbox-inline">
+                            <input id="chkDescI" name="CHK" type="checkbox" value="11" class="chkDescuentos"><b>Descuento</b>
+                        </label>
+                        <label class="form-inline" style="width:70px;padding-left:5px;visibility:hidden;" id="lblDescI">
+                            <input type="number" class="form-control" style="width:70px;margin-top:5px;" id="descI" />
+                        </label>
+                    </div>
+
+                    <!--INFORMACIÓN PARA SISTEMAS DE TEMPERADO-->
+                    <div class="checkbox">
+                        <label class="subClase">
+                            <input id="temperado" name="CHK" type="checkbox" value="14" class="chkCondicion"> <b>Sistema de Temperado</b>
+                        </label>
+                    </div>
+
+                    <div class="form-group cbo" id="famTemperado">
+                        <label class="form-inline">Seleccione Familia:</label>
+                        @Html.DropDownList("TEMP", (SelectList)ViewBag.famTemperado, new { @class = "form-control cboF", @onchange = "Productos('T');" })
+
+                        <label class="form-inline">Seleccione Producto:</label>
+                        @Html.DropDownList("prdTemp", (SelectList)ViewBag.productoTem, new { @class = "form-control" })
+
+                        <label class="form-inline" style="width:70px;">
+                            <label style="width:70px;">Cantidad</label>
+                        </label>
+                        <label class="form-inline" style="width:70px;">
+                            <input type="number" class="form-control iptNumbers" style="width:70px;margin-top:5px;" id="cantT" value="1" />
+                        </label>
+                        &ensp;
+                        <label class="form-inline" style="width:90px;">
+                            <button type="button" class="btn btn-primary" style="margin-top:1px;" onclick="GabDetalles('T')">
+                                Agregar
+                            </button>
+                        </label>
+                        <label class="checkbox-inline">
+                            <input id="chkDescT" name="CHK" type="checkbox" value="11" class="chkDescuentos"><b>Descuento</b>
+                        </label>
+                        <label class="form-inline" style="width:70px;padding-left:5px;visibility:hidden;" id="lblDescT">
+                            <input type="number" class="form-control" style="width:70px;margin-top:5px;" id="descT" />
+                        </label>
+                    </div>
+
+                    <!--INFORMACIÓN PARA ACABADOS-->
+                    <div class="checkbox">
+                        <label class="subClase">
+                            <input id="acabado" name="CHK" type="checkbox" value="14" class="chkCondicion"><b> Acabados</b>
+                        </label>
+                    </div>
+
+                    <div class="form-group cbo" id="famAcabado">
+                        <label class="form-inline">Seleccione Familia:</label>
+                        @Html.DropDownList("ACAB", (SelectList)ViewBag.famAcabado, new { @class = "form-control cboF", @onchange = "Productos('A');" })
+
+                        <label class="form-inline">Seleccione Producto:</label>
+                        @Html.DropDownList("prdAcab", (SelectList)ViewBag.productoAca, new { @class = "form-control" })
+
+                        <label class="form-inline" style="width:70px;">
+                            <label style="width:70px;">Cantidad</label>
+                        </label>
+                        <label class="form-inline" style="width:70px;">
+                            <input type="number" class="form-control iptNumbers" style="width:70px;margin-top:5px;" id="cantA" value="1" />
+                        </label>
+                        &ensp;
+                        <label class="form-inline" style="width:90px;">
+                            <button type="button" class="btn btn-primary" style="margin-top:1px;" onclick="GabDetalles('A')">
+                                Agregar
+                            </button>
+                        </label>
+                        <label class="checkbox-inline">
+                            <input id="chkDescA" name="CHK" type="checkbox" value="11" class="chkDescuentos"><b>Descuento</b>
+                        </label>
+                        <label class="form-inline" style="width:70px;padding-left:5px;visibility:hidden;" id="lblDescA">
+                            <input type="number" class="form-control" style="width:70px;margin-top:5px;" id="descA" />
+                        </label>
+                    </div>
+
+                    <!--INFORMACIÓN PARA EQUIPOS DE LIMPIEZA-->
+                    <div class="checkbox">
+                        <label class="subClase">
+                            <input id="limpieza" name="CHK" type="checkbox" value="14" class="chkCondicion"> <b>Equipos de Limpieza</b>
+                        </label>
+                    </div>
+
+                    <div class="form-group cbo" id="famLimpieza">
+                        <label class="form-inline">Seleccione Familia:</label>
+                        @Html.DropDownList("LIMP", (SelectList)ViewBag.famLimpieza, new { @class = "form-control cboF", @onchange = "Productos('L');" })
+
+                        <label class="form-inline">Seleccione Producto:</label>
+                        @Html.DropDownList("prdLimp", (SelectList)ViewBag.productoLim, new { @class = "form-control" })
+
+                        <label class="form-inline" style="width:70px;">
+                            <label style="width:70px;">Cantidad</label>
+                        </label>
+                        <label class="form-inline" style="width:70px;">
+                            <input type="number" class="form-control iptNumbers" style="width:70px;margin-top:5px;" id="cantL" value="1" />
+                        </label>
+                        &ensp;
+                        <label class="form-inline" style="width:90px;">
+                            <button type="button" class="btn btn-primary" style="margin-top:1px;" onclick="GabDetalles('L')">
+                                Agregar
+                            </button>
+                        </label>
+                        <label class="checkbox-inline">
+                            <input id="chkDescL" name="CHK" type="checkbox" value="11" class="chkDescuentos"><b>Descuento</b>
+                        </label>
+                        <label class="form-inline" style="width:70px;padding-left:5px;visibility:hidden;" id="lblDescL">
+                            <input type="number" class="form-control" style="width:70px;margin-top:5px;" id="descL" />
+                        </label>
+                    </div>
+
+                    <!--INFORMACIÓN PARA MANO DE OBRA-->
+                    <div class="checkbox">
+                        <label class="subClase">
+                            <input id="mano" name="CHK" type="checkbox" value="14" class="chkCondicion"> <b>Mano de obra</b>
+                        </label>
+                    </div>
+
+                    <div class="form-group cbo" id="famMano">
+                        <label class="form-inline">Seleccione Familia:</label>
+                        <select class="form-control">
+                            <option selected>CATEGORIAS DE SERVICIOS</option>
+                        </select>
+        
+                        <label class="form-inline">Seleccione Producto:</label>
+                        <select class="form-control">
+                            <option selected>LISTA DE SERVICIOS</option>
+                        </select>
+
+                        <label class="form-inline" style="width:70px;">
+                            <label style="width:70px;">Cantidad</label>
+                        </label>
+                        <label class="form-inline" style="width:70px;">
+                            <input type="number" class="form-control iptNumbers" style="width:70px;margin-top:5px;" id="cantL" value="1" />
+                        </label>
+                        &ensp;
+                        <label class="form-inline" style="width:90px;">
+                            <button type="button" class="btn btn-primary" style="margin-top:1px;" onclick="">
+                                Agregar
+                            </button>
+                        </label>
+                        <label class="checkbox-inline">
+                            <input id="chkDescL" name="CHK" type="checkbox" value="11" class="chkDescuentos"><b>Descuento</b>
+                        </label>
+                        <label class="form-inline" style="width:70px;padding-left:5px;visibility:hidden;" id="lblDescM">
+                            <input type="number" class="form-control" style="width:70px;margin-top:5px;" id="descM" />
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <!-- /.panel-body -->
+        </div>
+    </div>
+
+    <!--LISTA DE PRODUCTOS DE LA CONSTANCIA-->
+    <div class="col-lg-12">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                Productos Agregados
+            </div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+                <div class="table-responsive table-bordered">
+
+                    <!--CASETA DE MÁQUINAS-->
+                    <table class="table tbDet" id="detallesTableC">
+                        <thead>
+                            <tr class="detHead">
+                                <th colspan="6">Caseta de Máquina</th>
+                            </tr>
+                            <tr>
+                                <th class="thDesc">Producto</th>
+                                <th class="thInfo"></th>
+                                <th class="thCant">Cant.</th>
+                                <th class="thUnit">V.Unit</th>
+                                <th class="thTot">V.Tot</th>
+                                <th class="thElim">Eliminar</th>
+                            </tr>
+                        </thead>
+                        <tbody id="detallesC"></tbody>
+                    </table>
+
+                    <!--EMPOTRABLES-->
+                    <table class="table tbDet" id="detallesTableE">
+                        <thead>
+                            <tr class="detHead">
+                                <th colspan="6">Elementos Empotrables</th>
+                            </tr>
+                            <tr>
+                                <th class="thDesc">Producto</th>
+                                <th class="thInfo"></th>
+                                <th class="thCant">Cant.</th>
+                                <th class="thUnit">V.Unit</th>
+                                <th class="thTot">V.Tot</th>
+                                <th class="thElim">Eliminar</th>
+                            </tr>
+                        </thead>
+                        <tbody id="detallesE"></tbody>
+                    </table>
+
+                    <!--SISTEMAS DE ILUMINACIÓN-->
+                    <table class="table tbDet" id="detallesTableI">
+                        <thead>
+                            <tr class="detHead">
+                                <th colspan="6">Sistemas de Iluminación</th>
+                            </tr>
+                            <tr>
+                                <th class="thDesc">Producto</th>
+                                <th class="thInfo"></th>
+                                <th class="thCant">Cant.</th>
+                                <th class="thUnit">V.Unit</th>
+                                <th class="thTot">V.Tot</th>
+                                <th class="thElim">Eliminar</th>
+                            </tr>
+                        </thead>
+                        <tbody id="detallesI"></tbody>
+                    </table>
+
+                    <!--TEMPERADO-->
+                    <table class="table tbDet" id="detallesTableT">
+                        <thead>
+                            <tr class="detHead">
+                                <th colspan="6">Temperado</th>
+                            </tr>
+                            <tr>
+                                <th class="thDesc">Producto</th>
+                                <th class="thInfo"></th>
+                                <th class="thCant">Cant.</th>
+                                <th class="thUnit">V.Unit</th>
+                                <th class="thTot">V.Tot</th>
+                                <th class="thElim">Eliminar</th>
+                            </tr>
+                        </thead>
+                        <tbody id="detallesT"></tbody>
+                    </table>
+
+                    <!--ACABADOS-->
+                    <table class="table tbDet" id="detallesTableA">
+                        <thead>
+                            <tr class="detHead">
+                                <th colspan="6">Acabados</th>
+                            </tr>
+                            <tr>
+                                <th class="thDesc">Producto</th>
+                                <th class="thInfo"></th>
+                                <th class="thCant">Cant.</th>
+                                <th class="thUnit">V.Unit</th>
+                                <th class="thTot">V.Tot</th>
+                                <th class="thElim">Eliminar</th>
+                            </tr>
+                        </thead>
+                        <tbody id="detallesA"></tbody>
+                    </table>
+
+                    <!--EQUIPOS DE LIMPIEZA-->
+                    <table class="table tbDet" id="detallesTableL">
+                        <thead>
+                            <tr class="detHead">
+                                <th colspan="6">Equipos de limpieza</th>
+                            </tr>
+                            <tr>
+                                <th class="thDesc">Producto</th>
+                                <th class="thInfo"></th>
+                                <th class="thCant">Cant.</th>
+                                <th class="thUnit">V.Unit</th>
+                                <th class="thTot">V.Tot</th>
+                                <th class="thElim">Eliminar</th>
+                            </tr>
+                        </thead>
+                        <tbody id="detallesL"></tbody>
+                    </table>
+                </div>
+                </br>
+                <div class="table-responsive table-bordered">
+                    <table id="detallesTotal" class="table">
+                        <thead>
+                            <tr>
+                                <th height="5" colspan="4" style="background-color:#f0ad4e;text-align:center;">Resumen</th>
+                            </tr>
+                            <tr>
+                                <th style="width:40%;">
+                                    <label class="checkbox-inline">
+                                        <input id="chkDescTot" name="CHK" type="checkbox" value="11" class="chkDescuentos"><b>Descuento</b>
+                                    </label>
+                                    <label class="form-inline" style="width:70px;padding-left:5px;visibility:hidden;" id="lblDescTot">
+                                        @Html.EditorFor(model => model.DESCUENTO_GLOBAL, new { htmlAttributes = new { @type = "hidden", @value = "0" } })
+                                        <input type="number" class="form-control" style="width:70px;margin-top:5px;" id="descTot" />
+                                    </label>
+                                    <label class="form-inline" style="width:90px;padding-left:10px;visibility:hidden;" id="btnDescTot">
+                                        <button type="button" class="btn btn-warning" style="margin-top:1px;" onclick="AplicarDescuento('apli')">
+                                            Aplicar
+                                        </button>
+                                    </label>
+                                </th>
+                                <th style="width:20%;text-align:right;">SubTotal</th>
+                                <th style="width:20%;text-align:right;">I.G.V</th>
+                                <th style="width:20%;text-align:right;">TOTAL</th>
+                            </tr>
+                        </thead>
+                        <tbody id="detallesTot">
+                            <tr>
+                                <td style="text-align:right;"><strong>Precio final:</strong></td>
+                                <td id="sTotal" class="descTot">S/ 0.00</td>
+                                <td id="igv" class="descTot">S/ 0.00</td>
+                                <td id="total" class="descTot">S/ 0.00</td>
+                            </tr>
+                            <tr id="rowDesc" style="display:none;">
+                                <td style="text-align:right;"><strong>Precio final con descuento:</strong></td>
+                                <td id="sTotal" class="descTot"></td>
+                                <td id="igv" class="descTot"></td>
+                                <td id="total" class="descTot"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- /.panel-body -->
+        </div>
+    </div>
+
+</form>
+
+<div align="center">
+    <a id="btnRegistro" data-toggle="modal" href="#msgConfirm">
+        <button type="button" class="btn btn-success btn-lg"><strong>REGISTRAR</strong></button>
+    </a>
+</div>
+
+<br />
+
+<script src="~/Scripts/SrcProformas.js"></script>

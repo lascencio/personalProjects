@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsTablasCabeceraLista" targetNamespace="http://tempuri.org/dsTablasCabeceraLista.xsd" xmlns:mstns="http://tempuri.org/dsTablasCabeceraLista.xsd" xmlns="http://tempuri.org/dsTablasCabeceraLista.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsTablasCabeceraLista" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsTablasCabeceraLista" msprop:Generator_UserDSName="dsTablasCabeceraLista" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TABLAS_CABECERA_LISTA" msprop:Generator_UserTableName="TABLAS_CABECERA_LISTA" msprop:Generator_RowDeletedName="TABLAS_CABECERA_LISTARowDeleted" msprop:Generator_TableClassName="TABLAS_CABECERA_LISTADataTable" msprop:Generator_RowChangedName="TABLAS_CABECERA_LISTARowChanged" msprop:Generator_RowClassName="TABLAS_CABECERA_LISTARow" msprop:Generator_RowChangingName="TABLAS_CABECERA_LISTARowChanging" msprop:Generator_RowEvArgName="TABLAS_CABECERA_LISTARowChangeEvent" msprop:Generator_RowEvHandlerName="TABLAS_CABECERA_LISTARowChangeEventHandler" msprop:Generator_TablePropName="TABLAS_CABECERA_LISTA" msprop:Generator_TableVarName="tableTABLAS_CABECERA_LISTA" msprop:Generator_RowDeletingName="TABLAS_CABECERA_LISTARowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CODIGO" msprop:Generator_UserColumnName="CODIGO" msprop:Generator_ColumnPropNameInRow="CODIGO" msprop:Generator_ColumnVarNameInTable="columnCODIGO" msprop:Generator_ColumnPropNameInTable="CODIGOColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DESCRIPCION" msprop:Generator_UserColumnName="DESCRIPCION" msprop:Generator_ColumnPropNameInRow="DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPCION" msprop:Generator_ColumnPropNameInTable="DESCRIPCIONColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TITULO_T1" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TITULO_T1" msprop:Generator_ColumnPropNameInRow="TITULO_T1" msprop:Generator_ColumnVarNameInTable="columnTITULO_T1" msprop:Generator_ColumnPropNameInTable="TITULO_T1Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TITULO_T2" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TITULO_T2" msprop:Generator_ColumnPropNameInRow="TITULO_T2" msprop:Generator_ColumnVarNameInTable="columnTITULO_T2" msprop:Generator_ColumnPropNameInTable="TITULO_T2Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TITULO_T3" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TITULO_T3" msprop:Generator_ColumnPropNameInRow="TITULO_T3" msprop:Generator_ColumnVarNameInTable="columnTITULO_T3" msprop:Generator_ColumnPropNameInTable="TITULO_T3Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TITULO_T4" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TITULO_T4" msprop:Generator_ColumnPropNameInRow="TITULO_T4" msprop:Generator_ColumnVarNameInTable="columnTITULO_T4" msprop:Generator_ColumnPropNameInTable="TITULO_T4Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TITULO_T5" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TITULO_T5" msprop:Generator_ColumnPropNameInRow="TITULO_T5" msprop:Generator_ColumnVarNameInTable="columnTITULO_T5" msprop:Generator_ColumnPropNameInTable="TITULO_T5Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TITULO_V1" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TITULO_V1" msprop:Generator_ColumnPropNameInRow="TITULO_V1" msprop:Generator_ColumnVarNameInTable="columnTITULO_V1" msprop:Generator_ColumnPropNameInTable="TITULO_V1Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TITULO_V2" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TITULO_V2" msprop:Generator_ColumnPropNameInRow="TITULO_V2" msprop:Generator_ColumnVarNameInTable="columnTITULO_V2" msprop:Generator_ColumnPropNameInTable="TITULO_V2Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TITULO_V3" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TITULO_V3" msprop:Generator_ColumnPropNameInRow="TITULO_V3" msprop:Generator_ColumnVarNameInTable="columnTITULO_V3" msprop:Generator_ColumnPropNameInTable="TITULO_V3Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TITULO_V4" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TITULO_V4" msprop:Generator_ColumnPropNameInRow="TITULO_V4" msprop:Generator_ColumnVarNameInTable="columnTITULO_V4" msprop:Generator_ColumnPropNameInTable="TITULO_V4Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TITULO_V5" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TITULO_V5" msprop:Generator_ColumnPropNameInRow="TITULO_V5" msprop:Generator_ColumnVarNameInTable="columnTITULO_V5" msprop:Generator_ColumnPropNameInTable="TITULO_V5Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TITULO_L1" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TITULO_L1" msprop:Generator_ColumnPropNameInRow="TITULO_L1" msprop:Generator_ColumnVarNameInTable="columnTITULO_L1" msprop:Generator_ColumnPropNameInTable="TITULO_L1Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TITULO_L2" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TITULO_L2" msprop:Generator_ColumnPropNameInRow="TITULO_L2" msprop:Generator_ColumnVarNameInTable="columnTITULO_L2" msprop:Generator_ColumnPropNameInTable="TITULO_L2Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TITULO_L3" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TITULO_L3" msprop:Generator_ColumnPropNameInRow="TITULO_L3" msprop:Generator_ColumnVarNameInTable="columnTITULO_L3" msprop:Generator_ColumnPropNameInTable="TITULO_L3Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TITULO_L4" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TITULO_L4" msprop:Generator_ColumnPropNameInRow="TITULO_L4" msprop:Generator_ColumnVarNameInTable="columnTITULO_L4" msprop:Generator_ColumnPropNameInTable="TITULO_L4Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TITULO_L5" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TITULO_L5" msprop:Generator_ColumnPropNameInRow="TITULO_L5" msprop:Generator_ColumnVarNameInTable="columnTITULO_L5" msprop:Generator_ColumnPropNameInTable="TITULO_L5Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ACTIVO" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ACTIVO" msprop:Generator_ColumnPropNameInRow="ACTIVO" msprop:Generator_ColumnVarNameInTable="columnACTIVO" msprop:Generator_ColumnPropNameInTable="ACTIVOColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="NECESIDAD" msprop:Generator_UserColumnName="NECESIDAD" msprop:Generator_ColumnPropNameInRow="NECESIDAD" msprop:Generator_ColumnVarNameInTable="columnNECESIDAD" msprop:Generator_ColumnPropNameInTable="NECESIDADColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EMPRESA" msprop:Generator_UserColumnName="EMPRESA" msprop:Generator_ColumnPropNameInRow="EMPRESA" msprop:Generator_ColumnVarNameInTable="columnEMPRESA" msprop:Generator_ColumnPropNameInTable="EMPRESAColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:TABLAS_CABECERA_LISTA" />
+      <xs:field xpath="mstns:CODIGO" />
+      <xs:field xpath="mstns:EMPRESA" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,199 @@
+﻿@model IEnumerable<WebAppHIDRONAMIC.Entities.ConstanciaDTO>
+
+<link href="~/fonts/MyStyles.css" rel="stylesheet" />
+
+<style>
+    .superadmin{
+        display:none;
+    }
+</style>
+<script>
+    $(document).ready(function () {
+        //ALERT PARA VER RESULTADO DE LA OPERACIÓN
+        var mensaje = '@ViewBag.mensaje';
+        if (mensaje != "") {
+            $(".message").html(mensaje);
+            //$("#MENSAJE").css("display", "block");
+            $("#MENSAJE").fadeTo(4500, 500).slideUp(500, function () {
+                $("#MENSAJE").slideUp(500);
+            });
+        }
+        if(perfil == 4){
+            $('.superadmin').css('display', 'block');
+            $('.superadmin').css('height', '57.78px');
+        }
+    });
+
+    var perfil = @Session["PERFIL"].ToString();
+
+</script>
+
+<div class="col-lg-12">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            CONSTANCIAS
+        </div>
+        <div class="panel-body">
+
+            <!-- VENTANA MODAL PARA MENSAJE DE CONFIRMACIÓN-->
+            <div id="msgConfirm" class="modal fade" role="dialog" style="display:none" tabindex="-1" data-backdrop="static">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <a class="close" data-dismiss="modal">&times;</a>
+                            <h4>Mensaje...</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p id="contenido"></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success" onclick="Eliminar();">Sí</button>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--BLOQUE DE MENSAJES DE RESULTADOS-->
+            <div class="alert alert-success alert-dismissible" style="display:none" id="MENSAJE">
+                <a href="#" class="close" data-dismiss="alert"></a>
+                <strong class="message"></strong>
+            </div>
+            <!--PARAMETROS DE CONSULTA-->
+            <div class="form-group" style="width:195px;">
+                <label>Fecha de Emisión:</label>
+                <select class="form-control" id="cboTiposConsulta" onchange="CambioTipoConsulta();">
+                    <option value="HO">HOY</option>
+                    <option value="ES">ESTA SEMANA</option>
+                    <option value="SA">SEMANA ANTERIOR</option>
+                    <option value="EM">ESTE MES</option>
+                    <option value="MA">MES ANTERIOR</option>
+                    <option value="EA">ESTE AÑO</option>
+                    <option value="UM">UN MES</option>
+                    <option value="UR">UN RANGO</option>
+                    <option value="TO" selected>TODOS</option>
+                </select>
+            </div>
+
+            <div class="form-group" id="rangos" style="display:none;">
+                <div class="row form-inline">
+                    <div class="form-group" style="width:140px;padding-left:15px;" id="rango1">
+                        <label>Desde:</label>
+                        <input class="form-control" type="text" id="fecha1" style="width:130px;" placeholder="25/05/1995" />
+                        <input type="hidden" id="fechaActual1" />
+                        <p class="help-block" style="padding-left:9px;">DD/MM/AAAA</p>
+                    </div>
+                    <div class="form-group" style="width:140px;padding-left:15px;" id="rango2">
+                        <label>Hasta:</label>
+                        <input class="form-control" type="text" id="fecha2" style="width:130px;" placeholder="25/05/1995" />
+                        <input type="hidden" id="fechaActual2" />
+                        <p class="help-block" style="padding-left:9px;">DD/MM/AAAA</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group" id="meses" style="display:none;">
+                <label>Seleccione mes:</label>
+                <select class="form-control" id="cboMes" name="ID" style="width:160px;">
+                    @*<option value="" selected>TODOS</option>*@
+                    <option value="01" selected>ENERO</option>
+                    <option value="02">FEBRERO</option>
+                    <option value="03">MARZO</option>
+                    <option value="04">ABRIL</option>
+                    <option value="05">MAYO</option>
+                    <option value="06">JUNIO</option>
+                    <option value="07">JULIO</option>
+                    <option value="08">AGOSTO</option>
+                    <option value="09">SEPTIEMBRE</option>
+                    <option value="10">OCTUBRE</option>
+                    <option value="11">NOVIEMBRE</option>
+                    <option value="12">DICIEMBRE</option>
+                </select>
+            </div>
+
+            <hr>
+
+            <!--BOTONES DE CONSULTA-->
+            <div style="display:block;" align="center">
+                <a href="#" onclick="ConsultarConstancias();">
+                    <input type="button" class="btn btn-primary" value="CONSULTAR">
+                </a>
+            </div>
+
+            <div class="form-group">
+                <label>Cliente:</label>
+                <input type="text" class="form-control" placeholder="Ingrese Cliente" id="nombre" onkeyup='ConstanciasPorClientes();' autocomplete="on" />
+            </div>
+
+            <input id="constancia" type="hidden"/>
+            <input id="tipoAccion" type="hidden" />
+
+            <div class="table-responsive table-bordered">
+                <table class="table" id="constanciasTable">
+                    <thead>
+                        <tr>
+                            <th>
+                                FECHA REG.
+                            </th>
+                            <th>
+                                HORA
+                            </th>
+                            <th>
+                                CLIENTE
+                            </th>
+                            <th>
+                                N° CONSTANCIA
+                            </th>
+                            <th>
+                                USUARIO REG.
+                            </th>
+                            <th style="text-align:center;">
+                                DETALLES
+                            </th>
+                            <th style="text-align:center;" class="superadmin">
+                                ELIMINAR
+                            </th>
+                            @*<th style="text-align:center;" class="superadmin">
+                                GENERAR
+                            </th>*@
+                        </tr>
+                    </thead>
+                    <tbody id="contenidoConstancias" class="content">
+                        @foreach (var item in Model)
+            {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.FECHA_REGISTRO)
+                                </td>
+                                <!--CAMPO PARA MOSTRAR LA HORA DE REGISTRO-->
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.FECHA_MODIFICA)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CUENTA_COMERCIAL)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CONSTANCIA)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.USUARIO_REGISTRO)
+                                </td>
+                                <td style="text-align:center;">
+                                    <a href="@Url.Action("Detalles", new { constancia = item.CONSTANCIA + item.ESTADO })"><img src="~/Imagenes/details.png" /></a>
+                                </td>
+                                <td style="text-align:center;" class="superadmin">
+                                    <a href="#msgConfirm" data-toggle="modal" onclick="SelecCons('@item.CONSTANCIA')"><img src="~/Imagenes/delete_icon.png" /></a>
+                                </td>
+                                @*<td style="text-align:center;" class="superadmin">
+                                    <a href="#msgConfirm" data-toggle="modal" onclick="SelecCons('@item.CONSTANCIA')"><img src="~/Imagenes/generate35.png" /></a>
+                                </td>*@
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/Scripts/ScrConstancias.js"></script>

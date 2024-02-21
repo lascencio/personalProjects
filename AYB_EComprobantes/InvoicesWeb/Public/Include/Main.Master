@@ -1,0 +1,51 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Main.master.vb" Inherits="InvoicesWebAYB.Main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>E-Comprobantes</title>
+    <asp:ContentPlaceHolder ID="head" runat="server" />
+    <script>
+        javascript: window.history.forward(); //Esto es para cuando le pulse al botón de Atrás
+        //javascript: window.history.back(); //Esto para cuando le pulse al botón de Adelante
+    </script>
+    <link rel="shortcut icon" href="/Images/ICO transparente.png" type="image/png" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="Header">
+            <div class="MyHeadRow">
+                <div class="MyCell"><img src="/Images/Logo 20 porciento.png"/></div>
+                <div class="MyCell_Right"><img src="/Images/Facturas Electronicas SUNAT 03.png"/></div>
+            </div>
+<%--            <div class="MyHeadRow">
+                <div class="MyHeadHorizontalBar" runat="server" id="divControl_1" ><a href="/Commons/Login.aspx"><asp:Label ID="lblUsuarioRegistrado" runat="server" Text="Login" ></asp:Label></a></div>
+                <div class="MyHeadHorizontalBar" runat="server" id="divControl_2" ><a href="/Commons/Login.aspx"><asp:Label ID="lblUsuarioInvitado" runat="server" Text="Login" ></asp:Label></a></div>
+                <div class="MyHeadHorizontalBar" runat="server" id="divControl_3" ><a href="/Commons/Login.aspx"><asp:Label ID="lblLogInOut" runat="server" Text="Login" ></asp:Label></a></div>
+            </div>--%>
+            <div class="MyHeadRow">
+                <div class="MyCell_Right">
+                    <asp:Label ID="lblUsuario" runat="server"></asp:Label>
+                </div>
+            </div>
+        </div>
+        <div id="Bottom">
+            <div id="LeftColumn">
+                <asp:ContentPlaceHolder ID="ContentContextualMenu" runat="server">
+
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="CenterColumn">
+                <asp:ContentPlaceHolder ID="ContentMain" runat="server">
+
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div id="Footer">
+            <span>© Copyright 2018. A & B HIDROSISTEMAS S.A.C. All rights reserved.</span>
+        </div>
+    </form>
+</body>
+</html>

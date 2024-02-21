@@ -1,0 +1,517 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+InvoicesWebAYB
+</name>
+</assembly>
+<members>
+<member name="F:InvoicesWebAYB.MP_Comprobantes.ContentMain">
+	<summary>
+Control ContentMain.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="P:InvoicesWebAYB.MP_Comprobantes.Master">
+	<summary>
+Propiedad Master.
+</summary>
+	<remarks>
+Propiedad generada automáticamente.
+</remarks>
+</member><member name="F:InvoicesWebAYB.Main.head">
+	<summary>
+Control head.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:InvoicesWebAYB.Main.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:InvoicesWebAYB.Main.lblUsuario">
+	<summary>
+Control lblUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:InvoicesWebAYB.Main.ContentContextualMenu">
+	<summary>
+Control ContentContextualMenu.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:InvoicesWebAYB.Main.ContentMain">
+	<summary>
+Control ContentMain.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="T:InvoicesWebAYB.dsCOT.CONTROL_CONSULTASDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsCOT.CONTROL_CONSULTASRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsCOT.CONTROL_CONSULTASRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:InvoicesWebAYB.dsCOT">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsUsuarios.USUARIOSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsUsuarios.USUARIOSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsUsuarios.USUARIOSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:InvoicesWebAYB.dsUsuarios">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="F:InvoicesWebAYB.Viewer.ScriptManager1">
+	<summary>
+Control ScriptManager1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:InvoicesWebAYB.Viewer.UpdateProgress1">
+	<summary>
+Control UpdateProgress1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:InvoicesWebAYB.Viewer.urIframe">
+	<summary>
+Control urIframe.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="T:InvoicesWebAYB.dsClientes.CLIENTESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsClientes.CLIENTESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsClientes.CLIENTESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:InvoicesWebAYB.dsClientes">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="F:InvoicesWebAYB.BuscarComprobantes.ScriptManager1">
+	<summary>
+Control ScriptManager1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:InvoicesWebAYB.BuscarComprobantes.UpdateProgress1">
+	<summary>
+Control UpdateProgress1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:InvoicesWebAYB.BuscarComprobantes.upInputs">
+	<summary>
+Control upInputs.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:InvoicesWebAYB.BuscarComprobantes.ddlClientes">
+	<summary>
+Control ddlClientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:InvoicesWebAYB.BuscarComprobantes.txtFechaDesde">
+	<summary>
+Control txtFechaDesde.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:InvoicesWebAYB.BuscarComprobantes.txtFechaHasta">
+	<summary>
+Control txtFechaHasta.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:InvoicesWebAYB.BuscarComprobantes.lbtBuscar">
+	<summary>
+Control lbtBuscar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:InvoicesWebAYB.BuscarComprobantes.pnlComprobantes">
+	<summary>
+Control pnlComprobantes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:InvoicesWebAYB.BuscarComprobantes.upnComprobantes">
+	<summary>
+Control upnComprobantes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:InvoicesWebAYB.BuscarComprobantes.gvComprobantes">
+	<summary>
+Control gvComprobantes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:InvoicesWebAYB.Downloader.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:InvoicesWebAYB.Downloader.lblMensaje">
+	<summary>
+Control lblMensaje.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="T:InvoicesWebAYB.dsEComprobantes.ECOMPROBANTES_LISTADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsEComprobantes.ECOMPROBANTESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsEComprobantes.ECOMPROBANTES_FIRMADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsEComprobantes.ECOMPROBANTES_LISTARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsEComprobantes.ECOMPROBANTESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsEComprobantes.ECOMPROBANTES_FIRMARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsEComprobantes.ECOMPROBANTES_LISTARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:InvoicesWebAYB.dsEComprobantes.ECOMPROBANTESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:InvoicesWebAYB.dsEComprobantes.ECOMPROBANTES_FIRMARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:InvoicesWebAYB.dsEComprobantes">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsAnexos.ANEXOS_CABECERADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsAnexos.ANEXOS_DETALLEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsAnexos.ANEXOSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsAnexos.ANEXOS_DETALLE_LISTADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsAnexos.CLIENTESDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsAnexos.ANEXO_MARCAS_LISTADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsAnexos.ANEXOS_CABECERARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsAnexos.ANEXOS_DETALLERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsAnexos.ANEXOSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsAnexos.ANEXOS_DETALLE_LISTARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsAnexos.CLIENTESRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsAnexos.ANEXO_MARCAS_LISTARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsAnexos.ANEXOS_CABECERARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:InvoicesWebAYB.dsAnexos.ANEXOS_DETALLERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:InvoicesWebAYB.dsAnexos.ANEXOSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:InvoicesWebAYB.dsAnexos.ANEXOS_DETALLE_LISTARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:InvoicesWebAYB.dsAnexos.CLIENTESRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:InvoicesWebAYB.dsAnexos.ANEXO_MARCAS_LISTARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:InvoicesWebAYB.dsAnexos">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="P:InvoicesWebAYB.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:InvoicesWebAYB.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member><member name="T:InvoicesWebAYB.My.Resources.Resources">
+	<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="P:InvoicesWebAYB._Default.Master">
+	<summary>
+Propiedad Master.
+</summary>
+	<remarks>
+Propiedad generada automáticamente.
+</remarks>
+</member><member name="P:InvoicesWebAYB.Index.Master">
+	<summary>
+Propiedad Master.
+</summary>
+	<remarks>
+Propiedad generada automáticamente.
+</remarks>
+</member><member name="F:InvoicesWebAYB.Login.ScriptManager1">
+	<summary>
+Control ScriptManager1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:InvoicesWebAYB.Login.UpdateProgress1">
+	<summary>
+Control UpdateProgress1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:InvoicesWebAYB.Login.UpdatePanel1">
+	<summary>
+Control UpdatePanel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:InvoicesWebAYB.Login.txtRUC">
+	<summary>
+Control txtRUC.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:InvoicesWebAYB.Login.UpdatePanel2">
+	<summary>
+Control UpdatePanel2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:InvoicesWebAYB.Login.txtUsuario">
+	<summary>
+Control txtUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:InvoicesWebAYB.Login.txtClave">
+	<summary>
+Control txtClave.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:InvoicesWebAYB.Login.UpdatePanel3">
+	<summary>
+Control UpdatePanel3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:InvoicesWebAYB.Login.lnkIniciarSesion">
+	<summary>
+Control lnkIniciarSesion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:InvoicesWebAYB.Login.lblMensaje">
+	<summary>
+Control lblMensaje.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="P:InvoicesWebAYB.Login.Master">
+	<summary>
+Propiedad Master.
+</summary>
+	<remarks>
+Propiedad generada automáticamente.
+</remarks>
+</member><member name="T:InvoicesWebAYB.dsProspectos.PROSPECTO_RECURSOS_LISTADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsProspectos.PROSPECTOS_COSTO_TERCEROS_LISTADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsProspectos.PROSPECTO_RECURSOS_LISTARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsProspectos.PROSPECTOS_COSTO_TERCEROS_LISTARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:InvoicesWebAYB.dsProspectos.PROSPECTO_RECURSOS_LISTARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:InvoicesWebAYB.dsProspectos.PROSPECTOS_COSTO_TERCEROS_LISTARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:InvoicesWebAYB.dsProspectos">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="P:InvoicesWebAYB.My.MyWebExtension.Computer">
+	<summary>
+ Devuelve información sobre el equipo host.
+ </summary>
+</member><member name="P:InvoicesWebAYB.My.MyWebExtension.User">
+	<summary>
+ Devuelve información del usuario web actual.
+ </summary>
+</member><member name="P:InvoicesWebAYB.My.MyWebExtension.Request">
+	<summary>
+ Devuelve un objeto Request.
+ </summary>
+</member><member name="P:InvoicesWebAYB.My.MyWebExtension.Response">
+	<summary>
+ Devuelve un objeto Response.
+ </summary>
+</member><member name="P:InvoicesWebAYB.My.MyWebExtension.Log">
+	<summary>
+ Devuelve el objeto de registro Asp.
+ </summary>
+</member><member name="T:InvoicesWebAYB.My.MyWebExtension">
+	<summary>
+ Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

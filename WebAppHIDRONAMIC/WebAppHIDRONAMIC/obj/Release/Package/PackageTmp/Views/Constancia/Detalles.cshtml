@@ -1,0 +1,100 @@
+﻿<script>
+    $(document).ready(function () {
+        $('#content').height($(window).height());
+        var opciones = '@ViewBag.opciones';
+
+        if (opciones == "nulo") {
+            $("#opciones").css("display", "none");
+            $("#return").css("display", "block");
+        } else {
+            $("#opciones").css("display", "block");
+            $("#return").css("display", "none");
+        }
+    });
+
+    function Enviar() {
+        var constancia = '@ViewBag.constancia';
+        window.location.href = "/Constancia/EnviarConstancia?constancia=" + constancia;
+    }
+
+    function Modificar() {
+        var constancia = '@ViewBag.constancia';
+        window.location.href = "/Constancia/ModificarConstancia?constancia=" + constancia;
+    }
+
+    function VerPDF() {
+        var constancia = '@ViewBag.constancia';
+        window.location.href = "/Constancia/DescargarPdf?constancia=" + constancia;
+    }
+</script>
+
+<!-- VENTANA MODAL PARA MENSAJE DE CONFIRMACIÓN-->
+<div id="msgConfirm" class="modal fade" role="dialog" style="display:none" tabindex="-1" data-backdrop="static">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a class="close" data-dismiss="modal">&times;</a>
+                <h4>Mensaje...</h4>
+            </div>
+            <div class="modal-body">
+                <p>¿Desea enviar esta constancia?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-success" data-dismiss="modal" onclick="Enviar();">Sí</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="msgConfirm2" class="modal fade" role="dialog" style="display:none" tabindex="-1" data-backdrop="static">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a class="close" data-dismiss="modal">&times;</a>
+                <h4>Mensaje...</h4>
+            </div>
+            <div class="modal-body">
+                <p>¿Desea modificar esta constancia?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-success" data-dismiss="modal" onclick="Modificar();">Sí</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- FORMULARIO DE ENVIOS Y MODIFICAR-->
+<div align="center" id="opciones" style="display:none;">
+
+    <a data-toggle="modal" href="#msgConfirm2">
+        <button type="button" class="btn btn-warning" aria-label="Left Align">
+            <img src="~/Imagenes/edit.png" /> <strong> CORREGIR</strong>
+        </button>
+    </a>
+    &nbsp;
+    <a data-toggle="modal" href="#msgConfirm">
+        <button type="button" class="btn btn-info" aria-label="Left Align">
+            <img src="~/Imagenes/send_icon.png" /> <strong> ENVIAR</strong>
+        </button>
+    </a>
+</div>
+<br />
+
+<!-- PORCIÓN DONDE SE GENERARÁ EL PDF-->
+<div align="center">
+    <a href="/Constancia/Constancias" id="return" style="display:none;">
+        <button type="button" class="btn btn-default" aria-label="Left Align" style="height:55px;">
+            <img src="~/Imagenes/return_icon.png" /> <strong>REGRESAR</strong>
+        </button>
+    </a>
+
+    <br />
+    <a href="#" onclick="VerPDF();">
+        <button type="button" class="btn btn-default" aria-label="Left Align">
+            <img src="~/Imagenes/details.png" /> VER PDF
+        </button>
+    </a>
+</div>
+

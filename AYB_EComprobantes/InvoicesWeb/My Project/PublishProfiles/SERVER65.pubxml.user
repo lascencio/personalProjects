@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Remote Web Sites\AYB\InvoicesWeb</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Data/dsAnexos.xsc">
+      <publishTime>02/22/2017 13:12:40</publishTime>
+    </File>
+    <File Include="App_Data/dsAnexos.xss">
+      <publishTime>02/22/2017 13:12:40</publishTime>
+    </File>
+    <File Include="App_Data/dsClientes.xsc">
+      <publishTime>12/22/2018 11:23:33</publishTime>
+    </File>
+    <File Include="App_Data/dsClientes.xss">
+      <publishTime>12/22/2018 11:23:33</publishTime>
+    </File>
+    <File Include="App_Data/dsCOT.xsc">
+      <publishTime>02/01/2017 21:29:05</publishTime>
+    </File>
+    <File Include="App_Data/dsCOT.xss">
+      <publishTime>02/01/2017 21:29:05</publishTime>
+    </File>
+    <File Include="App_Data/dsEComprobantes.xsc">
+      <publishTime>02/22/2017 14:07:17</publishTime>
+    </File>
+    <File Include="App_Data/dsEComprobantes.xss">
+      <publishTime>02/22/2017 14:07:17</publishTime>
+    </File>
+    <File Include="App_Data/dsProspectos.xsc">
+      <publishTime>02/01/2017 21:22:53</publishTime>
+    </File>
+    <File Include="App_Data/dsProspectos.xss">
+      <publishTime>02/01/2017 21:22:53</publishTime>
+    </File>
+    <File Include="App_Data/dsUsuarios.xsc">
+      <publishTime>02/01/2017 21:26:42</publishTime>
+    </File>
+    <File Include="App_Data/dsUsuarios.xss">
+      <publishTime>02/01/2017 21:26:42</publishTime>
+    </File>
+    <File Include="App_Themes/MyTheme/MyStyles.css">
+      <publishTime>09/10/2018 09:34:51</publishTime>
+    </File>
+    <File Include="App_Themes/MyTheme/MyStylesMP.css">
+      <publishTime>02/01/2017 21:04:12</publishTime>
+    </File>
+    <File Include="bin/InvoicesWeb.dll">
+      <publishTime>03/23/2017 11:14:35</publishTime>
+    </File>
+    <File Include="bin/InvoicesWeb.xml">
+      <publishTime>03/23/2017 11:14:35</publishTime>
+    </File>
+    <File Include="bin/InvoicesWebAYB.dll">
+      <publishTime>12/22/2018 11:36:23</publishTime>
+    </File>
+    <File Include="bin/InvoicesWebAYB.xml">
+      <publishTime>12/22/2018 11:36:23</publishTime>
+    </File>
+    <File Include="bin/InvoicesWebFaraona.dll">
+      <publishTime>04/13/2017 21:59:30</publishTime>
+    </File>
+    <File Include="bin/InvoicesWebFaraona.xml">
+      <publishTime>04/13/2017 21:59:30</publishTime>
+    </File>
+    <File Include="bin/InvoicesWebHidronamic.dll">
+      <publishTime>09/10/2018 11:54:37</publishTime>
+    </File>
+    <File Include="bin/InvoicesWebHidronamic.xml">
+      <publishTime>09/10/2018 11:54:37</publishTime>
+    </File>
+    <File Include="bin/InvoicesWebMcLaren.dll">
+      <publishTime>09/10/2018 11:51:51</publishTime>
+    </File>
+    <File Include="bin/InvoicesWebMcLaren.xml">
+      <publishTime>09/10/2018 11:51:51</publishTime>
+    </File>
+    <File Include="BuscarComprobantes.aspx">
+      <publishTime>02/08/2017 23:07:27</publishTime>
+    </File>
+    <File Include="Commons/Default.aspx">
+      <publishTime>11/13/2018 15:01:43</publishTime>
+    </File>
+    <File Include="Commons/Downloader.aspx">
+      <publishTime>11/13/2018 15:01:44</publishTime>
+    </File>
+    <File Include="Commons/ExportToExcel.aspx">
+      <publishTime>11/13/2018 15:01:44</publishTime>
+    </File>
+    <File Include="Commons/Login.aspx">
+      <publishTime>11/13/2018 15:01:43</publishTime>
+    </File>
+    <File Include="Commons/Viewer.aspx">
+      <publishTime>11/13/2018 15:01:44</publishTime>
+    </File>
+    <File Include="Comprobantes/BuscarComprobantes.aspx">
+      <publishTime>12/22/2018 11:35:24</publishTime>
+    </File>
+    <File Include="Comprobantes/MP_Comprobantes.master">
+      <publishTime>11/13/2018 15:01:43</publishTime>
+    </File>
+    <File Include="dsAnexos.xsc">
+      <publishTime>02/22/2017 13:12:40</publishTime>
+    </File>
+    <File Include="dsAnexos.xss">
+      <publishTime>02/22/2017 13:12:40</publishTime>
+    </File>
+    <File Include="dsClientes.xsc">
+      <publishTime>02/23/2017 11:35:52</publishTime>
+    </File>
+    <File Include="dsClientes.xss">
+      <publishTime>02/23/2017 11:35:52</publishTime>
+    </File>
+    <File Include="dsCOT.xsc">
+      <publishTime>01/02/2017 21:29:05</publishTime>
+    </File>
+    <File Include="dsCOT.xss">
+      <publishTime>01/02/2017 21:29:05</publishTime>
+    </File>
+    <File Include="dsProspectos.xsc">
+      <publishTime>01/02/2017 21:22:53</publishTime>
+    </File>
+    <File Include="dsProspectos.xss">
+      <publishTime>01/02/2017 21:22:53</publishTime>
+    </File>
+    <File Include="dsUsuarios.xsc">
+      <publishTime>01/02/2017 21:26:42</publishTime>
+    </File>
+    <File Include="dsUsuarios.xss">
+      <publishTime>01/02/2017 21:26:42</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>11/13/2018 15:01:43</publishTime>
+    </File>
+    <File Include="Images/Banner 15 porciento.png">
+      <publishTime>07/09/2018 11:07:03</publishTime>
+    </File>
+    <File Include="Images/BannerWunderman.png">
+      <publishTime>02/02/2017 19:08:13</publishTime>
+    </File>
+    <File Include="Images/download.png">
+      <publishTime>02/22/2017 13:31:49</publishTime>
+    </File>
+    <File Include="Images/Facturas Electronicas SUNAT 03.png">
+      <publishTime>02/02/2017 23:46:12</publishTime>
+    </File>
+    <File Include="Images/faraona.ico">
+      <publishTime>04/08/2017 13:47:30</publishTime>
+    </File>
+    <File Include="Images/faraona.png">
+      <publishTime>04/08/2017 13:47:30</publishTime>
+    </File>
+    <File Include="Images/faraonalogo.jpg">
+      <publishTime>04/08/2017 13:47:30</publishTime>
+    </File>
+    <File Include="Images/faraonalogo.png">
+      <publishTime>04/08/2017 13:47:30</publishTime>
+    </File>
+    <File Include="Images/faraona_transparente.png">
+      <publishTime>04/08/2017 14:38:56</publishTime>
+    </File>
+    <File Include="Images/ICO old.ico">
+      <publishTime>07/09/2018 11:01:15</publishTime>
+    </File>
+    <File Include="Images/ICO transparente.png">
+      <publishTime>11/13/2018 11:58:27</publishTime>
+    </File>
+    <File Include="Images/ICO.ico">
+      <publishTime>10/29/2018 12:18:12</publishTime>
+    </File>
+    <File Include="Images/loadingIcon_3.gif">
+      <publishTime>02/23/2017 13:59:46</publishTime>
+    </File>
+    <File Include="Images/Logo 20 porciento.png">
+      <publishTime>11/13/2018 12:42:38</publishTime>
+    </File>
+    <File Include="Images/Logo 25 porciento.png">
+      <publishTime>11/13/2018 12:00:17</publishTime>
+    </File>
+    <File Include="Images/Logo transparente.ico">
+      <publishTime>07/09/2018 11:02:37</publishTime>
+    </File>
+    <File Include="Images/Logo transparente.png">
+      <publishTime>07/09/2018 11:03:32</publishTime>
+    </File>
+    <File Include="Images/LogoWunderman.png">
+      <publishTime>02/02/2017 19:19:26</publishTime>
+    </File>
+    <File Include="Images/logo_faraona x 2.png">
+      <publishTime>04/08/2017 13:47:30</publishTime>
+    </File>
+    <File Include="Images/logo_faraona x 3.png">
+      <publishTime>04/08/2017 14:02:39</publishTime>
+    </File>
+    <File Include="Images/logo_faraona x 4.png">
+      <publishTime>04/08/2017 16:44:05</publishTime>
+    </File>
+    <File Include="Images/logo_faraona.png">
+      <publishTime>04/08/2017 13:47:30</publishTime>
+    </File>
+    <File Include="Images/pdf.png">
+      <publishTime>02/22/2017 13:31:37</publishTime>
+    </File>
+    <File Include="Images/sixt 10 porciento.jpg">
+      <publishTime>07/09/2018 12:45:57</publishTime>
+    </File>
+    <File Include="Images/sixt 25 porciento.png">
+      <publishTime>07/09/2018 13:32:50</publishTime>
+    </File>
+    <File Include="Images/sixt 7 porciento.jpg">
+      <publishTime>07/09/2018 12:48:39</publishTime>
+    </File>
+    <File Include="Images/sixt.jpg">
+      <publishTime>07/09/2018 11:01:39</publishTime>
+    </File>
+    <File Include="Images/Wunderman 100x100.png">
+      <publishTime>02/02/2017 20:43:52</publishTime>
+    </File>
+    <File Include="Images/Wunderman 200x200.png">
+      <publishTime>02/02/2017 20:40:10</publishTime>
+    </File>
+    <File Include="Images/Wunderman 24x24.png">
+      <publishTime>02/02/2017 22:26:43</publishTime>
+    </File>
+    <File Include="Images/Wunderman 48x48.png">
+      <publishTime>02/02/2017 20:40:56</publishTime>
+    </File>
+    <File Include="Images/Wunderman transp 43x43.png">
+      <publishTime>02/02/2017 22:37:11</publishTime>
+    </File>
+    <File Include="Images/wunderman-phantasia-01.jpg">
+      <publishTime>02/02/2017 21:36:51</publishTime>
+    </File>
+    <File Include="Images/wunderman-phantasia-02.jpg">
+      <publishTime>02/02/2017 21:36:57</publishTime>
+    </File>
+    <File Include="Images/wunderman-phantasia-03.png">
+      <publishTime>02/02/2017 21:39:31</publishTime>
+    </File>
+    <File Include="Images/Wunderman.png">
+      <publishTime>02/02/2017 20:24:56</publishTime>
+    </File>
+    <File Include="Images/xml.png">
+      <publishTime>02/22/2017 13:45:40</publishTime>
+    </File>
+    <File Include="Index.aspx">
+      <publishTime>11/13/2018 15:01:43</publishTime>
+    </File>
+    <File Include="MP_Comprobantes.master">
+      <publishTime>02/06/2017 08:44:29</publishTime>
+    </File>
+    <File Include="Public/Include/Main.Master">
+      <publishTime>11/13/2018 15:01:44</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/22/2018 11:36:24</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

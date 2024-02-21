@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCONCAR_Anexos" targetNamespace="http://tempuri.org/dsCONCAR_Anexos.xsd" xmlns:mstns="http://tempuri.org/dsCONCAR_Anexos.xsd" xmlns="http://tempuri.org/dsCONCAR_Anexos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="3" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="cnnSQL_Demo" IsAppSettingsProperty="true" Modifier="Assembly" Name="cnnSQL_Demo (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BusinessManager.My.MySettings.GlobalReference.Default.cnnSQL_Demo" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="cnnSQLRepository" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="cnnSQLRepository (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BusinessManager.My.MySettings.GlobalReference.Default.cnnSQLRepository" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="cnnSQLConcar" IsAppSettingsProperty="true" Modifier="Assembly" Name="cnnSQLConcar (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BusinessManager.My.MySettings.GlobalReference.Default.cnnSQLConcar" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="cnnSQLRepositoryD" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="cnnSQLRepositoryD (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BusinessManager.My.MySettings.GlobalReference.Default.cnnSQLRepositoryD" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCONCAR_Anexos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsCONCAR_Anexos" msprop:Generator_UserDSName="dsCONCAR_Anexos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ANEXOS_CABECERA" msprop:Generator_UserTableName="ANEXOS_CABECERA" msprop:Generator_RowEvArgName="ANEXOS_CABECERARowChangeEvent" msprop:Generator_TableVarName="tableANEXOS_CABECERA" msprop:Generator_TablePropName="ANEXOS_CABECERA" msprop:Generator_RowDeletingName="ANEXOS_CABECERARowDeleting" msprop:Generator_RowChangingName="ANEXOS_CABECERARowChanging" msprop:Generator_RowDeletedName="ANEXOS_CABECERARowDeleted" msprop:Generator_RowEvHandlerName="ANEXOS_CABECERARowChangeEventHandler" msprop:Generator_TableClassName="ANEXOS_CABECERADataTable" msprop:Generator_RowChangedName="ANEXOS_CABECERARowChanged" msprop:Generator_RowClassName="ANEXOS_CABECERARow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="tcod" msprop:Generator_ColumnVarNameInTable="columntcod" msprop:Generator_ColumnPropNameInRow="tcod" msprop:Generator_ColumnPropNameInTable="tcodColumn" msprop:Generator_UserColumnName="tcod">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tclave" msprop:Generator_ColumnVarNameInTable="columntclave" msprop:Generator_ColumnPropNameInRow="tclave" msprop:Generator_ColumnPropNameInTable="tclaveColumn" msprop:Generator_UserColumnName="tclave">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tdescri" msprop:Generator_ColumnVarNameInTable="columntdescri" msprop:Generator_ColumnPropNameInRow="tdescri" msprop:Generator_ColumnPropNameInTable="tdescriColumn" msprop:Generator_UserColumnName="tdescri">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tdate" msprop:Generator_ColumnVarNameInTable="columntdate" msprop:Generator_ColumnPropNameInRow="tdate" msprop:Generator_ColumnPropNameInTable="tdateColumn" msprop:Generator_UserColumnName="tdate" type="xs:dateTime" />
+              <xs:element name="thora" msprop:Generator_ColumnVarNameInTable="columnthora" msprop:Generator_ColumnPropNameInRow="thora" msprop:Generator_ColumnPropNameInTable="thoraColumn" msprop:Generator_UserColumnName="thora">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ANEXOS_DETALLE" msprop:Generator_UserTableName="ANEXOS_DETALLE" msprop:Generator_RowEvArgName="ANEXOS_DETALLERowChangeEvent" msprop:Generator_TableVarName="tableANEXOS_DETALLE" msprop:Generator_TablePropName="ANEXOS_DETALLE" msprop:Generator_RowDeletingName="ANEXOS_DETALLERowDeleting" msprop:Generator_RowChangingName="ANEXOS_DETALLERowChanging" msprop:Generator_RowDeletedName="ANEXOS_DETALLERowDeleted" msprop:Generator_RowEvHandlerName="ANEXOS_DETALLERowChangeEventHandler" msprop:Generator_TableClassName="ANEXOS_DETALLEDataTable" msprop:Generator_RowChangedName="ANEXOS_DETALLERowChanged" msprop:Generator_RowClassName="ANEXOS_DETALLERow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="avanexo" msprop:Generator_ColumnVarNameInTable="columnavanexo" msprop:Generator_ColumnPropNameInRow="avanexo" msprop:Generator_ColumnPropNameInTable="avanexoColumn" msprop:Generator_UserColumnName="avanexo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="acodane" msprop:Generator_ColumnVarNameInTable="columnacodane" msprop:Generator_ColumnPropNameInRow="acodane" msprop:Generator_ColumnPropNameInTable="acodaneColumn" msprop:Generator_UserColumnName="acodane" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="18" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="adesane" msprop:Generator_ColumnVarNameInTable="columnadesane" msprop:Generator_ColumnPropNameInRow="adesane" msprop:Generator_ColumnPropNameInTable="adesaneColumn" msprop:Generator_UserColumnName="adesane" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="120" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="arefane" msprop:Generator_ColumnVarNameInTable="columnarefane" msprop:Generator_ColumnPropNameInRow="arefane" msprop:Generator_ColumnPropNameInTable="arefaneColumn" msprop:Generator_UserColumnName="arefane" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="aruc" msprop:Generator_ColumnVarNameInTable="columnaruc" msprop:Generator_ColumnPropNameInRow="aruc" msprop:Generator_ColumnPropNameInTable="arucColumn" msprop:Generator_UserColumnName="aruc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="18" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="acodmon" msprop:Generator_ColumnVarNameInTable="columnacodmon" msprop:Generator_ColumnPropNameInRow="acodmon" msprop:Generator_ColumnPropNameInTable="acodmonColumn" msprop:Generator_UserColumnName="acodmon" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="aestado" msprop:Generator_ColumnVarNameInTable="columnaestado" msprop:Generator_ColumnPropNameInRow="aestado" msprop:Generator_ColumnPropNameInTable="aestadoColumn" msprop:Generator_UserColumnName="aestado" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="adate" msprop:Generator_ColumnVarNameInTable="columnadate" msprop:Generator_ColumnPropNameInRow="adate" msprop:Generator_ColumnPropNameInTable="adateColumn" msprop:Generator_UserColumnName="adate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ahora" msprop:Generator_ColumnVarNameInTable="columnahora" msprop:Generator_ColumnPropNameInRow="ahora" msprop:Generator_ColumnPropNameInTable="ahoraColumn" msprop:Generator_UserColumnName="ahora" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="avrete" msprop:Generator_ColumnVarNameInTable="columnavrete" msprop:Generator_ColumnPropNameInRow="avrete" msprop:Generator_ColumnPropNameInTable="avreteColumn" msprop:Generator_UserColumnName="avrete" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="aporre" msprop:Generator_ColumnVarNameInTable="columnaporre" msprop:Generator_ColumnPropNameInRow="aporre" msprop:Generator_ColumnPropNameInTable="aporreColumn" msprop:Generator_UserColumnName="aporre" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ANEXOS" msprop:Generator_UserTableName="ANEXOS" msprop:Generator_RowEvArgName="ANEXOSRowChangeEvent" msprop:Generator_TableVarName="tableANEXOS" msprop:Generator_TablePropName="ANEXOS" msprop:Generator_RowDeletingName="ANEXOSRowDeleting" msprop:Generator_RowChangingName="ANEXOSRowChanging" msprop:Generator_RowDeletedName="ANEXOSRowDeleted" msprop:Generator_RowEvHandlerName="ANEXOSRowChangeEventHandler" msprop:Generator_TableClassName="ANEXOSDataTable" msprop:Generator_RowChangedName="ANEXOSRowChanged" msprop:Generator_RowClassName="ANEXOSRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="tcod" msprop:Generator_ColumnVarNameInTable="columntcod" msprop:Generator_ColumnPropNameInRow="tcod" msprop:Generator_ColumnPropNameInTable="tcodColumn" msprop:Generator_UserColumnName="tcod">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tclave" msprop:Generator_ColumnVarNameInTable="columntclave" msprop:Generator_ColumnPropNameInRow="tclave" msprop:Generator_ColumnPropNameInTable="tclaveColumn" msprop:Generator_UserColumnName="tclave">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tdescri" msprop:Generator_ColumnVarNameInTable="columntdescri" msprop:Generator_ColumnPropNameInRow="tdescri" msprop:Generator_ColumnPropNameInTable="tdescriColumn" msprop:Generator_UserColumnName="tdescri">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tdate" msprop:Generator_ColumnVarNameInTable="columntdate" msprop:Generator_ColumnPropNameInRow="tdate" msprop:Generator_ColumnPropNameInTable="tdateColumn" msprop:Generator_UserColumnName="tdate" type="xs:dateTime" />
+              <xs:element name="thora" msprop:Generator_ColumnVarNameInTable="columnthora" msprop:Generator_ColumnPropNameInRow="thora" msprop:Generator_ColumnPropNameInTable="thoraColumn" msprop:Generator_UserColumnName="thora">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ANEXOS_DOMICILIO" msprop:Generator_UserTableName="ANEXOS_DOMICILIO" msprop:Generator_RowEvArgName="ANEXOS_DOMICILIORowChangeEvent" msprop:Generator_TableVarName="tableANEXOS_DOMICILIO" msprop:Generator_TablePropName="ANEXOS_DOMICILIO" msprop:Generator_RowDeletingName="ANEXOS_DOMICILIORowDeleting" msprop:Generator_RowChangingName="ANEXOS_DOMICILIORowChanging" msprop:Generator_RowDeletedName="ANEXOS_DOMICILIORowDeleted" msprop:Generator_RowEvHandlerName="ANEXOS_DOMICILIORowChangeEventHandler" msprop:Generator_TableClassName="ANEXOS_DOMICILIODataTable" msprop:Generator_RowChangedName="ANEXOS_DOMICILIORowChanged" msprop:Generator_RowClassName="ANEXOS_DOMICILIORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="avanexo" msprop:Generator_ColumnVarNameInTable="columnavanexo" msprop:Generator_ColumnPropNameInRow="avanexo" msprop:Generator_ColumnPropNameInTable="avanexoColumn" msprop:Generator_UserColumnName="avanexo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="acodane" msprop:Generator_ColumnVarNameInTable="columnacodane" msprop:Generator_ColumnPropNameInRow="acodane" msprop:Generator_ColumnPropNameInTable="acodaneColumn" msprop:Generator_UserColumnName="acodane">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="18" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="adesane" msprop:Generator_ColumnVarNameInTable="columnadesane" msprop:Generator_ColumnPropNameInRow="adesane" msprop:Generator_ColumnPropNameInTable="adesaneColumn" msprop:Generator_UserColumnName="adesane">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="120" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="arefane" msprop:Generator_ColumnVarNameInTable="columnarefane" msprop:Generator_ColumnPropNameInRow="arefane" msprop:Generator_ColumnPropNameInTable="arefaneColumn" msprop:Generator_UserColumnName="arefane">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="arefane2" msprop:Generator_ColumnVarNameInTable="columnarefane2" msprop:Generator_ColumnPropNameInRow="arefane2" msprop:Generator_ColumnPropNameInTable="arefane2Column" msprop:Generator_UserColumnName="arefane2">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="contacto_venta" msprop:Generator_ColumnVarNameInTable="columncontacto_venta" msprop:Generator_ColumnPropNameInRow="contacto_venta" msprop:Generator_ColumnPropNameInTable="contacto_ventaColumn" msprop:Generator_UserColumnName="contacto_venta">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="contacto_compra" msprop:Generator_ColumnVarNameInTable="columncontacto_compra" msprop:Generator_ColumnPropNameInRow="contacto_compra" msprop:Generator_ColumnPropNameInTable="contacto_compraColumn" msprop:Generator_UserColumnName="contacto_compra">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ANEXO_DETALLE" msprop:Generator_UserTableName="ANEXO_DETALLE" msprop:Generator_RowEvArgName="ANEXO_DETALLERowChangeEvent" msprop:Generator_TableVarName="tableANEXO_DETALLE" msprop:Generator_TablePropName="ANEXO_DETALLE" msprop:Generator_RowDeletingName="ANEXO_DETALLERowDeleting" msprop:Generator_RowChangingName="ANEXO_DETALLERowChanging" msprop:Generator_RowDeletedName="ANEXO_DETALLERowDeleted" msprop:Generator_RowEvHandlerName="ANEXO_DETALLERowChangeEventHandler" msprop:Generator_TableClassName="ANEXO_DETALLEDataTable" msprop:Generator_RowChangedName="ANEXO_DETALLERowChanged" msprop:Generator_RowClassName="ANEXO_DETALLERow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AVANEXO" msprop:Generator_ColumnVarNameInTable="columnAVANEXO" msprop:Generator_ColumnPropNameInRow="AVANEXO" msprop:Generator_ColumnPropNameInTable="AVANEXOColumn" msprop:Generator_UserColumnName="AVANEXO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ACODANE" msprop:Generator_ColumnVarNameInTable="columnACODANE" msprop:Generator_ColumnPropNameInRow="ACODANE" msprop:Generator_ColumnPropNameInTable="ACODANEColumn" msprop:Generator_UserColumnName="ACODANE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="18" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ADESANE" msprop:Generator_ColumnVarNameInTable="columnADESANE" msprop:Generator_ColumnPropNameInRow="ADESANE" msprop:Generator_ColumnPropNameInTable="ADESANEColumn" msprop:Generator_UserColumnName="ADESANE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ARUC" msprop:Generator_ColumnVarNameInTable="columnARUC" msprop:Generator_ColumnPropNameInRow="ARUC" msprop:Generator_ColumnPropNameInTable="ARUCColumn" msprop:Generator_UserColumnName="ARUC">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="18" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ACODMON" msprop:Generator_ColumnVarNameInTable="columnACODMON" msprop:Generator_ColumnPropNameInRow="ACODMON" msprop:Generator_ColumnPropNameInTable="ACODMONColumn" msprop:Generator_UserColumnName="ACODMON">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AESTADO" msprop:Generator_ColumnVarNameInTable="columnAESTADO" msprop:Generator_ColumnPropNameInRow="AESTADO" msprop:Generator_ColumnPropNameInTable="AESTADOColumn" msprop:Generator_UserColumnName="AESTADO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ADATE" msprop:Generator_ColumnVarNameInTable="columnADATE" msprop:Generator_ColumnPropNameInRow="ADATE" msprop:Generator_ColumnPropNameInTable="ADATEColumn" msprop:Generator_UserColumnName="ADATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="AHORA" msprop:Generator_ColumnVarNameInTable="columnAHORA" msprop:Generator_ColumnPropNameInRow="AHORA" msprop:Generator_ColumnPropNameInTable="AHORAColumn" msprop:Generator_UserColumnName="AHORA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="APATERNO" msprop:Generator_ColumnVarNameInTable="columnAPATERNO" msprop:Generator_ColumnPropNameInRow="APATERNO" msprop:Generator_ColumnPropNameInTable="APATERNOColumn" msprop:Generator_UserColumnName="APATERNO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AMATERNO" msprop:Generator_ColumnVarNameInTable="columnAMATERNO" msprop:Generator_ColumnPropNameInRow="AMATERNO" msprop:Generator_ColumnPropNameInTable="AMATERNOColumn" msprop:Generator_UserColumnName="AMATERNO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ANOMBRE" msprop:Generator_ColumnVarNameInTable="columnANOMBRE" msprop:Generator_ColumnPropNameInRow="ANOMBRE" msprop:Generator_ColumnPropNameInTable="ANOMBREColumn" msprop:Generator_UserColumnName="ANOMBRE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ATIPTRA" msprop:Generator_ColumnVarNameInTable="columnATIPTRA" msprop:Generator_ColumnPropNameInRow="ATIPTRA" msprop:Generator_ColumnPropNameInTable="ATIPTRAColumn" msprop:Generator_UserColumnName="ATIPTRA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ADOCIDE" msprop:Generator_ColumnVarNameInTable="columnADOCIDE" msprop:Generator_ColumnPropNameInRow="ADOCIDE" msprop:Generator_ColumnPropNameInTable="ADOCIDEColumn" msprop:Generator_UserColumnName="ADOCIDE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ANUMIDE" msprop:Generator_ColumnVarNameInTable="columnANUMIDE" msprop:Generator_ColumnPropNameInRow="ANUMIDE" msprop:Generator_ColumnPropNameInTable="ANUMIDEColumn" msprop:Generator_UserColumnName="ANUMIDE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ATIPPRO" msprop:Generator_ColumnVarNameInTable="columnATIPPRO" msprop:Generator_ColumnPropNameInRow="ATIPPRO" msprop:Generator_ColumnPropNameInTable="ATIPPROColumn" msprop:Generator_UserColumnName="ATIPPRO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ANACIO" msprop:Generator_ColumnVarNameInTable="columnANACIO" msprop:Generator_ColumnPropNameInRow="ANACIO" msprop:Generator_ColumnPropNameInTable="ANACIOColumn" msprop:Generator_UserColumnName="ANACIO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AESSAL" msprop:Generator_ColumnVarNameInTable="columnAESSAL" msprop:Generator_ColumnPropNameInRow="AESSAL" msprop:Generator_ColumnPropNameInTable="AESSALColumn" msprop:Generator_UserColumnName="AESSAL">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ADOMIC" msprop:Generator_ColumnVarNameInTable="columnADOMIC" msprop:Generator_ColumnPropNameInRow="ADOMIC" msprop:Generator_ColumnPropNameInTable="ADOMICColumn" msprop:Generator_UserColumnName="ADOMIC">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ASITUA" msprop:Generator_ColumnVarNameInTable="columnASITUA" msprop:Generator_ColumnPropNameInRow="ASITUA" msprop:Generator_ColumnPropNameInTable="ASITUAColumn" msprop:Generator_UserColumnName="ASITUA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ATICONV" msprop:Generator_ColumnVarNameInTable="columnATICONV" msprop:Generator_ColumnPropNameInRow="ATICONV" msprop:Generator_ColumnPropNameInTable="ATICONVColumn" msprop:Generator_UserColumnName="ATICONV">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AMEMO" msprop:Generator_ColumnVarNameInTable="columnAMEMO" msprop:Generator_ColumnPropNameInRow="AMEMO" msprop:Generator_ColumnPropNameInTable="AMEMOColumn" msprop:Generator_UserColumnName="AMEMO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ANEXO" msprop:Generator_TableClassName="ANEXODataTable" msprop:Generator_TableVarName="tableANEXO" msprop:Generator_RowChangedName="ANEXORowChanged" msprop:Generator_TablePropName="ANEXO" msprop:Generator_RowDeletingName="ANEXORowDeleting" msprop:Generator_RowChangingName="ANEXORowChanging" msprop:Generator_RowEvHandlerName="ANEXORowChangeEventHandler" msprop:Generator_RowDeletedName="ANEXORowDeleted" msprop:Generator_RowClassName="ANEXORow" msprop:Generator_UserTableName="ANEXO" msprop:Generator_RowEvArgName="ANEXORowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="avanexo" msprop:Generator_ColumnVarNameInTable="columnavanexo" msprop:Generator_ColumnPropNameInRow="avanexo" msprop:Generator_ColumnPropNameInTable="avanexoColumn" msprop:Generator_UserColumnName="avanexo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="acodane" msprop:Generator_ColumnVarNameInTable="columnacodane" msprop:Generator_ColumnPropNameInRow="acodane" msprop:Generator_ColumnPropNameInTable="acodaneColumn" msprop:Generator_UserColumnName="acodane">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="18" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="adesane" msprop:Generator_ColumnVarNameInTable="columnadesane" msprop:Generator_ColumnPropNameInRow="adesane" msprop:Generator_ColumnPropNameInTable="adesaneColumn" msprop:Generator_UserColumnName="adesane">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ANEXOS_DOMICILIO" />
+      <xs:field xpath="mstns:avanexo" />
+      <xs:field xpath="mstns:acodane" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

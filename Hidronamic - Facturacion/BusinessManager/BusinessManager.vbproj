@@ -1,0 +1,1362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{77A7E4DB-CCAC-452B-BF67-03A984ECE6A7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>BusinessManager.My.MyApplication</StartupObject>
+    <RootNamespace>BusinessManager</RootNamespace>
+    <AssemblyName>BusinessManager</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <ApplicationIcon>Images\ICO.ico</ApplicationIcon>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>G:\Remote Win Applications\Faraona\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>BusinessManager.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>BusinessManager.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>B7149595ADA126485DC5C4A5761E4BA9DE267EED</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>BusinessManager_ClaveTemporal.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.11.0.3366.16\lib\Microsoft.ReportViewer.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.11.0.3366.16\lib\Microsoft.ReportViewer.DataVisualization.DLL</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.11.0.3366.16\lib\Microsoft.ReportViewer.Design.DLL</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.11.0.3366.16\lib\Microsoft.ReportViewer.ProcessingObjectModel.DLL</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebDesign, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.11.0.3366.16\lib\Microsoft.ReportViewer.WebDesign.DLL</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.11.0.3366.16\lib\Microsoft.ReportViewer.WebForms.DLL</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.11.0.3366.16\lib\Microsoft.ReportViewer.WinForms.DLL</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Web.Services3, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Services3.3.0.0.0\lib\net20\Microsoft.Web.Services3.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="zxing, Version=0.14.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.14.0.1\lib\net35\zxing.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Microsoft.Web" />
+    <Import Include="Microsoft.Web.Services3" />
+    <Import Include="Microsoft.Web.Services3.Addressing" />
+    <Import Include="Microsoft.Web.Services3.Configuration" />
+    <Import Include="Microsoft.Web.Services3.Configuration.Install" />
+    <Import Include="Microsoft.Web.Services3.Description" />
+    <Import Include="Microsoft.Web.Services3.Design" />
+    <Import Include="Microsoft.Web.Services3.Diagnostics" />
+    <Import Include="Microsoft.Web.Services3.Diagnostics.Configuration" />
+    <Import Include="Microsoft.Web.Services3.Messaging" />
+    <Import Include="Microsoft.Web.Services3.Messaging.Configuration" />
+    <Import Include="Microsoft.Web.Services3.Messaging.Framing" />
+    <Import Include="Microsoft.Web.Services3.Mime" />
+    <Import Include="Microsoft.Web.Services3.Referral" />
+    <Import Include="Microsoft.Web.Services3.Referral.Configuration" />
+    <Import Include="Microsoft.Web.Services3.Security" />
+    <Import Include="Microsoft.Web.Services3.Security.Configuration" />
+    <Import Include="Microsoft.Web.Services3.Security.Cryptography" />
+    <Import Include="Microsoft.Web.Services3.Security.Tokens" />
+    <Import Include="Microsoft.Web.Services3.Security.Tokens.Kerberos" />
+    <Import Include="Microsoft.Web.Services3.Security.Utility" />
+    <Import Include="Microsoft.Web.Services3.Security.X509" />
+    <Import Include="Microsoft.Web.Services3.Security.Xml" />
+    <Import Include="Microsoft.Web.Services3.Xml" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Security" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Class\clsConexionSunat.vb" />
+    <Compile Include="DAL\dalAsientoContable.vb" />
+    <Compile Include="DAL\dalAsientoContableVirtual.vb" />
+    <Compile Include="DAL\dalCliente.vb" />
+    <Compile Include="DAL\dalCONCAR_Anexo.vb" />
+    <Compile Include="DAL\dalControlAcceso.vb" />
+    <Compile Include="DAL\dalCuentaComercial.vb" />
+    <Compile Include="DAL\dalEmails.vb" />
+    <Compile Include="DAL\dalFacturacion.vb" />
+    <Compile Include="DAL\dalFirmaDigital.vb" />
+    <Compile Include="DAL\dalPeriodo.vb" />
+    <Compile Include="DAL\dalTablaCabecera.vb" />
+    <Compile Include="DAL\dalTablaDetalle.vb" />
+    <Compile Include="DAL\dalTipoCambio.vb" />
+    <Compile Include="DAL\dalUsuario.vb" />
+    <Compile Include="DAL\dalVenta.vb" />
+    <Compile Include="DAL\dalXML_Documentos.vb" />
+    <Compile Include="DAL\dalXML_Factura.vb" />
+    <Compile Include="DAL\dalXML_Test.vb" />
+    <Compile Include="Entities\entCuentaComercial.vb" />
+    <Compile Include="DAL\SignedXml.vb" />
+    <Compile Include="Data\dsAsientosContables.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAsientosContables.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsAsientosContablesVirtual.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAsientosContablesVirtual.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsClientes.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsClientes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsComprobantesCliente.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsComprobantesCliente.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsCONCAR_Anexos.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCONCAR_Anexos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsCorrelativo.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCorrelativo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsPadronReducidoRUC.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPadronReducidoRUC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsProductos.vb">
+      <DependentUpon>dsProductos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsProductosImprimir.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProductosImprimir.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsProductosLista.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProductosLista.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsControlAcceso.Designer.vb">
+      <DependentUpon>dsControlAcceso.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Data\dsControlAccesoLista.Designer.vb">
+      <DependentUpon>dsControlAccesoLista.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Data\dsCuentasComerciales.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCuentasComerciales.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsCuentasComercialesDomicilio.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCuentasComercialesDomicilio.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsCuentasContables.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCuentasContables.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsCuentasContablesConcar.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCuentasContablesConcar.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsCuentasContablesLista.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCuentasContablesLista.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsDomicilioFiscal.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDomicilioFiscal.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsEmpresas.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsEmpresas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsFacturacionDetallesLista.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFacturacionDetallesLista.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsFacturacionLista.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFacturacionLista.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsFacturacionLista.vb">
+      <DependentUpon>dsFacturacionLista.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsFacturasLista.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFacturasLista.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsFacturasMensuales.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFacturasMensuales.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsPeriodos.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPeriodos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsProductos.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProductos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsProductosLista.vb">
+      <DependentUpon>dsProductosLista.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsProductosRegularizacionLista.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProductosRegularizacionLista.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsProductosRegularizarImprimir.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProductosRegularizarImprimir.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsProspectos.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProspectos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsTablaAnexos.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsTablaAnexos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsTablasCabeceraLista.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsTablasCabeceraLista.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsTablasDetalleLista.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsTablasDetalleLista.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsTablasGenericas.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsTablasGenericas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsTipoCambio.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsTipoCambio.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsUsuarios.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsUsuarios.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsVentas.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsVentas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsVentas.vb">
+      <DependentUpon>dsVentas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsVentasDetalleLista.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsVentasDetalleLista.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\entArea.vb" />
+    <Compile Include="Entities\entAsientoContable.vb" />
+    <Compile Include="Entities\entAsientoContableDetalle.vb" />
+    <Compile Include="Entities\entCliente.vb" />
+    <Compile Include="Entities\entCompra.vb" />
+    <Compile Include="Entities\entCONCAR_Anexo.vb" />
+    <Compile Include="Entities\entCONCAR_Cliente.vb" />
+    <Compile Include="Entities\entCONCAR_Tabla.vb" />
+    <Compile Include="Entities\entControlAcceso.vb" />
+    <Compile Include="Entities\entCuentaComercialDomicilio.vb" />
+    <Compile Include="Entities\entEComprobante.vb" />
+    <Compile Include="Entities\entEComprobanteFirma.vb" />
+    <Compile Include="Entities\entFactura.vb" />
+    <Compile Include="Entities\entListaElemento.vb" />
+    <Compile Include="Entities\entPeriodo.vb" />
+    <Compile Include="Entities\entProducto.vb" />
+    <Compile Include="Entities\entTablaCabecera.vb" />
+    <Compile Include="Entities\entTablaDetalle.vb" />
+    <Compile Include="Entities\entTipoCambio.vb" />
+    <Compile Include="Entities\entUsuario.vb" />
+    <Compile Include="Entities\entVenta.vb" />
+    <Compile Include="Entities\entVentaGlosa.vb" />
+    <Compile Include="Entities\entVentaProducto.vb" />
+    <Compile Include="Entities\entVentaResumen.vb" />
+    <Compile Include="Entities\entVentaServicio.vb" />
+    <Compile Include="Forms\Comunes\frmBase.designer.vb">
+      <DependentUpon>frmBase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmBase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmControlAccesos.designer.vb">
+      <DependentUpon>frmControlAccesos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmControlAccesos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmControlPeriodos.Designer.vb">
+      <DependentUpon>frmControlPeriodos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmControlPeriodos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmEjecutarDTS.Designer.vb">
+      <DependentUpon>frmEjecutarDTS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmEjecutarDTS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmLista.Designer.vb">
+      <DependentUpon>frmLista.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmLista.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmLogin.designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmMenu.designer.vb">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmPeriodoTrabajo.designer.vb">
+      <DependentUpon>frmPeriodoTrabajo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmPeriodoTrabajo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmSubBase.Designer.vb">
+      <DependentUpon>frmSubBase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmSubBase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmSUNAT.designer.vb">
+      <DependentUpon>frmSUNAT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmSUNAT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmTablaCabecera.Designer.vb">
+      <DependentUpon>frmTablaCabecera.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmTablaCabecera.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmTablaCabeceras.Designer.vb">
+      <DependentUpon>frmTablaCabeceras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmTablaCabeceras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmTablaDetalle.Designer.vb">
+      <DependentUpon>frmTablaDetalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmTablaDetalle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmTablaDetalleLista.designer.vb">
+      <DependentUpon>frmTablaDetalleLista.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmTablaDetalleLista.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmTablaDetalles.Designer.vb">
+      <DependentUpon>frmTablaDetalles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmTablaDetalles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmTipoCambio.designer.vb">
+      <DependentUpon>frmTipoCambio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Comunes\frmTipoCambio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EComprobantes\frmAuditoria.designer.vb">
+      <DependentUpon>frmAuditoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EComprobantes\frmAuditoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EComprobantes\frmEstadoCDR.Designer.vb">
+      <DependentUpon>frmEstadoCDR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EComprobantes\frmEstadoCDR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Facturacion\frmAnexoLista.designer.vb">
+      <DependentUpon>frmAnexoLista.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Facturacion\frmAnexoLista.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Facturacion\frmCliente.designer.vb">
+      <DependentUpon>frmCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Facturacion\frmCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Facturacion\frmClientesLista.designer.vb">
+      <DependentUpon>frmClientesLista.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Facturacion\frmClientesLista.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Facturacion\frmCuentaComercialLista.Designer.vb">
+      <DependentUpon>frmCuentaComercialLista.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Facturacion\frmCuentaComercialLista.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Facturacion\frmEComprobantes.Designer.vb">
+      <DependentUpon>frmEComprobantes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Facturacion\frmEComprobantes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Facturacion\frmEComprobantesServiciosLista.designer.vb">
+      <DependentUpon>frmEComprobantesServiciosLista.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Facturacion\frmEComprobantesServiciosLista.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Facturacion\frmENotaCreditoServicios.Designer.vb">
+      <DependentUpon>frmENotaCreditoServicios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Facturacion\frmENotaCreditoServicios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Facturacion\frmENotaDebitoServicios.Designer.vb">
+      <DependentUpon>frmENotaDebitoServicios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Facturacion\frmENotaDebitoServicios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Facturacion\frmGlosaAlterna.Designer.vb">
+      <DependentUpon>frmGlosaAlterna.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Facturacion\frmGlosaAlterna.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Testing\frmEnviarXML.Designer.vb">
+      <DependentUpon>frmEnviarXML.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Testing\frmEnviarXML.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Testing\frmFirmarXML.Designer.vb">
+      <DependentUpon>frmFirmarXML.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Testing\frmFirmarXML.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Testing\frmGenerarXML.Designer.vb">
+      <DependentUpon>frmGenerarXML.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Testing\frmGenerarXML.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Testing\frmLeerXML.Designer.vb">
+      <DependentUpon>frmLeerXML.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Testing\frmLeerXML.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Testing\frmProcesoXML.Designer.vb">
+      <DependentUpon>frmProcesoXML.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Testing\frmProcesoXML.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Testing\frmValidarXML.Designer.vb">
+      <DependentUpon>frmValidarXML.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Testing\frmValidarXML.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\CustomException.vb" />
+    <Compile Include="Modules\MyCommonTables.vb" />
+    <Compile Include="Modules\Procesos.vb" />
+    <Compile Include="Modules\SignXML.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Prints\frmEBoletaVentaImprimir.Designer.vb">
+      <DependentUpon>frmEBoletaVentaImprimir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Prints\frmEBoletaVentaImprimir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prints\frmEFacturaImprimir.Designer.vb">
+      <DependentUpon>frmEFacturaImprimir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Prints\frmEFacturaImprimir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prints\frmENotaCreditoImprimir.Designer.vb">
+      <DependentUpon>frmENotaCreditoImprimir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Prints\frmENotaCreditoImprimir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prints\frmENotaDebitoImprimir.Designer.vb">
+      <DependentUpon>frmENotaDebitoImprimir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Prints\frmENotaDebitoImprimir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prints\frmReporteComprobantesVenta.Designer.vb">
+      <DependentUpon>frmReporteComprobantesVenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Prints\frmReporteComprobantesVenta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service References\ServiceSUNAT_Comprobantes\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ServiceSUNAT_Comprobantes_Beta\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ServiceSUNAT_ConsultaCDR\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ServiceSUNAT_Validez_Comprobantes\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\Comunes\frmBase.resx">
+      <DependentUpon>frmBase.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Comunes\frmControlAccesos.resx">
+      <DependentUpon>frmControlAccesos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Comunes\frmControlPeriodos.resx">
+      <DependentUpon>frmControlPeriodos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Comunes\frmEjecutarDTS.resx">
+      <DependentUpon>frmEjecutarDTS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Comunes\frmLista.resx">
+      <DependentUpon>frmLista.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Comunes\frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Comunes\frmMenu.resx">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Comunes\frmPeriodoTrabajo.resx">
+      <DependentUpon>frmPeriodoTrabajo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Comunes\frmSubBase.resx">
+      <DependentUpon>frmSubBase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Comunes\frmSUNAT.resx">
+      <DependentUpon>frmSUNAT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Comunes\frmTablaCabecera.resx">
+      <DependentUpon>frmTablaCabecera.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Comunes\frmTablaCabeceras.resx">
+      <DependentUpon>frmTablaCabeceras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Comunes\frmTablaDetalle.resx">
+      <DependentUpon>frmTablaDetalle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Comunes\frmTablaDetalleLista.resx">
+      <DependentUpon>frmTablaDetalleLista.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Comunes\frmTablaDetalles.resx">
+      <DependentUpon>frmTablaDetalles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Comunes\frmTipoCambio.resx">
+      <DependentUpon>frmTipoCambio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EComprobantes\frmAuditoria.resx">
+      <DependentUpon>frmAuditoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EComprobantes\frmEstadoCDR.resx">
+      <DependentUpon>frmEstadoCDR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Facturacion\frmAnexoLista.resx">
+      <DependentUpon>frmAnexoLista.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Facturacion\frmCliente.resx">
+      <DependentUpon>frmCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Facturacion\frmClientesLista.resx">
+      <DependentUpon>frmClientesLista.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Facturacion\frmEComprobantes.resx">
+      <DependentUpon>frmEComprobantes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Facturacion\frmEComprobantesServiciosLista.resx">
+      <DependentUpon>frmEComprobantesServiciosLista.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Facturacion\frmENotaCreditoServicios.resx">
+      <DependentUpon>frmENotaCreditoServicios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Facturacion\frmENotaDebitoServicios.resx">
+      <DependentUpon>frmENotaDebitoServicios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Facturacion\frmGlosaAlterna.resx">
+      <DependentUpon>frmGlosaAlterna.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Testing\frmEnviarXML.resx">
+      <DependentUpon>frmEnviarXML.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Testing\frmFirmarXML.resx">
+      <DependentUpon>frmFirmarXML.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Testing\frmGenerarXML.resx">
+      <DependentUpon>frmGenerarXML.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Testing\frmLeerXML.resx">
+      <DependentUpon>frmLeerXML.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Testing\frmProcesoXML.resx">
+      <DependentUpon>frmProcesoXML.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Testing\frmValidarXML.resx">
+      <DependentUpon>frmValidarXML.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prints\frmEBoletaVentaImprimir.resx">
+      <DependentUpon>frmEBoletaVentaImprimir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prints\frmEFacturaImprimir.resx">
+      <DependentUpon>frmEFacturaImprimir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prints\frmENotaCreditoImprimir.resx">
+      <DependentUpon>frmENotaCreditoImprimir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prints\frmENotaDebitoImprimir.resx">
+      <DependentUpon>frmENotaDebitoImprimir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prints\frmReporteComprobantesVenta.resx">
+      <DependentUpon>frmReporteComprobantesVenta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptComprobantesVenta.rdlc" />
+    <EmbeddedResource Include="Reports\rptEBoleta.rdlc" />
+    <EmbeddedResource Include="Reports\rptEFactura.rdlc" />
+    <EmbeddedResource Include="Reports\rptENotaCredito.rdlc" />
+    <EmbeddedResource Include="Reports\rptENotaDebito.rdlc" />
+    <EmbeddedResource Include="Reports\rptPDF.rdlc" />
+    <EmbeddedResource Include="Reports\rptProductos.rdlc" />
+    <EmbeddedResource Include="Reports\rptStockAlmacen.rdlc" />
+    <EmbeddedResource Include="Reports\rptOperacionAlmacen.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Data\dsAsientosContables.xsc">
+      <DependentUpon>dsAsientosContables.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsAsientosContables.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAsientosContables.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Data\dsAsientosContables.xss">
+      <DependentUpon>dsAsientosContables.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsAsientosContablesVirtual.xsc">
+      <DependentUpon>dsAsientosContablesVirtual.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsAsientosContablesVirtual.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAsientosContablesVirtual.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Data\dsAsientosContablesVirtual.xss">
+      <DependentUpon>dsAsientosContablesVirtual.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsClientes.xsc">
+      <DependentUpon>dsClientes.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsClientes.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsClientes.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\dsClientes.xss">
+      <DependentUpon>dsClientes.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsComprobantesCliente.xsc">
+      <DependentUpon>dsComprobantesCliente.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsComprobantesCliente.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsComprobantesCliente.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\dsComprobantesCliente.xss">
+      <DependentUpon>dsComprobantesCliente.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsCONCAR_Anexos.xsc">
+      <DependentUpon>dsCONCAR_Anexos.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsCONCAR_Anexos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCONCAR_Anexos.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Data\dsCONCAR_Anexos.xss">
+      <DependentUpon>dsCONCAR_Anexos.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsControlAcceso.xsc">
+      <DependentUpon>dsControlAcceso.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsControlAcceso.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsControlAcceso.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Data\dsControlAcceso.xss">
+      <DependentUpon>dsControlAcceso.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsControlAccesoLista.xsc">
+      <DependentUpon>dsControlAccesoLista.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsControlAccesoLista.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsControlAccesoLista.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Data\dsControlAccesoLista.xss">
+      <DependentUpon>dsControlAccesoLista.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsCorrelativo.xsc">
+      <DependentUpon>dsCorrelativo.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsCorrelativo.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCorrelativo.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\dsCorrelativo.xss">
+      <DependentUpon>dsCorrelativo.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsEmpresas.xsc">
+      <DependentUpon>dsEmpresas.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsEmpresas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsEmpresas.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\dsEmpresas.xss">
+      <DependentUpon>dsEmpresas.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsPadronReducidoRUC.xsc">
+      <DependentUpon>dsPadronReducidoRUC.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsPadronReducidoRUC.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPadronReducidoRUC.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\dsPadronReducidoRUC.xss">
+      <DependentUpon>dsPadronReducidoRUC.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsPeriodos.xsc">
+      <DependentUpon>dsPeriodos.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsPeriodos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPeriodos.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\dsPeriodos.xss">
+      <DependentUpon>dsPeriodos.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsProspectos.xsc">
+      <DependentUpon>dsProspectos.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsProspectos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProspectos.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\dsProspectos.xss">
+      <DependentUpon>dsProspectos.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsUsuarios.xsc">
+      <DependentUpon>dsUsuarios.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsUsuarios.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsUsuarios.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\dsUsuarios.xss">
+      <DependentUpon>dsUsuarios.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Service References\ServiceSUNAT_Comprobantes\billService.wsdl" />
+    <None Include="Service References\ServiceSUNAT_Comprobantes\billService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceSUNAT_Comprobantes\billService1.wsdl" />
+    <None Include="Service References\ServiceSUNAT_Comprobantes\billService2.wsdl" />
+    <None Include="Service References\ServiceSUNAT_Comprobantes\BusinessManager.ServiceSUNAT_Comprobantes.statusResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceSUNAT_Comprobantes_Beta\billService.wsdl" />
+    <None Include="Service References\ServiceSUNAT_Comprobantes_Beta\billService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceSUNAT_Comprobantes_Beta\billService1.wsdl" />
+    <None Include="Service References\ServiceSUNAT_ConsultaCDR\billConsultService.wsdl" />
+    <None Include="Service References\ServiceSUNAT_ConsultaCDR\billConsultService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceSUNAT_ConsultaCDR\billConsultService1.wsdl" />
+    <None Include="Service References\ServiceSUNAT_Validez_Comprobantes\billValidService.wsdl" />
+    <None Include="Service References\ServiceSUNAT_Validez_Comprobantes\billValidService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceSUNAT_Validez_Comprobantes\billValidService1.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\actualizar.png" />
+    <Content Include="Images\banco.png" />
+    <Content Include="Images\Button_accept.png" />
+    <Content Include="Images\check 64x64.png" />
+    <Content Include="Images\download.png" />
+    <Content Include="Images\edit.png" />
+    <Content Include="Images\EmailExist transparent.png" />
+    <Content Include="Images\EmailExist.ico" />
+    <Content Include="Images\empty.png" />
+    <Content Include="Images\ExistEmail.ico" />
+    <Content Include="Images\file.png" />
+    <Content Include="Images\Fondo Comprobante.png" />
+    <Content Include="Images\FondoBV-FA.png" />
+    <Content Include="Images\FondoNC-NB.png" />
+    <Content Include="Images\home.png" />
+    <Content Include="Images\ICO Old.ico" />
+    <Content Include="Images\ICO.ico" />
+    <Content Include="Images\job_req.png" />
+    <Content Include="Images\login.png" />
+    <Content Include="Images\login_info.png" />
+    <Content Include="Images\logo_hidronamic.PNG" />
+    <Content Include="Images\pdf.png" />
+    <Content Include="Images\Print_48.png" />
+    <Content Include="Images\remove.png" />
+    <Content Include="Images\save.png" />
+    <Content Include="Images\smallFail BW.gif" />
+    <Content Include="Images\smallFail.gif" />
+    <Content Include="Images\smallSuccess BW.gif" />
+    <Content Include="Images\smallSuccess.gif" />
+    <Content Include="Images\Synchronize.ico" />
+    <Content Include="Images\view.png" />
+    <Content Include="Images\Zerode-Plump-Mail.ico" />
+    <None Include="Resources\logo_email.jpg" />
+    <None Include="Service References\ServiceSUNAT_Validez_Comprobantes\BusinessManager.ServiceSUNAT_Validez_Comprobantes.statusResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceSUNAT_Validez_Comprobantes\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Service References\ServiceSUNAT_Validez_Comprobantes\configuration.svcinfo" />
+    <None Include="Service References\ServiceSUNAT_Validez_Comprobantes\configuration91.svcinfo" />
+    <None Include="Service References\ServiceSUNAT_ConsultaCDR\BusinessManager.ServiceSUNAT_ConsultaCDR.statusResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceSUNAT_ConsultaCDR\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Service References\ServiceSUNAT_ConsultaCDR\configuration.svcinfo" />
+    <None Include="Service References\ServiceSUNAT_ConsultaCDR\configuration91.svcinfo" />
+    <None Include="Service References\ServiceSUNAT_Comprobantes\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Service References\ServiceSUNAT_Comprobantes\configuration.svcinfo" />
+    <None Include="Service References\ServiceSUNAT_Comprobantes\configuration91.svcinfo" />
+    <None Include="Service References\ServiceSUNAT_Comprobantes_Beta\BusinessManager.ServiceSUNAT_Comprobantes_Beta.statusResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceSUNAT_Comprobantes_Beta\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Service References\ServiceSUNAT_Comprobantes_Beta\configuration.svcinfo" />
+    <None Include="Service References\ServiceSUNAT_Comprobantes_Beta\configuration91.svcinfo" />
+    <None Include="Resources\download.png" />
+    <None Include="Resources\Imagen Menu.png" />
+    <None Include="Data\dsProductosImprimir.xsc">
+      <DependentUpon>dsProductosImprimir.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsProductosImprimir.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProductosImprimir.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Data\dsProductosImprimir.xss">
+      <DependentUpon>dsProductosImprimir.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsProductosLista.xsc">
+      <DependentUpon>dsProductosLista.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsProductosLista.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProductosLista.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Data\dsProductosLista.xss">
+      <DependentUpon>dsProductosLista.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsCuentasComerciales.xsc">
+      <DependentUpon>dsCuentasComerciales.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsCuentasComerciales.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCuentasComerciales.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\dsCuentasComerciales.xss">
+      <DependentUpon>dsCuentasComerciales.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsCuentasComercialesDomicilio.xsc">
+      <DependentUpon>dsCuentasComercialesDomicilio.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsCuentasComercialesDomicilio.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCuentasComercialesDomicilio.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\dsCuentasComercialesDomicilio.xss">
+      <DependentUpon>dsCuentasComercialesDomicilio.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsCuentasContables.xsc">
+      <DependentUpon>dsCuentasContables.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsCuentasContables.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCuentasContables.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\dsCuentasContables.xss">
+      <DependentUpon>dsCuentasContables.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsCuentasContablesConcar.xsc">
+      <DependentUpon>dsCuentasContablesConcar.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsCuentasContablesConcar.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCuentasContablesConcar.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\dsCuentasContablesConcar.xss">
+      <DependentUpon>dsCuentasContablesConcar.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsCuentasContablesLista.xsc">
+      <DependentUpon>dsCuentasContablesLista.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsCuentasContablesLista.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCuentasContablesLista.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\dsCuentasContablesLista.xss">
+      <DependentUpon>dsCuentasContablesLista.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsDomicilioFiscal.xsc">
+      <DependentUpon>dsDomicilioFiscal.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsDomicilioFiscal.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDomicilioFiscal.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\dsDomicilioFiscal.xss">
+      <DependentUpon>dsDomicilioFiscal.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsFacturacionDetallesLista.xsc">
+      <DependentUpon>dsFacturacionDetallesLista.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsFacturacionDetallesLista.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFacturacionDetallesLista.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\dsFacturacionDetallesLista.xss">
+      <DependentUpon>dsFacturacionDetallesLista.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsFacturacionLista.xsc">
+      <DependentUpon>dsFacturacionLista.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsFacturacionLista.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFacturacionLista.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\dsFacturacionLista.xss">
+      <DependentUpon>dsFacturacionLista.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsFacturasLista.xsc">
+      <DependentUpon>dsFacturasLista.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsFacturasLista.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFacturasLista.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\dsFacturasLista.xss">
+      <DependentUpon>dsFacturasLista.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsFacturasMensuales.xsc">
+      <DependentUpon>dsFacturasMensuales.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsFacturasMensuales.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFacturasMensuales.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\dsFacturasMensuales.xss">
+      <DependentUpon>dsFacturasMensuales.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsProductos.xsc">
+      <DependentUpon>dsProductos.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsProductos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProductos.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Data\dsProductos.xss">
+      <DependentUpon>dsProductos.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsProductosRegularizacionLista.xsc">
+      <DependentUpon>dsProductosRegularizacionLista.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsProductosRegularizacionLista.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProductosRegularizacionLista.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Data\dsProductosRegularizacionLista.xss">
+      <DependentUpon>dsProductosRegularizacionLista.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsProductosRegularizarImprimir.xsc">
+      <DependentUpon>dsProductosRegularizarImprimir.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsProductosRegularizarImprimir.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProductosRegularizarImprimir.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Data\dsProductosRegularizarImprimir.xss">
+      <DependentUpon>dsProductosRegularizarImprimir.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsTablaAnexos.xsc">
+      <DependentUpon>dsTablaAnexos.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsTablaAnexos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTablaAnexos.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\dsTablaAnexos.xss">
+      <DependentUpon>dsTablaAnexos.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsTablasCabeceraLista.xsc">
+      <DependentUpon>dsTablasCabeceraLista.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsTablasCabeceraLista.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTablasCabeceraLista.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\dsTablasCabeceraLista.xss">
+      <DependentUpon>dsTablasCabeceraLista.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsTablasDetalleLista.xsc">
+      <DependentUpon>dsTablasDetalleLista.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsTablasDetalleLista.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTablasDetalleLista.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\dsTablasDetalleLista.xss">
+      <DependentUpon>dsTablasDetalleLista.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsTablasGenericas.xsc">
+      <DependentUpon>dsTablasGenericas.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsTablasGenericas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTablasGenericas.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\dsTablasGenericas.xss">
+      <DependentUpon>dsTablasGenericas.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsTipoCambio.xsc">
+      <DependentUpon>dsTipoCambio.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsTipoCambio.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTipoCambio.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\dsTipoCambio.xss">
+      <DependentUpon>dsTipoCambio.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsVentas.xsc">
+      <DependentUpon>dsVentas.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsVentas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsVentas.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Data\dsVentas.xss">
+      <DependentUpon>dsVentas.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsVentasDetalleLista.xsc">
+      <DependentUpon>dsVentasDetalleLista.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsVentasDetalleLista.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsVentasDetalleLista.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Data\dsVentasDetalleLista.xss">
+      <DependentUpon>dsVentasDetalleLista.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\Image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyControlToolBar\MyControlToolBar.vbproj">
+      <Project>{583708A2-300E-49A2-A10D-F5E788808653}</Project>
+      <Name>MyControlToolBar</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServiceSUNAT_Comprobantes\" />
+    <WCFMetadataStorage Include="Service References\ServiceSUNAT_Comprobantes_Beta\" />
+    <WCFMetadataStorage Include="Service References\ServiceSUNAT_ConsultaCDR\" />
+    <WCFMetadataStorage Include="Service References\ServiceSUNAT_Validez_Comprobantes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

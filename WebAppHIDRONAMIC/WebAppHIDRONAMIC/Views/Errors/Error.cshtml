@@ -1,0 +1,29 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+
+<script>
+    $(document).ready(function () {
+        $("#errorMsg").dblclick(function () {
+            $("#MENSAJE").css("display", "block");
+        });
+
+        $("#hideMsg").click(function () {
+            $("#MENSAJE").css("display", "none");
+        });
+    });
+</script>
+
+<h1 class="text-danger">
+    <a href="#" id="errorMsg"><img src="~/Imagenes/warning_icon.png" style="height:40px;width:40px;" /></a> Error.
+</h1>
+
+<h2 class="text-danger">Hubo un error al procesar su petición...por favor intente nuevamente.</h2>
+<h2 class="text-danger">Si el error persiste contáctese con su desarrollador.</h2>
+
+<br />
+<br />
+
+<div class="alert alert-danger alert-dismissible" style="display:none;" id="MENSAJE">
+    <a href="#" id="hideMsg" class="close" aria-label="close">&times;</a>
+    <p>@ViewBag.mensaje</p>
+</div>
+

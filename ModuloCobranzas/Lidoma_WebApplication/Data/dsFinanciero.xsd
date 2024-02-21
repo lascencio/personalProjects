@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsFinanciero" targetNamespace="http://tempuri.org/dsFinanciero.xsd" xmlns:mstns="http://tempuri.org/dsFinanciero.xsd" xmlns="http://tempuri.org/dsFinanciero.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsFinanciero" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsFinanciero" msprop:Generator_UserDSName="dsFinanciero">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PRESTAMOS_LISTA" msprop:Generator_TableClassName="PRESTAMOS_LISTADataTable" msprop:Generator_TableVarName="tablePRESTAMOS_LISTA" msprop:Generator_RowChangedName="PRESTAMOS_LISTARowChanged" msprop:Generator_TablePropName="PRESTAMOS_LISTA" msprop:Generator_RowDeletingName="PRESTAMOS_LISTARowDeleting" msprop:Generator_RowChangingName="PRESTAMOS_LISTARowChanging" msprop:Generator_RowEvHandlerName="PRESTAMOS_LISTARowChangeEventHandler" msprop:Generator_RowDeletedName="PRESTAMOS_LISTARowDeleted" msprop:Generator_RowClassName="PRESTAMOS_LISTARow" msprop:Generator_UserTableName="PRESTAMOS_LISTA" msprop:Generator_RowEvArgName="PRESTAMOS_LISTARowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PRESTAMO" msprop:Generator_ColumnVarNameInTable="columnPRESTAMO" msprop:Generator_ColumnPropNameInRow="PRESTAMO" msprop:Generator_ColumnPropNameInTable="PRESTAMOColumn" msprop:Generator_UserColumnName="PRESTAMO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TIPO_PRESTAMO" msprop:Generator_ColumnVarNameInTable="columnTIPO_PRESTAMO" msprop:Generator_ColumnPropNameInRow="TIPO_PRESTAMO" msprop:Generator_ColumnPropNameInTable="TIPO_PRESTAMOColumn" msprop:Generator_UserColumnName="TIPO_PRESTAMO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FECHA_REGISTRO" msprop:Generator_ColumnVarNameInTable="columnFECHA_REGISTRO" msprop:Generator_ColumnPropNameInRow="FECHA_REGISTRO" msprop:Generator_ColumnPropNameInTable="FECHA_REGISTROColumn" msprop:Generator_UserColumnName="FECHA_REGISTRO" type="xs:dateTime" />
+              <xs:element name="RAZON_SOCIAL" msprop:Generator_ColumnVarNameInTable="columnRAZON_SOCIAL" msprop:Generator_ColumnPropNameInRow="RAZON_SOCIAL" msprop:Generator_ColumnPropNameInTable="RAZON_SOCIALColumn" msprop:Generator_UserColumnName="RAZON_SOCIAL">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MONEDA" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMONEDA" msprop:Generator_ColumnPropNameInRow="MONEDA" msprop:Generator_ColumnPropNameInTable="MONEDAColumn" msprop:Generator_UserColumnName="MONEDA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CAPITAL" msprop:Generator_ColumnVarNameInTable="columnCAPITAL" msprop:Generator_ColumnPropNameInRow="CAPITAL" msprop:Generator_ColumnPropNameInTable="CAPITALColumn" msprop:Generator_UserColumnName="CAPITAL" type="xs:decimal" />
+              <xs:element name="NUMERO_CUOTAS" msprop:Generator_ColumnVarNameInTable="columnNUMERO_CUOTAS" msprop:Generator_ColumnPropNameInRow="NUMERO_CUOTAS" msprop:Generator_ColumnPropNameInTable="NUMERO_CUOTASColumn" msprop:Generator_UserColumnName="NUMERO_CUOTAS" type="xs:decimal" />
+              <xs:element name="VALOR_CUOTA" msprop:Generator_ColumnVarNameInTable="columnVALOR_CUOTA" msprop:Generator_ColumnPropNameInRow="VALOR_CUOTA" msprop:Generator_ColumnPropNameInTable="VALOR_CUOTAColumn" msprop:Generator_UserColumnName="VALOR_CUOTA" type="xs:decimal" />
+              <xs:element name="TOTAL_PRESTAMO" msprop:Generator_ColumnVarNameInTable="columnTOTAL_PRESTAMO" msprop:Generator_ColumnPropNameInRow="TOTAL_PRESTAMO" msprop:Generator_ColumnPropNameInTable="TOTAL_PRESTAMOColumn" msprop:Generator_UserColumnName="TOTAL_PRESTAMO" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PRESTAMOS_CUOTAS_LISTA" msprop:Generator_TableClassName="PRESTAMOS_CUOTAS_LISTADataTable" msprop:Generator_TableVarName="tablePRESTAMOS_CUOTAS_LISTA" msprop:Generator_TablePropName="PRESTAMOS_CUOTAS_LISTA" msprop:Generator_RowDeletingName="PRESTAMOS_CUOTAS_LISTARowDeleting" msprop:Generator_RowChangingName="PRESTAMOS_CUOTAS_LISTARowChanging" msprop:Generator_RowEvHandlerName="PRESTAMOS_CUOTAS_LISTARowChangeEventHandler" msprop:Generator_RowDeletedName="PRESTAMOS_CUOTAS_LISTARowDeleted" msprop:Generator_UserTableName="PRESTAMOS_CUOTAS_LISTA" msprop:Generator_RowChangedName="PRESTAMOS_CUOTAS_LISTARowChanged" msprop:Generator_RowEvArgName="PRESTAMOS_CUOTAS_LISTARowChangeEvent" msprop:Generator_RowClassName="PRESTAMOS_CUOTAS_LISTARow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NUMERO_CUOTA" msprop:Generator_ColumnVarNameInTable="columnNUMERO_CUOTA" msprop:Generator_ColumnPropNameInRow="NUMERO_CUOTA" msprop:Generator_ColumnPropNameInTable="NUMERO_CUOTAColumn" msprop:Generator_UserColumnName="NUMERO_CUOTA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FECHA_VENCIMIENTO" msprop:Generator_ColumnVarNameInTable="columnFECHA_VENCIMIENTO" msprop:Generator_ColumnPropNameInRow="FECHA_VENCIMIENTO" msprop:Generator_ColumnPropNameInTable="FECHA_VENCIMIENTOColumn" msprop:Generator_UserColumnName="FECHA_VENCIMIENTO" type="xs:dateTime" />
+              <xs:element name="VALOR_CUOTA" msprop:Generator_ColumnVarNameInTable="columnVALOR_CUOTA" msprop:Generator_ColumnPropNameInRow="VALOR_CUOTA" msprop:Generator_ColumnPropNameInTable="VALOR_CUOTAColumn" msprop:Generator_UserColumnName="VALOR_CUOTA" type="xs:decimal" />
+              <xs:element name="FECHA_PAGO" msprop:Generator_ColumnVarNameInTable="columnFECHA_PAGO" msprop:Generator_ColumnPropNameInRow="FECHA_PAGO" msprop:Generator_ColumnPropNameInTable="FECHA_PAGOColumn" msprop:Generator_UserColumnName="FECHA_PAGO" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SALDO_CUOTA" msprop:Generator_ColumnVarNameInTable="columnSALDO_CUOTA" msprop:Generator_ColumnPropNameInRow="SALDO_CUOTA" msprop:Generator_ColumnPropNameInTable="SALDO_CUOTAColumn" msprop:Generator_UserColumnName="SALDO_CUOTA" type="xs:decimal" />
+              <xs:element name="DIAS_MORA" msprop:Generator_ColumnVarNameInTable="columnDIAS_MORA" msprop:Generator_ColumnPropNameInRow="DIAS_MORA" msprop:Generator_ColumnPropNameInTable="DIAS_MORAColumn" msprop:Generator_UserColumnName="DIAS_MORA" type="xs:decimal" />
+              <xs:element name="MORA" msprop:Generator_ColumnVarNameInTable="columnMORA" msprop:Generator_ColumnPropNameInRow="MORA" msprop:Generator_ColumnPropNameInTable="MORAColumn" msprop:Generator_UserColumnName="MORA" type="xs:decimal" />
+              <xs:element name="CUOTA_PAGO" msprop:Generator_ColumnVarNameInTable="columnCUOTA_PAGO" msprop:Generator_ColumnPropNameInRow="CUOTA_PAGO" msprop:Generator_ColumnPropNameInTable="CUOTA_PAGOColumn" msprop:Generator_UserColumnName="CUOTA_PAGO" type="xs:decimal" />
+              <xs:element name="MORA_PAGO" msprop:Generator_ColumnVarNameInTable="columnMORA_PAGO" msprop:Generator_ColumnPropNameInRow="MORA_PAGO" msprop:Generator_ColumnPropNameInTable="MORA_PAGOColumn" msprop:Generator_UserColumnName="MORA_PAGO" type="xs:decimal" />
+              <xs:element name="TOTAL_PAGO" msprop:Generator_ColumnVarNameInTable="columnTOTAL_PAGO" msprop:Generator_ColumnPropNameInRow="TOTAL_PAGO" msprop:Generator_ColumnPropNameInTable="TOTAL_PAGOColumn" msprop:Generator_UserColumnName="TOTAL_PAGO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="COMPROMISO_FECHA" msprop:Generator_ColumnVarNameInTable="columnCOMPROMISO_FECHA" msprop:Generator_ColumnPropNameInRow="COMPROMISO_FECHA" msprop:Generator_ColumnPropNameInTable="COMPROMISO_FECHAColumn" msprop:Generator_UserColumnName="COMPROMISO_FECHA" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="COMPROMISO_COMENTARIO" msprop:Generator_ColumnVarNameInTable="columnCOMPROMISO_COMENTARIO" msprop:Generator_ColumnPropNameInRow="COMPROMISO_COMENTARIO" msprop:Generator_ColumnPropNameInTable="COMPROMISO_COMENTARIOColumn" msprop:Generator_UserColumnName="COMPROMISO_COMENTARIO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SELECCIONAR" msprop:Generator_ColumnVarNameInTable="columnSELECCIONAR" msprop:Generator_ColumnPropNameInRow="SELECCIONAR" msprop:Generator_ColumnPropNameInTable="SELECCIONARColumn" msprop:Generator_UserColumnName="SELECCIONAR" type="xs:unsignedByte" default="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PRESTAMOS" msprop:Generator_TableClassName="PRESTAMOSDataTable" msprop:Generator_TableVarName="tablePRESTAMOS" msprop:Generator_RowChangedName="PRESTAMOSRowChanged" msprop:Generator_TablePropName="PRESTAMOS" msprop:Generator_RowDeletingName="PRESTAMOSRowDeleting" msprop:Generator_RowChangingName="PRESTAMOSRowChanging" msprop:Generator_RowEvHandlerName="PRESTAMOSRowChangeEventHandler" msprop:Generator_RowDeletedName="PRESTAMOSRowDeleted" msprop:Generator_RowClassName="PRESTAMOSRow" msprop:Generator_UserTableName="PRESTAMOS" msprop:Generator_RowEvArgName="PRESTAMOSRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EMPRESA" msprop:Generator_ColumnVarNameInTable="columnEMPRESA" msprop:Generator_ColumnPropNameInRow="EMPRESA" msprop:Generator_ColumnPropNameInTable="EMPRESAColumn" msprop:Generator_UserColumnName="EMPRESA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PRESTAMO" msprop:Generator_ColumnVarNameInTable="columnPRESTAMO" msprop:Generator_ColumnPropNameInRow="PRESTAMO" msprop:Generator_ColumnPropNameInTable="PRESTAMOColumn" msprop:Generator_UserColumnName="PRESTAMO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EJERCICIO" msprop:Generator_ColumnVarNameInTable="columnEJERCICIO" msprop:Generator_ColumnPropNameInRow="EJERCICIO" msprop:Generator_ColumnPropNameInTable="EJERCICIOColumn" msprop:Generator_UserColumnName="EJERCICIO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MES" msprop:Generator_ColumnVarNameInTable="columnMES" msprop:Generator_ColumnPropNameInRow="MES" msprop:Generator_ColumnPropNameInTable="MESColumn" msprop:Generator_UserColumnName="MES">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TIPO_DOCUMENTO" msprop:Generator_ColumnVarNameInTable="columnTIPO_DOCUMENTO" msprop:Generator_ColumnPropNameInRow="TIPO_DOCUMENTO" msprop:Generator_ColumnPropNameInTable="TIPO_DOCUMENTOColumn" msprop:Generator_UserColumnName="TIPO_DOCUMENTO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NRO_DOCUMENTO" msprop:Generator_ColumnVarNameInTable="columnNRO_DOCUMENTO" msprop:Generator_ColumnPropNameInRow="NRO_DOCUMENTO" msprop:Generator_ColumnPropNameInTable="NRO_DOCUMENTOColumn" msprop:Generator_UserColumnName="NRO_DOCUMENTO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RAZON_SOCIAL" msprop:Generator_ColumnVarNameInTable="columnRAZON_SOCIAL" msprop:Generator_ColumnPropNameInRow="RAZON_SOCIAL" msprop:Generator_ColumnPropNameInTable="RAZON_SOCIALColumn" msprop:Generator_UserColumnName="RAZON_SOCIAL">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DOMICILIO" msprop:Generator_ColumnVarNameInTable="columnDOMICILIO" msprop:Generator_ColumnPropNameInRow="DOMICILIO" msprop:Generator_ColumnPropNameInTable="DOMICILIOColumn" msprop:Generator_UserColumnName="DOMICILIO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TIPO_PRESTAMO" msprop:Generator_ColumnVarNameInTable="columnTIPO_PRESTAMO" msprop:Generator_ColumnPropNameInRow="TIPO_PRESTAMO" msprop:Generator_ColumnPropNameInTable="TIPO_PRESTAMOColumn" msprop:Generator_UserColumnName="TIPO_PRESTAMO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FORMA_PAGO" msprop:Generator_ColumnVarNameInTable="columnFORMA_PAGO" msprop:Generator_ColumnPropNameInRow="FORMA_PAGO" msprop:Generator_ColumnPropNameInTable="FORMA_PAGOColumn" msprop:Generator_UserColumnName="FORMA_PAGO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FECHA_DESEMBOLSO" msprop:Generator_ColumnVarNameInTable="columnFECHA_DESEMBOLSO" msprop:Generator_ColumnPropNameInRow="FECHA_DESEMBOLSO" msprop:Generator_ColumnPropNameInTable="FECHA_DESEMBOLSOColumn" msprop:Generator_UserColumnName="FECHA_DESEMBOLSO" type="xs:dateTime" />
+              <xs:element name="TIPO_MONEDA" msprop:Generator_ColumnVarNameInTable="columnTIPO_MONEDA" msprop:Generator_ColumnPropNameInRow="TIPO_MONEDA" msprop:Generator_ColumnPropNameInTable="TIPO_MONEDAColumn" msprop:Generator_UserColumnName="TIPO_MONEDA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CAPITAL" msprop:Generator_ColumnVarNameInTable="columnCAPITAL" msprop:Generator_ColumnPropNameInRow="CAPITAL" msprop:Generator_ColumnPropNameInTable="CAPITALColumn" msprop:Generator_UserColumnName="CAPITAL" type="xs:decimal" />
+              <xs:element name="NUMERO_CUOTAS" msprop:Generator_ColumnVarNameInTable="columnNUMERO_CUOTAS" msprop:Generator_ColumnPropNameInRow="NUMERO_CUOTAS" msprop:Generator_ColumnPropNameInTable="NUMERO_CUOTASColumn" msprop:Generator_UserColumnName="NUMERO_CUOTAS" type="xs:decimal" />
+              <xs:element name="TASA_INTERES" msprop:Generator_ColumnVarNameInTable="columnTASA_INTERES" msprop:Generator_ColumnPropNameInRow="TASA_INTERES" msprop:Generator_ColumnPropNameInTable="TASA_INTERESColumn" msprop:Generator_UserColumnName="TASA_INTERES" type="xs:decimal" />
+              <xs:element name="TASA_MOROSIDAD" msprop:Generator_ColumnVarNameInTable="columnTASA_MOROSIDAD" msprop:Generator_ColumnPropNameInRow="TASA_MOROSIDAD" msprop:Generator_ColumnPropNameInTable="TASA_MOROSIDADColumn" msprop:Generator_UserColumnName="TASA_MOROSIDAD" type="xs:decimal" />
+              <xs:element name="PORCENTAJE_IMPUESTO" msprop:Generator_ColumnVarNameInTable="columnPORCENTAJE_IMPUESTO" msprop:Generator_ColumnPropNameInRow="PORCENTAJE_IMPUESTO" msprop:Generator_ColumnPropNameInTable="PORCENTAJE_IMPUESTOColumn" msprop:Generator_UserColumnName="PORCENTAJE_IMPUESTO" type="xs:decimal" />
+              <xs:element name="VALOR_CUOTA" msprop:Generator_ColumnVarNameInTable="columnVALOR_CUOTA" msprop:Generator_ColumnPropNameInRow="VALOR_CUOTA" msprop:Generator_ColumnPropNameInTable="VALOR_CUOTAColumn" msprop:Generator_UserColumnName="VALOR_CUOTA" type="xs:decimal" />
+              <xs:element name="TOTAL_INTERES" msprop:Generator_ColumnVarNameInTable="columnTOTAL_INTERES" msprop:Generator_ColumnPropNameInRow="TOTAL_INTERES" msprop:Generator_ColumnPropNameInTable="TOTAL_INTERESColumn" msprop:Generator_UserColumnName="TOTAL_INTERES" type="xs:decimal" />
+              <xs:element name="TOTAL_IMPUESTO" msprop:Generator_ColumnVarNameInTable="columnTOTAL_IMPUESTO" msprop:Generator_ColumnPropNameInRow="TOTAL_IMPUESTO" msprop:Generator_ColumnPropNameInTable="TOTAL_IMPUESTOColumn" msprop:Generator_UserColumnName="TOTAL_IMPUESTO" type="xs:decimal" />
+              <xs:element name="TOTAL_PRESTAMO" msprop:Generator_ColumnVarNameInTable="columnTOTAL_PRESTAMO" msprop:Generator_ColumnPropNameInRow="TOTAL_PRESTAMO" msprop:Generator_ColumnPropNameInTable="TOTAL_PRESTAMOColumn" msprop:Generator_UserColumnName="TOTAL_PRESTAMO" type="xs:decimal" />
+              <xs:element name="TOTAL_SALDO" msprop:Generator_ColumnVarNameInTable="columnTOTAL_SALDO" msprop:Generator_ColumnPropNameInRow="TOTAL_SALDO" msprop:Generator_ColumnPropNameInTable="TOTAL_SALDOColumn" msprop:Generator_UserColumnName="TOTAL_SALDO" type="xs:decimal" />
+              <xs:element name="FECHA_PRIMER_PAGO" msprop:Generator_ColumnVarNameInTable="columnFECHA_PRIMER_PAGO" msprop:Generator_ColumnPropNameInRow="FECHA_PRIMER_PAGO" msprop:Generator_ColumnPropNameInTable="FECHA_PRIMER_PAGOColumn" msprop:Generator_UserColumnName="FECHA_PRIMER_PAGO" type="xs:dateTime" />
+              <xs:element name="MONTO_SOLICITADO" msprop:Generator_ColumnVarNameInTable="columnMONTO_SOLICITADO" msprop:Generator_ColumnPropNameInRow="MONTO_SOLICITADO" msprop:Generator_ColumnPropNameInTable="MONTO_SOLICITADOColumn" msprop:Generator_UserColumnName="MONTO_SOLICITADO" type="xs:decimal" />
+              <xs:element name="CUOTA_INICIAL" msprop:Generator_ColumnVarNameInTable="columnCUOTA_INICIAL" msprop:Generator_ColumnPropNameInRow="CUOTA_INICIAL" msprop:Generator_ColumnPropNameInTable="CUOTA_INICIALColumn" msprop:Generator_UserColumnName="CUOTA_INICIAL" type="xs:decimal" />
+              <xs:element name="CUOTA_INICIAL_PAGADA" msprop:Generator_ColumnVarNameInTable="columnCUOTA_INICIAL_PAGADA" msprop:Generator_ColumnPropNameInRow="CUOTA_INICIAL_PAGADA" msprop:Generator_ColumnPropNameInTable="CUOTA_INICIAL_PAGADAColumn" msprop:Generator_UserColumnName="CUOTA_INICIAL_PAGADA" type="xs:decimal" />
+              <xs:element name="CUOTA_INICIAL_SALDO_FECHA_PAGO" msprop:Generator_ColumnVarNameInTable="columnCUOTA_INICIAL_SALDO_FECHA_PAGO" msprop:Generator_ColumnPropNameInRow="CUOTA_INICIAL_SALDO_FECHA_PAGO" msprop:Generator_ColumnPropNameInTable="CUOTA_INICIAL_SALDO_FECHA_PAGOColumn" msprop:Generator_UserColumnName="CUOTA_INICIAL_SALDO_FECHA_PAGO" type="xs:dateTime" />
+              <xs:element name="VENTA" msprop:Generator_ColumnVarNameInTable="columnVENTA" msprop:Generator_ColumnPropNameInRow="VENTA" msprop:Generator_ColumnPropNameInTable="VENTAColumn" msprop:Generator_UserColumnName="VENTA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PROFORMA" msprop:Generator_ColumnVarNameInTable="columnPROFORMA" msprop:Generator_ColumnPropNameInRow="PROFORMA" msprop:Generator_ColumnPropNameInTable="PROFORMAColumn" msprop:Generator_UserColumnName="PROFORMA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="COMENTARIO" msprop:Generator_ColumnVarNameInTable="columnCOMENTARIO" msprop:Generator_ColumnPropNameInRow="COMENTARIO" msprop:Generator_ColumnPropNameInTable="COMENTARIOColumn" msprop:Generator_UserColumnName="COMENTARIO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="INDICA_REFINANCIAMIENTO" msprop:Generator_ColumnVarNameInTable="columnINDICA_REFINANCIAMIENTO" msprop:Generator_ColumnPropNameInRow="INDICA_REFINANCIAMIENTO" msprop:Generator_ColumnPropNameInTable="INDICA_REFINANCIAMIENTOColumn" msprop:Generator_UserColumnName="INDICA_REFINANCIAMIENTO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PRESTAMO_REFINANCIADO" msprop:Generator_ColumnVarNameInTable="columnPRESTAMO_REFINANCIADO" msprop:Generator_ColumnPropNameInRow="PRESTAMO_REFINANCIADO" msprop:Generator_ColumnPropNameInTable="PRESTAMO_REFINANCIADOColumn" msprop:Generator_UserColumnName="PRESTAMO_REFINANCIADO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="USUARIO_DEVOLUCION" msprop:Generator_ColumnVarNameInTable="columnUSUARIO_DEVOLUCION" msprop:Generator_ColumnPropNameInRow="USUARIO_DEVOLUCION" msprop:Generator_ColumnPropNameInTable="USUARIO_DEVOLUCIONColumn" msprop:Generator_UserColumnName="USUARIO_DEVOLUCION">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FECHA_DEVOLUCION" msprop:Generator_ColumnVarNameInTable="columnFECHA_DEVOLUCION" msprop:Generator_ColumnPropNameInRow="FECHA_DEVOLUCION" msprop:Generator_ColumnPropNameInTable="FECHA_DEVOLUCIONColumn" msprop:Generator_UserColumnName="FECHA_DEVOLUCION" type="xs:dateTime" />
+              <xs:element name="COMENTARIO_DEVOLUCION" msprop:Generator_ColumnVarNameInTable="columnCOMENTARIO_DEVOLUCION" msprop:Generator_ColumnPropNameInRow="COMENTARIO_DEVOLUCION" msprop:Generator_ColumnPropNameInTable="COMENTARIO_DEVOLUCIONColumn" msprop:Generator_UserColumnName="COMENTARIO_DEVOLUCION">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ESTADO" msprop:Generator_ColumnVarNameInTable="columnESTADO" msprop:Generator_ColumnPropNameInRow="ESTADO" msprop:Generator_ColumnPropNameInTable="ESTADOColumn" msprop:Generator_UserColumnName="ESTADO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AGENCIA_REGISTRO" msprop:Generator_ColumnVarNameInTable="columnAGENCIA_REGISTRO" msprop:Generator_ColumnPropNameInRow="AGENCIA_REGISTRO" msprop:Generator_ColumnPropNameInTable="AGENCIA_REGISTROColumn" msprop:Generator_UserColumnName="AGENCIA_REGISTRO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="USUARIO_REGISTRO" msprop:Generator_ColumnVarNameInTable="columnUSUARIO_REGISTRO" msprop:Generator_ColumnPropNameInRow="USUARIO_REGISTRO" msprop:Generator_ColumnPropNameInTable="USUARIO_REGISTROColumn" msprop:Generator_UserColumnName="USUARIO_REGISTRO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FECHA_REGISTRO" msprop:Generator_ColumnVarNameInTable="columnFECHA_REGISTRO" msprop:Generator_ColumnPropNameInRow="FECHA_REGISTRO" msprop:Generator_ColumnPropNameInTable="FECHA_REGISTROColumn" msprop:Generator_UserColumnName="FECHA_REGISTRO" type="xs:dateTime" />
+              <xs:element name="AGENCIA_MODIFICA" msprop:Generator_ColumnVarNameInTable="columnAGENCIA_MODIFICA" msprop:Generator_ColumnPropNameInRow="AGENCIA_MODIFICA" msprop:Generator_ColumnPropNameInTable="AGENCIA_MODIFICAColumn" msprop:Generator_UserColumnName="AGENCIA_MODIFICA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="USUARIO_MODIFICA" msprop:Generator_ColumnVarNameInTable="columnUSUARIO_MODIFICA" msprop:Generator_ColumnPropNameInRow="USUARIO_MODIFICA" msprop:Generator_ColumnPropNameInTable="USUARIO_MODIFICAColumn" msprop:Generator_UserColumnName="USUARIO_MODIFICA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FECHA_MODIFICA" msprop:Generator_ColumnVarNameInTable="columnFECHA_MODIFICA" msprop:Generator_ColumnPropNameInRow="FECHA_MODIFICA" msprop:Generator_ColumnPropNameInTable="FECHA_MODIFICAColumn" msprop:Generator_UserColumnName="FECHA_MODIFICA" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="COBRANZAS" msprop:Generator_TableClassName="COBRANZASDataTable" msprop:Generator_TableVarName="tableCOBRANZAS" msprop:Generator_TablePropName="COBRANZAS" msprop:Generator_RowDeletingName="COBRANZASRowDeleting" msprop:Generator_RowChangingName="COBRANZASRowChanging" msprop:Generator_RowEvHandlerName="COBRANZASRowChangeEventHandler" msprop:Generator_RowDeletedName="COBRANZASRowDeleted" msprop:Generator_UserTableName="COBRANZAS" msprop:Generator_RowChangedName="COBRANZASRowChanged" msprop:Generator_RowEvArgName="COBRANZASRowChangeEvent" msprop:Generator_RowClassName="COBRANZASRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EMPRESA" msprop:Generator_ColumnVarNameInTable="columnEMPRESA" msprop:Generator_ColumnPropNameInRow="EMPRESA" msprop:Generator_ColumnPropNameInTable="EMPRESAColumn" msprop:Generator_UserColumnName="EMPRESA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="COBRANZA" msprop:Generator_ColumnVarNameInTable="columnCOBRANZA" msprop:Generator_ColumnPropNameInRow="COBRANZA" msprop:Generator_ColumnPropNameInTable="COBRANZAColumn" msprop:Generator_UserColumnName="COBRANZA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PRESTAMO" msprop:Generator_ColumnVarNameInTable="columnPRESTAMO" msprop:Generator_ColumnPropNameInRow="PRESTAMO" msprop:Generator_ColumnPropNameInTable="PRESTAMOColumn" msprop:Generator_UserColumnName="PRESTAMO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EJERCICIO" msprop:Generator_ColumnVarNameInTable="columnEJERCICIO" msprop:Generator_ColumnPropNameInRow="EJERCICIO" msprop:Generator_ColumnPropNameInTable="EJERCICIOColumn" msprop:Generator_UserColumnName="EJERCICIO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MES" msprop:Generator_ColumnVarNameInTable="columnMES" msprop:Generator_ColumnPropNameInRow="MES" msprop:Generator_ColumnPropNameInTable="MESColumn" msprop:Generator_UserColumnName="MES">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TIPO" msprop:Generator_ColumnVarNameInTable="columnTIPO" msprop:Generator_ColumnPropNameInRow="TIPO" msprop:Generator_ColumnPropNameInTable="TIPOColumn" msprop:Generator_UserColumnName="TIPO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IMPORTE" msprop:Generator_ColumnVarNameInTable="columnIMPORTE" msprop:Generator_ColumnPropNameInRow="IMPORTE" msprop:Generator_ColumnPropNameInTable="IMPORTEColumn" msprop:Generator_UserColumnName="IMPORTE" type="xs:decimal" />
+              <xs:element name="FECHA" msprop:Generator_ColumnVarNameInTable="columnFECHA" msprop:Generator_ColumnPropNameInRow="FECHA" msprop:Generator_ColumnPropNameInTable="FECHAColumn" msprop:Generator_UserColumnName="FECHA" type="xs:dateTime" />
+              <xs:element name="GLOSA" msprop:Generator_ColumnVarNameInTable="columnGLOSA" msprop:Generator_ColumnPropNameInRow="GLOSA" msprop:Generator_ColumnPropNameInTable="GLOSAColumn" msprop:Generator_UserColumnName="GLOSA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ESTADO" msprop:Generator_ColumnVarNameInTable="columnESTADO" msprop:Generator_ColumnPropNameInRow="ESTADO" msprop:Generator_ColumnPropNameInTable="ESTADOColumn" msprop:Generator_UserColumnName="ESTADO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AGENCIA_REGISTRO" msprop:Generator_ColumnVarNameInTable="columnAGENCIA_REGISTRO" msprop:Generator_ColumnPropNameInRow="AGENCIA_REGISTRO" msprop:Generator_ColumnPropNameInTable="AGENCIA_REGISTROColumn" msprop:Generator_UserColumnName="AGENCIA_REGISTRO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="USUARIO_REGISTRO" msprop:Generator_ColumnVarNameInTable="columnUSUARIO_REGISTRO" msprop:Generator_ColumnPropNameInRow="USUARIO_REGISTRO" msprop:Generator_ColumnPropNameInTable="USUARIO_REGISTROColumn" msprop:Generator_UserColumnName="USUARIO_REGISTRO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FECHA_REGISTRO" msprop:Generator_ColumnVarNameInTable="columnFECHA_REGISTRO" msprop:Generator_ColumnPropNameInRow="FECHA_REGISTRO" msprop:Generator_ColumnPropNameInTable="FECHA_REGISTROColumn" msprop:Generator_UserColumnName="FECHA_REGISTRO" type="xs:dateTime" />
+              <xs:element name="AGENCIA_MODIFICA" msprop:Generator_ColumnVarNameInTable="columnAGENCIA_MODIFICA" msprop:Generator_ColumnPropNameInRow="AGENCIA_MODIFICA" msprop:Generator_ColumnPropNameInTable="AGENCIA_MODIFICAColumn" msprop:Generator_UserColumnName="AGENCIA_MODIFICA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="USUARIO_MODIFICA" msprop:Generator_ColumnVarNameInTable="columnUSUARIO_MODIFICA" msprop:Generator_ColumnPropNameInRow="USUARIO_MODIFICA" msprop:Generator_ColumnPropNameInTable="USUARIO_MODIFICAColumn" msprop:Generator_UserColumnName="USUARIO_MODIFICA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FECHA_MODIFICA" msprop:Generator_ColumnVarNameInTable="columnFECHA_MODIFICA" msprop:Generator_ColumnPropNameInRow="FECHA_MODIFICA" msprop:Generator_ColumnPropNameInTable="FECHA_MODIFICAColumn" msprop:Generator_UserColumnName="FECHA_MODIFICA" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PRESTAMOS_LISTA" />
+      <xs:field xpath="mstns:PRESTAMO" />
+    </xs:unique>
+    <xs:unique name="PRESTAMOS_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PRESTAMOS" />
+      <xs:field xpath="mstns:EMPRESA" />
+      <xs:field xpath="mstns:PRESTAMO" />
+    </xs:unique>
+    <xs:unique name="COBRANZAS_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:COBRANZAS" />
+      <xs:field xpath="mstns:EMPRESA" />
+      <xs:field xpath="mstns:COBRANZA" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

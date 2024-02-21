@@ -1,0 +1,488 @@
+﻿@model WebAppHIDRONAMIC.Entities.ConstanciaDTO
+
+<script>
+    $(document).ready(function () {
+        $('[data-toggle="popover"]').popover();
+
+        ListarDetalles();
+
+        $("#INDICA_PISCINA").val() == "SI" ? $('#PISC').prop('checked', true) : $('#PISC').prop('checked', false);
+        $("#INDICA_SAUNA").val() == "SI" ? $('#SAUN').prop('checked', true) : $('#SAUN').prop('checked', false);
+        $("#INDICA_PRESION").val() == "SI" ? $('#PRES').prop('checked', true) : $('#PRES').prop('checked', false);
+        $("#INDICA_INCENDIO").val() == "SI" ? $('#INCE').prop('checked', true) : $('#INCE').prop('checked', false);
+
+        $("#INDICA_CONDICION").val() == "SI" ? $('#SI_CONDICION').prop('checked', true) : $('#SI_CONDICION').prop('checked', false);
+        $("#INDICA_CONDICION").val() == "NO" ? $('#NO_CONDICION').prop('checked', true) : $('#NO_CONDICION').prop('checked', false);
+
+        $("#INDICA_CLIENTE").val() == "SI" ? $('#SI_INDICA').prop('checked', true) : $('#SI_INDICA').prop('checked', false);
+        $("#INDICA_CLIENTE").val() == "NO" ? $('#NO_INDICA').prop('checked', true) : $('#NO_INDICA').prop('checked', false);
+
+        $("#INDICA_FIRMA").val() == "SI" ? $('#SI_FIRMA').prop('checked', true) : $('#SI_FIRMA').prop('checked', false);
+        $("#INDICA_FIRMA").val() == "NO" ? $('#NO_FIRMA').prop('checked', true) : $('#NO_FIRMA').prop('checked', false);
+
+        $("#NO_INDICA").is(":checked") ? cond_cliente(0) : cond_cliente(1);
+        $("#NO_CONDICION").is(":checked") ? condicion(1) : condicion(0);
+
+        var cloro = $("#NIVEL_CLORO").val();
+        var ph = $("#NIVEL_PH").val();
+        var idClie = $('#CUENTA_COMERCIAL').val();
+
+        if (cloro.length == 4) {
+            $("#NIVEL_CLORO").val(cloro.substring(0, 3));
+        }
+
+        if (ph.length == 4) {
+            $("#NIVEL_PH").val(cloro.substring(0, 3));
+        }
+
+        if (cloro == "0.00") {
+            $("#NIVEL_CLORO").val('');
+        }
+
+        if (ph == "0.00") {
+            $("#NIVEL_PH").val('');
+        }
+
+        if (idClie == "G0026901" || idClie == "G0027082" || idClie == "G0027397") {
+            $("#PISCINAS_INFO").css("display", "block");
+        }
+
+    });
+</script>
+
+<style>
+    #clientesTable tr th {
+        color: white;
+        text-decoration: solid;
+        background-color: #3D689A;
+        padding: 5px;
+    }
+
+    #clientesTable tr td {
+        text-decoration: solid;
+        padding: 5px;
+    }
+
+    .detHead th {
+        background-color: #F2F2F2;
+        text-align: center;
+    }
+
+    .thDesc {
+        width: 80%;
+    }
+
+    .thCant {
+        width: 15%;
+        text-align: center;
+    }
+
+    .thElim {
+        width: 15%;
+    }
+
+    .tbDet {
+        display: none;
+    }
+</style>
+
+<!-- VENTANA MODAL PARA BUSCAR CLIENTES-->
+<div id="ventanaClientes" class="modal fade" role="dialog" style="display:none" tabindex="-1" data-backdrop="static">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="text-align:center;">
+                <a class="close" data-dismiss="modal">&times;</a>
+                <h3>Listado de Clientes</h3>
+            </div>
+            <div class="modal-body">
+                <div id="modal-clientes">
+                    <div class="form-group">
+                        <label>Ingrese Cliente:</label>
+                        <input type="text" class="form-control" placeholder="Ingrese Carácter" id="razon_social" onkeyup='ClientesPorRazon();' />
+                    </div>
+                    <br />
+                    <div class="table-responsive table-bordered">
+                        <table class="table" id="clientesTable">
+                            <thead>
+                                <tr>
+                                    <th style="text-align:center;width:30%;"><h4>Selecciona</h4></th>
+                                    <th style="width:70%;"><h4>Cliente</h4></th>
+                                </tr>
+                            </thead>
+                            <tbody id="contenidoClientes" class="content"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- VENTANA MODAL PARA INFORMACIÓN DE EQUIPOS-->
+<div id="ventanaEquipos" class="modal fade" role="dialog" style="display:none" tabindex="-1" data-backdrop="static">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="text-align:center;">
+                <a class="close" data-dismiss="modal">&times;</a>
+                <h3>Información de Equipos</h3>
+            </div>
+            <div class="modal-body">
+                <div id="modal-equipos">
+                    Por desarrollar...
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- VENTANA MODAL PARA RECOMENDACIÓN DE QUÍMICOS-->
+<div id="ventanaQuimicos" class="modal fade" role="dialog" style="display:none" tabindex="-1" data-backdrop="static">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="text-align:center;">
+                <a class="close" data-dismiss="modal">&times;</a>
+                <h3>Recomendación de Químicos</h3>
+            </div>
+            <div class="modal-body">
+                <div id="modal-quimicos">
+                    Espere porfavor...
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- VENTANA MODAL PARA SELECION DE PISCINAS-->
+<div id="ventanaPiscinas" class="modal fade" role="dialog" style="display:none" tabindex="-1" data-backdrop="static">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a class="close" data-dismiss="modal">&times;</a>
+                <h3>Seleccione Piscina</h3>
+            </div>
+            <div class="modal-body">
+                <div id="modal-piscinas">
+                    <div class="table-responsive table-bordered">
+                        <table class="table" id="piscinasTable">
+                            <thead>
+                                <tr>
+                                    <th><h4>Tipo Piscina</h4></th>
+                                    <th><h4>Dirección</h4></th>
+                                </tr>
+                            </thead>
+                            <tbody id="contenidoPiscina" class="content"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<form action="/Constancia/RegistrarConstancia" method="post" onsubmit="return Validar();">
+
+    <!-- VENTANA MODAL PARA MENSAJE DE CONFIRMACIÓN-->
+    <div id="msgConfirm" class="modal fade" role="dialog" style="display:none" tabindex="-1" data-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a class="close" data-dismiss="modal">&times;</a>
+                    <h4>Mensaje...</h4>
+                </div>
+                <div class="modal-body">
+                    <p>¿Desea modificar esta constancia?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-success" id="btnSi">Sí</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @Html.AntiForgeryToken()
+    <!-- PANEL DE DATOS DEL CLIENTE-->
+    <div class="col-lg-12">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                Datos del Cliente
+            </div>
+            <div class="panel-body">
+
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="form-group">
+                    <label>Cliente:</label>
+                    <div class="input-group">
+                        <input type="hidden" id="CANTIDAD_PISCINAS" name="CANTIDAD_PISCINAS" />
+                        @Html.EditorFor(model => model.CUENTA_COMERCIAL, new { htmlAttributes = new { @type = "hidden" } })
+                        @Html.EditorFor(model => model.PISCINA, new { htmlAttributes = new { @type = "hidden" } })
+                        <input type="hidden" id="CANT_PISC">
+
+                        @Html.EditorFor(model => model.RAZON_C, new { htmlAttributes = new { @type = "text", @class = "form-control", @readonly = "readonly" } })
+                        <span class="input-group-btn">
+                            <a id="btnBuscarCliente" class="btn btn-default" data-toggle="modal" href="#ventanaClientes" onclick="Clientes();">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Dirección:</label>
+                    @Html.EditorFor(model => model.DOMICILIO_C, new { htmlAttributes = new { @type = "text", @class = "form-control", @readonly = "readonly" } })
+                </div>
+
+                <div class="form-group">
+                    <label>Fecha:</label>
+                    <fieldset disabled>
+                        <input type="text" id="fecha" class="form-control" placeholder="Fecha Actual" style="width:150px;">
+                    </fieldset>
+                </div>
+
+                <div class="form-group" id="PISCINAS_INFO" style="display:none;">
+                    <a href="#ventanaPiscinas" id="btnPiscinas" data-toggle="modal" onclick="Piscinas();">
+                        <input type="button" class="btn btn-primary" value="ELEGIR PISCINA">
+                    </a>
+                </div>
+
+                <div class="form-group" id="QUIMICOS_INFO" style="display:block;">
+                    <a href="#ventanaQuimicos" id="btnQuimicos" data-toggle="modal">
+                        <input type="button" class="btn btn-info" value="INFORMACION QUIMICOS">
+                    </a>
+                </div>
+
+                <div class="form-group" id="EQUIPOS_INFO" style="display:none;">
+                    <a href="#ventanaEquipos" id="btnEquipos" data-toggle="modal">
+                        <input type="button" class="btn btn-primary" value="INFORMACION EQUIPO">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- PANEL DE INFORMACIÓN GENERAL DEL REPORTE-->
+    <div class="col-lg-12">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                Información General de Reporte
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label>Procesos:</label>
+                    <div class="checkbox">
+                        <label>
+                            <input id="PISC" name="CHK" type="checkbox" value="11" class="chkCondicion"> Piscinas, Piletas, Espejos de agua.
+                            <a id="iconInfo" hidden href="#" data-toggle="popover" data-placement="top" data-content="Necesitas registrar una piscina al cliente para utilizar esta opción.">
+                                <img src="~/Imagenes/info_icon.png" />
+                            </a>
+
+                            @Html.EditorFor(model => model.INDICA_PISCINA, new { htmlAttributes = new { @type = "hidden" } })
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input id="SAUN" name="CHK" type="checkbox" value="12" class="chkCondicion"> Hidromasajes y Saunas.
+                            @Html.EditorFor(model => model.INDICA_SAUNA, new { htmlAttributes = new { @type = "hidden" } })
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input id="PRES" name="CHK" type="checkbox" value="13" class="chkCondicion"> Hidroneumáticos, Presión constantes, etc.
+                            @Html.EditorFor(model => model.INDICA_PRESION, new { htmlAttributes = new { @type = "hidden" } })
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input id="INCE" name="CHK" type="checkbox" value="14" class="chkCondicion"> Sistemas contra incendio, Tratamientos, etc.
+                            @Html.EditorFor(model => model.INDICA_INCENDIO, new { htmlAttributes = new { @type = "hidden" } })
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PANEL DE DESCRIPCIÓN DEL PROCESO-->
+    <div class="col-lg-12">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                Descripción del Proceso
+            </div>
+            <div class="panel-body">
+
+                <div class="form-group">
+                    <label>¿Presenta condición química?</label>
+                    <div class="form-group">
+                        <label class="radio-inline">
+                            <input id="SI_CONDICION" name="CONDICION" type="radio" checked="checked" onclick="condicion(0);"> Si
+                            @Html.EditorFor(model => model.INDICA_CONDICION, new { htmlAttributes = new { @type = "hidden" } })
+                        </label>
+                        <label class="radio-inline">
+                            <input id="NO_CONDICION" name="CONDICION" type="radio" onclick="condicion(1);"> No
+                        </label>
+                    </div>
+                </div>
+
+                <!--FORMULARIO OPCIONAL DE CONDICIÓN QUIMICA DE LA PISCINA-->
+                <div class="form-group" id="condiciones">
+                    <label>Limpieza de Piscina</label>
+                    <div class="form-group">
+                        <label class="form-inline" style="width:30px;">
+                            <label style="width:30px;">PH:</label>
+                        </label>
+                        <label class="form-inline">
+                            @Html.EditorFor(model => model.NIVEL_PH, new { htmlAttributes = new { @type = "number", @class = "form-control", @step = ".1", @style = "width:70px;" } })
+                        </label>
+                        &ensp;
+                        &ensp;
+                        <label class="form-inline" style="width:45px;">
+                            <label style="width:30px;">Cloro:</label>
+                        </label>
+                        <label class="form-inline">
+                            @Html.EditorFor(model => model.NIVEL_CLORO, new { htmlAttributes = new { @type = "number", @class = "form-control", @step = ".1", @style = "width:70px;" } })
+                        </label>
+                    </div>
+                </div>
+
+                <!--DETALLES DEL SERVICIO-->
+                <div class="form-group">
+                    <label class="form-inline">Seleccione Servicio:</label>
+                    @Html.DropDownList("ID", (SelectList)ViewBag.serviciosS, new { @class = "form-control ddlServicios" })
+
+                    <label class="form-inline" style="width:70px;">
+                        <label style="width:70px;">Cantidad</label>
+                    </label>
+                    <label class="form-inline" style="width:70px;">
+                        <input type="number" class="form-control iptNumbers" style="width:70px;margin-top:5px;" id="cantS" value="1" />
+                    </label>
+                    &ensp;
+                    <label class="form-inline" style="width:120px;">
+                        <button type="button" class="btn btn-primary" aria-label="Left Align" id="btnAgregarS" onclick="GabDetalles('S')" style="margin-top:1px;  ">
+                            <img src="~/Imagenes/add_service.png" style="width:20px;height:20px;" /> <strong>Servicio</strong>
+                        </button>
+                    </label>
+                </div>
+                <hr />
+
+                <!--DETALLES DEL PRODUCTO-->
+                <div class="form-group">
+                    <label class="form-inline">
+                        Seleccione Producto de Venta:
+                    </label>
+                    @Html.DropDownList("ID", (SelectList)ViewBag.serviciosP, new { @class = "form-control ddlProductos" })
+
+                    <label class="form-inline" style="width:70px;">
+                        <label style="width:70px;">Cantidad</label>
+                    </label>
+                    <label class="form-inline" style="width:70px;">
+                        <input type="number" class="form-control iptNumbers" style="width:70px;margin-top:5px;" id="cantP" value="1" />
+                    </label>
+                    &ensp;
+
+                    <label class="form-inline" style="width:120px;">
+                        <button type="button" class="btn btn-info" aria-label="Left Align" id="btnAgregarP" onclick="GabDetalles('P')" style="margin-top:1px;">
+                            <img src="~/Imagenes/add_service.png" style="width:20px;height:20px;" /> <strong>Producto</strong>
+                        </button>
+                    </label>
+                </div>
+                <hr />
+
+                <!--LISTA DE DETALLES DE CONSTANCIA-->
+                <div class="table-responsive table-bordered">
+                    <table class="table tbDet" id="detallesTableS">
+                        <thead>
+                            <tr class="detHead">
+                                <th colspan="3">SERVICIOS</th>
+                            </tr>
+                            <tr>
+                                <th class="thDesc">Descripción</th>
+                                <th class="thCant">Cantidad</th>
+                                <th style="text-align:center;" class="thElim">Eliminar</th>
+                            </tr>
+                        </thead>
+                        <tbody id="detallesS"></tbody>
+                    </table>
+
+                    <table class="table tbDet" id="detallesTableP">
+                        <thead>
+                            <tr class="detHead">
+                                <th colspan="3">PRODUCTOS</th>
+                            </tr>
+                            <tr>
+                                <th class="thDesc">Descripción</th>
+                                <th class="thCant">Cantidad</th>
+                                <th style="text-align:center;" class="thElim">Eliminar</th>
+                            </tr>
+                        </thead>
+                        <tbody id="detallesP"></tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- PANEL DE OBSERVACIONES-->
+    <div class="col-lg-12">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                Observaciones
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label>Comentario Adicional:</label>
+                    @Html.TextAreaFor(model => model.COMENTARIO, new { @class = "form-control", @rows = "3" })
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ¿ESTUVO EL CLIENTE AL MOMENTO DEL SERVICIO?-->
+    <div class="form-group" style="padding-left:12px;">
+        <label>¿Estuvo cliente?</label>
+        <label class="radio-inline">
+            <input id="SI_INDICA" name="INDICA" type="radio" class="rbtnCliente" checked="checked" onclick="cond_cliente(1);"> Si
+            @Html.EditorFor(model => model.INDICA_CLIENTE, new { htmlAttributes = new { @type = "hidden" } })
+        </label>
+        <label class="radio-inline">
+            <input id="NO_INDICA" name="INDICA" type="radio" class="rbtnCliente" onclick="cond_cliente(0);"> No
+        </label>
+    </div>
+
+    <div style="display:none;padding-left:12px;" id="datos_referencia" class="form-group">
+        <label>Referencia:</label>
+
+        <div class="form-group" style="padding-left:10px;">
+            <label><font size="2">Nombre:</font></label>
+            @Html.EditorFor(model => model.REFERENCIA_NOMBRE, new { htmlAttributes = new { @class = "form-control" } })
+        </div>
+
+        <div class="form-group" style="padding-left:10px;">
+            <label><font size="2">DNI:</font></label>
+            @Html.EditorFor(model => model.REFERENCIA_DNI, new { htmlAttributes = new { @class = "form-control" } })
+        </div>
+    </div>
+
+    <div class="form-group" style="padding-left:12px;">
+        <label>¿Incluir Firma?</label>
+        <label class="radio-inline">
+            <input id="SI_FIRMA" name="FIRMA" type="radio" class="rbtnFirma"> Si
+            @Html.EditorFor(model => model.INDICA_FIRMA, new { htmlAttributes = new { @type = "hidden" } })
+        </label>
+        <label class="radio-inline">
+            <input id="NO_FIRMA" name="FIRMA" type="radio" class="rbtnFirma" checked="checked"> No
+        </label>
+    </div>
+
+    <br />
+</form>
+
+<div align="center">
+    <a id="btnRegistro" data-toggle="modal" href="#msgConfirm">
+        <button type="button" class="btn btn-success btn-lg"><strong>MODIFICAR</strong></button>
+    </a>
+</div>
+<br />
+
+@Scripts.Render("~/bundles/constancias")

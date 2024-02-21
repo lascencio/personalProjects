@@ -1,0 +1,55 @@
+﻿.cbo {
+    display: none;
+    padding-left: 19px;
+}
+
+.cboF {
+    width: 310px;
+}
+
+.detHead th {
+    background-color: #F2F2F2;
+    text-align: center;
+}
+
+.thDesc {
+    width: 56%;
+}
+
+.thInfo {
+    width: 4%;
+}
+
+.thCant {
+    width: 10%;
+    text-align: center;
+}
+
+.thUnit {
+    text-align:right;
+    width: 15%;
+}
+
+.thTot {
+    text-align:right;
+    width: 15%;
+}
+
+.thElim {
+    width: 10%;
+}
+
+.tbDet {
+    display: none;
+}
+
+#clientesTable tr th {
+    color: white;
+    text-decoration: solid;
+    background-color: #3D689A;
+    padding: 5px;
+}
+
+.descTot{
+    text-align:right;
+}

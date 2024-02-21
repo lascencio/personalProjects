@@ -1,0 +1,11 @@
+E:\Local Win Applications\ASoKart - Gestion\MyControlPOS\bin\Debug\MyControlPOS.exe.config
+E:\Local Win Applications\ASoKart - Gestion\MyControlPOS\bin\Debug\MyControlPOS.exe
+E:\Local Win Applications\ASoKart - Gestion\MyControlPOS\bin\Debug\MyControlPOS.pdb
+E:\Local Win Applications\ASoKart - Gestion\MyControlPOS\bin\Debug\MyControlPOS.xml
+E:\Local Win Applications\ASoKart - Gestion\MyControlPOS\obj\Debug\MyControlPOS.UserControlPOS_01.resources
+E:\Local Win Applications\ASoKart - Gestion\MyControlPOS\obj\Debug\MyControlPOS.Resources.resources
+E:\Local Win Applications\ASoKart - Gestion\MyControlPOS\obj\Debug\MyControlPOS.UserControlPOS.resources
+E:\Local Win Applications\ASoKart - Gestion\MyControlPOS\obj\Debug\MyControlPOS.vbproj.GenerateResource.Cache
+E:\Local Win Applications\ASoKart - Gestion\MyControlPOS\obj\Debug\MyControlPOS.exe
+E:\Local Win Applications\ASoKart - Gestion\MyControlPOS\obj\Debug\MyControlPOS.xml
+E:\Local Win Applications\ASoKart - Gestion\MyControlPOS\obj\Debug\MyControlPOS.pdb

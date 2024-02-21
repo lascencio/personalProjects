@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsPadronReducidoRUC" targetNamespace="http://tempuri.org/dsPadronReducidoRUC.xsd" xmlns:mstns="http://tempuri.org/dsPadronReducidoRUC.xsd" xmlns="http://tempuri.org/dsPadronReducidoRUC.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsPadronReducidoRUC" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsPadronReducidoRUC" msprop:Generator_UserDSName="dsPadronReducidoRUC">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PADRON_REDUCIDO_RUC" msprop:Generator_TableClassName="PADRON_REDUCIDO_RUCDataTable" msprop:Generator_TableVarName="tablePADRON_REDUCIDO_RUC" msprop:Generator_RowChangedName="PADRON_REDUCIDO_RUCRowChanged" msprop:Generator_TablePropName="PADRON_REDUCIDO_RUC" msprop:Generator_RowDeletingName="PADRON_REDUCIDO_RUCRowDeleting" msprop:Generator_RowChangingName="PADRON_REDUCIDO_RUCRowChanging" msprop:Generator_RowEvHandlerName="PADRON_REDUCIDO_RUCRowChangeEventHandler" msprop:Generator_RowDeletedName="PADRON_REDUCIDO_RUCRowDeleted" msprop:Generator_RowClassName="PADRON_REDUCIDO_RUCRow" msprop:Generator_UserTableName="PADRON_REDUCIDO_RUC" msprop:Generator_RowEvArgName="PADRON_REDUCIDO_RUCRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RUC" msprop:Generator_ColumnVarNameInTable="columnRUC" msprop:Generator_ColumnPropNameInRow="RUC" msprop:Generator_ColumnPropNameInTable="RUCColumn" msprop:Generator_UserColumnName="RUC">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="11" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RAZON_SOCIAL" msprop:Generator_ColumnVarNameInTable="columnRAZON_SOCIAL" msprop:Generator_ColumnPropNameInRow="RAZON_SOCIAL" msprop:Generator_ColumnPropNameInTable="RAZON_SOCIALColumn" msprop:Generator_UserColumnName="RAZON_SOCIAL">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ESTADO" msprop:Generator_ColumnVarNameInTable="columnESTADO" msprop:Generator_ColumnPropNameInRow="ESTADO" msprop:Generator_ColumnPropNameInTable="ESTADOColumn" msprop:Generator_UserColumnName="ESTADO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="24" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CONDICION_DOMICILIO" msprop:Generator_ColumnVarNameInTable="columnCONDICION_DOMICILIO" msprop:Generator_ColumnPropNameInRow="CONDICION_DOMICILIO" msprop:Generator_ColumnPropNameInTable="CONDICION_DOMICILIOColumn" msprop:Generator_UserColumnName="CONDICION_DOMICILIO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="22" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UBIGEO" msprop:Generator_ColumnVarNameInTable="columnUBIGEO" msprop:Generator_ColumnPropNameInRow="UBIGEO" msprop:Generator_ColumnPropNameInTable="UBIGEOColumn" msprop:Generator_UserColumnName="UBIGEO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TIPO_VIA" msprop:Generator_ColumnVarNameInTable="columnTIPO_VIA" msprop:Generator_ColumnPropNameInRow="TIPO_VIA" msprop:Generator_ColumnPropNameInTable="TIPO_VIAColumn" msprop:Generator_UserColumnName="TIPO_VIA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="11" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NOMBRE_VIA" msprop:Generator_ColumnVarNameInTable="columnNOMBRE_VIA" msprop:Generator_ColumnPropNameInRow="NOMBRE_VIA" msprop:Generator_ColumnPropNameInTable="NOMBRE_VIAColumn" msprop:Generator_UserColumnName="NOMBRE_VIA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CODIGO_ZONA" msprop:Generator_ColumnVarNameInTable="columnCODIGO_ZONA" msprop:Generator_ColumnPropNameInRow="CODIGO_ZONA" msprop:Generator_ColumnPropNameInTable="CODIGO_ZONAColumn" msprop:Generator_UserColumnName="CODIGO_ZONA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="14" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TIPO_ZONA" msprop:Generator_ColumnVarNameInTable="columnTIPO_ZONA" msprop:Generator_ColumnPropNameInRow="TIPO_ZONA" msprop:Generator_ColumnPropNameInTable="TIPO_ZONAColumn" msprop:Generator_UserColumnName="TIPO_ZONA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NUMERO" msprop:Generator_ColumnVarNameInTable="columnNUMERO" msprop:Generator_ColumnPropNameInRow="NUMERO" msprop:Generator_ColumnPropNameInTable="NUMEROColumn" msprop:Generator_UserColumnName="NUMERO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="INTERIOR" msprop:Generator_ColumnVarNameInTable="columnINTERIOR" msprop:Generator_ColumnPropNameInRow="INTERIOR" msprop:Generator_ColumnPropNameInTable="INTERIORColumn" msprop:Generator_UserColumnName="INTERIOR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LOTE" msprop:Generator_ColumnVarNameInTable="columnLOTE" msprop:Generator_ColumnPropNameInRow="LOTE" msprop:Generator_ColumnPropNameInTable="LOTEColumn" msprop:Generator_UserColumnName="LOTE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DEPARTAMENTO" msprop:Generator_ColumnVarNameInTable="columnDEPARTAMENTO" msprop:Generator_ColumnPropNameInRow="DEPARTAMENTO" msprop:Generator_ColumnPropNameInTable="DEPARTAMENTOColumn" msprop:Generator_UserColumnName="DEPARTAMENTO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MANZANA" msprop:Generator_ColumnVarNameInTable="columnMANZANA" msprop:Generator_ColumnPropNameInRow="MANZANA" msprop:Generator_ColumnPropNameInTable="MANZANAColumn" msprop:Generator_UserColumnName="MANZANA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="7" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KILOMETRO" msprop:Generator_ColumnVarNameInTable="columnKILOMETRO" msprop:Generator_ColumnPropNameInRow="KILOMETRO" msprop:Generator_ColumnPropNameInTable="KILOMETROColumn" msprop:Generator_UserColumnName="KILOMETRO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="11" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CONSULTAR_DATOS_RUC" msprop:Generator_TableClassName="CONSULTAR_DATOS_RUCDataTable" msprop:Generator_TableVarName="tableCONSULTAR_DATOS_RUC" msprop:Generator_RowChangedName="CONSULTAR_DATOS_RUCRowChanged" msprop:Generator_TablePropName="CONSULTAR_DATOS_RUC" msprop:Generator_RowDeletingName="CONSULTAR_DATOS_RUCRowDeleting" msprop:Generator_RowChangingName="CONSULTAR_DATOS_RUCRowChanging" msprop:Generator_RowEvHandlerName="CONSULTAR_DATOS_RUCRowChangeEventHandler" msprop:Generator_RowDeletedName="CONSULTAR_DATOS_RUCRowDeleted" msprop:Generator_RowClassName="CONSULTAR_DATOS_RUCRow" msprop:Generator_UserTableName="CONSULTAR_DATOS_RUC" msprop:Generator_RowEvArgName="CONSULTAR_DATOS_RUCRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RUC" msprop:Generator_ColumnVarNameInTable="columnRUC" msprop:Generator_ColumnPropNameInRow="RUC" msprop:Generator_ColumnPropNameInTable="RUCColumn" msprop:Generator_UserColumnName="RUC">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="11" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RAZON_SOCIAL" msprop:Generator_ColumnVarNameInTable="columnRAZON_SOCIAL" msprop:Generator_ColumnPropNameInRow="RAZON_SOCIAL" msprop:Generator_ColumnPropNameInTable="RAZON_SOCIALColumn" msprop:Generator_UserColumnName="RAZON_SOCIAL">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ESTADO" msprop:Generator_ColumnVarNameInTable="columnESTADO" msprop:Generator_ColumnPropNameInRow="ESTADO" msprop:Generator_ColumnPropNameInTable="ESTADOColumn" msprop:Generator_UserColumnName="ESTADO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="24" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CONDICION_DOMICILIO" msprop:Generator_ColumnVarNameInTable="columnCONDICION_DOMICILIO" msprop:Generator_ColumnPropNameInRow="CONDICION_DOMICILIO" msprop:Generator_ColumnPropNameInTable="CONDICION_DOMICILIOColumn" msprop:Generator_UserColumnName="CONDICION_DOMICILIO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="22" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DOMICILIO_FISCAL" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnDOMICILIO_FISCAL" msprop:Generator_ColumnPropNameInRow="DOMICILIO_FISCAL" msprop:Generator_ColumnPropNameInTable="DOMICILIO_FISCALColumn" msprop:Generator_UserColumnName="DOMICILIO_FISCAL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="183" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DISTRITO" msprop:Generator_ColumnVarNameInTable="columnDISTRITO" msprop:Generator_ColumnPropNameInRow="DISTRITO" msprop:Generator_ColumnPropNameInTable="DISTRITOColumn" msprop:Generator_UserColumnName="DISTRITO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PROVINCIA" msprop:Generator_ColumnVarNameInTable="columnPROVINCIA" msprop:Generator_ColumnPropNameInRow="PROVINCIA" msprop:Generator_ColumnPropNameInTable="PROVINCIAColumn" msprop:Generator_UserColumnName="PROVINCIA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="REGION" msprop:Generator_ColumnVarNameInTable="columnREGION" msprop:Generator_ColumnPropNameInRow="_REGION" msprop:Generator_ColumnPropNameInTable="REGIONColumn" msprop:Generator_UserColumnName="REGION">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UBIGEO" msprop:Generator_ColumnVarNameInTable="columnUBIGEO" msprop:Generator_ColumnPropNameInRow="UBIGEO" msprop:Generator_ColumnPropNameInTable="UBIGEOColumn" msprop:Generator_UserColumnName="UBIGEO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PADRON_REDUCIDO_RUC" />
+      <xs:field xpath="mstns:RUC" />
+    </xs:unique>
+    <xs:unique name="CONSULTAR_DATOS_RUC_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:CONSULTAR_DATOS_RUC" />
+      <xs:field xpath="mstns:RUC" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

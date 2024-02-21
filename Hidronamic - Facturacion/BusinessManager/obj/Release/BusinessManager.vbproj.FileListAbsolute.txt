@@ -1,0 +1,865 @@
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\ResolveAssemblyReference.cache
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmMenu.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmMigrar.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmLiquidarCajaChica.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.Resources.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.vbproj.GenerateResource.Cache
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\bin\Release\BusinessManager.exe.config
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\bin\Release\BusinessManager.exe
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\bin\Release\BusinessManager.pdb
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\bin\Release\BusinessManager.xml
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.exe
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.xml
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.pdb
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmBase.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmLogin.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmTablaCabecera.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmTablaCabeceras.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmTablaDetalle.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmTablaDetalleLista.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmTablaDetalles.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\bin\Release\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\bin\Release\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\bin\Release\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmControlPeriodos.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmPeriodoTrabajo.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmTipoCambio.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmFacturacionServicios.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmCuentaComercial.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmCuentaComercialLista.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmFacturacionServiciosLista.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmCajaChica.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmEntregaRendir.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmReembolsoCaja.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmReembolsoGastoLista.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmRendicionCuenta.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmReembolsoGasto.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmProspectos.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmEjecutarDTS.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmAnexoLista.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmCuentaContableLista.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmTablaLista.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmCuentaComercialNV.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmEntregasRendirPendientes.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmExportarCajaChica.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmImprimirCajaChica.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmControlAccesos.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmCajaChicaDocumentosImprimir.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmCajaChicaMovimientosImprimir.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\RdlCompile.cache
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\RdlCompile.compiled
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\bin\Release\LibSunat.dll
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\bin\Release\LibSunat.pdb
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\bin\Release\LibSunat.xml
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmSUNAT.resources
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\bin\Release\Microsoft.Office.Interop.Excel.dll
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\bin\Release\office.dll
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\bin\Release\Microsoft.Vbe.Interop.dll
+D:\Local Win Applications\SoftBusiness_BINARIX\BusinessManager\obj\Release\BusinessManager.frmFacturaImprimir.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\bin\Release\BusinessManager.exe.config
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\bin\Release\BusinessManager.exe
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\bin\Release\BusinessManager.pdb
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\bin\Release\BusinessManager.xml
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\bin\Release\LibSunat.dll
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\bin\Release\Microsoft.Office.Interop.Excel.dll
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\bin\Release\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\bin\Release\office.dll
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\bin\Release\Microsoft.Vbe.Interop.dll
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\bin\Release\LibSunat.pdb
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\bin\Release\LibSunat.xml
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\bin\Release\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\bin\Release\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\ResolveAssemblyReference.cache
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmCajaChica.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmEntregaRendir.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmEntregasRendirPendientes.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmExportarCajaChica.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmImprimirCajaChica.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmReembolsoCaja.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmReembolsoGastoLista.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmRendicionCuenta.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmReembolsoGasto.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmProspectos.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmBase.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmControlAccesos.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmControlPeriodos.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmEjecutarDTS.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmLogin.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmMenu.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmMigrar.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmPeriodoTrabajo.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmSUNAT.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmTablaCabecera.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmTablaCabeceras.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmTablaDetalle.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmTablaDetalleLista.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmTablaDetalles.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmTipoCambio.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmAnexoLista.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmCuentaContableLista.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmLiquidarCajaChica.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmTablaLista.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmDomicilio.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmExportarFacturacion.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmFacturacionServicios.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmFacturacionServiciosLista.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmCuentaComercial.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmCuentaComercialLista.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmCuentaComercialNV.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.Resources.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmCajaChicaDocumentosImprimir.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmCajaChicaMovimientosImprimir.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.frmFacturaImprimir.resources
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.vbproj.GenerateResource.Cache
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\RdlCompile.cache
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\RdlCompile.compiled
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.exe
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.xml
+D:\Local Win Applications\SoftBusiness_MediaLab\BusinessManager\obj\Release\BusinessManager.pdb
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Release\BusinessManager.exe.config
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Release\BusinessManager.exe
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Release\BusinessManager.pdb
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Release\BusinessManager.xml
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Release\LibSunat.dll
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Release\Microsoft.Office.Interop.Excel.dll
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Release\MyControlToolBar.exe
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Release\office.dll
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Release\Microsoft.Vbe.Interop.dll
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Release\LibSunat.pdb
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Release\LibSunat.xml
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Release\MyControlToolBar.pdb
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\bin\Release\MyControlToolBar.xml
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\ResolveAssemblyReference.cache
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmCajaChica.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmReembolsoGastoLista.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmBase.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmControlAccesos.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmControlPeriodos.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmEjecutarDTS.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmLogin.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmMenu.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmMigrar.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmPeriodoTrabajo.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmSUNAT.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmTablaDetalleLista.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmTipoCambio.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmAnexoLista.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmCuentaContableLista.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmLiquidarCajaChica.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmTablaLista.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmDomicilio.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmExportarFacturacion.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmFacturacionServiciosLista.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmCuentaComercial.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmCuentaComercialLista.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.Resources.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmCajaChicaDocumentosImprimir.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmCajaChicaMovimientosImprimir.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmFacturaImprimir.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.vbproj.GenerateResource.Cache
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\RdlCompile.cache
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\RdlCompile.compiled
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.exe
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.xml
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.pdb
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmProductoLista.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmProductoImprimir.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmCliente.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmOrdenPedido.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmProductoCompuesto.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmTablaCabeceras.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmSubBase.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmTablaCabecera.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmProducto.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmTablaDetalle.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmTablaDetalles.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmLista.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmOrdenPedidoLista.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmClientes.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmProveedores.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmLotesStockLista.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmOperacionAlmacenLista.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmOperacionAlmacen.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmOperacionAlmacenImprimir.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmBoletaVenta.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmStockProductos.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmStockAlmacenImprimir.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmFacturacionPedido.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmFacturacionProductosLista.resources
+D:\Local Win Applications\SoftBusiness_JMO\BusinessManager\obj\Release\BusinessManager.frmDomicilioNew.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Release\BusinessManager.exe.config
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Release\BusinessManager.exe.manifest
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Release\BusinessManager.application
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Release\BusinessManager.exe
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Release\BusinessManager.pdb
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Release\BusinessManager.xml
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Release\Microsoft.Office.Interop.Excel.dll
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Release\Microsoft.ReportViewer.Common.dll
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Release\Microsoft.ReportViewer.DataVisualization.DLL
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Release\Microsoft.ReportViewer.WebForms.DLL
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Release\Microsoft.ReportViewer.WinForms.DLL
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Release\Microsoft.VisualBasic.PowerPacks.Vs.dll
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Release\Microsoft.Web.Services3.dll
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Release\MyControlToolBar.exe
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Release\zxing.dll
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Release\office.dll
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Release\Microsoft.Vbe.Interop.dll
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Release\MyControlToolBar.pdb
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Release\MyControlToolBar.xml
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Release\zxing.pdb
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Release\zxing.xml
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\bin\Release\es\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.vbprojResolveAssemblyReference.cache
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmCajaChica.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmReembolsoGastoLista.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmBase.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmControlAccesos.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmControlPeriodos.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmEjecutarDTS.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmLista.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmLogin.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmMenu.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmMigrar.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmPeriodoTrabajo.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmPrueba.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmSubBase.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmSUNAT.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmTablaCabecera.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmTablaCabeceras.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmTablaDetalle.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmTablaDetalleLista.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmTablaDetalles.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmTipoCambio.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmAnexoLista.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmCuentaContableLista.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmLiquidarCajaChica.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmTablaLista.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmConsultarCotizacionPauta.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmExportarProyectosCONCAR.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmEBoletaServicios.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmClientesLista.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmDirectoresCuenta.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmConsultarCotizacion.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmConsultarCotizaciones.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmCotizacionesPendientes.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmDocumentos.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmLiberarCotizacion.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmManoObraRecursos.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmPerfilesRecursos.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmUsuarios.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmParametrosCotizaciones.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmCliente.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmDomicilio.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmDomicilioNew.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmEComprobantesModificar.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmExportarFacturacion.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmEFacturaServicios.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmFacturacionProductosLista.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmEComprobantesServiciosLista.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmFacturarProyecto.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmFacturarProyectoLista.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmENotaCreditoServicios.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmENotaDebitoServicios.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmClientes_OLD.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmCuentaComercial.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmCuentaComercialLista.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmCliente_OLD.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmEnviarXML.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmFirmarXML.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmGenerarXML.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmLeerXML.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmProcesoXML.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmValidarXML.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.Resources.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmEBoletaVentaImprimir.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmEFacturaImprimir.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmENotaCreditoImprimir.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.frmENotaDebitoImprimir.resources
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.vbproj.GenerateResource.Cache
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\RdlCompile.cache
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\RdlCompile.compiled
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.exe.manifest
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.application
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.exe
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.xml
+G:\Local Win Applications\SoftBusiness_Wunderman\BusinessManager\obj\Release\BusinessManager.pdb
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\bin\Release\BusinessManager.exe.config
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\bin\Release\BusinessManager.exe.manifest
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\bin\Release\BusinessManager.application
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\bin\Release\BusinessManager.exe
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\bin\Release\BusinessManager.pdb
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\bin\Release\BusinessManager.xml
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\bin\Release\Microsoft.Office.Interop.Excel.dll
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\bin\Release\Microsoft.ReportViewer.Common.dll
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\bin\Release\Microsoft.ReportViewer.DataVisualization.DLL
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\bin\Release\Microsoft.ReportViewer.WebForms.DLL
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\bin\Release\Microsoft.ReportViewer.WinForms.DLL
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\bin\Release\Microsoft.VisualBasic.PowerPacks.Vs.dll
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\bin\Release\Microsoft.Web.Services3.dll
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\bin\Release\MyControlToolBar.exe
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\bin\Release\zxing.dll
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\bin\Release\office.dll
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\bin\Release\Microsoft.Vbe.Interop.dll
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\bin\Release\MyControlToolBar.pdb
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\bin\Release\MyControlToolBar.xml
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\bin\Release\zxing.pdb
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\bin\Release\zxing.xml
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\bin\Release\es\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.vbprojResolveAssemblyReference.cache
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.frmBase.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.frmControlAccesos.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.frmControlPeriodos.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.frmEjecutarDTS.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.frmLista.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.frmLogin.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.frmMenu.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.frmPeriodoTrabajo.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.frmSubBase.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.frmSUNAT.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.frmTablaCabecera.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.frmTablaCabeceras.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.frmTablaDetalle.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.frmTablaDetalleLista.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.frmTablaDetalles.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.frmTipoCambio.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.frmCliente.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.frmClientesLista.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.frmEComprobantes.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.frmEnviarXML.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.frmFirmarXML.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.frmGenerarXML.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.frmLeerXML.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.frmProcesoXML.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.frmValidarXML.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.Resources.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.frmEBoletaVentaImprimir.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.frmEFacturaImprimir.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.frmENotaCreditoImprimir.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.frmENotaDebitoImprimir.resources
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.vbproj.GenerateResource.Cache
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\RdlCompile.cache
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\RdlCompile.compiled
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.exe.manifest
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.application
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.exe
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.xml
+G:\Local Win Applications\Facturacion_Faraona\BusinessManager\obj\Release\BusinessManager.pdb
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\BusinessManager.exe.config
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\BusinessManager.exe.manifest
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\BusinessManager.application
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\BusinessManager.exe
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\BusinessManager.pdb
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\BusinessManager.xml
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\Microsoft.Office.Interop.Excel.dll
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.Common.dll
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.DataVisualization.DLL
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.WebForms.DLL
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.WinForms.DLL
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\Microsoft.VisualBasic.PowerPacks.Vs.dll
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\Microsoft.Web.Services3.dll
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\MyControlToolBar.exe
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\zxing.dll
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\office.dll
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\Microsoft.Vbe.Interop.dll
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\MyControlToolBar.pdb
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\MyControlToolBar.xml
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\zxing.pdb
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\zxing.xml
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\es\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.vbprojResolveAssemblyReference.cache
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmBase.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmControlAccesos.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmControlPeriodos.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEjecutarDTS.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmLista.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmLogin.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmMenu.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmPeriodoTrabajo.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmSubBase.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmSUNAT.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaCabecera.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaCabeceras.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaDetalle.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaDetalleLista.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaDetalles.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTipoCambio.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmCliente.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmClientesLista.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEComprobantes.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmGlosaAlterna.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEnviarXML.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmFirmarXML.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmGenerarXML.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmLeerXML.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmProcesoXML.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmValidarXML.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.Resources.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEBoletaVentaImprimir.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEFacturaImprimir.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmENotaCreditoImprimir.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmENotaDebitoImprimir.resources
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.vbproj.GenerateResource.Cache
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\RdlCompile.cache
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\RdlCompile.compiled
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.exe.manifest
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.application
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.exe
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.xml
+G:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.pdb
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\BusinessManager.exe.config
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\BusinessManager.exe.manifest
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\BusinessManager.application
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\BusinessManager.exe
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\BusinessManager.pdb
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\BusinessManager.xml
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.Common.dll
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.DataVisualization.DLL
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.WebForms.DLL
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.WinForms.DLL
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\Microsoft.VisualBasic.PowerPacks.Vs.dll
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\Microsoft.Web.Services3.dll
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\MyControlToolBar.exe
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\zxing.dll
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\MyControlToolBar.pdb
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\MyControlToolBar.xml
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\zxing.pdb
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\zxing.xml
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\bin\Release\es\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.vbprojResolveAssemblyReference.cache
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmBase.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmControlAccesos.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmControlPeriodos.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEjecutarDTS.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmLista.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmLogin.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmMenu.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmPeriodoTrabajo.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmSubBase.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmSUNAT.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaCabecera.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaCabeceras.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaDetalle.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaDetalleLista.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaDetalles.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTipoCambio.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmCliente.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmClientesLista.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEComprobantes.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmGlosaAlterna.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEnviarXML.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmFirmarXML.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmGenerarXML.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmLeerXML.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmProcesoXML.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmValidarXML.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.Resources.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEBoletaVentaImprimir.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEFacturaImprimir.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmENotaCreditoImprimir.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.frmENotaDebitoImprimir.resources
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.vbproj.GenerateResource.Cache
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\RdlCompile.cache
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\RdlCompile.compiled
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.exe.manifest
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.application
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.exe
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.xml
+E:\Local Win Applications\Faraona - Facturacion\BusinessManager\obj\Release\BusinessManager.pdb
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\BusinessManager.exe.config
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\BusinessManager.exe.manifest
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\BusinessManager.application
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\BusinessManager.exe
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\BusinessManager.pdb
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\BusinessManager.xml
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.Common.dll
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.DataVisualization.DLL
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.WebForms.DLL
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.WinForms.DLL
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\Microsoft.VisualBasic.PowerPacks.Vs.dll
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\Microsoft.Web.Services3.dll
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\MyControlToolBar.exe
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\zxing.dll
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\MyControlToolBar.pdb
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\MyControlToolBar.xml
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\zxing.pdb
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\zxing.xml
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\es\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.vbprojResolveAssemblyReference.cache
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmBase.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmControlAccesos.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmControlPeriodos.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEjecutarDTS.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmLista.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmLogin.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmMenu.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmPeriodoTrabajo.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmSubBase.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmSUNAT.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaCabecera.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaCabeceras.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaDetalle.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaDetalleLista.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaDetalles.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTipoCambio.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmAnexoLista.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmCliente.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmClientesLista.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEComprobantes.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEComprobantesServiciosLista.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmENotaCreditoServicios.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmENotaDebitoServicios.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmGlosaAlterna.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEnviarXML.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmFirmarXML.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmGenerarXML.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmLeerXML.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmProcesoXML.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmValidarXML.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.Resources.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEBoletaVentaImprimir.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEFacturaImprimir.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmENotaCreditoImprimir.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmENotaDebitoImprimir.resources
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.vbproj.GenerateResource.Cache
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\RdlCompile.cache
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\RdlCompile.compiled
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.exe.manifest
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.application
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.exe
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.xml
+E:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.pdb
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\BusinessManager.exe.config
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\BusinessManager.exe.manifest
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\BusinessManager.application
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\BusinessManager.exe
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\BusinessManager.pdb
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\BusinessManager.xml
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.Common.dll
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.DataVisualization.DLL
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.WebForms.DLL
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.WinForms.DLL
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\Microsoft.VisualBasic.PowerPacks.Vs.dll
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\Microsoft.Web.Services3.dll
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\MyControlToolBar.exe
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\zxing.dll
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\MyControlToolBar.pdb
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\MyControlToolBar.xml
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\zxing.pdb
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\zxing.xml
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\bin\Release\es\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.vbprojResolveAssemblyReference.cache
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmBase.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmControlAccesos.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmControlPeriodos.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEjecutarDTS.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmLista.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmLogin.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmMenu.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmPeriodoTrabajo.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmSubBase.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmSUNAT.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaCabecera.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaCabeceras.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaDetalle.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaDetalleLista.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaDetalles.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTipoCambio.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmAnexoLista.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmCliente.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmClientesLista.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEComprobantes.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEComprobantesServiciosLista.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmENotaCreditoServicios.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmENotaDebitoServicios.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmGlosaAlterna.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEnviarXML.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmFirmarXML.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmGenerarXML.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmLeerXML.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmProcesoXML.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmValidarXML.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.Resources.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEBoletaVentaImprimir.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEFacturaImprimir.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmENotaCreditoImprimir.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.frmENotaDebitoImprimir.resources
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.vbproj.GenerateResource.Cache
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\RdlCompile.cache
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\RdlCompile.compiled
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.exe.manifest
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.application
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.exe
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.xml
+D:\Local Win Applications\McLaren - Facturacion\BusinessManager\obj\Release\BusinessManager.pdb
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\BusinessManager.exe.config
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\BusinessManager.exe.manifest
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\BusinessManager.application
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\BusinessManager.exe
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\BusinessManager.pdb
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\BusinessManager.xml
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.Common.dll
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.DataVisualization.DLL
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.WebForms.DLL
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.WinForms.DLL
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\Microsoft.VisualBasic.PowerPacks.Vs.dll
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\Microsoft.Web.Services3.dll
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\MyControlToolBar.exe
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\zxing.dll
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\MyControlToolBar.pdb
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\MyControlToolBar.xml
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\zxing.pdb
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\zxing.xml
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\es\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.vbprojResolveAssemblyReference.cache
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmBase.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmControlAccesos.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmControlPeriodos.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEjecutarDTS.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmLista.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmLogin.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmMenu.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmPeriodoTrabajo.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmSubBase.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmSUNAT.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaCabecera.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaCabeceras.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaDetalle.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaDetalleLista.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaDetalles.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTipoCambio.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEstadoCDR.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmAnexoLista.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmCliente.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmClientesLista.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEComprobantes.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEComprobantesServiciosLista.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmENotaCreditoServicios.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmENotaDebitoServicios.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmGlosaAlterna.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEnviarXML.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmFirmarXML.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmGenerarXML.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmLeerXML.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmProcesoXML.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmValidarXML.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.Resources.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEBoletaVentaImprimir.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEFacturaImprimir.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmENotaCreditoImprimir.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmENotaDebitoImprimir.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmReporteComprobantesVenta.resources
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.vbproj.GenerateResource.Cache
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\RdlCompile.cache
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\RdlCompile.compiled
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.exe.manifest
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.application
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.exe
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.xml
+D:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.pdb
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\BusinessManager.exe.config
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\BusinessManager.exe.manifest
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\BusinessManager.application
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\BusinessManager.exe
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\BusinessManager.pdb
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\BusinessManager.xml
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.Common.dll
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.DataVisualization.DLL
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.WebForms.DLL
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.WinForms.DLL
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\Microsoft.VisualBasic.PowerPacks.Vs.dll
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\Microsoft.Web.Services3.dll
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\MyControlToolBar.exe
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\zxing.dll
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\MyControlToolBar.pdb
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\MyControlToolBar.xml
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\zxing.pdb
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\zxing.xml
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\es\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.vbprojResolveAssemblyReference.cache
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmBase.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmControlAccesos.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmControlPeriodos.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEjecutarDTS.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmLista.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmLogin.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmMenu.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmPeriodoTrabajo.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmSubBase.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmSUNAT.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaCabecera.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaCabeceras.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaDetalle.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaDetalleLista.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaDetalles.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTipoCambio.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEstadoCDR.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmAnexoLista.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmCliente.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmClientesLista.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEComprobantes.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEComprobantesServiciosLista.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmENotaCreditoServicios.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmENotaDebitoServicios.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmGlosaAlterna.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEnviarXML.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmFirmarXML.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmGenerarXML.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmLeerXML.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmProcesoXML.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmValidarXML.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.Resources.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEBoletaVentaImprimir.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEFacturaImprimir.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmENotaCreditoImprimir.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmENotaDebitoImprimir.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmReporteComprobantesVenta.resources
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.vbproj.GenerateResource.Cache
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\RdlCompile.cache
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\RdlCompile.compiled
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.exe.manifest
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.application
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.exe
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.xml
+F:\___David\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.pdb
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\BusinessManager.exe.config
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\BusinessManager.exe.manifest
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\BusinessManager.application
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\BusinessManager.exe
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\BusinessManager.pdb
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\BusinessManager.xml
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.Common.dll
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.DataVisualization.DLL
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.WebForms.DLL
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.WinForms.DLL
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\Microsoft.VisualBasic.PowerPacks.Vs.dll
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\Microsoft.Web.Services3.dll
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\MyControlToolBar.exe
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\zxing.dll
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\MyControlToolBar.pdb
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\MyControlToolBar.xml
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\zxing.pdb
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\zxing.xml
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\es\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.vbprojResolveAssemblyReference.cache
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmBase.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmControlAccesos.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmControlPeriodos.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEjecutarDTS.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmLista.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmLogin.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmMenu.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmPeriodoTrabajo.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmSubBase.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmSUNAT.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaCabecera.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaCabeceras.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaDetalle.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaDetalleLista.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaDetalles.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTipoCambio.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmAuditoria.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEstadoCDR.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmAnexoLista.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmCliente.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmClientesLista.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEComprobantes.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEComprobantesServiciosLista.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmENotaCreditoServicios.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmENotaDebitoServicios.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmGlosaAlterna.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEnviarXML.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmFirmarXML.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmGenerarXML.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmLeerXML.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmProcesoXML.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmValidarXML.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.Resources.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEBoletaVentaImprimir.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEFacturaImprimir.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmENotaCreditoImprimir.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmENotaDebitoImprimir.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmReporteComprobantesVenta.resources
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.vbproj.GenerateResource.Cache
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\RdlCompile.cache
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\RdlCompile.compiled
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.exe.manifest
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.application
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.exe
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.xml
+E:\Local Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.pdb
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\BusinessManager.exe.config
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\BusinessManager.exe.manifest
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\BusinessManager.application
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\BusinessManager.exe
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\BusinessManager.pdb
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\BusinessManager.xml
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.Common.dll
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.DataVisualization.DLL
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.WebForms.DLL
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\Microsoft.ReportViewer.WinForms.DLL
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\Microsoft.VisualBasic.PowerPacks.Vs.dll
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\Microsoft.Web.Services3.dll
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\MyControlToolBar.exe
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\zxing.dll
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\MyControlToolBar.pdb
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\MyControlToolBar.xml
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\zxing.pdb
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\zxing.xml
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\bin\Release\es\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.vbprojResolveAssemblyReference.cache
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmBase.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmControlAccesos.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmControlPeriodos.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEjecutarDTS.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmLista.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmLogin.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmMenu.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmPeriodoTrabajo.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmSubBase.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmSUNAT.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaCabecera.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaCabeceras.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaDetalle.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaDetalleLista.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTablaDetalles.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmTipoCambio.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmAuditoria.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEstadoCDR.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmAnexoLista.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmCliente.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmClientesLista.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEComprobantes.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEComprobantesServiciosLista.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmENotaCreditoServicios.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmENotaDebitoServicios.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmGlosaAlterna.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEnviarXML.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmFirmarXML.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmGenerarXML.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmLeerXML.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmProcesoXML.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmValidarXML.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.Resources.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEBoletaVentaImprimir.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmEFacturaImprimir.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmENotaCreditoImprimir.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmENotaDebitoImprimir.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.frmReporteComprobantesVenta.resources
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.vbproj.GenerateResource.Cache
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\RdlCompile.cache
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\RdlCompile.compiled
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.exe.manifest
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.application
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.exe
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.xml
+E:\Win Applications\Hidronamic - Facturacion\BusinessManager\obj\Release\BusinessManager.pdb

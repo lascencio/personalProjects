@@ -1,0 +1,253 @@
+﻿<link href="~/Content/fonts/Estilos.css" rel="stylesheet" />
+
+<!-- Icono gift de carga-->
+<div id="cover-spin" style="display:none;"></div>
+
+<!-- VENTANA MODAL PARA BUSCAR CLIENTES-->
+<div id="ventanaClientes" class="modal fade" role="dialog" style="display: none;" tabindex="-1" data-backdrop="static">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="text-align: center;">
+                <a class="close" data-dismiss="modal">&times;</a>
+                <h3>Relación de clientes</h3>
+            </div>
+            <div class="modal-body">
+                <div id="modal-clientes">
+                    <div class="form-group">
+                        <label>Documento:</label>
+                        <input type="text" class="form-control" placeholder="Ingrese Nro de documento" id="documento" onkeyup='ClientesPorCuenta();' />
+                    </div>
+                    <div class="form-group">
+                        <label>Razón Social:</label>
+                        <input type="text" class="form-control" placeholder="Ingrese razón social" id="razon" onkeyup='ClientesPorRazon();' />
+                    </div>
+                    <br />
+                    <div class="table-responsive table-bordered">
+                        <table class="table" id="clientesTable">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>
+                                        <label>RUC/DNI</label></th>
+                                    <th>
+                                        <label>Razón Social</label></th>
+                                    <th>
+                                        <label>Domicilio</label></th>
+                                    <th>
+                                        <label>Estado</label></th>
+                                </tr>
+                            </thead>
+                            <tbody id="contenidoClientes" class="content"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- VENTANA MODAL PARA MENSAJE DE CONFIRMACIÓN-->
+<div id="msgConfirm" class="modal fade" role="dialog" style="display: none;" tabindex="-1" data-backdrop="static">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a class="close" data-dismiss="modal">&times;</a>
+                <h4>Mensaje...</h4>
+            </div>
+            <div class="modal-body">
+                <p>¿Desea generar esta constancia?</p>
+
+                <div class="table-responsive table-bordered">
+                    <table class="table table-bordered" id="cobrosTable">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <label>N° Cuota</label>
+                                </th>
+                                <th>
+                                    <label>
+                                        Cuota<br />
+                                        Pagar</label>
+                                </th>
+                                <th>
+                                    <label>
+                                        Mora<br />
+                                        Pagar</label>
+                                </th>
+                                <th>
+                                    <label>
+                                        Importe<br />
+                                        Pagar</label>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody id="contenidoCobros" class="content"></tbody>
+                    </table>
+                </div>
+
+                <p><strong>Total Cuotas:</strong> S/. <label style="font-weight: normal;" id="lblTotCuot"></label></p>
+                <p><strong>Total Moras: </strong> S/. <label style="font-weight: normal;" id="lblTotMor"></label></p>
+                <p><strong>Total a Pagar:</strong> S/. <label style="font-weight: normal;" id="lblTotPag"></label></p>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-success" id="btnSi">Sí</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- COBRANZA DE PRESTAMO-->
+<div class="col-lg-12">
+
+    <!-- BLOQUE PARA MOSTRAR RESULTADOS -->
+    <div class="alert alert-warning alert-dismissible" style="display: none" id="MENSAJE">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong class="message"></strong>
+    </div>
+
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            Cobranza de Prestamo
+        </div>
+        <div class="panel-body">
+
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                <label>Documento de Identidad:</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" readonly="readonly" placeholder="Seleccione Cliente" id="nro_documento" name="nro_documento" />
+                    <span class="input-group-btn">
+                        <a id="btnBuscarCliente" class="btn btn-default" data-toggle="modal" href="#ventanaClientes" onclick="Clientes();">
+                            <i class="fa fa-search"></i>
+                        </a>
+                    </span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Nombre/Razón Social:</label>
+                <fieldset disabled>
+                    <input type="text" class="form-control" readonly="readonly" placeholder="Razón Social" id="razon_social" name="razon_social" />
+                </fieldset>
+            </div>
+
+            <div class="row">
+                <div class="form-group col-xs-6">
+                    <label>Préstamo:</label>
+                    <select class="form-control ddlPrestamos" id="prestamos" name="prestamos" onchange="SeleccionarPrestamo();">
+                    </select>
+                </div>
+                <div class="form-group col-xs-6">
+                    <label>Moneda:</label>
+                    <fieldset disabled>
+                        <input type="text" id="moneda" class="form-control" placeholder="Moneda" style="width: 100%;">
+                    </fieldset>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-group col-xs-6">
+                    <label>Importe:</label>
+                    <fieldset disabled>
+                        <input type="text" id="importe" class="form-control" placeholder="Importe" style="width: 100%;">
+                    </fieldset>
+                </div>
+                <div class="form-group col-xs-6">
+                    <label>Total Cuotas:</label>
+                    <fieldset disabled>
+                        <input type="text" id="total_cuotas" class="form-control" placeholder="Total Cuotas" style="width: 100%;">
+                    </fieldset>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-group col-xs-6">
+                    <label>Total Moras:</label>
+                    <fieldset disabled>
+                        <input type="text" id="total_moras" class="form-control" placeholder="Total Moras" style="width: 100%;">
+                    </fieldset>
+                </div>
+                <div class="form-group col-xs-6">
+                    <label>Total a Pagar:</label>
+                    <fieldset disabled>
+                        <input type="text" id="total_pago" class="form-control" placeholder="Total Pago" style="width: 100%;">
+                    </fieldset>
+                </div>
+            </div>
+
+            <div align="center">
+                <a id="btnAceptar" data-toggle="modal" href="#msgConfirm">
+                    <button type="button" class="btn btn-success btn-l"><strong>REGISTRAR</strong></button>
+                </a>
+            </div>
+
+            <!--Botón para prueba -->
+            @*<a onclick="Validar();">HOLAA</a>*@
+
+            @*<div class="form-group">
+                <label>Préstamo:</label>
+                <select class="form-control ddlProductos" id="prestamos" name="prestamos" onchange="SeleccionarPrestamo();">
+                </select>
+            </div>
+
+            <div class="row">
+                <div class="form-group col-xs-6">
+                    <label>Moneda:</label>
+                    <fieldset disabled>
+                        <input type="text" id="moneda" class="form-control" placeholder="Moneda" style="width: 100%;">
+                    </fieldset>
+                </div>
+                <div class="form-group col-xs-6">
+                    <label>Importe:</label>
+                    <fieldset disabled>
+                        <input type="text" id="importe" class="form-control" placeholder="Importe" style="width: 100%;">
+                    </fieldset>
+                </div>*@
+
+        </div>
+
+        <input type="hidden" id="primeraCuota" />
+        <input type="hidden" id="ultimaCuota" />
+
+        <div class="table-responsive table-bordered">
+            <table class="table table-bordered" id="cuotasTable">
+                <thead>
+                    <tr>
+                        <th>
+                            <label>N° Cuota</label></th>
+                        <th>
+                            <label>
+                                Fech.<br />
+                                Venc.</label></th>
+                        <th>
+                            <label>
+                                Días<br />
+                                Mora</label></th>
+                        <th>
+                            <label>
+                                Cuota<br />
+                                Pagar</label></th>
+                        <th>
+                            <label>
+                                Mora<br />
+                                Pagar</label></th>
+                        <th>
+                            <label>
+                                Importe<br />
+                                Pagar</label></th>
+                        <th>
+                            <input type="checkbox" name="" id="cuotasTodas" onclick="SeleccionarCuotasTodas();" /></th>
+                    </tr>
+                </thead>
+                <tbody id="contenidoCuotas" class="content"></tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+
+<script src="~/Scripts/srcCobranzas.js?13"></script>
+<script src="~/Scripts/srcClientes.js"></script>

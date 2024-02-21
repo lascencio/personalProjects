@@ -1,0 +1,448 @@
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\ApplicationInsights.config
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\csc.exe
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\System.Collections.Immutable.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\System.Reflection.Metadata.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\vbc.exe
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\VBCSCompiler.exe
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\VBCSCompiler.exe.config
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\WebAppHIDRONAMIC.dll.config
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\WebAppHIDRONAMIC.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\WebAppHIDRONAMIC.pdb
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Antlr3.Runtime.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\EntityFramework.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\EntityFramework.SqlServer.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.Agent.Intercept.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.DependencyCollector.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.Web.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.WindowsServer.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.ApplicationInsights.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AspNet.Identity.Core.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Cookies.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Facebook.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Google.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.OAuth.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Twitter.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.ReportViewer.Common.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.ReportViewer.WebForms.DLL
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Web.Infrastructure.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Newtonsoft.Json.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Owin.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\RestSharp.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Helpers.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Mvc.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Optimization.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Razor.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.WebPages.Deployment.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.WebPages.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.WebPages.Razor.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\WebGrease.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.SqlServer.Types.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.DependencyCollector.xml
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.Web.xml
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.WindowsServer.xml
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.ApplicationInsights.xml
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Newtonsoft.Json.xml
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\RestSharp.xml
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Helpers.xml
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Mvc.xml
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Optimization.xml
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Razor.xml
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.WebPages.xml
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.WebPages.Deployment.xml
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.WebPages.Razor.xml
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Antlr3.Runtime.pdb
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\EntityFramework.xml
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\EntityFramework.SqlServer.xml
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AspNet.Identity.Core.xml
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.xml
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.xml
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Facebook.xml
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Cookies.xml
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.OAuth.xml
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Google.xml
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Twitter.xml
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\System.Web.Helpers.resources.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\System.Web.Mvc.resources.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\System.Web.Optimization.resources.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\System.Web.Razor.resources.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\System.Web.WebPages.resources.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\EntityFramework.resources.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\EntityFramework.SqlServer.resources.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.Owin.resources.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.Owin.Security.resources.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.Owin.Security.Google.resources.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.SqlServer.Types.resources.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\obj\Release\WebAppHIDRONAMIC.csprojResolveAssemblyReference.cache
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\obj\Release\WebAppHIDRONAMIC.Properties.Resources.resources
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\obj\Release\WebAppHIDRONAMIC.csproj.GenerateResource.Cache
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\obj\Release\RdlCompile.cache
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\obj\Release\RdlCompile.compiled
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\obj\Release\WebAppHIDRONAMIC.dll
+D:\HIDRONAMIC\PROJECTS\WebAppHIDRONAMIC\WebAppHIDRONAMIC\obj\Release\WebAppHIDRONAMIC.pdb
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\ApplicationInsights.config
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\csc.exe
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\System.Collections.Immutable.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\System.Reflection.Metadata.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\vbc.exe
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\VBCSCompiler.exe
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\VBCSCompiler.exe.config
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\WebAppHIDRONAMIC.dll.config
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\WebAppHIDRONAMIC.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\WebAppHIDRONAMIC.pdb
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Antlr3.Runtime.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\EntityFramework.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\EntityFramework.SqlServer.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.Agent.Intercept.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.DependencyCollector.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.Web.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.WindowsServer.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.ApplicationInsights.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AspNet.Identity.Core.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Cookies.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Facebook.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Google.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.OAuth.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Twitter.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.ReportViewer.Common.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.ReportViewer.WebForms.DLL
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Web.Infrastructure.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Newtonsoft.Json.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Owin.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\RestSharp.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Helpers.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Mvc.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Optimization.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Razor.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.WebPages.Deployment.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.WebPages.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.WebPages.Razor.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\WebGrease.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.SqlServer.Types.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.DependencyCollector.xml
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.Web.xml
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.WindowsServer.xml
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.ApplicationInsights.xml
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Newtonsoft.Json.xml
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\RestSharp.xml
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Helpers.xml
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Mvc.xml
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Optimization.xml
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Razor.xml
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.WebPages.xml
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.WebPages.Deployment.xml
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.WebPages.Razor.xml
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Antlr3.Runtime.pdb
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\EntityFramework.xml
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\EntityFramework.SqlServer.xml
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AspNet.Identity.Core.xml
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.xml
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.xml
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Facebook.xml
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Cookies.xml
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.OAuth.xml
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Google.xml
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Twitter.xml
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\System.Web.Helpers.resources.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\System.Web.Mvc.resources.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\System.Web.Optimization.resources.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\System.Web.Razor.resources.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\System.Web.WebPages.resources.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\EntityFramework.resources.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\EntityFramework.SqlServer.resources.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.Owin.resources.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.Owin.Security.resources.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.Owin.Security.Google.resources.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.SqlServer.Types.resources.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\obj\Release\WebAppHIDRONAMIC.csprojResolveAssemblyReference.cache
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\obj\Release\WebAppHIDRONAMIC.Properties.Resources.resources
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\obj\Release\WebAppHIDRONAMIC.csproj.GenerateResource.Cache
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\obj\Release\RdlCompile.cache
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\obj\Release\RdlCompile.compiled
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\obj\Release\WebAppHIDRONAMIC.dll
+D:\AppsC#\WebAppHIDRONAMIC\WebAppHIDRONAMIC\obj\Release\WebAppHIDRONAMIC.pdb
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\ApplicationInsights.config
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\csc.exe
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\System.Collections.Immutable.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\System.Reflection.Metadata.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\vbc.exe
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\VBCSCompiler.exe
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\VBCSCompiler.exe.config
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\WebAppHIDRONAMIC.dll.config
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\WebAppHIDRONAMIC.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\WebAppHIDRONAMIC.pdb
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Antlr3.Runtime.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\EntityFramework.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\EntityFramework.SqlServer.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.DependencyCollector.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.Web.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.WindowsServer.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.ApplicationInsights.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Google.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.ReportViewer.Common.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.ReportViewer.WebForms.DLL
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Web.Infrastructure.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Newtonsoft.Json.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Owin.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\RestSharp.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Helpers.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Mvc.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Optimization.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Razor.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.WebPages.Deployment.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.WebPages.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.WebPages.Razor.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\WebGrease.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.SqlServer.Types.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.DependencyCollector.xml
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.Web.xml
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.WindowsServer.xml
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.ApplicationInsights.xml
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Newtonsoft.Json.xml
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\RestSharp.xml
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Helpers.xml
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Mvc.xml
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Optimization.xml
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Razor.xml
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.WebPages.xml
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.WebPages.Deployment.xml
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.WebPages.Razor.xml
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Antlr3.Runtime.pdb
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\EntityFramework.xml
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\EntityFramework.SqlServer.xml
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.xml
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.xml
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Google.xml
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\System.Web.Helpers.resources.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\System.Web.Mvc.resources.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\System.Web.Optimization.resources.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\System.Web.Razor.resources.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\System.Web.WebPages.resources.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\EntityFramework.resources.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\EntityFramework.SqlServer.resources.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.Owin.resources.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.Owin.Security.resources.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.Owin.Security.Google.resources.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.SqlServer.Types.resources.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\obj\Release\WebAppHIDRONAMIC.csprojResolveAssemblyReference.cache
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\obj\Release\WebAppHIDRONAMIC.Properties.Resources.resources
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\obj\Release\WebAppHIDRONAMIC.csproj.GenerateResource.Cache
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\obj\Release\RdlCompile.cache
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\obj\Release\RdlCompile.compiled
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\obj\Release\WebAppHIDRONAMIC.dll
+E:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\obj\Release\WebAppHIDRONAMIC.pdb
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\ApplicationInsights.config
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\csc.exe
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\System.Collections.Immutable.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\System.Reflection.Metadata.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\vbc.exe
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\VBCSCompiler.exe
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\roslyn\VBCSCompiler.exe.config
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\WebAppHIDRONAMIC.dll.config
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\WebAppHIDRONAMIC.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\WebAppHIDRONAMIC.pdb
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Antlr3.Runtime.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\EntityFramework.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\EntityFramework.SqlServer.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.DependencyCollector.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.Web.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.WindowsServer.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.ApplicationInsights.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Google.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.ReportViewer.Common.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.ReportViewer.WebForms.DLL
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Web.Infrastructure.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Newtonsoft.Json.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Owin.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\RestSharp.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Helpers.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Mvc.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Optimization.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Razor.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.WebPages.Deployment.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.WebPages.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.WebPages.Razor.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\WebGrease.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.SqlServer.Types.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.DependencyCollector.xml
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.Web.xml
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AI.WindowsServer.xml
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.ApplicationInsights.xml
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Newtonsoft.Json.xml
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\RestSharp.xml
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Helpers.xml
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Mvc.xml
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Optimization.xml
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.Razor.xml
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.WebPages.xml
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.WebPages.Deployment.xml
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\System.Web.WebPages.Razor.xml
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Antlr3.Runtime.pdb
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\EntityFramework.xml
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\EntityFramework.SqlServer.xml
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.xml
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.xml
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Google.xml
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\System.Web.Helpers.resources.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\System.Web.Mvc.resources.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\System.Web.Optimization.resources.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\System.Web.Razor.resources.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\System.Web.WebPages.resources.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\EntityFramework.resources.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\EntityFramework.SqlServer.resources.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.Owin.resources.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.Owin.Security.resources.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.Owin.Security.Google.resources.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\bin\es\Microsoft.SqlServer.Types.resources.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\obj\Release\WebAppHIDRONAMIC.csprojResolveAssemblyReference.cache
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\obj\Release\WebAppHIDRONAMIC.Properties.Resources.resources
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\obj\Release\WebAppHIDRONAMIC.csproj.GenerateResource.Cache
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\obj\Release\RdlCompile.cache
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\obj\Release\RdlCompile.compiled
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\obj\Release\WebAppHIDRONAMIC.dll
+D:\Local Web Application\WebAppHIDRONAMIC\WebAppHIDRONAMIC\obj\Release\WebAppHIDRONAMIC.pdb

@@ -1,0 +1,38 @@
+﻿@model WebAppHIDRONAMIC.Entities.UsuarioDTO
+
+@{
+    Layout = "~/Views/Shared/_Login.cshtml";
+}
+
+<script>
+    $(document).ready(function () {
+        var mensaje = '@ViewBag.mensaje';
+        if (mensaje != "") {
+            $("#MENSAJE").css("display", "block");
+            $(".message").html(mensaje);
+            //$("#MENSAJE").fadeTo(2000, 500).slideUp(700, function () {
+            //    $("#MENSAJE").slideUp(500);
+            //});
+        }
+    });
+</script>
+
+@using (Html.BeginForm())
+{
+    <fieldset>
+        <div class="alert alert-danger alert-dismissible" style="display:none" id="MENSAJE">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong class="message">Vuelva a Iniciar Sesión!</strong>
+        </div>
+        <div class="form-group" align="center">
+            <img src="~/Imagenes/logo_hidronamic.PNG" style="width:auto;height:100px;" />
+        </div>
+        <div class="form-group">
+            <input class="form-control" placeholder="Ingrese Usuario" name="USUARIO" id="USUARIO" type="text" autofocus required>
+        </div>
+        <div class="form-group">
+            <input class="form-control" placeholder="Ingrese Contraseña" name="CLAVE" id="CLAVE" type="password" required>
+        </div>
+        <input type="submit" value="INGRESAR" class="btn btn-lg btn-success btn-block" />
+    </fieldset>
+}

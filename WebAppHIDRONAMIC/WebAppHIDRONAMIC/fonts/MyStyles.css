@@ -1,0 +1,48 @@
+﻿/*ESTILOS PARA FORMULARIO DE REGISTRO DE CONSTANCIAS DE MANTENIMIENTO*/
+#constanciasTable tr th {
+    color: white;
+    text-decoration: solid;
+    background-color: #3D689A;
+    text-align: left;
+    padding: 10px;
+}
+
+#clientesTable tr th {
+    color: white;
+    text-decoration: solid;
+    background-color: #3D689A;
+    padding: 5px;
+}
+
+#clientesTable tr td {
+    text-decoration: solid;
+    padding: 5px;
+}
+
+#auditorias tr th {
+    color: white;
+    text-decoration: solid;
+    background-color: #3D689A;
+    padding: 10px;
+}
+
+#piscinasTable tr th {
+    color: white;
+    text-decoration: solid;
+    background-color: #3D689A;
+    text-align: left;
+    padding: 10px;
+}
+
+/*#detallesTable tr th {
+    text-decoration: solid;
+    background-color: #F2F2F2;
+}*/
+
+#estadosTable tr th {
+    color: white;
+    text-decoration: solid;
+    background-color: #3D689A;
+    text-align: left;
+    padding: 10px;
+}

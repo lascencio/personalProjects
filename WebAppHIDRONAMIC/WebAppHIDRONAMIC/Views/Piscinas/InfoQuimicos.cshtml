@@ -1,0 +1,188 @@
+﻿@model WebAppHIDRONAMIC.Entities.PiscinaDTO
+
+@{
+    Layout = null;
+}
+
+<style type="text/css">
+    .tdHeader {
+        width: 70%;
+    }
+
+    .tdContent {
+        width: 30%;
+    }
+
+    .saladas {
+        border: none;
+        border-color: transparent;
+        width: 45px;
+    }
+</style>
+
+<script>
+    function calcularHayward() {
+        var valor = parseFloat($("#hayward").val());
+        var cadena = $("#volumen").text();
+        var cadenas = new Array();
+        cadenas = cadena.split(" ");
+
+        var volumen = parseFloat(cadenas[1]);
+        var result = (3200 - valor) * (volumen / (3200 * 0.2911));
+        $("#valHayward").html(result.toFixed(2) + ' kg.');
+
+    }
+    function calcularPentair() {
+        var valor = parseFloat($("#pentair").val());
+        var cadena = $("#volumen").text();
+        var cadenas = new Array();
+        cadenas = cadena.split(" ");
+
+        var volumen = parseFloat(cadenas[1]);
+        var result = (3400 - valor) * (volumen / (3400 * 0.2911));
+        $("#valPentair").html(result.toFixed(2) + ' kg.');
+    }
+</script>
+
+<div class="table-responsive">
+    <table class="table table-bordered">
+        <p style="text-align:center;padding-top:5px;">
+            <label>Tipo : @Html.DisplayFor(model => model.TIPO_PISCINA)</label>
+            <br />
+            <label>Volúmen: </label><label id="volumen"> @Html.DisplayFor(model => model.VOLUMEN) m3</label>
+        </p>
+        <thead>
+            <tr>
+                <th style="text-align:center;background-color:#db88ef;" colspan="2">
+                    Ácido PH.
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tdHeader">1L x 10m3 8 A 7 (10)</td>
+                <td class="tdContent">@Html.DisplayFor(model => model.acido10)</td>
+            </tr>
+            <tr>
+                <td class="tdHeader">1/2L x 10m3 7.8 A 7.3 (20)</td>
+                <td class="tdContent">@Html.DisplayFor(model => model.acido20)</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th colspan="2" style="text-align:center;background-color:#db88ef;">
+                    Soda Caústica
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tdHeader">gr/10m3 p aumentar 0.1ph (100)</td>
+                <td class="tdContent">@Html.DisplayFor(model => model.soda)</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th colspan="2" style="text-align:center;background-color:#8c5d41;">
+                    Cloro Granulado
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tdHeader">Tratamiento Prevencion (5) gr/m3 </td>
+                <td class="tdContent">@Html.DisplayFor(model => model.cloGra5)</td>
+            </tr>
+            <tr>
+                <td class="tdHeader">Tratamiento Prevencion (7) gr/m3 </td>
+                <td class="tdContent">@Html.DisplayFor(model => model.cloGra7)</td>
+            </tr>
+            <tr>
+                <td class="tdHeader">Tratamiento shock (15) gr/m3 </td>
+                <td class="tdContent">@Html.DisplayFor(model => model.cloGra15)</td>
+            </tr>
+            <tr>
+                <td class="tdHeader">Tratamiento shock (21) gr/m3 </td>
+                <td class="tdContent">@Html.DisplayFor(model => model.cloGra21)</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th colspan="2" style="text-align:center;background-color:#8c8581;">
+                    Cloro Pastillas
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tdHeader">1 pastilla / (20) m3 </td>
+                <td class="tdContent">@Html.DisplayFor(model => model.cloPas20)</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th colspan="2" style="text-align:center;background-color:cornflowerblue;">
+                    Sulfato de Aluminio
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tdHeader">(10) gr/m3 </td>
+                <td class="tdContent">@Html.DisplayFor(model => model.sulfAl10)</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th colspan="2" style="text-align:center;background-color:#7cb782;">
+                    Sulfato de Cobre
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tdHeader">Prevencion (3) gr/m3 </td>
+                <td class="tdContent">@Html.DisplayFor(model => model.sulfCo3)</td>
+            </tr>
+            <tr>
+                <td class="tdHeader">Verde (10) gr/m3 </td>
+                <td class="tdContent">@Html.DisplayFor(model => model.sulfCo10)</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th colspan="2" style="text-align:center;background-color:#d87e2f;">
+                    Piscina Salada
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tdHeader">
+                    Hayward 3200ppm (<input type="number" id="hayward" placeholder="3000" class="saladas" onkeyup="calcularHayward();" value="3000">)
+                </td>
+                <td class="tdContent" id="valHayward">@Html.DisplayFor(model => model.piscSal3000)</td>
+            </tr>
+            <tr>
+                <td class="tdHeader">
+                    Pentair 3400ppm (<input type="number" id="pentair" placeholder="2800" class="saladas" onkeyup="calcularPentair();" value="2800">)
+                </td>
+                <td class="tdContent" id="valPentair">@Html.DisplayFor(model => model.piscSal4000)</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+

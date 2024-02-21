@@ -1,0 +1,343 @@
+﻿body 
+{
+    font-family:Calibri Light;
+    font-style:normal;
+    font-stretch:normal;
+    font-weight:normal;
+}
+
+#Header
+{
+
+    width:75%;
+    margin:auto;
+    overflow:auto;
+    color:#000099;
+}
+
+    #HeaderContent
+    {
+        margin:auto;
+    }
+
+        #LogoType
+        {
+            float:left;
+            margin-top:5px;
+            margin-left:10px;
+        }
+
+        #Title
+        {
+            margin:auto;
+            text-align:center;
+            vertical-align:bottom;
+            text-shadow:2px 2px 3px #000;
+        }
+
+            #Title >h1
+            {
+                margin-top:25px;
+                font-size:20px;
+            }
+
+            #Title >h2
+            {
+                margin-top:2px;
+                font-size:18px;
+            }
+
+        #HorizontalBar
+        {
+            width:7.5%;
+            height:25%;
+            text-align:center;
+            float:right;
+            margin-top:5px;
+            margin-right:10px;
+            background-color:#CCDDF8;
+            border-radius:10px 10px 10px 10px;
+            box-shadow:0px 0px 5px #000 inset;
+        }
+
+            #HorizontalBar > ul
+            {
+                list-style-type:none;
+                padding:0;
+                margin:0;
+            }
+
+            #HorizontalBar li
+            {
+                display:inline-block;
+                padding:2px;
+                cursor:pointer;
+            }
+
+                #HorizontalBar li > a
+                {
+                    display:block;
+                    color:darkblue;
+                    text-decoration:none;
+                    font-weight:bold;
+                }
+
+#Bottom
+{
+    width:75%;
+    margin:auto;
+    overflow:auto;
+    /*background-color:#CDDDF7;*/
+    /*border-radius:20px 20px 20px 20px;*/
+    /*box-shadow:0px 0px 5px #000 inset;*/
+}
+
+    #LeftColumn 
+    {
+        float:left;
+        width:0%;
+        height:450px;
+        /*height:820px;*/
+        box-shadow:0px 0px 2px #000 inset;
+    }
+
+    #CenterColumn
+    {
+        float:left;
+        width:100%;
+        height:500px;
+        /*height:820px;*/
+        text-align:center;
+        /*background-color:#E4F2FF;*/
+        /*box-shadow:0px 0px 5px #000 inset;*/
+    }
+
+
+#Footer
+{
+    width:75%;
+    margin:auto;
+    overflow:auto;
+    /*height:20px;*/
+    /*background-color:#1F3763;*/
+    /*border-radius:0px 0px 20px 20px;*/
+    clear:both;
+    box-shadow:0px 0px 5px #000 inset;
+    color:#000099;
+    text-align:center;
+    vertical-align:middle;
+    font-size:small;
+}
+
+.MyProgressBackground 
+{
+    position: fixed; 
+    top: 0px; 
+    bottom: 0px; 
+    left: 0px; 
+    right: 0px; 
+    overflow: hidden; 
+    padding: 0; 
+    margin: 0; 
+    background-color: #F0F0F0; 
+    filter: alpha(opacity=80); 
+    opacity: 0.8; 
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: 100000;
+
+}
+
+.MyProgress
+{
+    position: fixed; 
+    top: 30%; 
+    left: 30%; 
+    height: 40%; 
+    width: 40%; 
+    z-index: 100001; 
+    /*background-color: #FFFFFF;*/ 
+    /*border: 1px solid gray;*/ 
+    /*background-image:url('Images/ajax-loader.gif');*/ 
+    background-repeat: no-repeat; 
+    background-position: center;
+
+}
+
+.div-clear {clear:both;}
+
+div.MyTable
+{
+	clear: none; 
+    overflow:inherit; 
+    font-family:Arial; 
+    color:#000099;
+}
+
+div.MyTitleLogin
+{
+    clear:both;
+    border-style:inherit; 
+    border-width:1px;
+    padding:5px;
+}
+
+div.MyCol
+{
+	float: left;
+	background-color:silver;
+	vertical-align:middle;
+	border-style:none;
+	color:black;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+}
+
+div.MyRow
+{
+    clear:both;
+	font-size:14px;
+	font-weight:normal; 
+    height:20px;
+    padding:5px;
+}
+
+div.MyTitle
+{
+    height:25px;
+    clear:both;
+    border-style:inherit; 
+    border-width:1px;
+    vertical-align:bottom;
+    padding-top:0px;
+    padding-bottom:0px;
+}
+
+div.MyRowMessage
+{
+    height:20px;
+    float: right;
+    vertical-align:top;
+}
+
+div.MyRowMessage_left
+{
+    float:left;
+    padding-top:25px;
+    vertical-align:bottom;
+}
+
+div.MyRowDataEntry
+{
+    clear:both;
+	font-size:medium;
+	font-weight:normal;
+    font-family:Arial;
+    padding:5px;
+    color:darkslateblue; 
+}
+
+div.MyRowInfo
+{
+    clear:both;
+	font-size:small;
+    font-family:Arial;
+    float:left; 
+    text-align:left;
+    padding:2px;
+    color:black; 
+}
+
+div.MyRowPanelInfo
+{
+    clear:both;
+	font-size:small;
+    font-family:Arial;
+    float:left; 
+    text-align:left;
+    padding:2px;
+    color:black; 
+    height:100%;
+}
+
+div.MyRowSubTotal
+{
+    clear:both;
+	font-size:medium;
+    font-family:Arial;
+    float: right;
+    text-align:right;
+    padding:2px; 
+}
+
+div.MyListaDesplegable
+{
+    clear:both;
+	font-size:medium;
+    font-family:Arial;
+    float: right;
+    text-align:right;
+    padding:2px;  
+}
+
+div.MyCell{float:left; text-align:left;}
+div.MyCell_Center{float:initial; text-align:center;
+    width: 100%;
+}
+div.MyCell_Right{float:right; text-align:right;}
+
+div.MyHeadRow{clear:both;}
+
+div.MyHeadLogoType{float:left; margin-left:10px;} 
+div.MyHeadTitle{margin:auto; text-align:center; float:initial;}
+
+/*div.MyHeadHorizontalBar{float:right; text-decoration:none; text-align:center; background-color:#CCDDF8; border-radius:5px 5px 5px 5px; box-shadow:0px 0px 5px #000 inset; font-weight:bold; padding:10px; padding-top:5px; padding-bottom:5px; margin-left:1px; display:block; cursor:pointer; width:7%; min-width:6em;}*/
+
+div.MyHeadHorizontalBar{float:right; text-decoration:none; text-align:center; background-color:#CCDDF8; border-radius:5px 5px 5px 5px; box-shadow:0px 0px 5px #000 inset; font-weight:bold; padding:10px; padding-top:5px; padding-bottom:5px; margin-left:1px; display:block; cursor:pointer; width:75px;}
+div.MyHeadHorizontalBar:hover{background-color:#6090F0; color:#CCDDF8;}
+div.MyHeadHorizontalBar:focus{background-color:navy; outline:none; color:white; font-weight:bold;}
+
+.MyTextBox{border:1px solid #C3C3C3; border-radius:5px 5px 5px 5px; box-shadow:1px 1px 2px #D2D2D2; padding-left:5px;}
+
+.MyDataEntry{border:1px solid #C3C3C3; border-radius:5px 5px 5px 5px; box-shadow:1px 1px 2px #D2D2D2; font-size:small;}
+
+.MyDateEntry{border:1px solid #C3C3C3; border-radius:5px 5px 5px 5px; box-shadow:1px 1px 2px #D2D2D2;}
+
+.MyValEntry{border:1px solid #C3C3C3; border-radius:5px 5px 5px 5px; box-shadow:1px 1px 2px #D2D2D2; font-size:small; text-align:right; width:90px; padding-right:5px}
+.MyValEntryRO{border:1px solid #C3C3C3; border-radius:5px 5px 5px 5px; box-shadow:1px 1px 2px #D2D2D2; font-size:small; text-align:right; width:90px; background-color:lightYellow; color:darkred;padding-right:5px}
+
+.MyStrEntryRO{border:1px solid #C3C3C3; border-radius:5px 5px 5px 5px; box-shadow:1px 1px 2px #D2D2D2; font-size:small; text-align:left; background-color:lightYellow; color:darkred;padding-left:5px}
+
+.MyLinkButton{padding:3%; padding-top:0.5%; padding-bottom:0.5%; text-decoration:none; font-style:normal; color:white; background-color:#0066ff;  
+              border-color:#CCFFFF; border-radius:7px 7px 7px 7px; box-shadow:0px 0px 5px #000;}
+.MyLinkButton:hover{background-color:#6058D0; color:#CCDDF8;}
+.MyLinkButton:focus{outline:none; color:white;}
+
+.MyLinkButtonOther{padding:3%; padding-top:0.5%; padding-bottom:0.5%; text-decoration:none; font-style:normal; color:white; background-color:#708090;  
+                   border-color:#CCFFFF; border-radius:7px 7px 7px 7px; box-shadow:0px 0px 5px #000;}
+.MyLinkButtonOther:hover{background-color:#6058D0; color:#CCDDF8;}
+.MyLinkButtonOther:focus{outline:none; color:white;}
+
+.MyButton{text-align:center; padding:5px; padding-right:15px; padding-left:15px; font-weight:bold; color:#000099; border-radius:7px 7px 7px 7px; box-shadow:0px 0px 5px #000;}
+
+.MyButtonOpcion{width:36px; height:36px; margin-top:5px;}
+
+.MyMessage{color:red; font-family:Arial; font-size:12px; font-size:small;  padding:3px; padding-left:10px; margin-right:15px;}
+
+.MyPanelInfo{background-color:aliceblue; border-color:mintcream; padding:3px; padding-left:10px;}
+
+
+.MyPanel{background-color:LightYellow; border-color:silver; border-style:solid; border-width:1px; border:1px solid #000; border-radius:5px 5px 5px 5px; box-shadow:0px 0px 2px #000;}
+
+.MyPanelReadOnly{background-color:#F0F0F0; border-color:silver; border-style:solid; border-width:1px; border:1px solid #000;  box-shadow:0px 0px 2px #000;}
+
+.cuadro_fecha{width:60px;border: 1px solid #5B759A;margin:0 5px 0 5px;font-family:Times New Roman;font-size:12px;background-color:#FBFAE0;padding: 0 2px 0 2px;text-transform: uppercase;height: 16px;text-align:right;vertical-align:middle;}
+
+.cuadro_texto{font-family:Times New Roman;font-size:12px;background-color:#FFFFCC;text-transform: uppercase;}
+
+.cuadro_numero{font-family:Times New Roman;font-size:12px;background-color:#FFFFCC;text-align:right;}
+

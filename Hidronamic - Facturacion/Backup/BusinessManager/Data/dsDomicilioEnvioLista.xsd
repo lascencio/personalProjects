@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsDomicilioEnvioLista" targetNamespace="http://tempuri.org/dsDomicilioEnvioLista.xsd" xmlns:mstns="http://tempuri.org/dsDomicilioEnvioLista.xsd" xmlns="http://tempuri.org/dsDomicilioEnvioLista.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsDomicilioEnvioLista" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsDomicilioEnvioLista" msprop:Generator_UserDSName="dsDomicilioEnvioLista" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DOMICILIO_ENVIO_LISTA" msprop:Generator_UserTableName="DOMICILIO_ENVIO_LISTA" msprop:Generator_RowDeletedName="DOMICILIO_ENVIO_LISTARowDeleted" msprop:Generator_TableClassName="DOMICILIO_ENVIO_LISTADataTable" msprop:Generator_RowChangedName="DOMICILIO_ENVIO_LISTARowChanged" msprop:Generator_RowClassName="DOMICILIO_ENVIO_LISTARow" msprop:Generator_RowChangingName="DOMICILIO_ENVIO_LISTARowChanging" msprop:Generator_RowEvArgName="DOMICILIO_ENVIO_LISTARowChangeEvent" msprop:Generator_RowEvHandlerName="DOMICILIO_ENVIO_LISTARowChangeEventHandler" msprop:Generator_TablePropName="DOMICILIO_ENVIO_LISTA" msprop:Generator_TableVarName="tableDOMICILIO_ENVIO_LISTA" msprop:Generator_RowDeletingName="DOMICILIO_ENVIO_LISTARowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DOMICILIO_ENVIO" msprop:Generator_UserColumnName="DOMICILIO_ENVIO" msprop:Generator_ColumnPropNameInRow="DOMICILIO_ENVIO" msprop:Generator_ColumnVarNameInTable="columnDOMICILIO_ENVIO" msprop:Generator_ColumnPropNameInTable="DOMICILIO_ENVIOColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DESCRIPCION" msprop:Generator_UserColumnName="DESCRIPCION" msprop:Generator_ColumnPropNameInRow="DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPCION" msprop:Generator_ColumnPropNameInTable="DESCRIPCIONColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DOMICILIO" msdata:ReadOnly="true" msprop:Generator_UserColumnName="DOMICILIO" msprop:Generator_ColumnPropNameInRow="DOMICILIO" msprop:Generator_ColumnVarNameInTable="columnDOMICILIO" msprop:Generator_ColumnPropNameInTable="DOMICILIOColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="91" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DEPARTAMENTO" msprop:Generator_UserColumnName="DEPARTAMENTO" msprop:Generator_ColumnPropNameInRow="DEPARTAMENTO" msprop:Generator_ColumnVarNameInTable="columnDEPARTAMENTO" msprop:Generator_ColumnPropNameInTable="DEPARTAMENTOColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PROVINCIA" msprop:Generator_UserColumnName="PROVINCIA" msprop:Generator_ColumnPropNameInRow="PROVINCIA" msprop:Generator_ColumnVarNameInTable="columnPROVINCIA" msprop:Generator_ColumnPropNameInTable="PROVINCIAColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DISTRITO" msprop:Generator_UserColumnName="DISTRITO" msprop:Generator_ColumnPropNameInRow="DISTRITO" msprop:Generator_ColumnVarNameInTable="columnDISTRITO" msprop:Generator_ColumnPropNameInTable="DISTRITOColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

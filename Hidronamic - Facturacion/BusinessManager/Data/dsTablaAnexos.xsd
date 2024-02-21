@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsTablaAnexos" targetNamespace="http://tempuri.org/dsTablaAnexos.xsd" xmlns:mstns="http://tempuri.org/dsTablaAnexos.xsd" xmlns="http://tempuri.org/dsTablaAnexos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsTablaAnexos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsTablaAnexos" msprop:Generator_UserDSName="dsTablaAnexos" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TABLA_ANEXOS" msprop:Generator_UserTableName="TABLA_ANEXOS" msprop:Generator_RowDeletedName="TABLA_ANEXOSRowDeleted" msprop:Generator_TableClassName="TABLA_ANEXOSDataTable" msprop:Generator_RowChangedName="TABLA_ANEXOSRowChanged" msprop:Generator_RowClassName="TABLA_ANEXOSRow" msprop:Generator_RowChangingName="TABLA_ANEXOSRowChanging" msprop:Generator_RowEvArgName="TABLA_ANEXOSRowChangeEvent" msprop:Generator_RowEvHandlerName="TABLA_ANEXOSRowChangeEventHandler" msprop:Generator_TablePropName="TABLA_ANEXOS" msprop:Generator_TableVarName="tableTABLA_ANEXOS" msprop:Generator_RowDeletingName="TABLA_ANEXOSRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EMPRESA" msprop:Generator_UserColumnName="EMPRESA" msprop:Generator_ColumnPropNameInRow="EMPRESA" msprop:Generator_ColumnVarNameInTable="columnEMPRESA" msprop:Generator_ColumnPropNameInTable="EMPRESAColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CUENTA_CORRIENTE" msprop:Generator_UserColumnName="CUENTA_CORRIENTE" msprop:Generator_ColumnPropNameInRow="CUENTA_CORRIENTE" msprop:Generator_ColumnVarNameInTable="columnCUENTA_CORRIENTE" msprop:Generator_ColumnPropNameInTable="CUENTA_CORRIENTEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ANEXO" msprop:Generator_UserColumnName="ANEXO" msprop:Generator_ColumnPropNameInRow="ANEXO" msprop:Generator_ColumnVarNameInTable="columnANEXO" msprop:Generator_ColumnPropNameInTable="ANEXOColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NOMBRE_ANEXO" msprop:Generator_UserColumnName="NOMBRE_ANEXO" msprop:Generator_ColumnPropNameInRow="NOMBRE_ANEXO" msprop:Generator_ColumnVarNameInTable="columnNOMBRE_ANEXO" msprop:Generator_ColumnPropNameInTable="NOMBRE_ANEXOColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="152" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TIPO_TABLA_CUENTA_CORRIENTE" msprop:Generator_UserColumnName="TIPO_TABLA_CUENTA_CORRIENTE" msprop:Generator_ColumnPropNameInRow="TIPO_TABLA_CUENTA_CORRIENTE" msprop:Generator_ColumnVarNameInTable="columnTIPO_TABLA_CUENTA_CORRIENTE" msprop:Generator_ColumnPropNameInTable="TIPO_TABLA_CUENTA_CORRIENTEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="16" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CUENTA_CONTABLE" msprop:Generator_UserColumnName="CUENTA_CONTABLE" msprop:Generator_ColumnPropNameInRow="CUENTA_CONTABLE" msprop:Generator_ColumnVarNameInTable="columnCUENTA_CONTABLE" msprop:Generator_ColumnPropNameInTable="CUENTA_CONTABLEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ESTADO" msprop:Generator_UserColumnName="ESTADO" msprop:Generator_ColumnPropNameInRow="ESTADO" msprop:Generator_ColumnVarNameInTable="columnESTADO" msprop:Generator_ColumnPropNameInTable="ESTADOColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

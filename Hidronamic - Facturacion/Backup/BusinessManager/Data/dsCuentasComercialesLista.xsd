@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCuentasComercialesLista" targetNamespace="http://tempuri.org/dsCuentasComercialesLista.xsd" xmlns:mstns="http://tempuri.org/dsCuentasComercialesLista.xsd" xmlns="http://tempuri.org/dsCuentasComercialesLista.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCuentasComercialesLista" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsCuentasComercialesLista" msprop:Generator_DataSetName="dsCuentasComercialesLista" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CUENTAS_COMERCIALES_LISTA" msprop:Generator_UserTableName="CUENTAS_COMERCIALES_LISTA" msprop:Generator_RowDeletedName="CUENTAS_COMERCIALES_LISTARowDeleted" msprop:Generator_RowChangedName="CUENTAS_COMERCIALES_LISTARowChanged" msprop:Generator_RowClassName="CUENTAS_COMERCIALES_LISTARow" msprop:Generator_RowChangingName="CUENTAS_COMERCIALES_LISTARowChanging" msprop:Generator_RowEvArgName="CUENTAS_COMERCIALES_LISTARowChangeEvent" msprop:Generator_RowEvHandlerName="CUENTAS_COMERCIALES_LISTARowChangeEventHandler" msprop:Generator_TableClassName="CUENTAS_COMERCIALES_LISTADataTable" msprop:Generator_TableVarName="tableCUENTAS_COMERCIALES_LISTA" msprop:Generator_RowDeletingName="CUENTAS_COMERCIALES_LISTARowDeleting" msprop:Generator_TablePropName="CUENTAS_COMERCIALES_LISTA">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CUENTA_COMERCIAL" msprop:Generator_UserColumnName="CUENTA_COMERCIAL" msprop:Generator_ColumnPropNameInRow="CUENTA_COMERCIAL" msprop:Generator_ColumnVarNameInTable="columnCUENTA_COMERCIAL" msprop:Generator_ColumnPropNameInTable="CUENTA_COMERCIALColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="18" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RAZON_SOCIAL" msprop:Generator_UserColumnName="RAZON_SOCIAL" msprop:Generator_ColumnPropNameInRow="RAZON_SOCIAL" msprop:Generator_ColumnVarNameInTable="columnRAZON_SOCIAL" msprop:Generator_ColumnPropNameInTable="RAZON_SOCIALColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TIPO_DOCUMENTO" msprop:Generator_UserColumnName="TIPO_DOCUMENTO" msprop:Generator_ColumnPropNameInRow="TIPO_DOCUMENTO" msprop:Generator_ColumnVarNameInTable="columnTIPO_DOCUMENTO" msprop:Generator_ColumnPropNameInTable="TIPO_DOCUMENTOColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NRO_DOCUMENTO" msprop:Generator_UserColumnName="NRO_DOCUMENTO" msprop:Generator_ColumnPropNameInRow="NRO_DOCUMENTO" msprop:Generator_ColumnVarNameInTable="columnNRO_DOCUMENTO" msprop:Generator_ColumnPropNameInTable="NRO_DOCUMENTOColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CODIGO_VENDEDOR" msprop:Generator_UserColumnName="CODIGO_VENDEDOR" msprop:Generator_ColumnPropNameInRow="CODIGO_VENDEDOR" msprop:Generator_ColumnVarNameInTable="columnCODIGO_VENDEDOR" msprop:Generator_ColumnPropNameInTable="CODIGO_VENDEDORColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ESTADO" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ESTADO" msprop:Generator_ColumnPropNameInRow="ESTADO" msprop:Generator_ColumnVarNameInTable="columnESTADO" msprop:Generator_ColumnPropNameInTable="ESTADOColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

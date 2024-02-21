@@ -1,0 +1,252 @@
+F:\Local Win Applications\UltimateERP\BusinessManager\bin\Debug\BusinessManager.exe.config
+F:\Local Win Applications\UltimateERP\BusinessManager\bin\Debug\BusinessManager.exe
+F:\Local Win Applications\UltimateERP\BusinessManager\bin\Debug\BusinessManager.pdb
+F:\Local Win Applications\UltimateERP\BusinessManager\bin\Debug\BusinessManager.xml
+F:\Local Win Applications\UltimateERP\BusinessManager\bin\Debug\MyControlToolBar.exe
+F:\Local Win Applications\UltimateERP\BusinessManager\bin\Debug\MyControlToolBar.pdb
+F:\Local Win Applications\UltimateERP\BusinessManager\bin\Debug\MyControlToolBar.xml
+F:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.vbprojResolveAssemblyReference.cache
+F:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.Form1.resources
+F:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmProducto.resources
+F:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmProductoLista.resources
+F:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmProveedor.resources
+F:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmBase.resources
+F:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmControlAccesos.resources
+F:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmControlPeriodos.resources
+F:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmCuentaComercialLista.resources
+F:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmLogin.resources
+F:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmMenu.resources
+F:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmPeriodoTrabajo.resources
+F:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmClientePersonaNatural.resources
+F:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmSubBase.resources
+F:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmTablaCabecera.resources
+F:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmTablaCabeceras.resources
+F:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmTablaDetalle.resources
+F:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmTablaDetalles.resources
+F:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmClientes.resources
+F:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmClientePersonaJuridica.resources
+F:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.Resources.resources
+F:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.vbproj.GenerateResource.Cache
+F:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.exe
+F:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.xml
+F:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.pdb
+E:\Local Win Applications\UltimateERP\BusinessManager\bin\Debug\BusinessManager.exe.config
+E:\Local Win Applications\UltimateERP\BusinessManager\bin\Debug\BusinessManager.exe
+E:\Local Win Applications\UltimateERP\BusinessManager\bin\Debug\BusinessManager.pdb
+E:\Local Win Applications\UltimateERP\BusinessManager\bin\Debug\BusinessManager.xml
+E:\Local Win Applications\UltimateERP\BusinessManager\bin\Debug\MyControlToolBar.exe
+E:\Local Win Applications\UltimateERP\BusinessManager\bin\Debug\zxing.dll
+E:\Local Win Applications\UltimateERP\BusinessManager\bin\Debug\MyControlToolBar.pdb
+E:\Local Win Applications\UltimateERP\BusinessManager\bin\Debug\MyControlToolBar.xml
+E:\Local Win Applications\UltimateERP\BusinessManager\bin\Debug\zxing.pdb
+E:\Local Win Applications\UltimateERP\BusinessManager\bin\Debug\zxing.xml
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.vbprojResolveAssemblyReference.cache
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmGuiaPorTrasladoExterno.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmGuiaPorVentaOtros.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmGuiaPorVentaVehiculo.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmGuiaTrasladoLista.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmNotaIngresoAlmacenTraslado.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmNotaIngresoAlmacenVehiculo.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmGuiaPorTraslado.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmGuiaPorTrasladoInterno.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmGuiaPorVenta.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmNotaSalidaAlmacen.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmOperacionDetalleSeries.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmOperacionDetalleSeriesVehiculares.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmOperacionesAlmacenes.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmSerieConsulta.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmSerieDatosAdicionales.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmSerieLista.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmSerieVehicularLista.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmStockProducto.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmTransferenciasAlmacen.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmElementoLista.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmProducto.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmProductoLista.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmProveedor.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmBase.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmControlAccesos.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmControlPeriodos.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmCuentaComercialLista.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmLogin.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmMenu.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmPeriodoTrabajo.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmClientePersonaNatural.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmSubBase.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmTablaCabecera.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmTablaCabeceras.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmTablaDetalle.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmTablaDetalles.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmTipoCambio.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmUsuario.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmClientePersonaJuridica.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmEComprobanteVentaVehiculoImprimir.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmEComprobantes.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmEComprobanteVentaImprimir.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmNotaIngresoAlmacen.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmGuiaRemitenteLista.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmEstadoCDR.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmCobranzaProntoPago.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmHistoricoPrestamos.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmClientes.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmRefinanciarPrestamo.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmCobranzaGastos.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmClientesLista.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmCobranzaPrestamo.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmCobranzasLista.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmPrestamosLista.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmRegistrarPrestamo.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmProformasLista.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmProformaPrestamo.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmReprogramarCuotasPendientes.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmMigrarTablas.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmSeparacionVehiculo.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmTransferenciaGratuita.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmNotaCreditoVehiculo.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmFacturacionProductosLista.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmNotaCreditoDevolucion.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmNotaCreditoPorDevolucion_Old.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmReporteProntoPago.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmEstadoCuenta.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmTResumenCobranzaDiaria.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmTResumenDiarioImprimir.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmVentaDetalleComponentesSeries.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmVentaDetalleSeries.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmVentaDetalleSeriesVehiculares.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmVentaDirecta.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmVentaDirectaLista.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmVentaVehiculo.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.Resources.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmPrestamoEstadoCuenta.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmProformaPrestamoImprimir.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmReporteComprasLocales.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmReporteUtilidadEspecifica.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmReporteComprobantesVenta.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmReporteComprobantesVentaMensual.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmReporteGuiasRemision.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmReporteInventarioValorizado.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmReporteSaldoValorizado.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmReporteUtilidadProducto.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmReporteVentaPorProducto.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmStockVehicularImprimir.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmGuiaRemitenteImprimir.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmMovimientosProducto.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmOperacionAlmacenImprimir.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmStockProductoAlmacenImprimir.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmTicketCobranzaImprimir.resources
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.vbproj.GenerateResource.Cache
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\RdlCompile.cache
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\RdlCompile.compiled
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.exe
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.xml
+E:\Local Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.pdb
+E:\Win Applications\UltimateERP\BusinessManager\bin\Debug\BusinessManager.exe.config
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.exe
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.xml
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.pdb
+E:\Win Applications\UltimateERP\BusinessManager\bin\Debug\BusinessManager.exe
+E:\Win Applications\UltimateERP\BusinessManager\bin\Debug\BusinessManager.pdb
+E:\Win Applications\UltimateERP\BusinessManager\bin\Debug\BusinessManager.xml
+E:\Win Applications\UltimateERP\BusinessManager\bin\Debug\MyControlToolBar.exe
+E:\Win Applications\UltimateERP\BusinessManager\bin\Debug\zxing.dll
+E:\Win Applications\UltimateERP\BusinessManager\bin\Debug\MyControlToolBar.pdb
+E:\Win Applications\UltimateERP\BusinessManager\bin\Debug\MyControlToolBar.xml
+E:\Win Applications\UltimateERP\BusinessManager\bin\Debug\zxing.pdb
+E:\Win Applications\UltimateERP\BusinessManager\bin\Debug\zxing.xml
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.vbprojResolveAssemblyReference.cache
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmGuiaPorTrasladoExterno.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmGuiaPorVentaOtros.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmGuiaPorVentaVehiculo.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmGuiaTrasladoLista.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmNotaIngresoAlmacenTraslado.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmNotaIngresoAlmacenVehiculo.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmGuiaPorTraslado.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmGuiaPorTrasladoInterno.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmGuiaPorVenta.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmNotaSalidaAlmacen.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmOperacionDetalleSeries.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmOperacionDetalleSeriesVehiculares.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmOperacionesAlmacenes.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmSerieConsulta.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmSerieDatosAdicionales.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmSerieLista.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmSerieVehicularLista.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmStockProducto.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmTransferenciasAlmacen.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmElementoLista.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmProducto.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmProductoLista.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmProveedor.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmBase.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmControlAccesos.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmControlPeriodos.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmCuentaComercialLista.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmLogin.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmMenu.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmPeriodoTrabajo.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmClientePersonaNatural.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmSubBase.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmTablaCabecera.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmTablaCabeceras.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmTablaDetalle.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmTablaDetalles.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmTipoCambio.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmUsuario.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmClientePersonaJuridica.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmEComprobanteVentaVehiculoImprimir.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmEComprobantes.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmEComprobanteVentaImprimir.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmNotaIngresoAlmacen.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmGuiaRemitenteLista.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmEstadoCDR.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmCobranzaProntoPago.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmHistoricoPrestamos.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmClientes.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmRefinanciarPrestamo.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmCobranzaGastos.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmClientesLista.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmCobranzaPrestamo.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmCobranzasLista.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmPrestamosLista.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmRegistrarPrestamo.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmProformasLista.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmProformaPrestamo.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmReprogramarCuotasPendientes.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmMigrarTablas.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmSeparacionVehiculo.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmTransferenciaGratuita.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmNotaCreditoVehiculo.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmFacturacionProductosLista.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmNotaCreditoDevolucion.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmNotaCreditoPorDevolucion_Old.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmReporteProntoPago.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmEstadoCuenta.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmTResumenCobranzaDiaria.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmTResumenDiarioImprimir.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmVentaDetalleComponentesSeries.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmVentaDetalleSeries.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmVentaDetalleSeriesVehiculares.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmVentaDirecta.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmVentaDirectaLista.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmVentaVehiculo.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.Resources.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmPrestamoEstadoCuenta.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmProformaPrestamoImprimir.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmReporteComprasLocales.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmReporteUtilidadEspecifica.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmReporteComprobantesVenta.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmReporteComprobantesVentaMensual.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmReporteGuiasRemision.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmReporteInventarioValorizado.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmReporteSaldoValorizado.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmReporteUtilidadProducto.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmReporteVentaPorProducto.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmStockVehicularImprimir.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmGuiaRemitenteImprimir.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmMovimientosProducto.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmOperacionAlmacenImprimir.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmStockProductoAlmacenImprimir.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.frmTicketCobranzaImprimir.resources
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\BusinessManager.vbproj.GenerateResource.Cache
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\RdlCompile.cache
+E:\Win Applications\UltimateERP\BusinessManager\obj\Debug\RdlCompile.compiled

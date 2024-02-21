@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCONCAR_Cuentas" targetNamespace="http://tempuri.org/dsCONCAR_Cuentas.xsd" xmlns:mstns="http://tempuri.org/dsCONCAR_Cuentas.xsd" xmlns="http://tempuri.org/dsCONCAR_Cuentas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="cnnSQL_Demo" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="cnnSQL_Demo (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BusinessManager.My.MySettings.GlobalReference.Default.cnnSQL_Demo" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCONCAR_Cuentas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsCONCAR_Cuentas" msprop:Generator_DataSetName="dsCONCAR_Cuentas" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CUENTAS_CONTABLES" msprop:Generator_UserTableName="CUENTAS_CONTABLES" msprop:Generator_RowDeletedName="CUENTAS_CONTABLESRowDeleted" msprop:Generator_RowChangedName="CUENTAS_CONTABLESRowChanged" msprop:Generator_RowClassName="CUENTAS_CONTABLESRow" msprop:Generator_RowChangingName="CUENTAS_CONTABLESRowChanging" msprop:Generator_RowEvArgName="CUENTAS_CONTABLESRowChangeEvent" msprop:Generator_RowEvHandlerName="CUENTAS_CONTABLESRowChangeEventHandler" msprop:Generator_TableClassName="CUENTAS_CONTABLESDataTable" msprop:Generator_TableVarName="tableCUENTAS_CONTABLES" msprop:Generator_RowDeletingName="CUENTAS_CONTABLESRowDeleting" msprop:Generator_TablePropName="CUENTAS_CONTABLES">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="pcuenta" msprop:Generator_UserColumnName="pcuenta" msprop:Generator_ColumnVarNameInTable="columnpcuenta" msprop:Generator_ColumnPropNameInRow="pcuenta" msprop:Generator_ColumnPropNameInTable="pcuentaColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pdescri" msprop:Generator_UserColumnName="pdescri" msprop:Generator_ColumnVarNameInTable="columnpdescri" msprop:Generator_ColumnPropNameInRow="pdescri" msprop:Generator_ColumnPropNameInTable="pdescriColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pvanexo" msprop:Generator_UserColumnName="pvanexo" msprop:Generator_ColumnVarNameInTable="columnpvanexo" msprop:Generator_ColumnPropNameInRow="pvanexo" msprop:Generator_ColumnPropNameInTable="pvanexoColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pmonref" msprop:Generator_UserColumnName="pmonref" msprop:Generator_ColumnVarNameInTable="columnpmonref" msprop:Generator_ColumnPropNameInRow="pmonref" msprop:Generator_ColumnPropNameInTable="pmonrefColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pctacar" msprop:Generator_UserColumnName="pctacar" msprop:Generator_ColumnVarNameInTable="columnpctacar" msprop:Generator_ColumnPropNameInRow="pctacar" msprop:Generator_ColumnPropNameInTable="pctacarColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pctaabo" msprop:Generator_UserColumnName="pctaabo" msprop:Generator_ColumnVarNameInTable="columnpctaabo" msprop:Generator_ColumnPropNameInRow="pctaabo" msprop:Generator_ColumnPropNameInTable="pctaaboColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pvcencos" msprop:Generator_UserColumnName="pvcencos" msprop:Generator_ColumnVarNameInTable="columnpvcencos" msprop:Generator_ColumnPropNameInRow="pvcencos" msprop:Generator_ColumnPropNameInTable="pvcencosColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pvregcta" msprop:Generator_UserColumnName="pvregcta" msprop:Generator_ColumnVarNameInTable="columnpvregcta" msprop:Generator_ColumnPropNameInRow="pvregcta" msprop:Generator_ColumnPropNameInTable="pvregctaColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pvtipcta" msprop:Generator_UserColumnName="pvtipcta" msprop:Generator_ColumnVarNameInTable="columnpvtipcta" msprop:Generator_ColumnPropNameInRow="pvtipcta" msprop:Generator_ColumnPropNameInTable="pvtipctaColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pvarea" msprop:Generator_UserColumnName="pvarea" msprop:Generator_ColumnVarNameInTable="columnpvarea" msprop:Generator_ColumnPropNameInRow="pvarea" msprop:Generator_ColumnPropNameInTable="pvareaColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pestado" msprop:Generator_UserColumnName="pestado" msprop:Generator_ColumnVarNameInTable="columnpestado" msprop:Generator_ColumnPropNameInRow="pestado" msprop:Generator_ColumnPropNameInTable="pestadoColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:CUENTAS_CONTABLES" />
+      <xs:field xpath="mstns:pcuenta" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

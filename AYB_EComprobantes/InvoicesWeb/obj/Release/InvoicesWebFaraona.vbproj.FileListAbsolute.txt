@@ -1,0 +1,8 @@
+G:\Local Web Sites\Faraona_EComprobantes\InvoicesWeb\bin\InvoicesWebFaraona.dll
+G:\Local Web Sites\Faraona_EComprobantes\InvoicesWeb\bin\InvoicesWebFaraona.pdb
+G:\Local Web Sites\Faraona_EComprobantes\InvoicesWeb\bin\InvoicesWebFaraona.xml
+G:\Local Web Sites\Faraona_EComprobantes\InvoicesWeb\obj\Release\InvoicesWebFaraona.Resources.resources
+G:\Local Web Sites\Faraona_EComprobantes\InvoicesWeb\obj\Release\InvoicesWebFaraona.vbproj.GenerateResource.Cache
+G:\Local Web Sites\Faraona_EComprobantes\InvoicesWeb\obj\Release\InvoicesWebFaraona.dll
+G:\Local Web Sites\Faraona_EComprobantes\InvoicesWeb\obj\Release\InvoicesWebFaraona.xml
+G:\Local Web Sites\Faraona_EComprobantes\InvoicesWeb\obj\Release\InvoicesWebFaraona.pdb

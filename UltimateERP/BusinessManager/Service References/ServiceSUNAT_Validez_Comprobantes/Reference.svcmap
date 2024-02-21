@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="dc306e57-a42a-4f74-b698-c0901ebc96dd" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://e-factura.sunat.gob.pe/ol-it-wsconsvalidcpe/billValidService?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="billValidService.wsdl" MetadataType="Wsdl" ID="317230bd-d00c-4af9-bdf2-11badaf9a6e3" SourceId="1" SourceUrl="https://e-factura.sunat.gob.pe/ol-it-wsconsvalidcpe/billValidService?wsdl" />
+    <MetadataFile FileName="billValidService.xsd" MetadataType="Schema" ID="7d81afd3-1a06-4ba6-93c0-7b7b6ae8d7e0" SourceId="1" SourceUrl="https://e-factura.sunat.gob.pe/ol-it-wsconsvalidcpe/billValidService?xsd=1" />
+    <MetadataFile FileName="billValidService1.wsdl" MetadataType="Wsdl" ID="4119b6b4-6152-4fe5-9c95-fd5e8a4282a4" SourceId="1" SourceUrl="https://e-factura.sunat.gob.pe/ol-it-wsconsvalidcpe/billValidService?wsdl=1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

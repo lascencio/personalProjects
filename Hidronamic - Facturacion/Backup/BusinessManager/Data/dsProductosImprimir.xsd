@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsProductosImprimir" targetNamespace="http://tempuri.org/dsProductosImprimir.xsd" xmlns:mstns="http://tempuri.org/dsProductosImprimir.xsd" xmlns="http://tempuri.org/dsProductosImprimir.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="cnnMySQL" IsAppSettingsProperty="true" Modifier="Assembly" Name="cnnMySQL (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BusinessManager.My.MySettings.GlobalReference.Default.cnnMySQL" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsProductosImprimir" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsProductosImprimir" msprop:Generator_DataSetName="dsProductosImprimir" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PRODUCTOS_IMPRIMIR" msprop:Generator_UserTableName="PRODUCTOS_IMPRIMIR" msprop:Generator_RowDeletedName="PRODUCTOS_IMPRIMIRRowDeleted" msprop:Generator_RowChangedName="PRODUCTOS_IMPRIMIRRowChanged" msprop:Generator_RowClassName="PRODUCTOS_IMPRIMIRRow" msprop:Generator_RowChangingName="PRODUCTOS_IMPRIMIRRowChanging" msprop:Generator_RowEvArgName="PRODUCTOS_IMPRIMIRRowChangeEvent" msprop:Generator_RowEvHandlerName="PRODUCTOS_IMPRIMIRRowChangeEventHandler" msprop:Generator_TableClassName="PRODUCTOS_IMPRIMIRDataTable" msprop:Generator_TableVarName="tablePRODUCTOS_IMPRIMIR" msprop:Generator_RowDeletingName="PRODUCTOS_IMPRIMIRRowDeleting" msprop:Generator_TablePropName="PRODUCTOS_IMPRIMIR">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PRODUCTO" msprop:Generator_UserColumnName="PRODUCTO" msprop:Generator_ColumnVarNameInTable="columnPRODUCTO" msprop:Generator_ColumnPropNameInRow="PRODUCTO" msprop:Generator_ColumnPropNameInTable="PRODUCTOColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DESCRIPCION" msprop:Generator_UserColumnName="DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPCION" msprop:Generator_ColumnPropNameInRow="DESCRIPCION" msprop:Generator_ColumnPropNameInTable="DESCRIPCIONColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UNIDAD_MEDIDA" msprop:Generator_UserColumnName="UNIDAD_MEDIDA" msprop:Generator_ColumnVarNameInTable="columnUNIDAD_MEDIDA" msprop:Generator_ColumnPropNameInRow="UNIDAD_MEDIDA" msprop:Generator_ColumnPropNameInTable="UNIDAD_MEDIDAColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UNIDAD_COMPRA" msprop:Generator_UserColumnName="UNIDAD_COMPRA" msprop:Generator_ColumnVarNameInTable="columnUNIDAD_COMPRA" msprop:Generator_ColumnPropNameInRow="UNIDAD_COMPRA" msprop:Generator_ColumnPropNameInTable="UNIDAD_COMPRAColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UNIDAD_VENTA" msprop:Generator_UserColumnName="UNIDAD_VENTA" msprop:Generator_ColumnVarNameInTable="columnUNIDAD_VENTA" msprop:Generator_ColumnPropNameInRow="UNIDAD_VENTA" msprop:Generator_ColumnPropNameInTable="UNIDAD_VENTAColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STOCK_ACTUAL" msprop:Generator_UserColumnName="STOCK_ACTUAL" msprop:Generator_ColumnVarNameInTable="columnSTOCK_ACTUAL" msprop:Generator_ColumnPropNameInRow="STOCK_ACTUAL" msprop:Generator_ColumnPropNameInTable="STOCK_ACTUALColumn" type="xs:decimal" />
+              <xs:element name="STOCK_COMPROMETIDO" msprop:Generator_UserColumnName="STOCK_COMPROMETIDO" msprop:Generator_ColumnVarNameInTable="columnSTOCK_COMPROMETIDO" msprop:Generator_ColumnPropNameInRow="STOCK_COMPROMETIDO" msprop:Generator_ColumnPropNameInTable="STOCK_COMPROMETIDOColumn" type="xs:decimal" />
+              <xs:element name="STOCK_TRANSITO" msprop:Generator_UserColumnName="STOCK_TRANSITO" msprop:Generator_ColumnVarNameInTable="columnSTOCK_TRANSITO" msprop:Generator_ColumnPropNameInRow="STOCK_TRANSITO" msprop:Generator_ColumnPropNameInTable="STOCK_TRANSITOColumn" type="xs:decimal" />
+              <xs:element name="ESTADO" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ESTADO" msprop:Generator_ColumnVarNameInTable="columnESTADO" msprop:Generator_ColumnPropNameInRow="ESTADO" msprop:Generator_ColumnPropNameInTable="ESTADOColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

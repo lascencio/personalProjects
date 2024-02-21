@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UltimateERP", "UltimateERP\UltimateERP.vbproj", "{655702CA-BA5F-4B2B-B27C-C2C2A428C2EB}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BusinessManager", "BusinessManager\BusinessManager.vbproj", "{CC227E02-18BE-40AD-B643-EC9B07F9B0F3}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MyControlToolBar", "MyControlToolBar\MyControlToolBar.vbproj", "{6F5BD5A6-265E-4CCC-82F0-0256EC575B5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{655702CA-BA5F-4B2B-B27C-C2C2A428C2EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{655702CA-BA5F-4B2B-B27C-C2C2A428C2EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{655702CA-BA5F-4B2B-B27C-C2C2A428C2EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{655702CA-BA5F-4B2B-B27C-C2C2A428C2EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC227E02-18BE-40AD-B643-EC9B07F9B0F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC227E02-18BE-40AD-B643-EC9B07F9B0F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC227E02-18BE-40AD-B643-EC9B07F9B0F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC227E02-18BE-40AD-B643-EC9B07F9B0F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F5BD5A6-265E-4CCC-82F0-0256EC575B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F5BD5A6-265E-4CCC-82F0-0256EC575B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F5BD5A6-265E-4CCC-82F0-0256EC575B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F5BD5A6-265E-4CCC-82F0-0256EC575B5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
